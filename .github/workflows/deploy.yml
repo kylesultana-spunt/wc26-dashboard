@@ -33,12 +33,19 @@ jobs:
       - name: Refresh data + rebuild dashboard
         run: bash build_site.sh
 
-      # commit the fresh dashboard back. [skip ci] stops this commit from re-triggering
-      # the workflow; Cloudflare still redeploys from the push, so the live site updates.
-      - name: Commit & push refreshed dashboard
+      # Only commit/redeploy when a match's DATA actually changed (not just the timestamp),
+      # so Cloudflare rebuilds only after a real match — staying under its 500 builds/month.
+      # [skip ci] stops the bot commit from re-triggering this workflow.
+      - name: Commit & push only if new match data
         run: |
           git config user.name "wc26-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/ dashboard.html public/ || true
-          git commit -m "auto: refresh data + rebuild dashboard [skip ci]" || { echo "nothing new"; exit 0; }
+          git add data/team_matches.csv data/player_matches.csv data/referee_matches.csv \
+                  data/review_cache_v2.json data/events_index.json data/tempo.json \
+                  data/elo.tsv data/results_all.csv 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "no new match data — skipping rebuild/deploy"; exit 0
+          fi
+          git add dashboard.html public/
+          git commit -m "auto: new match data + dashboard [skip ci]"
           git push
