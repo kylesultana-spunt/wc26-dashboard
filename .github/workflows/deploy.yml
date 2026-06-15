@@ -1,0 +1,48 @@
+name: Build & deploy WC26 dashboard
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"      # every 6 hours during the tournament
+  workflow_dispatch:            # manual "Run workflow" button
+  push:
+    branches: [ main ]          # rebuild on code changes
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache ESPN raw match data
+        uses: actions/cache@v4
+        with:
+          path: data/raw
+          key: espn-raw-${{ github.run_id }}
+          restore-keys: espn-raw-
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Build dashboard (refresh data + export)
+        run: bash build_site.sh
+
+      # commit refreshed data back so the next run is incremental
+      - name: Commit refreshed data
+        run: |
+          git config user.name "wc26-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ dashboard.html || true
+          git commit -m "auto: refresh data + rebuild dashboard" || echo "nothing to commit"
+          git push || echo "no push"
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: wc26-dashboard       # <- your Cloudflare Pages project name
+          directory: public
