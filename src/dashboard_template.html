@@ -243,7 +243,7 @@ tr.grp td{background:var(--panel2);font-weight:700;font-size:11px;color:var(--ma
       <div class="panel" id="playerGraphPanel" style="display:none"><h2>Graphs &amp; Data — Player</h2>
         <div class="statdetail" id="playerDetail"></div></div>
       <div class="panel" id="slipsPanel" style="display:none"><h2>Bet Tips</h2>
-      <div class="hint"><b>6 tips each</b> for Match, Team and Player markets (18 per match), ranked by <b>model confidence</b>. Type a bookmaker price into any card to see the edge and EV. No odds are pulled in automatically.</div>
+      <div class="hint"><b>6 tips each</b> for Match, Team and Player markets (18 per match). The model is calibrated, so edge comes from the <b>price gap to the book</b>, not from confidence — these lean into the markets books price softest (cards, fouls, corners, props) and avoid the efficient ones (match goals, result) you can't beat. Type a bookmaker price into any card and it ranks by <b>real EV</b>, shows your edge, and tells you the stake. No odds are pulled in automatically.</div>
       <div class="tipTabs" id="tipTabs">
         <button data-cat="match" class="on">Match Stats</button>
         <button data-cat="team">Team Stats</button>
@@ -763,15 +763,25 @@ const{h,a,lam}=CUR;
 // UNPRICED door: model 40-68% (the band where 1.7+ prices live). Score favours real edge.
 const isResult=r=>r.group==="Result"||r.group==="Score"||
   /ahead$|^1H draw$| win$|^draw$|win by/.test(r.key);
+// How soft books tend to price each market — i.e. where a CALIBRATED model can actually
+// beat the line. Headline markets (goals, result) are efficient: the closing price is
+// sharp and you won't out-predict it. Props, cards, fouls, corners carry fatter margins
+// and lazier lines, so that's where realised edge lives. Edge ≠ confidence.
+const SOFT={fouls:1.00,cards:0.95,corners:0.90,offsides:0.90,saves:0.85,sot:0.72,shots:0.70,goals:0.35};
+const softOf=r=>tipCat(r)==="player"?0.85:(SOFT[statOf(r.key)]??0.6);
 const cands=lastRows.filter(r=>!isResult(r))
  .filter(r=>!/under| no$/.test(r.key)).map(r=>{
   const o=parseFloat(r.odds)||null;
   const fair=1/r.pc;
   const edge=o?r.pc-1/o:0;
-  return{...r,o,fair,edge};})
+  const soft=softOf(r);
+  return{...r,o,fair,edge,soft};})
  .filter(r=>r.o?((r.o>=1.65&&r.edge>=-0.02)||(r.o>=1.45&&r.pc*r.o-1>=0.06))
             :(r.pc>=0.40&&r.pc<=0.68))
- .map(r=>({...r,score:r.pc+(r.o?Math.max(r.edge,0)*2.5+0.05:0)}))
+ // PRICED: rank by the real thing — EV. UNPRICED: rank by edge POTENTIAL, i.e. how soft
+ // the market is (where books misprice), nudged by confidence — a coin-flip in a soft
+ // market is worth more than a near-lock in an efficient one you can't beat.
+ .map(r=>({...r,score:r.o?(r.pc*r.o-1):(r.soft*0.7+r.pc*0.3)}))
  .sort((x,y)=>y.score-x.score);
 const byCat={match:[],team:[],player:[]};
 for(const r of cands)byCat[tipCat(r)].push(r);
