@@ -49,6 +49,8 @@ def build_candidates(mmp, ps, probs, row_h, row_a, h, a, ref, pm_event):
     for k, p in probs.items():
         if any(k.startswith(s) for s in SKIP):
             continue
+        if "under" in k or k.endswith("_no"):   # over-side only — match the live Bet Tips
+            continue
         y = bt.outcome_value(row_h, row_a, k, h, a)
         if y is None:
             continue
