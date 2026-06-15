@@ -25,7 +25,12 @@ def get_fixtures():
         real = [x for x in (h, a) if x and not any(s in x for s in SKIP)]
         teams.update(real)
         if h and a and len(real) == 2:
-            fixtures.append({"date": e.get("date", "")[:16].replace("T", " "),
+            _dt = e.get("date", "")
+            try:
+                _dt = pd.Timestamp(_dt).tz_convert("Europe/Malta").strftime("%Y-%m-%d %H:%M")
+            except Exception:
+                _dt = _dt[:16].replace("T", " ")
+            fixtures.append({"date": _dt,
                              "home": h, "away": a, "eid": e.get("id"),
                              "done": e.get("status", {}).get("type", {}).get("state") == "post"})
     return sorted(fixtures, key=lambda f: f["date"]), sorted(teams)
@@ -211,7 +216,7 @@ def main():
     json.dump(rcache, open(rcache_path, "w"))
     review = sorted(rcache.values(), key=lambda r: r["date"], reverse=True)
     data = {
-        "asof": pd.Timestamp.now().strftime("%Y-%m-%d %H:%M"),
+        "asof": pd.Timestamp.now(tz="Europe/Malta").strftime("%Y-%m-%d %H:%M") + " (Malta)",
         "teams": team_data, "refs": refs, "players": players, "fixtures": fixtures,
         "book": {}, "review": review,  # odds feed removed — manual entry only
         "league": {"means": {s: round(ts.means[s], 4) for s in EXPORT_STATS},
