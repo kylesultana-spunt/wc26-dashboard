@@ -1,0 +1,1398 @@
+{
+ "_fetched": "2026-06-14 20:22",
+ "matches": {
+  "netherlands|japan": {
+   "src": {
+    "__home win": "median of 31",
+    "draw": "median of 31",
+    "__away win": "median of 31",
+    "goals over 2.5": "median of 5",
+    "goals under 2.5": "median of 5",
+    "goals over 1.5": "median of 5",
+    "goals over 4.5": "median of 5",
+    "goals over 0.5": "median of 5",
+    "goals over 3.5": "median of 5",
+    "goals under 1.5": "median of 5",
+    "goals under 4.5": "median of 5",
+    "goals under 0.5": "median of 5",
+    "goals under 3.5": "median of 5",
+    "BTTS yes": "median of 8",
+    "BTTS no": "median of 8",
+    "goals over 5.5": "median of 4",
+    "goals under 5.5": "median of 4",
+    "goals over 7.5": "median of 1",
+    "goals over 8.5": "median of 1",
+    "goals over 6.5": "median of 1",
+    "__dnb away": "median of 5",
+    "__dnb home": "median of 5",
+    "__h1 away": "median of 2",
+    "__h1 home": "median of 2",
+    "1H draw": "median of 2"
+   },
+   "odds": {
+    "__home win": 2.1,
+    "draw": 3.05,
+    "__away win": 3.6,
+    "goals over 2.5": 2.37,
+    "goals under 2.5": 1.55,
+    "goals over 1.5": 1.4,
+    "goals over 4.5": 9.0,
+    "goals over 0.5": 1.06,
+    "goals over 3.5": 4.5,
+    "goals under 1.5": 2.75,
+    "goals under 4.5": 1.04,
+    "goals under 0.5": 7.5,
+    "goals under 3.5": 1.17,
+    "BTTS yes": 2.05,
+    "BTTS no": 1.73,
+    "goals over 5.5": 19.0,
+    "goals under 5.5": 1.02,
+    "goals over 7.5": 300.0,
+    "goals over 8.5": 320.0,
+    "goals over 6.5": 120.0,
+    "__dnb away": 2.45,
+    "__dnb home": 1.5,
+    "__h1 away": 4.5,
+    "__h1 home": 3.3,
+    "1H draw": 1.7
+   },
+   "ext": "2026-06-14"
+  },
+  "cote divoire|ecuador": {
+   "src": {
+    "__home win": "median of 41",
+    "draw": "median of 41",
+    "__away win": "median of 41",
+    "goals over 1.5": "median of 8",
+    "goals under 1.5": "median of 8",
+    "goals over 2.5": "median of 8",
+    "goals under 2.5": "median of 8",
+    "goals over 3.5": "median of 7",
+    "goals over 0.5": "median of 7",
+    "goals under 3.5": "median of 7",
+    "goals under 0.5": "median of 7",
+    "BTTS yes": "median of 10",
+    "BTTS no": "median of 10",
+    "goals over 4.5": "median of 6",
+    "goals under 4.5": "median of 6",
+    "goals over 7.5": "median of 1",
+    "goals over 8.5": "median of 1",
+    "goals over 6.5": "median of 3",
+    "goals over 5.5": "median of 3",
+    "goals under 5.5": "median of 3",
+    "__dnb away": "median of 6",
+    "__dnb home": "median of 6",
+    "goals under 6.5": "median of 2",
+    "__h1 away": "median of 2",
+    "__h1 home": "median of 2",
+    "1H draw": "median of 2"
+   },
+   "odds": {
+    "__home win": 3.25,
+    "draw": 2.85,
+    "__away win": 2.58,
+    "goals over 1.5": 1.58,
+    "goals under 1.5": 2.3,
+    "goals over 2.5": 2.88,
+    "goals under 2.5": 1.4,
+    "goals over 3.5": 6.0,
+    "goals over 0.5": 1.11,
+    "goals under 3.5": 1.11,
+    "goals under 0.5": 6.1,
+    "BTTS yes": 2.25,
+    "BTTS no": 1.61,
+    "goals over 4.5": 14.0,
+    "goals under 4.5": 1.02,
+    "goals over 7.5": 150.0,
+    "goals over 8.5": 100.0,
+    "goals over 6.5": 51.0,
+    "goals over 5.5": 26.0,
+    "goals under 5.5": 1.0,
+    "__dnb away": 1.65,
+    "__dnb home": 2.15,
+    "goals under 6.5": 1.0,
+    "__h1 away": 3.2,
+    "__h1 home": 3.9,
+    "1H draw": 1.83
+   },
+   "ext": "2026-06-14"
+  },
+  "sweden|tunisia": {
+   "src": {
+    "__home win": "median of 41",
+    "draw": "median of 41",
+    "__away win": "median of 41",
+    "goals over 2.5": "median of 6",
+    "goals under 2.5": "median of 6",
+    "goals over 1.5": "median of 6",
+    "goals under 1.5": "median of 6",
+    "BTTS yes": "median of 10",
+    "BTTS no": "median of 10",
+    "__dnb home": "median of 6",
+    "__dnb away": "median of 6",
+    "goals over 3.5": "median of 5",
+    "goals over 4.5": "median of 5",
+    "goals over 0.5": "median of 5",
+    "goals under 3.5": "median of 5",
+    "goals under 4.5": "median of 5",
+    "goals under 0.5": "median of 5",
+    "goals over 5.5": "median of 4",
+    "goals under 5.5": "median of 4",
+    "goals over 6.5": "median of 3",
+    "goals over 7.5": "median of 1",
+    "goals over 8.5": "median of 1",
+    "goals under 6.5": "median of 3",
+    "__h1 home": "median of 2",
+    "__h1 away": "median of 2",
+    "1H draw": "median of 2"
+   },
+   "odds": {
+    "__home win": 1.93,
+    "draw": 3.4,
+    "__away win": 4.25,
+    "goals over 2.5": 2.1,
+    "goals under 2.5": 1.67,
+    "goals over 1.5": 1.33,
+    "goals under 1.5": 3.1,
+    "BTTS yes": 1.91,
+    "BTTS no": 1.85,
+    "__dnb home": 1.36,
+    "__dnb away": 2.95,
+    "goals over 3.5": 4.0,
+    "goals over 4.5": 8.0,
+    "goals over 0.5": 1.06,
+    "goals under 3.5": 1.25,
+    "goals under 4.5": 1.07,
+    "goals under 0.5": 8.5,
+    "goals over 5.5": 20.0,
+    "goals under 5.5": 1.02,
+    "goals over 6.5": 29.0,
+    "goals over 7.5": 100.0,
+    "goals over 8.5": 100.0,
+    "goals under 6.5": 1.0,
+    "__h1 home": 2.5,
+    "__h1 away": 4.33,
+    "1H draw": 2.1
+   },
+   "ext": "2026-06-14"
+  },
+  "spain|cape verde": {
+   "src": {
+    "__home win": "median of 41",
+    "draw": "median of 41",
+    "__away win": "median of 41",
+    "goals over 2.5": "median of 6",
+    "goals under 2.5": "median of 6",
+    "goals over 3.5": "median of 5",
+    "goals under 3.5": "median of 5",
+    "goals over 6.5": "median of 5",
+    "goals over 5.5": "median of 5",
+    "goals over 4.5": "median of 5",
+    "goals over 1.5": "median of 6",
+    "goals over 0.5": "median of 5",
+    "goals under 6.5": "median of 5",
+    "goals under 5.5": "median of 5",
+    "goals under 4.5": "median of 5",
+    "goals under 1.5": "median of 6",
+    "goals under 0.5": "median of 5",
+    "BTTS yes": "median of 10",
+    "BTTS no": "median of 10",
+    "goals over 7.5": "median of 2",
+    "goals under 7.5": "median of 2",
+    "goals over 8.5": "median of 1",
+    "goals over 12.5": "median of 1",
+    "goals over 9.5": "median of 1",
+    "goals over 10.5": "median of 1",
+    "goals over 11.5": "median of 1",
+    "goals over 13.5": "median of 1",
+    "goals over 14.5": "median of 1",
+    "goals under 8.5": "median of 1",
+    "__dnb away": "median of 4",
+    "__dnb home": "median of 4",
+    "__h1 away": "median of 2",
+    "__h1 home": "median of 2",
+    "1H draw": "median of 2"
+   },
+   "odds": {
+    "__home win": 1.09,
+    "draw": 11.5,
+    "__away win": 25.0,
+    "goals over 2.5": 1.36,
+    "goals under 2.5": 3.2,
+    "goals over 3.5": 1.91,
+    "goals under 3.5": 1.85,
+    "goals over 6.5": 9.0,
+    "goals over 5.5": 5.0,
+    "goals over 4.5": 2.9,
+    "goals over 1.5": 1.1,
+    "goals over 0.5": 1.0,
+    "goals under 6.5": 1.06,
+    "goals under 5.5": 1.15,
+    "goals under 4.5": 1.36,
+    "goals under 1.5": 7.5,
+    "goals under 0.5": 19.0,
+    "BTTS yes": 2.62,
+    "BTTS no": 1.46,
+    "goals over 7.5": 27.0,
+    "goals under 7.5": 1.03,
+    "goals over 8.5": 50.0,
+    "goals over 12.5": 65.0,
+    "goals over 9.5": 65.0,
+    "goals over 10.5": 65.0,
+    "goals over 11.5": 65.0,
+    "goals over 13.5": 65.0,
+    "goals over 14.5": 65.0,
+    "goals under 8.5": 1.01,
+    "__dnb away": 17.0,
+    "__dnb home": 1.02,
+    "__h1 away": 12.0,
+    "__h1 home": 1.36,
+    "1H draw": 3.5
+   },
+   "ext": "2026-06-14"
+  },
+  "belgium|egypt": {
+   "src": {
+    "__home win": "median of 41",
+    "draw": "median of 41",
+    "__away win": "median of 41",
+    "goals over 2.5": "median of 8",
+    "goals under 2.5": "median of 8",
+    "goals over 0.5": "median of 7",
+    "goals over 4.5": "median of 7",
+    "goals over 1.5": "median of 8",
+    "goals over 3.5": "median of 7",
+    "goals under 0.5": "median of 7",
+    "goals under 4.5": "median of 7",
+    "goals under 1.5": "median of 8",
+    "goals under 3.5": "median of 7",
+    "BTTS yes": "median of 10",
+    "BTTS no": "median of 10",
+    "goals over 5.5": "median of 6",
+    "goals over 6.5": "median of 4",
+    "goals under 5.5": "median of 4",
+    "goals under 6.5": "median of 4",
+    "__dnb home": "median of 6",
+    "__dnb away": "median of 6",
+    "__h1 home": "median of 2",
+    "__h1 away": "median of 2",
+    "1H draw": "median of 2",
+    "goals over 7.5": "median of 1",
+    "goals over 8.5": "median of 1"
+   },
+   "odds": {
+    "__home win": 1.61,
+    "draw": 3.95,
+    "__away win": 5.6,
+    "goals over 2.5": 1.95,
+    "goals under 2.5": 1.82,
+    "goals over 0.5": 1.03,
+    "goals over 4.5": 7.0,
+    "goals over 1.5": 1.29,
+    "goals over 3.5": 3.4,
+    "goals under 0.5": 10.5,
+    "goals under 4.5": 1.09,
+    "goals under 1.5": 3.5,
+    "goals under 3.5": 1.29,
+    "BTTS yes": 2.0,
+    "BTTS no": 1.8,
+    "goals over 5.5": 15.0,
+    "goals over 6.5": 34.0,
+    "goals under 5.5": 1.03,
+    "goals under 6.5": 1.01,
+    "__dnb home": 1.22,
+    "__dnb away": 3.95,
+    "__h1 home": 2.1,
+    "__h1 away": 5.0,
+    "1H draw": 2.3,
+    "goals over 7.5": 100.0,
+    "goals over 8.5": 100.0
+   },
+   "ext": "2026-06-14"
+  },
+  "saudi arabia|uruguay": {
+   "src": {
+    "__home win": "median of 41",
+    "draw": "median of 41",
+    "__away win": "median of 41",
+    "goals over 2.5": "median of 8",
+    "goals under 2.5": "median of 8",
+    "goals over 1.5": "median of 8",
+    "goals over 4.5": "median of 7",
+    "goals over 0.5": "median of 7",
+    "goals over 3.5": "median of 7",
+    "goals under 1.5": "median of 8",
+    "goals under 4.5": "median of 7",
+    "goals under 0.5": "median of 7",
+    "goals under 3.5": "median of 7",
+    "BTTS yes": "median of 10",
+    "BTTS no": "median of 10",
+    "goals over 5.5": "median of 6",
+    "goals under 5.5": "median of 6",
+    "goals over 8.5": "median of 1",
+    "goals over 7.5": "median of 1",
+    "goals over 6.5": "median of 3",
+    "goals under 6.5": "median of 3",
+    "__dnb home": "median of 6",
+    "__dnb away": "median of 6",
+    "__h1 home": "median of 2",
+    "__h1 away": "median of 2",
+    "1H draw": "median of 2"
+   },
+   "odds": {
+    "__home win": 7.5,
+    "draw": 4.33,
+    "__away win": 1.44,
+    "goals over 2.5": 2.0,
+    "goals under 2.5": 1.8,
+    "goals over 1.5": 1.3,
+    "goals over 4.5": 7.0,
+    "goals over 0.5": 1.04,
+    "goals over 3.5": 3.6,
+    "goals under 1.5": 3.3,
+    "goals under 4.5": 1.08,
+    "goals under 0.5": 10.0,
+    "goals under 3.5": 1.25,
+    "BTTS yes": 2.25,
+    "BTTS no": 1.62,
+    "goals over 5.5": 14.0,
+    "goals under 5.5": 1.02,
+    "goals over 8.5": 110.0,
+    "goals over 7.5": 110.0,
+    "goals over 6.5": 26.0,
+    "goals under 6.5": 1.0,
+    "__dnb home": 5.3,
+    "__dnb away": 1.13,
+    "__h1 home": 6.5,
+    "__h1 away": 1.91,
+    "1H draw": 2.3
+   },
+   "ext": "2026-06-14"
+  },
+  "iran|new zealand": {
+   "src": {
+    "__home win": "median of 41",
+    "draw": "median of 41",
+    "__away win": "median of 41",
+    "goals over 1.5": "median of 1",
+    "goals under 1.5": "median of 1",
+    "goals over 2.5": "median of 12",
+    "goals under 2.5": "median of 12"
+   },
+   "odds": {
+    "__home win": 1.89,
+    "draw": 3.35,
+    "__away win": 4.4,
+    "goals over 1.5": 1.48,
+    "goals under 1.5": 2.75,
+    "goals over 2.5": 2.3,
+    "goals under 2.5": 1.57
+   },
+   "ext": null
+  },
+  "france|senegal": {
+   "src": {
+    "__home win": "median of 41",
+    "draw": "median of 41",
+    "__away win": "median of 41",
+    "goals over 2.5": "median of 17",
+    "goals under 2.5": "median of 17"
+   },
+   "odds": {
+    "__home win": 1.45,
+    "draw": 4.4,
+    "__away win": 7.2,
+    "goals over 2.5": 1.88,
+    "goals under 2.5": 1.91
+   },
+   "ext": null
+  },
+  "iraq|norway": {
+   "src": {
+    "__home win": "median of 41",
+    "draw": "median of 41",
+    "__away win": "median of 41",
+    "goals over 2.5": "median of 6",
+    "goals under 2.5": "median of 6",
+    "goals over 3.5": "median of 7",
+    "goals under 3.5": "median of 7"
+   },
+   "odds": {
+    "__home win": 15.0,
+    "draw": 7.0,
+    "__away win": 1.19,
+    "goals over 2.5": 1.58,
+    "goals under 2.5": 2.42,
+    "goals over 3.5": 2.35,
+    "goals under 3.5": 1.56
+   },
+   "ext": null
+  },
+  "argentina|algeria": {
+   "src": {
+    "__home win": "median of 40",
+    "draw": "median of 40",
+    "__away win": "median of 40",
+    "goals over 2.5": "median of 17",
+    "goals under 2.5": "median of 17"
+   },
+   "odds": {
+    "__home win": 1.38,
+    "draw": 4.6,
+    "__away win": 9.0,
+    "goals over 2.5": 1.91,
+    "goals under 2.5": 1.88
+   },
+   "ext": null
+  },
+  "austria|jordan": {
+   "src": {
+    "__home win": "median of 40",
+    "draw": "median of 40",
+    "__away win": "median of 40",
+    "goals over 2.5": "median of 12",
+    "goals under 2.5": "median of 12",
+    "goals over 3.5": "median of 1",
+    "goals under 3.5": "median of 1"
+   },
+   "odds": {
+    "__home win": 1.33,
+    "draw": 5.3,
+    "__away win": 9.0,
+    "goals over 2.5": 1.64,
+    "goals under 2.5": 2.2,
+    "goals over 3.5": 2.75,
+    "goals under 3.5": 1.48
+   },
+   "ext": null
+  },
+  "portugal|dr congo": {
+   "src": {
+    "__home win": "median of 38",
+    "draw": "median of 38",
+    "__away win": "median of 38",
+    "goals over 2.5": "median of 12",
+    "goals under 2.5": "median of 12",
+    "goals over 3.5": "median of 1",
+    "goals under 3.5": "median of 1"
+   },
+   "odds": {
+    "__home win": 1.28,
+    "draw": 5.6,
+    "__away win": 11.0,
+    "goals over 2.5": 1.68,
+    "goals under 2.5": 2.12,
+    "goals over 3.5": 2.7,
+    "goals under 3.5": 1.45
+   },
+   "ext": null
+  },
+  "england|croatia": {
+   "src": {
+    "__home win": "median of 40",
+    "draw": "median of 40",
+    "__away win": "median of 40",
+    "goals over 2.5": "median of 15",
+    "goals under 2.5": "median of 15"
+   },
+   "odds": {
+    "__home win": 1.71,
+    "draw": 3.75,
+    "__away win": 5.1,
+    "goals over 2.5": 2.05,
+    "goals under 2.5": 1.72
+   },
+   "ext": null
+  },
+  "ghana|panama": {
+   "src": {
+    "__home win": "median of 40",
+    "draw": "median of 40",
+    "__away win": "median of 40",
+    "goals over 1.5": "median of 1",
+    "goals under 1.5": "median of 1",
+    "goals over 2.5": "median of 13",
+    "goals under 2.5": "median of 13"
+   },
+   "odds": {
+    "__home win": 2.15,
+    "draw": 3.35,
+    "__away win": 3.47,
+    "goals over 1.5": 1.42,
+    "goals under 1.5": 2.9,
+    "goals over 2.5": 2.23,
+    "goals under 2.5": 1.62
+   },
+   "ext": null
+  },
+  "uzbekistan|colombia": {
+   "src": {
+    "__home win": "median of 40",
+    "draw": "median of 40",
+    "__away win": "median of 40",
+    "goals over 2.5": "median of 17",
+    "goals under 2.5": "median of 17"
+   },
+   "odds": {
+    "__home win": 8.9,
+    "draw": 4.6,
+    "__away win": 1.38,
+    "goals over 2.5": 1.94,
+    "goals under 2.5": 1.82
+   },
+   "ext": null
+  },
+  "czech republic|south africa": {
+   "src": {
+    "__home win": "median of 40",
+    "draw": "median of 40",
+    "__away win": "median of 40",
+    "goals over 2.5": "median of 15",
+    "goals under 2.5": "median of 15"
+   },
+   "odds": {
+    "__home win": 1.76,
+    "draw": 3.75,
+    "__away win": 4.61,
+    "goals over 2.5": 2.08,
+    "goals under 2.5": 1.71
+   },
+   "ext": null
+  },
+  "switzerland|bosnia herzegovina": {
+   "src": {
+    "__home win": "median of 40",
+    "draw": "median of 40",
+    "__away win": "median of 40",
+    "goals over 2.5": "median of 15",
+    "goals under 2.5": "median of 15"
+   },
+   "odds": {
+    "__home win": 1.57,
+    "draw": 4.0,
+    "__away win": 6.0,
+    "goals over 2.5": 2.07,
+    "goals under 2.5": 1.72
+   },
+   "ext": null
+  },
+  "canada|qatar": {
+   "src": {
+    "__home win": "median of 40",
+    "draw": "median of 40",
+    "__away win": "median of 40",
+    "goals over 2.5": "median of 16",
+    "goals under 2.5": "median of 16"
+   },
+   "odds": {
+    "__home win": 1.27,
+    "draw": 5.6,
+    "__away win": 11.5,
+    "goals over 2.5": 1.8,
+    "goals under 2.5": 2.0
+   },
+   "ext": null
+  },
+  "mexico|korea republic": {
+   "src": {
+    "__home win": "median of 39",
+    "draw": "median of 39",
+    "__away win": "median of 39",
+    "goals over 1.5": "median of 1",
+    "goals under 1.5": "median of 1",
+    "goals over 2.5": "median of 12",
+    "goals under 2.5": "median of 12"
+   },
+   "odds": {
+    "__home win": 1.96,
+    "draw": 3.35,
+    "__away win": 4.0,
+    "goals over 1.5": 1.48,
+    "goals under 1.5": 2.7,
+    "goals over 2.5": 2.29,
+    "goals under 2.5": 1.59
+   },
+   "ext": null
+  },
+  "united states|australia": {
+   "src": {
+    "__home win": "median of 39",
+    "draw": "median of 39",
+    "__away win": "median of 39",
+    "goals over 2.5": "median of 18",
+    "goals under 2.5": "median of 18"
+   },
+   "odds": {
+    "__home win": 1.6,
+    "draw": 4.1,
+    "__away win": 5.4,
+    "goals over 2.5": 1.93,
+    "goals under 2.5": 1.88
+   },
+   "ext": null
+  },
+  "scotland|morocco": {
+   "src": {
+    "__home win": "median of 37",
+    "draw": "median of 37",
+    "__away win": "median of 37",
+    "goals over 2.5": "median of 12",
+    "goals under 2.5": "median of 12"
+   },
+   "odds": {
+    "__home win": 5.0,
+    "draw": 3.55,
+    "__away win": 1.75,
+    "goals over 2.5": 2.17,
+    "goals under 2.5": 1.66
+   },
+   "ext": null
+  },
+  "brazil|haiti": {
+   "src": {
+    "__home win": "median of 37",
+    "draw": "median of 37",
+    "__away win": "median of 37",
+    "goals over 2.5": "median of 1",
+    "goals under 2.5": "median of 1",
+    "goals over 3.5": "median of 15",
+    "goals under 3.5": "median of 15"
+   },
+   "odds": {
+    "__home win": 1.1,
+    "draw": 10.0,
+    "__away win": 22.0,
+    "goals over 2.5": 1.3,
+    "goals under 2.5": 3.2,
+    "goals over 3.5": 1.91,
+    "goals under 3.5": 1.87
+   },
+   "ext": null
+  },
+  "turkey|paraguay": {
+   "src": {
+    "__home win": "median of 37",
+    "draw": "median of 37",
+    "__away win": "median of 37",
+    "goals over 2.5": "median of 14",
+    "goals under 2.5": "median of 14"
+   },
+   "odds": {
+    "__home win": 2.0,
+    "draw": 3.35,
+    "__away win": 3.95,
+    "goals over 2.5": 2.17,
+    "goals under 2.5": 1.66
+   },
+   "ext": null
+  },
+  "netherlands|sweden": {
+   "src": {
+    "__home win": "median of 29",
+    "draw": "median of 29",
+    "__away win": "median of 29",
+    "goals over 2.5": "median of 13",
+    "goals under 2.5": "median of 13"
+   },
+   "odds": {
+    "__home win": 1.64,
+    "draw": 3.95,
+    "__away win": 5.2,
+    "goals over 2.5": 1.89,
+    "goals under 2.5": 1.87
+   },
+   "ext": null
+  },
+  "germany|cote divoire": {
+   "src": {
+    "__home win": "median of 36",
+    "draw": "median of 36",
+    "__away win": "median of 36",
+    "goals over 2.5": "median of 14",
+    "goals under 2.5": "median of 14"
+   },
+   "odds": {
+    "__home win": 1.55,
+    "draw": 4.3,
+    "__away win": 5.8,
+    "goals over 2.5": 1.78,
+    "goals under 2.5": 1.99
+   },
+   "ext": null
+  },
+  "ecuador|curacao": {
+   "src": {
+    "__home win": "median of 36",
+    "draw": "median of 36",
+    "__away win": "median of 36",
+    "goals over 2.5": "median of 9",
+    "goals under 2.5": "median of 9",
+    "goals over 3.5": "median of 1",
+    "goals under 3.5": "median of 1"
+   },
+   "odds": {
+    "__home win": 1.15,
+    "draw": 8.2,
+    "__away win": 18.0,
+    "goals over 2.5": 1.6,
+    "goals under 2.5": 2.28,
+    "goals over 3.5": 2.4,
+    "goals under 3.5": 1.59
+   },
+   "ext": null
+  },
+  "tunisia|japan": {
+   "src": {
+    "__home win": "median of 30",
+    "draw": "median of 30",
+    "__away win": "median of 30",
+    "goals over 2.5": "median of 10",
+    "goals under 2.5": "median of 10"
+   },
+   "odds": {
+    "__home win": 5.3,
+    "draw": 3.65,
+    "__away win": 1.7,
+    "goals over 2.5": 2.17,
+    "goals under 2.5": 1.68
+   },
+   "ext": null
+  },
+  "spain|saudi arabia": {
+   "src": {
+    "__home win": "median of 37",
+    "draw": "median of 37",
+    "__away win": "median of 37",
+    "goals over 2.5": "median of 1",
+    "goals under 2.5": "median of 1",
+    "goals over 3.5": "median of 9",
+    "goals under 3.5": "median of 9"
+   },
+   "odds": {
+    "__home win": 1.11,
+    "draw": 9.5,
+    "__away win": 23.0,
+    "goals over 2.5": 1.44,
+    "goals under 2.5": 2.5,
+    "goals over 3.5": 2.3,
+    "goals under 3.5": 1.57
+   },
+   "ext": null
+  },
+  "belgium|iran": {
+   "src": {
+    "__home win": "median of 37",
+    "draw": "median of 37",
+    "__away win": "median of 37",
+    "goals over 2.5": "median of 16",
+    "goals under 2.5": "median of 16"
+   },
+   "odds": {
+    "__home win": 1.4,
+    "draw": 4.6,
+    "__away win": 8.0,
+    "goals over 2.5": 1.87,
+    "goals under 2.5": 1.91
+   },
+   "ext": null
+  },
+  "uruguay|cape verde": {
+   "src": {
+    "__home win": "median of 36",
+    "draw": "median of 36",
+    "__away win": "median of 36",
+    "goals over 2.5": "median of 15",
+    "goals under 2.5": "median of 15"
+   },
+   "odds": {
+    "__home win": 1.43,
+    "draw": 4.5,
+    "__away win": 7.7,
+    "goals over 2.5": 1.87,
+    "goals under 2.5": 1.88
+   },
+   "ext": null
+  },
+  "new zealand|egypt": {
+   "src": {
+    "__home win": "median of 36",
+    "draw": "median of 36",
+    "__away win": "median of 36",
+    "goals over 2.5": "median of 12",
+    "goals under 2.5": "median of 12"
+   },
+   "odds": {
+    "__home win": 4.9,
+    "draw": 3.65,
+    "__away win": 1.72,
+    "goals over 2.5": 2.17,
+    "goals under 2.5": 1.66
+   },
+   "ext": null
+  },
+  "argentina|austria": {
+   "src": {
+    "__home win": "median of 36",
+    "draw": "median of 36",
+    "__away win": "median of 36",
+    "goals over 2.5": "median of 15",
+    "goals under 2.5": "median of 15"
+   },
+   "odds": {
+    "__home win": 1.61,
+    "draw": 3.85,
+    "__away win": 5.6,
+    "goals over 2.5": 1.91,
+    "goals under 2.5": 1.87
+   },
+   "ext": null
+  },
+  "france|iraq": {
+   "src": {
+    "__home win": "median of 36",
+    "draw": "median of 36",
+    "__away win": "median of 36",
+    "goals over 2.5": "median of 1",
+    "goals under 2.5": "median of 1",
+    "goals over 3.5": "median of 9",
+    "goals under 3.5": "median of 9"
+   },
+   "odds": {
+    "__home win": 1.11,
+    "draw": 9.0,
+    "__away win": 25.0,
+    "goals over 2.5": 1.44,
+    "goals under 2.5": 2.5,
+    "goals over 3.5": 2.2,
+    "goals under 3.5": 1.64
+   },
+   "ext": null
+  },
+  "norway|senegal": {
+   "src": {
+    "__home win": "median of 36",
+    "draw": "median of 36",
+    "__away win": "median of 36",
+    "goals over 2.5": "median of 15",
+    "goals under 2.5": "median of 15"
+   },
+   "odds": {
+    "__home win": 2.12,
+    "draw": 3.45,
+    "__away win": 3.36,
+    "goals over 2.5": 1.93,
+    "goals under 2.5": 1.85
+   },
+   "ext": null
+  },
+  "jordan|algeria": {
+   "src": {
+    "__home win": "median of 36",
+    "draw": "median of 36",
+    "__away win": "median of 36",
+    "goals over 2.5": "median of 15",
+    "goals under 2.5": "median of 15"
+   },
+   "odds": {
+    "__home win": 6.75,
+    "draw": 4.25,
+    "__away win": 1.49,
+    "goals over 2.5": 1.88,
+    "goals under 2.5": 1.9
+   },
+   "ext": null
+  },
+  "portugal|uzbekistan": {
+   "src": {
+    "__home win": "median of 36",
+    "draw": "median of 36",
+    "__away win": "median of 36",
+    "goals over 2.5": "median of 10",
+    "goals under 2.5": "median of 10",
+    "goals over 3.5": "median of 3",
+    "goals under 3.5": "median of 3"
+   },
+   "odds": {
+    "__home win": 1.25,
+    "draw": 6.0,
+    "__away win": 11.5,
+    "goals over 2.5": 1.56,
+    "goals under 2.5": 2.33,
+    "goals over 3.5": 2.36,
+    "goals under 3.5": 1.57
+   },
+   "ext": null
+  },
+  "england|ghana": {
+   "src": {
+    "__home win": "median of 36",
+    "draw": "median of 36",
+    "__away win": "median of 36",
+    "goals over 2.5": "median of 13",
+    "goals under 2.5": "median of 13"
+   },
+   "odds": {
+    "__home win": 1.32,
+    "draw": 5.1,
+    "__away win": 9.2,
+    "goals over 2.5": 1.68,
+    "goals under 2.5": 2.14
+   },
+   "ext": null
+  },
+  "panama|croatia": {
+   "src": {
+    "__home win": "median of 36",
+    "draw": "median of 36",
+    "__away win": "median of 36",
+    "goals over 2.5": "median of 13",
+    "goals under 2.5": "median of 13"
+   },
+   "odds": {
+    "__home win": 6.4,
+    "draw": 3.85,
+    "__away win": 1.55,
+    "goals over 2.5": 1.97,
+    "goals under 2.5": 1.8
+   },
+   "ext": null
+  },
+  "colombia|dr congo": {
+   "src": {
+    "__home win": "median of 36",
+    "draw": "median of 36",
+    "__away win": "median of 36",
+    "goals over 2.5": "median of 13",
+    "goals under 2.5": "median of 13"
+   },
+   "odds": {
+    "__home win": 1.45,
+    "draw": 4.2,
+    "__away win": 7.5,
+    "goals over 2.5": 2.1,
+    "goals under 2.5": 1.72
+   },
+   "ext": null
+  },
+  "bosnia herzegovina|qatar": {
+   "src": {
+    "__home win": "median of 32",
+    "draw": "median of 32",
+    "__away win": "median of 32",
+    "goals over 2.5": "median of 11",
+    "goals under 2.5": "median of 11"
+   },
+   "odds": {
+    "__home win": 1.55,
+    "draw": 4.0,
+    "__away win": 6.0,
+    "goals over 2.5": 2.0,
+    "goals under 2.5": 1.77
+   },
+   "ext": null
+  },
+  "switzerland|canada": {
+   "src": {
+    "__home win": "median of 32",
+    "draw": "median of 32",
+    "__away win": "median of 32",
+    "goals over 2.5": "median of 10",
+    "goals under 2.5": "median of 10"
+   },
+   "odds": {
+    "__home win": 2.1,
+    "draw": 3.3,
+    "__away win": 3.5,
+    "goals over 2.5": 2.1,
+    "goals under 2.5": 1.7
+   },
+   "ext": null
+  },
+  "scotland|brazil": {
+   "src": {
+    "__home win": "median of 32",
+    "draw": "median of 32",
+    "__away win": "median of 32",
+    "goals over 2.5": "median of 12",
+    "goals under 2.5": "median of 12"
+   },
+   "odds": {
+    "__home win": 6.8,
+    "draw": 4.75,
+    "__away win": 1.42,
+    "goals over 2.5": 1.81,
+    "goals under 2.5": 1.95
+   },
+   "ext": null
+  },
+  "morocco|haiti": {
+   "src": {
+    "__home win": "median of 32",
+    "draw": "median of 32",
+    "__away win": "median of 32",
+    "goals over 2.5": "median of 9",
+    "goals under 2.5": "median of 9"
+   },
+   "odds": {
+    "__home win": 1.3,
+    "draw": 5.25,
+    "__away win": 9.5,
+    "goals over 2.5": 1.7,
+    "goals under 2.5": 2.1
+   },
+   "ext": null
+  },
+  "czech republic|mexico": {
+   "src": {
+    "__home win": "median of 32",
+    "draw": "median of 32",
+    "__away win": "median of 32",
+    "goals over 2.5": "median of 10",
+    "goals under 2.5": "median of 10"
+   },
+   "odds": {
+    "__home win": 4.55,
+    "draw": 3.5,
+    "__away win": 1.8,
+    "goals over 2.5": 2.06,
+    "goals under 2.5": 1.73
+   },
+   "ext": null
+  },
+  "south africa|korea republic": {
+   "src": {
+    "__home win": "median of 32",
+    "draw": "median of 32",
+    "__away win": "median of 32",
+    "goals over 2.5": "median of 11",
+    "goals under 2.5": "median of 11"
+   },
+   "odds": {
+    "__home win": 5.7,
+    "draw": 3.9,
+    "__away win": 1.6,
+    "goals over 2.5": 1.93,
+    "goals under 2.5": 1.81
+   },
+   "ext": null
+  },
+  "curacao|cote divoire": {
+   "src": {
+    "__home win": "median of 31",
+    "draw": "median of 31",
+    "__away win": "median of 31",
+    "goals over 2.5": "median of 7",
+    "goals under 2.5": "median of 7",
+    "goals over 3.5": "median of 1",
+    "goals under 3.5": "median of 1"
+   },
+   "odds": {
+    "__home win": 15.0,
+    "draw": 7.4,
+    "__away win": 1.17,
+    "goals over 2.5": 1.51,
+    "goals under 2.5": 2.48,
+    "goals over 3.5": 2.4,
+    "goals under 3.5": 1.56
+   },
+   "ext": null
+  },
+  "ecuador|germany": {
+   "src": {
+    "__home win": "median of 31",
+    "draw": "median of 31",
+    "__away win": "median of 31",
+    "goals over 2.5": "median of 11",
+    "goals under 2.5": "median of 11"
+   },
+   "odds": {
+    "__home win": 4.66,
+    "draw": 3.66,
+    "__away win": 1.73,
+    "goals over 2.5": 1.85,
+    "goals under 2.5": 1.91
+   },
+   "ext": null
+  },
+  "japan|sweden": {
+   "src": {
+    "__home win": "median of 25",
+    "draw": "median of 25",
+    "__away win": "median of 25",
+    "goals over 2.5": "median of 8",
+    "goals under 2.5": "median of 8"
+   },
+   "odds": {
+    "__home win": 2.1,
+    "draw": 3.4,
+    "__away win": 3.55,
+    "goals over 2.5": 2.1,
+    "goals under 2.5": 1.7
+   },
+   "ext": null
+  },
+  "tunisia|netherlands": {
+   "src": {
+    "__home win": "median of 25",
+    "draw": "median of 25",
+    "__away win": "median of 25",
+    "goals over 2.5": "median of 10",
+    "goals under 2.5": "median of 10"
+   },
+   "odds": {
+    "__home win": 6.52,
+    "draw": 4.2,
+    "__away win": 1.49,
+    "goals over 2.5": 1.82,
+    "goals under 2.5": 1.93
+   },
+   "ext": null
+  },
+  "paraguay|australia": {
+   "src": {
+    "__home win": "median of 31",
+    "draw": "median of 31",
+    "__away win": "median of 31",
+    "goals over 2.5": "median of 8",
+    "goals under 2.5": "median of 8"
+   },
+   "odds": {
+    "__home win": 2.15,
+    "draw": 3.25,
+    "__away win": 3.4,
+    "goals over 2.5": 2.23,
+    "goals under 2.5": 1.62
+   },
+   "ext": null
+  },
+  "turkey|united states": {
+   "src": {
+    "__home win": "median of 29",
+    "draw": "median of 29",
+    "__away win": "median of 29",
+    "goals over 2.5": "median of 11",
+    "goals under 2.5": "median of 11"
+   },
+   "odds": {
+    "__home win": 2.71,
+    "draw": 3.5,
+    "__away win": 2.4,
+    "goals over 2.5": 1.83,
+    "goals under 2.5": 1.92
+   },
+   "ext": null
+  },
+  "norway|france": {
+   "src": {
+    "__home win": "median of 28",
+    "draw": "median of 28",
+    "__away win": "median of 28",
+    "goals over 2.5": "median of 11",
+    "goals under 2.5": "median of 11"
+   },
+   "odds": {
+    "__home win": 4.3,
+    "draw": 3.6,
+    "__away win": 1.82,
+    "goals over 2.5": 1.92,
+    "goals under 2.5": 1.83
+   },
+   "ext": null
+  },
+  "senegal|iraq": {
+   "src": {
+    "__home win": "median of 28",
+    "draw": "median of 28",
+    "__away win": "median of 28",
+    "goals over 2.5": "median of 11",
+    "goals under 2.5": "median of 11"
+   },
+   "odds": {
+    "__home win": 1.4,
+    "draw": 4.4,
+    "__away win": 8.0,
+    "goals over 2.5": 1.88,
+    "goals under 2.5": 1.88
+   },
+   "ext": null
+  },
+  "cape verde|saudi arabia": {
+   "src": {
+    "__home win": "median of 28",
+    "draw": "median of 28",
+    "__away win": "median of 28",
+    "goals over 2.5": "median of 9",
+    "goals under 2.5": "median of 9"
+   },
+   "odds": {
+    "__home win": 2.5,
+    "draw": 3.4,
+    "__away win": 2.72,
+    "goals over 2.5": 2.15,
+    "goals under 2.5": 1.67
+   },
+   "ext": null
+  },
+  "uruguay|spain": {
+   "src": {
+    "__home win": "median of 28",
+    "draw": "median of 28",
+    "__away win": "median of 28",
+    "goals over 2.5": "median of 11",
+    "goals under 2.5": "median of 11"
+   },
+   "odds": {
+    "__home win": 5.25,
+    "draw": 3.85,
+    "__away win": 1.62,
+    "goals over 2.5": 1.85,
+    "goals under 2.5": 1.89
+   },
+   "ext": null
+  },
+  "new zealand|belgium": {
+   "src": {
+    "__home win": "median of 28",
+    "draw": "median of 28",
+    "__away win": "median of 28",
+    "goals over 2.5": "median of 9",
+    "goals under 2.5": "median of 9"
+   },
+   "odds": {
+    "__home win": 10.0,
+    "draw": 5.5,
+    "__away win": 1.29,
+    "goals over 2.5": 1.66,
+    "goals under 2.5": 2.17
+   },
+   "ext": null
+  },
+  "egypt|iran": {
+   "src": {
+    "__home win": "median of 28",
+    "draw": "median of 28",
+    "__away win": "median of 28",
+    "goals over 1.5": "median of 7",
+    "goals under 1.5": "median of 7",
+    "goals over 2.5": "median of 1",
+    "goals under 2.5": "median of 1"
+   },
+   "odds": {
+    "__home win": 2.21,
+    "draw": 3.0,
+    "__away win": 3.5,
+    "goals over 1.5": 1.49,
+    "goals under 1.5": 2.55,
+    "goals over 2.5": 2.5,
+    "goals under 2.5": 1.44
+   },
+   "ext": null
+  },
+  "croatia|ghana": {
+   "src": {
+    "__home win": "median of 28",
+    "draw": "median of 28",
+    "__away win": "median of 28",
+    "goals over 2.5": "median of 9",
+    "goals under 2.5": "median of 9"
+   },
+   "odds": {
+    "__home win": 1.64,
+    "draw": 3.73,
+    "__away win": 5.5,
+    "goals over 2.5": 2.04,
+    "goals under 2.5": 1.75
+   },
+   "ext": null
+  },
+  "panama|england": {
+   "src": {
+    "__home win": "median of 28",
+    "draw": "median of 28",
+    "__away win": "median of 28",
+    "goals over 2.5": "median of 8",
+    "goals under 2.5": "median of 8"
+   },
+   "odds": {
+    "__home win": 10.0,
+    "draw": 5.5,
+    "__away win": 1.27,
+    "goals over 2.5": 1.6,
+    "goals under 2.5": 2.28
+   },
+   "ext": null
+  },
+  "colombia|portugal": {
+   "src": {
+    "__home win": "median of 28",
+    "draw": "median of 28",
+    "__away win": "median of 28",
+    "goals over 2.5": "median of 9",
+    "goals under 2.5": "median of 9"
+   },
+   "odds": {
+    "__home win": 3.47,
+    "draw": 3.29,
+    "__away win": 2.1,
+    "goals over 2.5": 2.05,
+    "goals under 2.5": 1.74
+   },
+   "ext": null
+  },
+  "dr congo|uzbekistan": {
+   "src": {
+    "__home win": "median of 28",
+    "draw": "median of 28",
+    "__away win": "median of 28",
+    "goals over 2.5": "median of 8",
+    "goals under 2.5": "median of 8"
+   },
+   "odds": {
+    "__home win": 2.3,
+    "draw": 3.2,
+    "__away win": 3.1,
+    "goals over 2.5": 2.23,
+    "goals under 2.5": 1.63
+   },
+   "ext": null
+  },
+  "algeria|austria": {
+   "src": {
+    "__home win": "median of 28",
+    "draw": "median of 28",
+    "__away win": "median of 28",
+    "goals over 2.5": "median of 9",
+    "goals under 2.5": "median of 9"
+   },
+   "odds": {
+    "__home win": 3.5,
+    "draw": 3.2,
+    "__away win": 2.15,
+    "goals over 2.5": 2.14,
+    "goals under 2.5": 1.68
+   },
+   "ext": null
+  },
+  "jordan|argentina": {
+   "src": {
+    "__home win": "median of 28",
+    "draw": "median of 28",
+    "__away win": "median of 28",
+    "goals over 2.5": "median of 8",
+    "goals under 2.5": "median of 8",
+    "goals over 3.5": "median of 6",
+    "goals under 3.5": "median of 6"
+   },
+   "odds": {
+    "__home win": 14.0,
+    "draw": 6.5,
+    "__away win": 1.19,
+    "goals over 2.5": 1.53,
+    "goals under 2.5": 2.43,
+    "goals over 3.5": 2.38,
+    "goals under 3.5": 1.56
+   },
+   "ext": null
+  }
+ }
+}

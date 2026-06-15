@@ -1,0 +1,2329 @@
+{
+ "fixture": "Canada v Bosnia-Herzegovina",
+ "stage": "group",
+ "ref": null,
+ "lambdas": {
+  "goals": {
+   "Canada": 1.9782179800652306,
+   "Bosnia-Herzegovina": 0.63603273623117
+  },
+  "corners": {
+   "Canada": 7.06186970321875,
+   "Bosnia-Herzegovina": 2.6322074506906046
+  },
+  "shots": {
+   "Canada": 12.98577956831761,
+   "Bosnia-Herzegovina": 9.500717832107476
+  },
+  "sot": {
+   "Canada": 5.618225018587763,
+   "Bosnia-Herzegovina": 2.5293105424161477
+  },
+  "fouls": {
+   "Canada": 11.95018560993132,
+   "Bosnia-Herzegovina": 14.784564338165502
+  },
+  "yellows": {
+   "Canada": 1.57417604760521,
+   "Bosnia-Herzegovina": 2.239689752762458
+  },
+  "reds": {
+   "Canada": 0.27463189043314423,
+   "Bosnia-Herzegovina": 0.0717046756702924
+  },
+  "offsides": {
+   "Canada": 1.7670995861415582,
+   "Bosnia-Herzegovina": 1.5218821370550553
+  },
+  "tackles": {
+   "Canada": 15.340404206888016,
+   "Bosnia-Herzegovina": 16.308372345967136
+  },
+  "saves": {
+   "Canada": 1.8101406616777505,
+   "Bosnia-Herzegovina": 3.128764474520405
+  }
+ },
+ "markets": [
+  {
+   "market": "Cyle Larin_assists_over_0.5",
+   "p": 0.1192126605253541,
+   "fair": 8.388370795460272,
+   "min_odds": 14.448223669045033,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_fouls_committed_over_0.5",
+   "p": 0.5835964712518048,
+   "fair": 1.7135127596899558,
+   "min_odds": 1.8740753619566177,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_fouls_committed_over_1.5",
+   "p": 0.26837538887276563,
+   "fair": 3.7261240838819654,
+   "min_odds": 4.5792706090274695,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_fouls_committed_over_2.5",
+   "p": 0.09520930601325996,
+   "fair": 10.503174971790346,
+   "min_odds": 22.119339759533105,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_fouls_suffered_over_0.5",
+   "p": 0.5455781192826211,
+   "fair": 1.8329180820427635,
+   "min_odds": 2.017845342824174,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_fouls_suffered_over_1.5",
+   "p": 0.23148960383814035,
+   "fair": 4.319848422649724,
+   "min_odds": 5.509957478841818,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_fouls_suffered_over_2.5",
+   "p": 0.07442053004071725,
+   "fair": 13.437152348322112,
+   "min_odds": 40.94915214095121,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_goals_over_0.5",
+   "p": 0.22376675262039264,
+   "fair": 4.468939144397569,
+   "min_odds": 5.754840813447092,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_goals_over_1.5",
+   "p": 0.03290497045894297,
+   "fair": 30.39054544199471,
+   "min_odds": 1000000.0,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_saves_over_1.5",
+   "p": NaN,
+   "fair": NaN,
+   "min_odds": NaN,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_saves_over_2.5",
+   "p": NaN,
+   "fair": NaN,
+   "min_odds": NaN,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_saves_over_3.5",
+   "p": NaN,
+   "fair": NaN,
+   "min_odds": NaN,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_saves_over_4.5",
+   "p": NaN,
+   "fair": NaN,
+   "min_odds": NaN,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_score_or_assist",
+   "p": 0.28588924909711877,
+   "fair": 3.4978580102544967,
+   "min_odds": 4.239277558547344,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_shots_over_0.5",
+   "p": 0.7955531039360025,
+   "fair": 1.2569871138111277,
+   "min_odds": 1.3412860797181243,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "Cyle Larin_shots_over_1.5",
+   "p": 0.5343059961144092,
+   "fair": 1.8715867073778323,
+   "min_odds": 2.064810281150776,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_shots_over_2.5",
+   "p": 0.3051643011614031,
+   "fair": 3.2769232711499057,
+   "min_odds": 3.9190435160734114,
+   "book": 1.72,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_shots_over_3.5",
+   "p": 0.14731981025448357,
+   "fair": 6.7879533531340925,
+   "min_odds": 10.275400223090031,
+   "book": 2.75,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_shots_over_4.5",
+   "p": 0.06018841642254723,
+   "fair": 16.614492612325805,
+   "min_odds": 98.15068000037519,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_sot_over_0.5",
+   "p": 0.5124880688086292,
+   "fair": 1.9512649383715022,
+   "min_odds": 2.1622179412671194,
+   "book": 1.44,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_sot_over_1.5",
+   "p": 0.20178629494056724,
+   "fair": 4.955737951849174,
+   "min_odds": 6.588210090980583,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_sot_over_2.5",
+   "p": 0.05928218003041637,
+   "fair": 16.868475475883685,
+   "min_odds": 107.73331229551079,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_sot_over_3.5",
+   "p": 0.013554456586936296,
+   "fair": 73.77647296932538,
+   "min_odds": 1000000.0,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Cyle Larin_to_be_booked",
+   "p": 0.13518046137922532,
+   "fair": 7.397518767114381,
+   "min_odds": 11.739781445277428,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_assists_over_0.5",
+   "p": 0.08685467859615514,
+   "fair": 11.513484548709938,
+   "min_odds": 27.133597092455037,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_fouls_committed_over_0.5",
+   "p": 0.5785921026380431,
+   "fair": 1.7283333032728625,
+   "min_odds": 1.8918178970311947,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_fouls_committed_over_1.5",
+   "p": 0.2633492808900626,
+   "fair": 3.7972383923746444,
+   "min_odds": 4.687149616010625,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_fouls_committed_over_2.5",
+   "p": 0.09224927039805982,
+   "fair": 10.840194135790497,
+   "min_odds": 23.66904778658432,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_fouls_suffered_over_0.5",
+   "p": 0.743938970467849,
+   "fair": 1.3441962845031752,
+   "min_odds": 1.4410489143242766,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "Edin Dzeko_fouls_suffered_over_1.5",
+   "p": 0.4589164656889083,
+   "fair": 2.1790458062968763,
+   "min_odds": 2.445487242278893,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_fouls_suffered_over_2.5",
+   "p": 0.23539936097272562,
+   "fair": 4.248099892318162,
+   "min_odds": 5.39376184876447,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_goals_over_0.5",
+   "p": 0.41049749451444967,
+   "fair": 2.4360684617157866,
+   "min_odds": 2.773944383016835,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_goals_over_1.5",
+   "p": 0.12394417277452661,
+   "fair": 8.068148567332429,
+   "min_odds": 13.523716102000872,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_saves_over_1.5",
+   "p": NaN,
+   "fair": NaN,
+   "min_odds": NaN,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_saves_over_2.5",
+   "p": NaN,
+   "fair": NaN,
+   "min_odds": NaN,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_saves_over_3.5",
+   "p": NaN,
+   "fair": NaN,
+   "min_odds": NaN,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_saves_over_4.5",
+   "p": NaN,
+   "fair": NaN,
+   "min_odds": NaN,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_score_or_assist",
+   "p": 0.43796730635028475,
+   "fair": 2.2832754534426445,
+   "min_odds": 2.577536775990934,
+   "book": 2.87,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_shots_over_0.5",
+   "p": 0.8758698893282721,
+   "fair": 1.1417220893013305,
+   "min_odds": 1.2108444840062615,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "Edin Dzeko_shots_over_1.5",
+   "p": 0.6709346156095826,
+   "fair": 1.4904582007464955,
+   "min_odds": 1.6104755232856236,
+   "book": 1.4,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_shots_over_2.5",
+   "p": 0.45202643764011924,
+   "fair": 2.212259984660786,
+   "min_odds": 2.487398604604125,
+   "book": 2.1,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_shots_over_3.5",
+   "p": 0.26728685112442147,
+   "fair": 3.7412988921572583,
+   "min_odds": 4.602211292699834,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_shots_over_4.5",
+   "p": 0.13781537655533269,
+   "fair": 7.256084371677505,
+   "min_odds": 11.38752732410021,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_sot_over_0.5",
+   "p": 0.6173523357646563,
+   "fair": 1.619820549899425,
+   "min_odds": 1.7625731612653668,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_sot_over_1.5",
+   "p": 0.30365575391831723,
+   "fair": 3.293202869025818,
+   "min_odds": 3.9423509404088746,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_sot_over_2.5",
+   "p": 0.11709499347019553,
+   "fair": 8.540074774883799,
+   "min_odds": 14.904241706860185,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_sot_over_3.5",
+   "p": 0.03583238409674515,
+   "fair": 27.907716028608753,
+   "min_odds": 1000000.0,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Edin Dzeko_to_be_booked",
+   "p": 0.22765126566547095,
+   "fair": 4.392683682547499,
+   "min_odds": 5.629005772934182,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_assists_over_0.5",
+   "p": 0.1911542643575297,
+   "fair": 5.231376884847452,
+   "min_odds": 7.084447675396469,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_fouls_committed_over_0.5",
+   "p": 0.5420803120088225,
+   "fair": 1.844745101134986,
+   "min_odds": 2.032188599291229,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_fouls_committed_over_1.5",
+   "p": 0.22824497657778314,
+   "fair": 4.381257432227482,
+   "min_odds": 5.610256284353778,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_fouls_committed_over_2.5",
+   "p": 0.07269648195205407,
+   "fair": 13.755823846600112,
+   "min_odds": 44.05969181093718,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_fouls_suffered_over_0.5",
+   "p": 0.7227336198181422,
+   "fair": 1.3836356474625118,
+   "min_odds": 1.4864724618197716,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "Jonathan David_fouls_suffered_over_1.5",
+   "p": 0.43016679487562814,
+   "fair": 2.3246796635921765,
+   "min_odds": 2.6304243649873493,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_fouls_suffered_over_2.5",
+   "p": 0.2108798177249652,
+   "fair": 4.742037482715512,
+   "min_odds": 6.215820070790775,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_goals_over_0.5",
+   "p": 0.3743813284648597,
+   "fair": 2.67107337884737,
+   "min_odds": 3.0827914933714506,
+   "book": 2.62,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_goals_over_1.5",
+   "p": 0.10124651399976001,
+   "fair": 9.876883267332744,
+   "min_odds": 19.513522422318974,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_saves_over_1.5",
+   "p": NaN,
+   "fair": NaN,
+   "min_odds": NaN,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_saves_over_2.5",
+   "p": NaN,
+   "fair": NaN,
+   "min_odds": NaN,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_saves_over_3.5",
+   "p": NaN,
+   "fair": NaN,
+   "min_odds": NaN,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_saves_over_4.5",
+   "p": NaN,
+   "fair": NaN,
+   "min_odds": NaN,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_score_or_assist",
+   "p": 0.4543468459613164,
+   "fair": 2.200961685745126,
+   "min_odds": 2.473124274340622,
+   "book": 2.05,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_shots_over_0.5",
+   "p": 0.8370708433679495,
+   "fair": 1.1946420161721392,
+   "min_odds": 1.270533660884841,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "Jonathan David_shots_over_1.5",
+   "p": 0.6014709510458793,
+   "fair": 1.6625906841571165,
+   "min_odds": 1.8133321403484144,
+   "book": 1.36,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_shots_over_2.5",
+   "p": 0.3739877114953293,
+   "fair": 2.673884647176406,
+   "min_odds": 3.086536817660803,
+   "book": 2.0,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_shots_over_3.5",
+   "p": 0.2003157360375062,
+   "fair": 4.992119040576846,
+   "min_odds": 6.652663429399593,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_shots_over_4.5",
+   "p": 0.09205193298906732,
+   "fair": 10.863432928874687,
+   "min_odds": 23.780119697707608,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_sot_over_0.5",
+   "p": 0.5755808651889684,
+   "fair": 1.7373753376455467,
+   "min_odds": 1.9026567864879518,
+   "book": 1.33,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_sot_over_1.5",
+   "p": 0.2603500908725174,
+   "fair": 3.840981951067028,
+   "min_odds": 4.75397940572343,
+   "book": 2.62,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_sot_over_2.5",
+   "p": 0.09050193054595297,
+   "fair": 11.049488049232753,
+   "min_odds": 24.690181098044523,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_sot_over_3.5",
+   "p": 0.024731743587996232,
+   "fair": 40.43386574998128,
+   "min_odds": 1000000.0,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "Jonathan David_to_be_booked",
+   "p": 0.1263257222316167,
+   "fair": 7.916044193806484,
+   "min_odds": 13.101743039724113,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "btt_cards_no",
+   "p": 0.3166070013390958,
+   "fair": 3.1584898494678875,
+   "min_odds": 3.7508392314427863,
+   "book": 3.75,
+   "flag": ""
+  },
+  {
+   "market": "btt_cards_yes",
+   "p": 0.7128400093177282,
+   "fair": 1.4028393285011005,
+   "min_odds": 1.5086596855088998,
+   "book": 1.25,
+   "flag": ""
+  },
+  {
+   "market": "btts_no",
+   "p": 0.5932667173764825,
+   "fair": 1.6855825056597733,
+   "min_odds": 1.8407164805330831,
+   "book": 1.7,
+   "flag": ""
+  },
+  {
+   "market": "btts_yes",
+   "p": 0.4408587051576167,
+   "fair": 2.2683004515981553,
+   "min_odds": 2.5584693056708114,
+   "book": 2.05,
+   "flag": ""
+  },
+  {
+   "market": "cards_1h_over_0.5",
+   "p": 0.7443890199601931,
+   "fair": 1.343383598072787,
+   "min_odds": 1.4401149373838407,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "cards_1h_over_1.5",
+   "p": 0.4627513560015447,
+   "fair": 2.1609877248996368,
+   "min_odds": 2.4227661168392562,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "cards_1h_over_2.5",
+   "p": 0.24620127872061068,
+   "fair": 4.061717328181713,
+   "min_odds": 5.09680674112218,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "cards_1h_under_0.5",
+   "p": 0.2831076566087344,
+   "fair": 3.532225203580553,
+   "min_odds": 4.289863381358065,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "cards_1h_under_1.5",
+   "p": 0.5717708332938746,
+   "fair": 1.7489524504759537,
+   "min_odds": 1.916550209767618,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "cards_1h_under_2.5",
+   "p": 0.7788168174125821,
+   "fair": 1.2839989810726506,
+   "min_odds": 1.3720868894740412,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "cards_over_1.5",
+   "p": 0.877953362362128,
+   "fair": 1.1390126661278526,
+   "min_odds": 1.2077974985777313,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "cards_over_2.5",
+   "p": 0.7468826838580402,
+   "fair": 1.3388983592904795,
+   "min_odds": 1.4349617563516714,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "cards_over_3.5",
+   "p": 0.5908619510489329,
+   "fair": 1.6924427071750705,
+   "min_odds": 1.8489006262330479,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "cards_over_4.5",
+   "p": 0.4350904447755841,
+   "fair": 2.298372699303455,
+   "min_odds": 2.596792555013307,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "cards_over_5.5",
+   "p": 0.2952723674934847,
+   "fair": 3.386703633966241,
+   "min_odds": 4.077100124320215,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "cards_over_6.5",
+   "p": 0.18815931796193616,
+   "fair": 5.314645114744176,
+   "min_odds": 7.238020676068385,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "cards_over_7.5",
+   "p": 0.11336863735584271,
+   "fair": 8.820781684631077,
+   "min_odds": 15.780677030887711,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "cards_under_1.5",
+   "p": 0.13783592395137348,
+   "fair": 7.255002696922361,
+   "min_odds": 11.384863447825817,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "cards_under_2.5",
+   "p": 0.28044680569349,
+   "fair": 3.565738598901834,
+   "min_odds": 4.339396230686175,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "cards_under_3.5",
+   "p": 0.4433144684355998,
+   "fair": 2.255735084688015,
+   "min_odds": 2.5424948234868636,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "cards_under_4.5",
+   "p": 0.5989087669423486,
+   "fair": 1.6697033925640643,
+   "min_odds": 1.8217963716819796,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "cards_under_5.5",
+   "p": 0.7329657079759501,
+   "fair": 1.3643203073735228,
+   "min_odds": 1.4642023579245564,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "cards_under_6.5",
+   "p": 0.8322731219995657,
+   "fair": 1.2015286491500103,
+   "min_odds": 1.2783259092986647,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "cards_under_7.5",
+   "p": 0.8999431581692172,
+   "fair": 1.111181290643213,
+   "min_odds": 1.1765492673110118,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "corners_3w_exactly_10",
+   "p": 0.10908078192027658,
+   "fair": 9.167517709314422,
+   "min_odds": 16.925977746018948,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_exactly_11",
+   "p": 0.09485478688565575,
+   "fair": 10.542430517560135,
+   "min_odds": 22.29416455704515,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_exactly_12",
+   "p": 0.08785078797560396,
+   "fair": 11.382937171578911,
+   "min_odds": 26.41952924849364,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_exactly_4",
+   "p": 0.10500011892071442,
+   "fair": 9.523798737362382,
+   "min_odds": 18.181778869270318,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_exactly_5",
+   "p": 0.1159312232974493,
+   "fair": 8.625803916812476,
+   "min_odds": 15.167320580243008,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_exactly_6",
+   "p": 0.1226652803605892,
+   "fair": 8.152266045130137,
+   "min_odds": 13.761730430787148,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_exactly_7",
+   "p": 0.118601147105532,
+   "fair": 8.43162165295243,
+   "min_odds": 14.577015723391016,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_exactly_8",
+   "p": 0.1166159259617837,
+   "fair": 8.57515808199054,
+   "min_odds": 15.011425354556824,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_exactly_9",
+   "p": 0.10958774396336116,
+   "fair": 9.125108007829173,
+   "min_odds": 16.781974504939676,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_over_10",
+   "p": 0.41491059184272144,
+   "fair": 2.410157801850154,
+   "min_odds": 2.740397298281234,
+   "book": 3.25,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_over_11",
+   "p": 0.36507567904822913,
+   "fair": 2.7391580907472415,
+   "min_odds": 3.1738406563806163,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_over_12",
+   "p": 0.3182589590010473,
+   "fair": 3.1420953651667958,
+   "min_odds": 3.7277412979004962,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_over_4",
+   "p": 0.7889818279431937,
+   "fair": 1.2674563146871356,
+   "min_odds": 1.353213248535891,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "corners_3w_over_5",
+   "p": 0.7226478707309648,
+   "fair": 1.383799829076492,
+   "min_odds": 1.4866619571891344,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "corners_3w_over_6",
+   "p": 0.6547667001671323,
+   "fair": 1.5272615417747195,
+   "min_odds": 1.6535301955673845,
+   "book": 1.25,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_over_7",
+   "p": 0.5914008824183417,
+   "fair": 1.690900419206047,
+   "min_odds": 1.847060159069519,
+   "book": 1.44,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_over_8",
+   "p": 0.5299009614088233,
+   "fair": 1.8871450947009911,
+   "min_odds": 2.0837632770402164,
+   "book": 1.8,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_over_9",
+   "p": 0.47273492478084894,
+   "fair": 2.115350374131087,
+   "min_odds": 2.3655485775593594,
+   "book": 2.25,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_under_10",
+   "p": 0.5619247498226865,
+   "fair": 1.7795977136005252,
+   "min_odds": 1.9534120988414145,
+   "book": 1.57,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_under_11",
+   "p": 0.6185764296620907,
+   "fair": 1.6166151053415814,
+   "min_odds": 1.7587784998303706,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_under_12",
+   "p": 0.6666805801609362,
+   "fair": 1.4999686952912303,
+   "min_odds": 1.621585034733911,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_under_4",
+   "p": 0.16650708648774717,
+   "fair": 6.005750392332926,
+   "min_odds": 8.5831688882304,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_under_5",
+   "p": 0.23523377646087643,
+   "fair": 4.251090192255268,
+   "min_odds": 5.398583450093466,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_under_6",
+   "p": 0.3062254430713563,
+   "fair": 3.265567974921604,
+   "min_odds": 3.902813038444077,
+   "book": 6.5,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_under_7",
+   "p": 0.3774819390210662,
+   "fair": 2.649133366733588,
+   "min_odds": 3.053603514713745,
+   "book": 3.75,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_under_8",
+   "p": 0.44276425334262937,
+   "fair": 2.2585382456929253,
+   "min_odds": 2.54605655043573,
+   "book": 2.62,
+   "flag": ""
+  },
+  {
+   "market": "corners_3w_under_9",
+   "p": 0.5050153119856994,
+   "fair": 1.9801379805060588,
+   "min_odds": 2.1977282382783394,
+   "book": 1.9,
+   "flag": ""
+  },
+  {
+   "market": "corners_over_10.5",
+   "p": 0.41491059184272144,
+   "fair": 2.410157801850154,
+   "min_odds": 2.740397298281234,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_over_11.5",
+   "p": 0.36507567904822913,
+   "fair": 2.7391580907472415,
+   "min_odds": 3.1738406563806163,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_over_7.5",
+   "p": 0.5914008824183417,
+   "fair": 1.690900419206047,
+   "min_odds": 1.847060159069519,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_over_8.5",
+   "p": 0.5299009614088233,
+   "fair": 1.8871450947009911,
+   "min_odds": 2.0837632770402164,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_over_9.5",
+   "p": 0.47273492478084894,
+   "fair": 2.115350374131087,
+   "min_odds": 2.3655485775593594,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_under_10.5",
+   "p": 0.6185764296620907,
+   "fair": 1.6166151053415814,
+   "min_odds": 1.7587784998303706,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_under_11.5",
+   "p": 0.6666805801609362,
+   "fair": 1.4999686952912303,
+   "min_odds": 1.621585034733911,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_under_7.5",
+   "p": 0.44276425334262937,
+   "fair": 2.2585382456929253,
+   "min_odds": 2.54605655043573,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_under_8.5",
+   "p": 0.5050153119856994,
+   "fair": 1.9801379805060588,
+   "min_odds": 2.1977282382783394,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "corners_under_9.5",
+   "p": 0.5619247498226865,
+   "fair": 1.7795977136005252,
+   "min_odds": 1.9534120988414145,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "dnb_Bosnia-Herzegovina",
+   "p": 0.18585483112199971,
+   "fair": 5.3805434809686234,
+   "min_odds": 7.360798226615768,
+   "book": 3.25,
+   "flag": ""
+  },
+  {
+   "market": "dnb_Canada",
+   "p": 0.8343784141707261,
+   "fair": 1.1984969685414049,
+   "min_odds": 1.2748948491363534,
+   "book": 1.33,
+   "flag": ""
+  },
+  {
+   "market": "double_chance_Bosnia-Herzegovina_draw",
+   "p": 0.35358590738904905,
+   "fair": 2.8281670143027062,
+   "min_odds": 3.293960541845863,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "double_chance_Canada_Bosnia-Herzegovina",
+   "p": 0.7719943132809153,
+   "fair": 1.295346329366182,
+   "min_odds": 1.3850524603937118,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "double_chance_Canada_draw",
+   "p": 0.8615268850152451,
+   "fair": 1.1607298824833592,
+   "min_odds": 1.232245066016777,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "fouls_over_19.5",
+   "p": 0.7133179841070738,
+   "fair": 1.4018993243970888,
+   "min_odds": 1.5075725729736562,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "fouls_over_21.5",
+   "p": 0.6469813361759018,
+   "fair": 1.5456396407208248,
+   "min_odds": 1.6750942439938323,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "fouls_over_23.5",
+   "p": 0.5793038641526155,
+   "fair": 1.7262097870912072,
+   "min_odds": 1.889273945885397,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "fouls_under_19.5",
+   "p": 0.31610174718248346,
+   "fair": 3.1635383509054336,
+   "min_odds": 3.757961045307358,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "fouls_under_21.5",
+   "p": 0.3855662999586793,
+   "fair": 2.5935876660049617,
+   "min_odds": 2.9800370303070873,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "fouls_under_23.5",
+   "p": 0.45509440184210026,
+   "fair": 2.197346299915507,
+   "min_odds": 2.4685604033347888,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "gk_saves_Bosnia-Herzegovina_over_1.5",
+   "p": 0.6700291400401266,
+   "fair": 1.4924724019318207,
+   "min_odds": 1.612827422813197,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "gk_saves_Bosnia-Herzegovina_over_2.5",
+   "p": 0.5210347141314035,
+   "fair": 1.919257916753322,
+   "min_odds": 2.1229857800268883,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "gk_saves_Bosnia-Herzegovina_over_3.5",
+   "p": 0.39889424052672806,
+   "fair": 2.506930154417696,
+   "min_odds": 2.8661980733482246,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "gk_saves_Bosnia-Herzegovina_over_4.5",
+   "p": 0.29489741867332675,
+   "fair": 3.3910096754958445,
+   "min_odds": 4.083342345612547,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "gk_saves_Canada_over_1.5",
+   "p": 0.49578152219282595,
+   "fair": 2.017017487011278,
+   "min_odds": 2.2432513467156294,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "gk_saves_Canada_over_2.5",
+   "p": 0.3234285931432461,
+   "fair": 3.0918725839341645,
+   "min_odds": 3.6572619875058616,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "gk_saves_Canada_over_3.5",
+   "p": 0.2052510015352767,
+   "fair": 4.87208341260215,
+   "min_odds": 6.441182279734126,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "gk_saves_Canada_over_4.5",
+   "p": 0.12303276857997275,
+   "fair": 8.127915932819054,
+   "min_odds": 13.692483791094055,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goal_both_halves",
+   "p": 0.5407459931926253,
+   "fair": 1.8492971054596028,
+   "min_odds": 2.0377140391801114,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_1h_over_0.5",
+   "p": 0.6758484394331712,
+   "fair": 1.4796216749996378,
+   "min_odds": 1.5978309395573418,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_1h_over_1.5",
+   "p": 0.36790046327945297,
+   "fair": 2.7181265037995113,
+   "min_odds": 3.1456386998748784,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_1h_over_2.5",
+   "p": 0.16482798403928112,
+   "fair": 6.066930963383524,
+   "min_odds": 8.708678536565733,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_1h_under_0.5",
+   "p": 0.3555001287415542,
+   "fair": 2.812938503116527,
+   "min_odds": 3.2733210428398087,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_1h_under_1.5",
+   "p": 0.6639714682774766,
+   "fair": 1.5060888122109723,
+   "min_odds": 1.628740180395586,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_1h_under_2.5",
+   "p": 0.8535279861817916,
+   "fair": 1.1716077459550478,
+   "min_odds": 1.2445117247898299,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "goals_2h_over_0.5",
+   "p": 0.7427886987318417,
+   "fair": 1.346277887247468,
+   "min_odds": 1.4434415599309176,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "goals_2h_over_1.5",
+   "p": 0.45547353016194286,
+   "fair": 2.195517266710212,
+   "min_odds": 2.46625223501176,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_2h_over_2.5",
+   "p": 0.22913401578977416,
+   "fair": 4.364258168099667,
+   "min_odds": 5.582412673501203,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_4plus",
+   "p": 0.3178461986798923,
+   "fair": 3.1461757420830923,
+   "min_odds": 3.7334858770764847,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_over_0.5",
+   "p": 0.9010119525895317,
+   "fair": 1.1098631900786378,
+   "min_odds": 1.175071627322172,
+   "book": 1.083,
+   "flag": ""
+  },
+  {
+   "market": "goals_over_1.5",
+   "p": 0.717888226264628,
+   "fair": 1.3929745096994806,
+   "min_odds": 1.497256517894933,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_over_2.5",
+   "p": 0.5016897815293986,
+   "fair": 1.9932636398363655,
+   "min_odds": 2.2139088394119764,
+   "book": 2.3,
+   "flag": ""
+  },
+  {
+   "market": "goals_over_3.5",
+   "p": 0.3178461986798923,
+   "fair": 3.1461757420830923,
+   "min_odds": 3.7334858770764847,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_over_4.5",
+   "p": 0.1764205935281952,
+   "fair": 5.668272507201275,
+   "min_odds": 7.91010366342706,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_range_0_1",
+   "p": 0.31126715749913636,
+   "fair": 3.2126743085729323,
+   "min_odds": 3.8274998265073004,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_range_1_3",
+   "p": 0.6512709991995788,
+   "fair": 1.5354591271974556,
+   "min_odds": 1.663143576409332,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_range_2_3",
+   "p": 0.49315786047258475,
+   "fair": 2.0277482732237444,
+   "min_odds": 2.2565322409797655,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_range_2_4",
+   "p": 0.6112905911353881,
+   "fair": 1.6358831863298235,
+   "min_odds": 1.7816083429746847,
+   "book": 1.57,
+   "flag": ""
+  },
+  {
+   "market": "goals_under_0.5",
+   "p": 0.11217537222666987,
+   "fair": 8.914612718907016,
+   "min_odds": 16.083538613236545,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_under_1.5",
+   "p": 0.31126715749913636,
+   "fair": 3.2126743085729323,
+   "min_odds": 3.8274998265073004,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_under_2.5",
+   "p": 0.5332133936515275,
+   "fair": 1.8754217577916523,
+   "min_odds": 2.0694790606759472,
+   "book": 1.61,
+   "flag": ""
+  },
+  {
+   "market": "goals_under_3.5",
+   "p": 0.7116674395797036,
+   "fair": 1.405150698745723,
+   "min_odds": 1.511333247159945,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "goals_under_4.5",
+   "p": 0.8429836658038307,
+   "fair": 1.1862626057486485,
+   "min_odds": 1.2610600232052969,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "half_most_goals_1h",
+   "p": 0.34916830079294353,
+   "fair": 2.8639484103483928,
+   "min_odds": 3.3426001262483584,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "half_most_goals_2h",
+   "p": 0.46468345385011434,
+   "fair": 2.152002598144057,
+   "min_odds": 2.4114779374858926,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "half_most_goals_tie",
+   "p": 0.31075943391358885,
+   "fair": 3.217923225713123,
+   "min_odds": 3.8349523351526473,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "ht_score_0_0",
+   "p": 0.3555001287415542,
+   "fair": 2.812938503116527,
+   "min_odds": 3.2733210428398087,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "ht_score_0_1",
+   "p": 0.13890003262269457,
+   "fair": 7.199422355186778,
+   "min_odds": 11.248589797983023,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "ht_score_1_0",
+   "p": 0.3226980351265375,
+   "fair": 3.0988722928166466,
+   "min_odds": 3.6670597921102708,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "ht_score_1_1",
+   "p": 0.12002201932418845,
+   "fair": 8.331804494131408,
+   "min_odds": 14.28122195919819,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "ht_score_2_0",
+   "p": 0.17018297150959186,
+   "fair": 5.87602855402979,
+   "min_odds": 8.3206463231789,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "ht_score_2_1",
+   "p": 0.06447929920025144,
+   "fair": 15.508853421224845,
+   "min_odds": 69.06411603005168,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "htft_AA",
+   "p": 0.09452462978928637,
+   "fair": 10.579253282760195,
+   "min_odds": 22.459479275459863,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "htft_AD",
+   "p": 0.06411226327989701,
+   "fair": 15.597639965294427,
+   "min_odds": 70.8603560014718,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "htft_AH",
+   "p": 0.05087907798145293,
+   "fair": 19.654444217022416,
+   "min_odds": 1137.5555082692633,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "htft_DA",
+   "p": 0.07700459761119431,
+   "fair": 12.98623758868429,
+   "min_odds": 37.03073137388526,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "htft_DD",
+   "p": 0.18177553486561265,
+   "fair": 5.501290372982832,
+   "min_odds": 7.588662045802509,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "htft_DH",
+   "p": 0.2696298465655,
+   "fair": 3.7087882248120274,
+   "min_odds": 4.553115232914261,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "htft_HA",
+   "p": 0.0156793819201178,
+   "fair": 63.77802422919021,
+   "min_odds": 1000000.0,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "htft_HD",
+   "p": 0.06322909595103292,
+   "fair": 15.815503684797882,
+   "min_odds": 75.5909552475444,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "htft_HH",
+   "p": 0.4749958200319456,
+   "fair": 2.1052816842319695,
+   "min_odds": 2.3529643183898443,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "most_cards_Bosnia-Herzegovina",
+   "p": 0.5080065407623338,
+   "fair": 1.968478591829472,
+   "min_odds": 2.183374932453016,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "most_cards_Canada",
+   "p": 0.3644128162439602,
+   "fair": 2.744140588432375,
+   "min_odds": 3.1805319259761875,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "most_cards_tie",
+   "p": 0.24481390077262918,
+   "fair": 4.084735371823308,
+   "min_odds": 5.133103931670246,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "most_corners_Bosnia-Herzegovina",
+   "p": 0.23417868354013846,
+   "fair": 4.270243494765394,
+   "min_odds": 5.4295099779126605,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "most_corners_Canada",
+   "p": 0.7240920375306049,
+   "fair": 1.3810399067642467,
+   "min_odds": 1.4834769502148264,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "most_corners_tie",
+   "p": 0.11518292418081105,
+   "fair": 8.681842444199688,
+   "min_odds": 15.341441222030756,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "offsides_over_1.5",
+   "p": 0.7254500531567089,
+   "fair": 1.3784546512177096,
+   "min_odds": 1.4804943686457799,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "offsides_over_2.5",
+   "p": 0.5672609980806606,
+   "fair": 1.7628569624626422,
+   "min_odds": 1.9332600055109166,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "offsides_over_3.5",
+   "p": 0.4241925111647926,
+   "fair": 2.3574202129455193,
+   "min_odds": 2.6724212007535466,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "offsides_over_4.5",
+   "p": 0.3081246599057129,
+   "fair": 3.2454396876446143,
+   "min_odds": 3.874097114027297,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "offsides_under_1.5",
+   "p": 0.30325396065888954,
+   "fair": 3.2975661647658883,
+   "min_odds": 3.948605571254661,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "offsides_under_2.5",
+   "p": 0.46732760237375287,
+   "fair": 2.13982652623252,
+   "min_odds": 2.396199039584287,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "offsides_under_3.5",
+   "p": 0.6095437139341523,
+   "fair": 1.6405714260356197,
+   "min_odds": 1.7871704660374061,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "offsides_under_4.5",
+   "p": 0.7208556757596766,
+   "fair": 1.3872402391035432,
+   "min_odds": 1.4906335835462683,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "red_card_no",
+   "p": 0.7040025272772523,
+   "fair": 1.4204494462079922,
+   "min_odds": 1.529046079016249,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "red_card_yes",
+   "p": 0.3259363604587855,
+   "fair": 3.0680835933505786,
+   "min_odds": 3.6240240261825236,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "result_Bosnia-Herzegovina",
+   "p": 0.15600988394273818,
+   "fair": 6.409850291068992,
+   "min_odds": 9.433082678782627,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "result_Canada",
+   "p": 0.6776782800410178,
+   "fair": 1.4756264579402973,
+   "min_odds": 1.5931728590873842,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "result_draw",
+   "p": 0.2535442524412704,
+   "fair": 3.9440846730755004,
+   "min_odds": 4.912936562964532,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "score_0_0",
+   "p": 0.11217537222666987,
+   "fair": 8.914612718907016,
+   "min_odds": 16.083538613236545,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "score_0_1",
+   "p": 0.08006518218523402,
+   "fair": 12.489823575077363,
+   "min_odds": 33.261065701811454,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "score_1_0",
+   "p": 0.1961256588488309,
+   "fair": 5.098771909140031,
+   "min_odds": 6.843425089597129,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "score_1_1",
+   "p": 0.14406766376211286,
+   "fair": 6.941182871204313,
+   "min_odds": 10.630645643851578,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "score_1_2",
+   "p": 0.05420618670218681,
+   "fair": 18.44807873119873,
+   "min_odds": 237.74503387595632,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "score_2_0",
+   "p": 0.198723455937653,
+   "fair": 5.032118605635247,
+   "min_odds": 6.7238889366531005,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "score_2_1",
+   "p": 0.13629450806540944,
+   "fair": 7.337052785135609,
+   "min_odds": 11.588222963644697,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "score_2_2",
+   "p": 0.05397579565315763,
+   "fair": 18.526822771189646,
+   "min_odds": 251.52198131857878,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "score_3_0",
+   "p": 0.13665068147761114,
+   "fair": 7.317929110831694,
+   "min_odds": 11.540590136713243,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "score_3_1",
+   "p": 0.09859601638682865,
+   "fair": 10.142397600290767,
+   "min_odds": 20.577818396469176,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "score_3_2",
+   "p": 0.04102990519478796,
+   "fair": 24.37246674718201,
+   "min_odds": 1000000.0,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "score_4_0",
+   "p": 0.08220230682457359,
+   "fair": 12.165108725404524,
+   "min_odds": 31.05367591979155,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "score_4_1",
+   "p": 0.05626853013138021,
+   "fair": 17.771923269812113,
+   "min_odds": 159.52703090538066,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "shots_over_20.5",
+   "p": 0.5287827866661978,
+   "fair": 1.891135689769087,
+   "min_odds": 2.0886298084421093,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "shots_over_22.5",
+   "p": 0.4692149096612348,
+   "fair": 2.131219574250066,
+   "min_odds": 2.3854113414241263,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "shots_over_24.5",
+   "p": 0.4131949268936573,
+   "fair": 2.4201652414221604,
+   "min_odds": 2.753342422904486,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "shots_over_26.5",
+   "p": 0.36038478755128533,
+   "fair": 2.7748119081127776,
+   "min_odds": 3.221807382666164,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "shots_under_20.5",
+   "p": 0.506137211232549,
+   "fair": 1.9757488242462806,
+   "min_odds": 2.1923227822125164,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "shots_under_22.5",
+   "p": 0.5653994088502476,
+   "fair": 1.7686612054185242,
+   "min_odds": 1.9402428152387656,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "shots_under_24.5",
+   "p": 0.6202434996992114,
+   "fair": 1.6122700205402434,
+   "min_odds": 1.7536368244924738,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "shots_under_26.5",
+   "p": 0.6711747546640544,
+   "fair": 1.4899249309526454,
+   "min_odds": 1.6098529318707149,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "sot_over_5.5",
+   "p": 0.6521129101383044,
+   "fair": 1.5334767713583732,
+   "min_odds": 1.6608180677778552,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "sot_over_6.5",
+   "p": 0.5774822986250271,
+   "fair": 1.7316548098201079,
+   "min_odds": 1.8957982146636414,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "sot_over_7.5",
+   "p": 0.5012323540173453,
+   "fair": 1.9950827036304895,
+   "min_odds": 2.2161531439333806,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "sot_over_8.5",
+   "p": 0.43521783966801664,
+   "fair": 2.29769993059751,
+   "min_odds": 2.5959337731134333,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "sot_under_5.5",
+   "p": 0.38023966452561997,
+   "fair": 2.629920266860065,
+   "min_odds": 3.028103851293793,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "sot_under_6.5",
+   "p": 0.4569474255232889,
+   "fair": 2.188435570798579,
+   "min_odds": 2.4573198828180614,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "sot_under_7.5",
+   "p": 0.5336687788754498,
+   "fair": 1.8738214405332203,
+   "min_odds": 2.06753059878093,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "sot_under_8.5",
+   "p": 0.5987842567101004,
+   "fair": 1.6700505879935768,
+   "min_odds": 1.8222097076816437,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_cards_Bosnia-Herzegovina_over_0.5",
+   "p": 0.8551083782918049,
+   "fair": 1.1694424068182279,
+   "min_odds": 1.242068803359985,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "team_cards_Bosnia-Herzegovina_over_1.5",
+   "p": 0.6492094367939275,
+   "fair": 1.540334972545109,
+   "min_odds": 1.6688655728629778,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_cards_Bosnia-Herzegovina_over_2.5",
+   "p": 0.4357698027270098,
+   "fair": 2.2947895740872504,
+   "min_odds": 2.592219486675712,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_cards_Canada_over_0.5",
+   "p": 0.7978554628404221,
+   "fair": 1.2533598459549666,
+   "min_odds": 1.337156776527259,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "team_cards_Canada_over_1.5",
+   "p": 0.5510054194810698,
+   "fair": 1.814864182174084,
+   "min_odds": 1.9959863927934705,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_cards_Canada_over_2.5",
+   "p": 0.3285296297845704,
+   "fair": 3.043865482257228,
+   "min_odds": 3.5902823005705105,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_corners_Bosnia-Herzegovina_over_2.5",
+   "p": 0.4559368386021482,
+   "fair": 2.1932862522490817,
+   "min_odds": 2.463437424017787,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_corners_Bosnia-Herzegovina_over_3.5",
+   "p": 0.3338349305786338,
+   "fair": 2.9954924077798175,
+   "min_odds": 3.523174536556766,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_corners_Bosnia-Herzegovina_over_4.5",
+   "p": 0.2361369773597847,
+   "fair": 4.234830187041705,
+   "min_odds": 5.37238765872456,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_corners_Bosnia-Herzegovina_over_5.5",
+   "p": 0.16650708648774717,
+   "fair": 6.005750392332926,
+   "min_odds": 8.5831688882304,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_corners_Canada_over_2.5",
+   "p": 0.7760178866202818,
+   "fair": 1.288630091189272,
+   "min_odds": 1.3773765335936068,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "team_corners_Canada_over_3.5",
+   "p": 0.6943109000734857,
+   "fair": 1.440276970870197,
+   "min_odds": 1.5520457590985142,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_corners_Canada_over_4.5",
+   "p": 0.6170349842728436,
+   "fair": 1.6206536509084142,
+   "min_odds": 1.763559617547026,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_corners_Canada_over_5.5",
+   "p": 0.5439318220066979,
+   "fair": 1.8384657038647874,
+   "min_odds": 2.024570913324227,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_goals_Bosnia-Herzegovina_over_0.5",
+   "p": 0.4949071379676033,
+   "fair": 2.0205810813451235,
+   "min_odds": 2.2476600500682835,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_goals_Bosnia-Herzegovina_over_1.5",
+   "p": 0.18470540380348918,
+   "fair": 5.414026765908348,
+   "min_odds": 7.423607158765652,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_goals_Bosnia-Herzegovina_over_2.5",
+   "p": 0.050410451479424426,
+   "fair": 19.837156197820622,
+   "min_odds": 2436.341565639628,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_goals_Canada_over_0.5",
+   "p": 0.8336022351515413,
+   "fair": 1.1996129062900234,
+   "min_odds": 1.2761576666592962,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "team_goals_Canada_over_1.5",
+   "p": 0.591110683824131,
+   "fair": 1.6917305461823169,
+   "min_odds": 1.8480507406226245,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_goals_Canada_over_2.5",
+   "p": 0.36109384877361883,
+   "fair": 2.769363154194664,
+   "min_odds": 3.2144640723118063,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_goals_range_Bosnia-Herzegovina_0_1",
+   "p": 0.8354280026699807,
+   "fair": 1.1969912389865511,
+   "min_odds": 1.273191172966337,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "team_goals_range_Bosnia-Herzegovina_2plus",
+   "p": 0.18470540380348918,
+   "fair": 5.414026765908348,
+   "min_odds": 7.423607158765652,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_goals_range_Canada_0_1",
+   "p": 0.4430605383067609,
+   "fair": 2.2570279082440696,
+   "min_odds": 2.5441373593692025,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_goals_range_Canada_2plus",
+   "p": 0.591110683824131,
+   "fair": 1.6917305461823169,
+   "min_odds": 1.8480507406226245,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_shots_Bosnia-Herzegovina_over_10.5",
+   "p": 0.402954574306617,
+   "fair": 2.4816693090548663,
+   "min_odds": 2.833225782565676,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_shots_Bosnia-Herzegovina_over_12.5",
+   "p": 0.3200916157851661,
+   "fair": 3.124105570672503,
+   "min_odds": 3.7024473976837964,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_shots_Bosnia-Herzegovina_over_8.5",
+   "p": 0.49894458735213376,
+   "fair": 2.004230580608028,
+   "min_odds": 2.2274463890922043,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_shots_Canada_over_10.5",
+   "p": 0.548068612960855,
+   "fair": 1.8245890685066901,
+   "min_odds": 2.007755505923827,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_shots_Canada_over_12.5",
+   "p": 0.46858593215692995,
+   "fair": 2.1340802857587686,
+   "min_odds": 2.3889957191038493,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_shots_Canada_over_8.5",
+   "p": 0.629216243843318,
+   "fair": 1.5892787412669076,
+   "min_odds": 1.726470917605182,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_sot_Bosnia-Herzegovina_over_2.5",
+   "p": 0.44051978409171766,
+   "fair": 2.270045605470007,
+   "min_odds": 2.5606897287568393,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_sot_Bosnia-Herzegovina_over_3.5",
+   "p": 0.31536642053327874,
+   "fair": 3.1709146405283692,
+   "min_odds": 3.768374302937071,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_sot_Bosnia-Herzegovina_over_4.5",
+   "p": 0.21919595262440894,
+   "fair": 4.562128032142521,
+   "min_odds": 5.9103068630717095,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_sot_Canada_over_2.5",
+   "p": 0.7238293500882698,
+   "fair": 1.3815411047894808,
+   "min_odds": 1.4840552728506156,
+   "book": null,
+   "flag": "bet if odds>=1.50"
+  },
+  {
+   "market": "team_sot_Canada_over_3.5",
+   "p": 0.6231208195201162,
+   "fair": 1.6048252099330105,
+   "min_odds": 1.7448327925642573,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "team_sot_Canada_over_4.5",
+   "p": 0.5331305944979198,
+   "fair": 1.8757130247641451,
+   "min_odds": 2.0698337289925153,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "win_margin_Bosnia-Herzegovina_1",
+   "p": 0.12632576430853742,
+   "fair": 7.916041557109482,
+   "min_odds": 13.101735816986047,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "win_margin_Bosnia-Herzegovina_2",
+   "p": 0.04176939258926067,
+   "fair": 23.940975389168337,
+   "min_odds": 1000000.0,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "win_margin_Bosnia-Herzegovina_3plus",
+   "p": 0.012072767315807564,
+   "fair": 82.83105056540292,
+   "min_odds": 1000000.0,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "win_margin_Canada_1",
+   "p": 0.3079858078262726,
+   "fair": 3.2469028591215996,
+   "min_odds": 3.876182214927881,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "win_margin_Canada_2",
+   "p": 0.27044801671379115,
+   "fair": 3.6975682504570804,
+   "min_odds": 4.536216813863676,
+   "book": null,
+   "flag": ""
+  },
+  {
+   "market": "win_margin_Canada_3plus",
+   "p": 0.2698224247316569,
+   "fair": 3.7061411815364025,
+   "min_odds": 4.549126419748697,
+   "book": null,
+   "flag": ""
+  }
+ ]
+}

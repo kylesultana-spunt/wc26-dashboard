@@ -1,0 +1,32 @@
+goals_over_2.5 2.30
+goals_under_2.5 1.61
+goals_over_0.5 1.083
+btts_yes 2.05
+btts_no 1.70
+goals_range_2_4 1.57
+dnb_Canada 1.33
+dnb_Bosnia-Herzegovina 3.25
+btt_cards_yes 1.25
+btt_cards_no 3.75
+corners_3w_over_9 2.25
+corners_3w_under_9 1.90
+corners_3w_over_6 1.25
+corners_3w_under_6 6.50
+corners_3w_over_7 1.44
+corners_3w_under_7 3.75
+corners_3w_over_8 1.80
+corners_3w_under_8 2.62
+corners_3w_over_10 3.25
+corners_3w_under_10 1.57
+Jonathan David_sot_over_0.5 1.33
+Jonathan David_sot_over_1.5 2.62
+Jonathan David_shots_over_1.5 1.36
+Jonathan David_shots_over_2.5 2.00
+Jonathan David_goals_over_0.5 2.62
+Jonathan David_score_or_assist 2.05
+Cyle Larin_sot_over_0.5 1.44
+Cyle Larin_shots_over_2.5 1.72
+Cyle Larin_shots_over_3.5 2.75
+Edin Dzeko_shots_over_1.5 1.40
+Edin Dzeko_shots_over_2.5 2.10
+Edin Dzeko_score_or_assist 2.87

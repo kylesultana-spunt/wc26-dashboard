@@ -1,0 +1,3362 @@
+event_id,comp,date,referee,yellows,reds,fouls
+633790,fifa.world,2022-11-20,Daniele Orsato,6.0,0.0,30.0
+633789,fifa.world,2022-11-21,Raphael Claus,2.0,0.0,23.0
+633788,fifa.world,2022-11-21,Wilton Pereira Sampaio,3.0,0.0,26.0
+633787,fifa.world,2022-11-21,Abdulrahman Al-Jassim,6.0,0.0,25.0
+633794,fifa.world,2022-11-22,Slavko Vincici,6.0,0.0,28.0
+633791,fifa.world,2022-11-22,César Arturo Ramos Palazuelos,3.0,0.0,19.0
+633793,fifa.world,2022-11-22,Chris Beath,3.0,0.0,29.0
+633792,fifa.world,2022-11-22,Victor Miguel De Freitas Gomes,3.0,0.0,16.0
+633795,fifa.world,2022-11-23,Fernando Rapallini,1.0,0.0,27.0
+633797,fifa.world,2022-11-23,Iván Arcides Barton Cisneros,0.0,0.0,20.0
+633798,fifa.world,2022-11-23,Mohammed Abulla Hassan Mohamed,2.0,0.0,20.0
+633796,fifa.world,2022-11-23,Janny Sikazwe,5.0,0.0,25.0
+633801,fifa.world,2022-11-24,Facundo Tello,3.0,0.0,22.0
+633799,fifa.world,2022-11-24,Clément Turpin,2.0,0.0,17.0
+633800,fifa.world,2022-11-24,Ismail Elfath,6.0,0.0,33.0
+633802,fifa.world,2022-11-24,Alireza Faghani,3.0,0.0,19.0
+633806,fifa.world,2022-11-25,Mario Escobar,3.0,1.0,19.0
+633803,fifa.world,2022-11-25,Antonio Miguel Mateu Lahoz,6.0,0.0,19.0
+633805,fifa.world,2022-11-25,Mustapha Ghorbal,1.0,0.0,27.0
+633804,fifa.world,2022-11-25,Jesús Valenzuela,0.0,0.0,24.0
+633808,fifa.world,2022-11-26,Daniel Siebert,3.0,0.0,31.0
+633809,fifa.world,2022-11-26,Wilton Pereira Sampaio,5.0,0.0,33.0
+633810,fifa.world,2022-11-26,Szymon Marciniak,3.0,0.0,13.0
+633807,fifa.world,2022-11-26,Daniele Orsato,5.0,0.0,34.0
+633813,fifa.world,2022-11-27,Michael Oliver,6.0,0.0,31.0
+633814,fifa.world,2022-11-27,César Arturo Ramos Palazuelos,2.0,0.0,24.0
+633811,fifa.world,2022-11-27,Andrés Matonte,4.0,0.0,18.0
+633812,fifa.world,2022-11-27,Danny Makkelie,4.0,0.0,24.0
+633816,fifa.world,2022-11-28,Mohammed Abulla Hassan Mohamed,4.0,0.0,21.0
+633818,fifa.world,2022-11-28,Anthony Taylor,4.0,0.0,22.0
+633815,fifa.world,2022-11-28,Iván Arcides Barton Cisneros,2.0,0.0,27.0
+633817,fifa.world,2022-11-28,Alireza Faghani,5.0,0.0,26.0
+633819,fifa.world,2022-11-29,Clément Turpin,1.0,0.0,34.0
+633821,fifa.world,2022-11-29,Bakary Gassama,1.0,0.0,28.0
+633822,fifa.world,2022-11-29,Antonio Miguel Mateu Lahoz,4.0,0.0,24.0
+633820,fifa.world,2022-11-29,Slavko Vincici,2.0,0.0,25.0
+633826,fifa.world,2022-11-30,Mustapha Ghorbal,3.0,0.0,21.0
+633825,fifa.world,2022-11-30,Matthew Conger,1.0,0.0,20.0
+633824,fifa.world,2022-11-30,Danny Makkelie,2.0,0.0,17.0
+633823,fifa.world,2022-11-30,Michael Oliver,7.0,0.0,38.0
+633829,fifa.world,2022-12-01,Raphael Claus,4.0,0.0,28.0
+633830,fifa.world,2022-12-01,Anthony Taylor,1.0,0.0,16.0
+633827,fifa.world,2022-12-01,Stephanie Frappart,1.0,0.0,12.0
+633828,fifa.world,2022-12-01,Victor Miguel De Freitas Gomes,3.0,0.0,15.0
+633834,fifa.world,2022-12-02,Daniel Siebert,7.0,0.0,29.0
+633832,fifa.world,2022-12-02,Facundo Tello,2.0,0.0,19.0
+633831,fifa.world,2022-12-02,Ismail Elfath,5.0,1.0,28.0
+633833,fifa.world,2022-12-02,Fernando Rapallini,11.0,0.0,32.0
+633835,fifa.world,2022-12-03,Wilton Pereira Sampaio,2.0,0.0,15.0
+633836,fifa.world,2022-12-03,Szymon Marciniak,2.0,0.0,23.0
+633837,fifa.world,2022-12-04,Jesús Valenzuela,3.0,0.0,18.0
+633838,fifa.world,2022-12-04,Iván Arcides Barton Cisneros,1.0,0.0,28.0
+633839,fifa.world,2022-12-05,Ismail Elfath,2.0,0.0,29.0
+633840,fifa.world,2022-12-05,Clément Turpin,1.0,0.0,21.0
+633841,fifa.world,2022-12-06,Fernando Rapallini,2.0,0.0,29.0
+633842,fifa.world,2022-12-06,César Arturo Ramos Palazuelos,2.0,0.0,22.0
+633843,fifa.world,2022-12-09,Michael Oliver,5.0,0.0,46.0
+633844,fifa.world,2022-12-09,Antonio Miguel Mateu Lahoz,14.0,1.0,48.0
+633845,fifa.world,2022-12-10,Facundo Tello,2.0,1.0,24.0
+633846,fifa.world,2022-12-10,Wilton Pereira Sampaio,4.0,0.0,24.0
+633847,fifa.world,2022-12-13,Daniele Orsato,4.0,0.0,23.0
+633848,fifa.world,2022-12-14,César Arturo Ramos Palazuelos,1.0,0.0,22.0
+633849,fifa.world,2022-12-17,Abdulrahman Al-Jassim,2.0,0.0,24.0
+633850,fifa.world,2022-12-18,Szymon Marciniak,8.0,0.0,45.0
+760415,fifa.world,2026-06-11,Wilton Pereira Sampaio,3.0,3.0,23.0
+760414,fifa.world,2026-06-12,Amin Omar,1.0,0.0,25.0
+622112,fifa.worldq.uefa,2022-06-01,Danny Makkelie,5.0,0.0,30.0
+633467,fifa.worldq.uefa,2022-06-05,Antonio Miguel Mateu Lahoz,4.0,0.0,14.0
+724923,fifa.worldq.uefa,2025-03-21,Andris Treimanis,2.0,0.0,31.0
+724925,fifa.worldq.uefa,2025-03-21,Giorgi Kruashvili,2.0,0.0,26.0
+724926,fifa.worldq.uefa,2025-03-21,Alejandro José Hernández Hernández,1.0,0.0,16.0
+724927,fifa.worldq.uefa,2025-03-21,Simone Sozza,1.0,1.0,21.0
+724924,fifa.worldq.uefa,2025-03-21,Anastasios Sidiropoulos ,2.0,0.0,32.0
+724928,fifa.worldq.uefa,2025-03-21,Danny Makkelie,8.0,0.0,39.0
+724929,fifa.worldq.uefa,2025-03-22,Mykola Balakin,4.0,0.0,19.0
+724930,fifa.worldq.uefa,2025-03-22,Matej Jug,2.0,0.0,19.0
+724931,fifa.worldq.uefa,2025-03-22,António Nobre,5.0,0.0,32.0
+724932,fifa.worldq.uefa,2025-03-22,Rade Obrenovic,4.0,0.0,21.0
+724933,fifa.worldq.uefa,2025-03-22,Nikola Dabanovic,3.0,1.0,21.0
+724934,fifa.worldq.uefa,2025-03-22,Donatas Rumsas,2.0,0.0,12.0
+724938,fifa.worldq.uefa,2025-03-24,Erik Lambrechts,5.0,0.0,32.0
+724935,fifa.worldq.uefa,2025-03-24,Sebastian Gishamer,2.0,0.0,23.0
+724936,fifa.worldq.uefa,2025-03-24,Rohit Saggi,3.0,1.0,30.0
+724937,fifa.worldq.uefa,2025-03-24,Orel Grinfeld,3.0,0.0,24.0
+724939,fifa.worldq.uefa,2025-03-24,Morten Krogh,5.0,1.0,28.0
+724940,fifa.worldq.uefa,2025-03-24,Damian Sylwestrzak,4.0,0.0,24.0
+724944,fifa.worldq.uefa,2025-03-25,Lawrence Visser,6.0,2.0,29.0
+724941,fifa.worldq.uefa,2025-03-25,Horatiu Fesnic,4.0,0.0,20.0
+724942,fifa.worldq.uefa,2025-03-25,Chris Kavanagh,3.0,0.0,16.0
+724943,fifa.worldq.uefa,2025-03-25,John Beaton,2.0,0.0,16.0
+724945,fifa.worldq.uefa,2025-03-25,Allard Lindhout,2.0,0.0,19.0
+724946,fifa.worldq.uefa,2025-03-25,Jerome Brisard,4.0,0.0,26.0
+724948,fifa.worldq.uefa,2025-06-06,Serdar Gözübüyük,4.0,0.0,33.0
+724947,fifa.worldq.uefa,2025-06-06,Willy Delajod,1.0,0.0,20.0
+724949,fifa.worldq.uefa,2025-06-06,Georgi Kabakov ,1.0,0.0,19.0
+724950,fifa.worldq.uefa,2025-06-06,Chris Kavanagh,7.0,0.0,24.0
+724951,fifa.worldq.uefa,2025-06-06,José María Sánchez Martínez,2.0,0.0,21.0
+724952,fifa.worldq.uefa,2025-06-06,Anastasios Papapetrou,3.0,0.0,17.0
+724953,fifa.worldq.uefa,2025-06-07,Luís Godinho,3.0,0.0,33.0
+724954,fifa.worldq.uefa,2025-06-07,Igor Pajac,0.0,0.0,21.0
+724955,fifa.worldq.uefa,2025-06-07,Marian Barbu,5.0,0.0,42.0
+724958,fifa.worldq.uefa,2025-06-07,Davide Massa,3.0,0.0,22.0
+724957,fifa.worldq.uefa,2025-06-07,Maurizio Mariani,2.0,0.0,21.0
+724956,fifa.worldq.uefa,2025-06-07,Daniel Siebert,3.0,0.0,18.0
+724959,fifa.worldq.uefa,2025-06-09,Filip Glova,4.0,0.0,32.0
+724961,fifa.worldq.uefa,2025-06-09,Irfan Peljto,6.0,0.0,22.0
+724964,fifa.worldq.uefa,2025-06-09,Jesús Gil Manzano,2.0,0.0,14.0
+724960,fifa.worldq.uefa,2025-06-09,Srdjan Jovanovic,2.0,0.0,16.0
+724963,fifa.worldq.uefa,2025-06-09,Yigal Frid,2.0,0.0,19.0
+724962,fifa.worldq.uefa,2025-06-09,Urs Schnyder,2.0,0.0,20.0
+724965,fifa.worldq.uefa,2025-06-10,João Pinheiro,3.0,0.0,20.0
+724966,fifa.worldq.uefa,2025-06-10,Halil Meler,3.0,0.0,24.0
+724970,fifa.worldq.uefa,2025-06-10,Ricardo de Burgos Bengoetxea,3.0,0.0,27.0
+724967,fifa.worldq.uefa,2025-06-10,Donatas Rumsas,3.0,0.0,21.0
+724968,fifa.worldq.uefa,2025-06-10,Ondrej Berka,3.0,0.0,31.0
+724969,fifa.worldq.uefa,2025-06-10,Aliyar Aghayev,3.0,0.0,23.0
+724971,fifa.worldq.uefa,2025-09-04,Alejandro José Hernández Hernández,2.0,0.0,25.0
+724972,fifa.worldq.uefa,2025-09-04,Davide Massa,7.0,1.0,27.0
+724975,fifa.worldq.uefa,2025-09-04,Giorgi Kruashvili,9.0,2.0,35.0
+724973,fifa.worldq.uefa,2025-09-04,Srdjan Jovanovic,1.0,0.0,23.0
+724974,fifa.worldq.uefa,2025-09-04,Morten Krogh,2.0,0.0,23.0
+724976,fifa.worldq.uefa,2025-09-04,Andris Treimanis,3.0,1.0,21.0
+724978,fifa.worldq.uefa,2025-09-04,Simone Sozza,0.0,0.0,22.0
+724977,fifa.worldq.uefa,2025-09-04,Serdar Gözübüyük,3.0,0.0,30.0
+724985,fifa.worldq.uefa,2025-09-05,Daniel Siebert,8.0,0.0,27.0
+724979,fifa.worldq.uefa,2025-09-05,Kristo  Tohver ,3.0,0.0,20.0
+724980,fifa.worldq.uefa,2025-09-05,Jarred Gillett,3.0,0.0,19.0
+724981,fifa.worldq.uefa,2025-09-05,Sander Van Der Eijk,3.0,0.0,24.0
+724982,fifa.worldq.uefa,2025-09-05,João Pinheiro,4.0,0.0,23.0
+724986,fifa.worldq.uefa,2025-09-05,John Beaton,2.0,0.0,15.0
+724987,fifa.worldq.uefa,2025-09-05,Marco Guida,5.0,0.0,29.0
+724988,fifa.worldq.uefa,2025-09-05,José María Sánchez Martínez,4.0,0.0,40.0
+724983,fifa.worldq.uefa,2025-09-05,Szymon Marciniak,2.0,0.0,21.0
+724984,fifa.worldq.uefa,2025-09-05,Danny Makkelie,0.0,0.0,18.0
+724989,fifa.worldq.uefa,2025-09-06,Julian Weinberger,2.0,0.0,22.0
+724990,fifa.worldq.uefa,2025-09-06,Anthony Taylor,1.0,0.0,17.0
+724991,fifa.worldq.uefa,2025-09-06,Mohammed Al Emara,2.0,0.0,18.0
+724992,fifa.worldq.uefa,2025-09-06,Jakob Kehlet,5.0,0.0,20.0
+724993,fifa.worldq.uefa,2025-09-06,Harm Osmers,8.0,1.0,27.0
+724994,fifa.worldq.uefa,2025-09-06,Enea Jorgji,4.0,1.0,37.0
+724996,fifa.worldq.uefa,2025-09-07,Glenn Nyberg,6.0,0.0,21.0
+724995,fifa.worldq.uefa,2025-09-07,Elchin Masiyev,2.0,0.0,23.0
+724997,fifa.worldq.uefa,2025-09-07,Horatiu Fesnic,3.0,0.0,26.0
+724998,fifa.worldq.uefa,2025-09-07,Radu Petrescu,2.0,0.0,16.0
+725001,fifa.worldq.uefa,2025-09-07,Espen Eskas,5.0,0.0,22.0
+724999,fifa.worldq.uefa,2025-09-07,Nick Walsh,6.0,0.0,28.0
+725000,fifa.worldq.uefa,2025-09-07,Rade Obrenovic,1.0,0.0,22.0
+725002,fifa.worldq.uefa,2025-09-07,Michael Oliver,0.0,0.0,15.0
+725003,fifa.worldq.uefa,2025-09-08,Nikola Dabanovic,3.0,0.0,24.0
+725010,fifa.worldq.uefa,2025-09-08,Felix Zwayer,2.0,1.0,16.0
+725004,fifa.worldq.uefa,2025-09-08,Mohammed Al-Hakim,4.0,0.0,24.0
+725005,fifa.worldq.uefa,2025-09-08,Donatas Rumsas,2.0,0.0,28.0
+725006,fifa.worldq.uefa,2025-09-08,Slavko Vincici,0.0,0.0,27.0
+725007,fifa.worldq.uefa,2025-09-08,Allard Lindhout,7.0,1.0,25.0
+725009,fifa.worldq.uefa,2025-09-08,Francois Letexier,2.0,0.0,25.0
+725011,fifa.worldq.uefa,2025-09-09,Goga Kikacheishvili,2.0,0.0,22.0
+725012,fifa.worldq.uefa,2025-09-09,Vasilis Fotias,6.0,0.0,21.0
+725013,fifa.worldq.uefa,2025-09-09,Damian Sylwestrzak,3.0,0.0,21.0
+725014,fifa.worldq.uefa,2025-09-09,Jesús Gil Manzano,5.0,1.0,37.0
+725015,fifa.worldq.uefa,2025-09-09,Matej Jug,5.0,0.0,28.0
+725018,fifa.worldq.uefa,2025-09-09,António Nobre,5.0,1.0,25.0
+725016,fifa.worldq.uefa,2025-09-09,Erik Lambrechts,3.0,0.0,15.0
+725008,fifa.worldq.uefa,2025-09-09,Balazs Berke,1.0,0.0,16.0
+725017,fifa.worldq.uefa,2025-09-09,Clément Turpin,2.0,1.0,21.0
+724832,fifa.worldq.uefa,2025-10-09,Stephanie Frappart,3.0,0.0,34.0
+725019,fifa.worldq.uefa,2025-10-09,Yigal Frid,4.0,0.0,23.0
+725020,fifa.worldq.uefa,2025-10-09,Filip Glova,3.0,0.0,19.0
+725021,fifa.worldq.uefa,2025-10-09,Lawrence Visser,6.0,0.0,35.0
+725022,fifa.worldq.uefa,2025-10-09,Francois Letexier,2.0,0.0,25.0
+724831,fifa.worldq.uefa,2025-10-09,Javier Alberola Rojas,2.0,0.0,27.0
+724833,fifa.worldq.uefa,2025-10-09,Duje Strukan,7.0,0.0,21.0
+724834,fifa.worldq.uefa,2025-10-09,Espen Eskas,6.0,0.0,31.0
+724835,fifa.worldq.uefa,2025-10-10,Pawel Raczkowski,4.0,0.0,27.0
+724838,fifa.worldq.uefa,2025-10-10,Halil Meler,5.0,0.0,23.0
+724842,fifa.worldq.uefa,2025-10-10,Rohit Saggi,3.0,0.0,22.0
+724839,fifa.worldq.uefa,2025-10-10,Nenad Minakovic,1.0,1.0,15.0
+724836,fifa.worldq.uefa,2025-10-10,Sven Jablonski,5.0,0.0,24.0
+724840,fifa.worldq.uefa,2025-10-10,Marco Guida,4.0,0.0,22.0
+724841,fifa.worldq.uefa,2025-10-10,Glenn Nyberg,2.0,0.0,26.0
+724837,fifa.worldq.uefa,2025-10-10,Anthony Taylor,2.0,0.0,23.0
+724843,fifa.worldq.uefa,2025-10-11,Georgi Kabakov ,2.0,1.0,20.0
+724845,fifa.worldq.uefa,2025-10-11,Chris Kavanagh,1.0,0.0,19.0
+724844,fifa.worldq.uefa,2025-10-11,Szymon Marciniak,1.0,0.0,21.0
+724847,fifa.worldq.uefa,2025-10-11,Luís Godinho,3.0,0.0,15.0
+724846,fifa.worldq.uefa,2025-10-11,Serdar Gözübüyük,7.0,0.0,31.0
+724849,fifa.worldq.uefa,2025-10-11,Ivan Kruzliak,7.0,0.0,15.0
+724848,fifa.worldq.uefa,2025-10-11,Istvan Kovacs,5.0,0.0,33.0
+724850,fifa.worldq.uefa,2025-10-11,Manfredas Lukjancukas,1.0,0.0,20.0
+724851,fifa.worldq.uefa,2025-10-12,Aliyar Aghayev,5.0,0.0,28.0
+724852,fifa.worldq.uefa,2025-10-12,Andrea Colombo,4.0,0.0,23.0
+724854,fifa.worldq.uefa,2025-10-12,Slavko Vincici,2.0,0.0,21.0
+724853,fifa.worldq.uefa,2025-10-12,Marian Barbu,2.0,0.0,24.0
+724856,fifa.worldq.uefa,2025-10-12,Oleksiy Derevinskyi,0.0,0.0,14.0
+724855,fifa.worldq.uefa,2025-10-12,Michael Oliver,4.0,0.0,26.0
+724858,fifa.worldq.uefa,2025-10-12,Ondrej Berka,4.0,0.0,34.0
+724857,fifa.worldq.uefa,2025-10-12,Davide Massa,6.0,0.0,27.0
+724866,fifa.worldq.uefa,2025-10-13,Orel Grinfeld,2.0,0.0,28.0
+724860,fifa.worldq.uefa,2025-10-13,Juan Martínez Munuera,6.0,0.0,28.0
+724861,fifa.worldq.uefa,2025-10-13,Jesús Gil Manzano,6.0,0.0,32.0
+724862,fifa.worldq.uefa,2025-10-13,Rade Obrenovic,5.0,0.0,35.0
+724863,fifa.worldq.uefa,2025-10-13,Felix Zwayer,1.0,0.0,15.0
+724864,fifa.worldq.uefa,2025-10-13,Danny Makkelie,2.0,0.0,26.0
+724865,fifa.worldq.uefa,2025-10-13,Sebastian Gishamer,4.0,0.0,19.0
+724859,fifa.worldq.uefa,2025-10-13,Daniel Siebert,3.0,0.0,16.0
+724872,fifa.worldq.uefa,2025-10-14,Igor Pajac,5.0,0.0,26.0
+724873,fifa.worldq.uefa,2025-10-14,Anastasios Papapetrou,5.0,0.0,24.0
+724868,fifa.worldq.uefa,2025-10-14,Clément Turpin,3.0,0.0,22.0
+724871,fifa.worldq.uefa,2025-10-14,Anastasios Sidiropoulos ,5.0,0.0,16.0
+724867,fifa.worldq.uefa,2025-10-14,Srdjan Jovanovic,4.0,0.0,19.0
+724870,fifa.worldq.uefa,2025-10-14,Benoit Bastien,4.0,1.0,18.0
+724869,fifa.worldq.uefa,2025-10-14,Willy Delajod,0.0,0.0,13.0
+724874,fifa.worldq.uefa,2025-10-14,Radu Petrescu,2.0,0.0,30.0
+724876,fifa.worldq.uefa,2025-11-13,José María Sánchez Martínez,2.0,0.0,28.0
+724877,fifa.worldq.uefa,2025-11-13,Nikola Dabanovic,6.0,0.0,26.0
+724875,fifa.worldq.uefa,2025-11-13,Matej Jug,0.0,0.0,26.0
+724880,fifa.worldq.uefa,2025-11-13,Horatiu Fesnic,5.0,0.0,25.0
+724879,fifa.worldq.uefa,2025-11-13,Ivan Kruzliak,1.0,0.0,23.0
+724881,fifa.worldq.uefa,2025-11-13,Slavko Vincici,3.0,0.0,19.0
+724878,fifa.worldq.uefa,2025-11-13,Mykola Balakin,3.0,0.0,21.0
+724882,fifa.worldq.uefa,2025-11-13,Glenn Nyberg,5.0,1.0,11.0
+724883,fifa.worldq.uefa,2025-11-14,Julian Weinberger,0.0,0.0,24.0
+724887,fifa.worldq.uefa,2025-11-14,Aliyar Aghayev,2.0,0.0,20.0
+724884,fifa.worldq.uefa,2025-11-14,Anastasios Papapetrou,3.0,0.0,28.0
+724885,fifa.worldq.uefa,2025-11-14,John Brooks,5.0,0.0,21.0
+724886,fifa.worldq.uefa,2025-11-14,Maurizio Mariani,3.0,0.0,24.0
+724888,fifa.worldq.uefa,2025-11-14,Istvan Kovacs,3.0,1.0,34.0
+724889,fifa.worldq.uefa,2025-11-15,Donatas Rumsas,5.0,1.0,22.0
+724891,fifa.worldq.uefa,2025-11-15,Urs Schnyder,2.0,0.0,28.0
+724890,fifa.worldq.uefa,2025-11-15,Benoit Bastien,1.0,0.0,18.0
+724893,fifa.worldq.uefa,2025-11-15,Juxhin Xhaja,5.0,0.0,14.0
+724892,fifa.worldq.uefa,2025-11-15,Nick Walsh,4.0,0.0,23.0
+724895,fifa.worldq.uefa,2025-11-15,Michael Oliver,7.0,1.0,31.0
+724896,fifa.worldq.uefa,2025-11-15,Sven Jablonski,5.0,0.0,19.0
+724898,fifa.worldq.uefa,2025-11-15,Jesús Gil Manzano,3.0,1.0,23.0
+724894,fifa.worldq.uefa,2025-11-15,Clément Turpin,2.0,1.0,20.0
+724897,fifa.worldq.uefa,2025-11-15,Erik Lambrechts,5.0,0.0,31.0
+724899,fifa.worldq.uefa,2025-11-16,Espen Eskas,6.0,0.0,27.0
+724900,fifa.worldq.uefa,2025-11-16,Irfan Peljto,1.0,0.0,17.0
+724902,fifa.worldq.uefa,2025-11-16,Marco Guida,3.0,0.0,19.0
+724901,fifa.worldq.uefa,2025-11-16,Andris Treimanis,2.0,0.0,22.0
+724903,fifa.worldq.uefa,2025-11-16,Ricardo de Burgos Bengoetxea,2.0,0.0,25.0
+724904,fifa.worldq.uefa,2025-11-16,Anthony Taylor,3.0,0.0,18.0
+724905,fifa.worldq.uefa,2025-11-16,Allard Lindhout,4.0,1.0,21.0
+724906,fifa.worldq.uefa,2025-11-16,Alejandro José Hernández Hernández,5.0,0.0,23.0
+724909,fifa.worldq.uefa,2025-11-17,Sascha Stegemann,1.0,0.0,18.0
+724911,fifa.worldq.uefa,2025-11-17,Francois Letexier,1.0,0.0,14.0
+724908,fifa.worldq.uefa,2025-11-17,Igor Pajac,4.0,0.0,13.0
+724907,fifa.worldq.uefa,2025-11-17,Halil Meler,4.0,0.0,33.0
+724912,fifa.worldq.uefa,2025-11-17,Luís Godinho,2.0,0.0,20.0
+724910,fifa.worldq.uefa,2025-11-17,Kristo  Tohver ,10.0,0.0,29.0
+724913,fifa.worldq.uefa,2025-11-18,João Pinheiro,3.0,0.0,17.0
+724914,fifa.worldq.uefa,2025-11-18,Damian Sylwestrzak,2.0,0.0,29.0
+724915,fifa.worldq.uefa,2025-11-18,Mohammed Al-Hakim,1.0,0.0,19.0
+724916,fifa.worldq.uefa,2025-11-18,Jakob Kehlet,3.0,0.0,16.0
+724922,fifa.worldq.uefa,2025-11-18,Davide Massa,2.0,0.0,18.0
+724920,fifa.worldq.uefa,2025-11-18,Mohammed Al Emara,4.0,0.0,25.0
+724921,fifa.worldq.uefa,2025-11-18,Szymon Marciniak,2.0,1.0,27.0
+724917,fifa.worldq.uefa,2025-11-18,Felix Zwayer,6.0,0.0,13.0
+724919,fifa.worldq.uefa,2025-11-18,Maurizio Mariani,3.0,0.0,17.0
+724918,fifa.worldq.uefa,2025-11-18,Danny Makkelie,3.0,0.0,18.0
+761383,fifa.worldq.uefa,2026-03-26,Francois Letexier,3.0,0.0,19.0
+761378,fifa.worldq.uefa,2026-03-26,Glenn Nyberg,3.0,0.0,39.0
+761379,fifa.worldq.uefa,2026-03-26,Felix Zwayer,2.0,0.0,18.0
+761380,fifa.worldq.uefa,2026-03-26,Danny Makkelie,1.0,0.0,19.0
+761385,fifa.worldq.uefa,2026-03-26,Anthony Taylor,5.0,0.0,32.0
+761382,fifa.worldq.uefa,2026-03-26,Espen Eskas,5.0,0.0,30.0
+761384,fifa.worldq.uefa,2026-03-26,João Pinheiro,3.0,0.0,22.0
+761381,fifa.worldq.uefa,2026-03-26,Istvan Kovacs,5.0,0.0,28.0
+761952,fifa.worldq.uefa,2026-03-31,Clément Turpin,5.0,1.0,27.0
+761955,fifa.worldq.uefa,2026-03-31,Maurizio Mariani,3.0,0.0,31.0
+761953,fifa.worldq.uefa,2026-03-31,Michael Oliver,8.0,0.0,22.0
+761954,fifa.worldq.uefa,2026-03-31,Slavko Vincici,5.0,0.0,30.0
+684580,fifa.worldq.conmebol,2023-09-07,Andrés Matonte,,,
+684581,fifa.worldq.conmebol,2023-09-07,"Daronco, Anderson",,,
+684579,fifa.worldq.conmebol,2023-09-08,Wilmer Roldán,,,
+684582,fifa.worldq.conmebol,2023-09-08,Dario Herrera,,,
+684578,fifa.worldq.conmebol,2023-09-09,Juan Gabriel Benítez,,,
+684583,fifa.worldq.conmebol,2023-09-12,Esteban Ostojich,,,
+684585,fifa.worldq.conmebol,2023-09-12,Wilton Pereira Sampaio,,,
+684587,fifa.worldq.conmebol,2023-09-12,Andrés Rojas,,,
+684584,fifa.worldq.conmebol,2023-09-13,Jesús Valenzuela,,,
+684586,fifa.worldq.conmebol,2023-09-13,Fernando Rapallini,,,
+684592,fifa.worldq.conmebol,2023-10-12,Piero Maza,,,
+684588,fifa.worldq.conmebol,2023-10-12,Raphael Claus,,,
+684589,fifa.worldq.conmebol,2023-10-12,Cristián Garay,,,
+684591,fifa.worldq.conmebol,2023-10-13,Wilmer Roldán,,,
+684590,fifa.worldq.conmebol,2023-10-13,Kevin Paolo Ortega,,,
+684597,fifa.worldq.conmebol,2023-10-17,Flavio Rodrigues de Souza,,,
+684594,fifa.worldq.conmebol,2023-10-17,Gustavo Tejera,,,
+684593,fifa.worldq.conmebol,2023-10-17,Facundo Tello,,,
+684596,fifa.worldq.conmebol,2023-10-18,Alexis Herrera,,,
+684595,fifa.worldq.conmebol,2023-10-18,Jesús Valenzuela,,,
+684599,fifa.worldq.conmebol,2023-11-16,Guillermo Guerrero,,,
+684602,fifa.worldq.conmebol,2023-11-16,Juan Gabriel Benítez,,,
+684598,fifa.worldq.conmebol,2023-11-17,Wilmer Roldán,,,
+684601,fifa.worldq.conmebol,2023-11-17,Andrés Matonte,,,
+684600,fifa.worldq.conmebol,2023-11-17,Fernando Rapallini,,,
+684605,fifa.worldq.conmebol,2023-11-21,Jesús Valenzuela,,,
+684604,fifa.worldq.conmebol,2023-11-21,"Daronco, Anderson",,,
+684607,fifa.worldq.conmebol,2023-11-21,Kevin Paolo Ortega,,,
+684603,fifa.worldq.conmebol,2023-11-22,Piero Maza,,,
+684606,fifa.worldq.conmebol,2023-11-22,Dario Herrera,,,
+684609,fifa.worldq.conmebol,2024-09-05,Wilmer Roldán,,,
+684608,fifa.worldq.conmebol,2024-09-06,Jesús Valenzuela,,,
+684612,fifa.worldq.conmebol,2024-09-06,Dario Herrera,,,
+684610,fifa.worldq.conmebol,2024-09-07,Facundo Tello,,,
+684611,fifa.worldq.conmebol,2024-09-07,Esteban Ostojich,,,
+684614,fifa.worldq.conmebol,2024-09-10,Piero Maza,,,
+684613,fifa.worldq.conmebol,2024-09-10,Juan Gabriel Benítez,,,
+684615,fifa.worldq.conmebol,2024-09-10,Andrés Rojas,,,
+684617,fifa.worldq.conmebol,2024-09-10,Raphael Claus,,,
+684616,fifa.worldq.conmebol,2024-09-11,Andrés Matonte,,,
+684618,fifa.worldq.conmebol,2024-10-10,Wilton Pereira Sampaio,,,
+684620,fifa.worldq.conmebol,2024-10-10,Raphael Claus,,,
+684622,fifa.worldq.conmebol,2024-10-10,Gustavo Tejera,,,
+684619,fifa.worldq.conmebol,2024-10-11,Dario Herrera,,,
+684621,fifa.worldq.conmebol,2024-10-12,Facundo Tello,,,
+684625,fifa.worldq.conmebol,2024-10-15,Jesús Valenzuela,,,
+684626,fifa.worldq.conmebol,2024-10-15,Piero Maza,,,
+684627,fifa.worldq.conmebol,2024-10-15,Cristián Garay,,,
+684623,fifa.worldq.conmebol,2024-10-16,Kevin Paolo Ortega,,,
+684624,fifa.worldq.conmebol,2024-10-16,Esteban Ostojich,,,
+684632,fifa.worldq.conmebol,2024-11-14,Andrés Rojas,,,
+684628,fifa.worldq.conmebol,2024-11-14,"Daronco, Anderson",,,
+684629,fifa.worldq.conmebol,2024-11-15,Maximiliano Ramírez,,,
+684630,fifa.worldq.conmebol,2024-11-16,Kevin Paolo Ortega,,,
+684631,fifa.worldq.conmebol,2024-11-16,Wilton Pereira Sampaio,,,
+684634,fifa.worldq.conmebol,2024-11-19,Andrés Matonte,,,
+684637,fifa.worldq.conmebol,2024-11-19,Esteban Ostojich,,,
+684633,fifa.worldq.conmebol,2024-11-20,Wilmer Roldán,,,
+684636,fifa.worldq.conmebol,2024-11-20,Facundo Tello,,,
+684635,fifa.worldq.conmebol,2024-11-20,Piero Maza,,,
+684640,fifa.worldq.conmebol,2025-03-20,Raphael Claus,,,
+684638,fifa.worldq.conmebol,2025-03-21,Alexis Herrera,,,
+684641,fifa.worldq.conmebol,2025-03-21,Yael Falcón Pérez,,,
+684639,fifa.worldq.conmebol,2025-03-21,Ramon Abatti Abel,,,
+684642,fifa.worldq.conmebol,2025-03-21,Juan Gabriel Benítez,,,
+684644,fifa.worldq.conmebol,2025-03-25,Augusto Aragón,,,
+684643,fifa.worldq.conmebol,2025-03-26,Andrés Rojas,,,
+684645,fifa.worldq.conmebol,2025-03-26,Gustavo Tejera,,,
+684646,fifa.worldq.conmebol,2025-03-26,Facundo Tello,,,
+684647,fifa.worldq.conmebol,2025-03-26,Cristián Garay,,,
+684650,fifa.worldq.conmebol,2025-06-05,Piero Maza,,,
+684651,fifa.worldq.conmebol,2025-06-05,Dario Herrera,,,
+684648,fifa.worldq.conmebol,2025-06-06,Jesús Valenzuela,,,
+684649,fifa.worldq.conmebol,2025-06-06,Wilton Pereira Sampaio,,,
+684652,fifa.worldq.conmebol,2025-06-06,Yael Falcón Pérez,,,
+684654,fifa.worldq.conmebol,2025-06-10,Esteban Ostojich,,,
+684657,fifa.worldq.conmebol,2025-06-10,Raphael Claus,,,
+684653,fifa.worldq.conmebol,2025-06-11,Juan Gabriel Benítez,,,
+684655,fifa.worldq.conmebol,2025-06-11,Facundo Tello,,,
+684656,fifa.worldq.conmebol,2025-06-11,Andrés Rojas,,,
+684658,fifa.worldq.conmebol,2025-09-04,Piero Maza,,,
+684660,fifa.worldq.conmebol,2025-09-04,Dario Herrera,,,
+684661,fifa.worldq.conmebol,2025-09-04,Raphael Claus,,,
+684662,fifa.worldq.conmebol,2025-09-04,Facundo Tello,,,
+684659,fifa.worldq.conmebol,2025-09-05,Alexis Herrera,,,
+684665,fifa.worldq.conmebol,2025-09-09,Wilmer Roldán,5.0,2.0,23.0
+684663,fifa.worldq.conmebol,2025-09-09,Cristián Garay,2.0,0.0,27.0
+684664,fifa.worldq.conmebol,2025-09-09,"Daronco, Anderson",2.0,0.0,22.0
+684666,fifa.worldq.conmebol,2025-09-09,Maximiliano Ramírez,1.0,0.0,18.0
+684667,fifa.worldq.conmebol,2025-09-09,Wilton Pereira Sampaio,1.0,0.0,30.0
+696958,fifa.worldq.concacaf,2024-03-22,Natalie Simon,,,
+696959,fifa.worldq.concacaf,2024-03-22,Katia Itzel García,,,
+696960,fifa.worldq.concacaf,2024-03-26,Ken Pennyfeather,,,
+696961,fifa.worldq.concacaf,2024-03-26,Reginald Gumbs,,,
+698144,fifa.worldq.concacaf,2024-06-05,Adonis Carrasco,,,
+698139,fifa.worldq.concacaf,2024-06-05,Joseph Dickerson,,,
+698142,fifa.worldq.concacaf,2024-06-05,Iván Arcides Barton Cisneros,,,
+698143,fifa.worldq.concacaf,2024-06-05,Mario Escobar,,,
+698141,fifa.worldq.concacaf,2024-06-06,Víctor Alfonso Cáceres Hernández,,,
+698140,fifa.worldq.concacaf,2024-06-06,Tori Penso,,,
+698150,fifa.worldq.concacaf,2024-06-06,Drew Fischer,,,
+698145,fifa.worldq.concacaf,2024-06-06,Ismail Elfath,,,
+698148,fifa.worldq.concacaf,2024-06-07,Juan Calderón,,,
+698149,fifa.worldq.concacaf,2024-06-07,Filiberto Martinez,,,
+698147,fifa.worldq.concacaf,2024-06-07,Julio Luna,,,
+698146,fifa.worldq.concacaf,2024-06-07,Said Martinez,,,
+698155,fifa.worldq.concacaf,2024-06-08,Kwinsi Williams,,,
+698156,fifa.worldq.concacaf,2024-06-08,Hakeem Harvey,,,
+698152,fifa.worldq.concacaf,2024-06-08,Marco Antonio Ortiz Nava,,,
+698151,fifa.worldq.concacaf,2024-06-09,César Arturo Ramos Palazuelos,,,
+698153,fifa.worldq.concacaf,2024-06-09,Bryan López,,,
+698154,fifa.worldq.concacaf,2024-06-09,Pierre-Luc Lauziere,,,
+698159,fifa.worldq.concacaf,2024-06-09,Fernando Guerrero Ramírez,,,
+698162,fifa.worldq.concacaf,2024-06-09,Shavin Greene,,,
+698157,fifa.worldq.concacaf,2024-06-09,Keylor Herrera Villalobos,,,
+698161,fifa.worldq.concacaf,2024-06-09,Steffon Dewar,,,
+698158,fifa.worldq.concacaf,2024-06-09,Karen Hernández Andrade,,,
+698160,fifa.worldq.concacaf,2024-06-10,Ismael Cornejo,,,
+698168,fifa.worldq.concacaf,2024-06-11,Selvin Brown,,,
+698165,fifa.worldq.concacaf,2024-06-11,Fernando Javier Moron Valdelamar,,,
+698167,fifa.worldq.concacaf,2024-06-11,Walter Lopez,,,
+698163,fifa.worldq.concacaf,2024-06-11,Reon Radix,,,
+698164,fifa.worldq.concacaf,2024-06-12,Adonai Gonzalez,,,
+698166,fifa.worldq.concacaf,2024-06-12,Oshane Nation,,,
+698171,fifa.worldq.concacaf,2025-06-04,Karen Hernández Andrade,,,
+698170,fifa.worldq.concacaf,2025-06-04,Andrew Samuel,,,
+698173,fifa.worldq.concacaf,2025-06-04,Kimbell Ward,,,
+698169,fifa.worldq.concacaf,2025-06-04,Rubiel Vazquez,,,
+698172,fifa.worldq.concacaf,2025-06-04,Shavin Greene,,,
+698174,fifa.worldq.concacaf,2025-06-04,Steffon Dewar,,,
+698175,fifa.worldq.concacaf,2025-06-06,Kwinsi Williams,,,
+698179,fifa.worldq.concacaf,2025-06-06,Nelson Salgado,,,
+698176,fifa.worldq.concacaf,2025-06-06,Jose Raul Torres,,,
+698180,fifa.worldq.concacaf,2025-06-06,Natalie Simon,,,
+698177,fifa.worldq.concacaf,2025-06-07,Guido Gonzales Jr.,,,
+698178,fifa.worldq.concacaf,2025-06-07,Ekaterina Koroleva,,,
+698184,fifa.worldq.concacaf,2025-06-07,Filip Dujic,,,
+698185,fifa.worldq.concacaf,2025-06-07,Bryan López,,,
+698186,fifa.worldq.concacaf,2025-06-07,Adonis Carrasco,,,
+698182,fifa.worldq.concacaf,2025-06-07,Luis Enrique Santander Aguirre,,,
+698181,fifa.worldq.concacaf,2025-06-07,Reon Radix,,,
+698183,fifa.worldq.concacaf,2025-06-08,Julio Luna,,,
+698192,fifa.worldq.concacaf,2025-06-10,Cristhofer Corado,,,
+698188,fifa.worldq.concacaf,2025-06-10,Oliver Vergara,,,
+698198,fifa.worldq.concacaf,2025-06-10,Steven Madrigal,,,
+698196,fifa.worldq.concacaf,2025-06-10,Sergio Reyna,,,
+698189,fifa.worldq.concacaf,2025-06-10,Marianela Araya,,,
+698194,fifa.worldq.concacaf,2025-06-10,David Gómez,,,
+698191,fifa.worldq.concacaf,2025-06-11,Ricangel De Leca,,,
+698197,fifa.worldq.concacaf,2025-06-11,Ismael Rosario Lopez Penuelas,,,
+698187,fifa.worldq.concacaf,2025-06-11,Daniel Quintero Huitrón,,,
+698190,fifa.worldq.concacaf,2025-06-11,Jon Freemon,,,
+698195,fifa.worldq.concacaf,2025-06-11,Randy Encarnación Solano,,,
+698193,fifa.worldq.concacaf,2025-06-11,José Waldir García Meléndez,,,
+754236,fifa.worldq.concacaf,2025-09-04,Kwinsi Williams,,,
+754237,fifa.worldq.concacaf,2025-09-05,Juan Calderón,,,
+754238,fifa.worldq.concacaf,2025-09-05,Keylor Herrera Villalobos,,,
+754239,fifa.worldq.concacaf,2025-09-06,Pierre-Luc Lauziere,,,
+754240,fifa.worldq.concacaf,2025-09-06,Katia Itzel García,,,
+754241,fifa.worldq.concacaf,2025-09-06,Marco Antonio Ortiz Nava,,,
+754242,fifa.worldq.concacaf,2025-09-09,Adonai Gonzalez,,,
+754243,fifa.worldq.concacaf,2025-09-09,"Martínez, Héctor",,,
+754245,fifa.worldq.concacaf,2025-09-10,Adonis Carrasco,,,
+754244,fifa.worldq.concacaf,2025-09-10,Mario Escobar,,,
+754246,fifa.worldq.concacaf,2025-09-10,Tori Penso,,,
+754247,fifa.worldq.concacaf,2025-09-10,Armando Villarreal,,,
+754248,fifa.worldq.concacaf,2025-10-10,Víctor Alfonso Cáceres Hernández,,,
+754249,fifa.worldq.concacaf,2025-10-10,Walter Lopez,,,
+754253,fifa.worldq.concacaf,2025-10-10,Fernando Gomez,,,
+754250,fifa.worldq.concacaf,2025-10-10,Julio Luna,,,
+754251,fifa.worldq.concacaf,2025-10-10,Bryan López,,,
+754252,fifa.worldq.concacaf,2025-10-11,Drew Fischer,,,
+754255,fifa.worldq.concacaf,2025-10-14,Oshane Nation,,,
+754254,fifa.worldq.concacaf,2025-10-14,Ismael Cornejo,,,
+754256,fifa.worldq.concacaf,2025-10-14,César Arturo Ramos Palazuelos,,,
+754258,fifa.worldq.concacaf,2025-10-15,Reon Radix,,,
+754257,fifa.worldq.concacaf,2025-10-15,Selvin Brown,,,
+754259,fifa.worldq.concacaf,2025-10-15,Pierre-Luc Lauziere,,,
+754260,fifa.worldq.concacaf,2025-11-13,Oshane Nation,,,
+754265,fifa.worldq.concacaf,2025-11-14,Tori Penso,,,
+754264,fifa.worldq.concacaf,2025-11-14,Walter Lopez,,,
+754263,fifa.worldq.concacaf,2025-11-14,César Arturo Ramos Palazuelos,,,
+754262,fifa.worldq.concacaf,2025-11-14,Joseph Dickerson,,,
+754261,fifa.worldq.concacaf,2025-11-14,Ismail Elfath,,,
+754270,fifa.worldq.concacaf,2025-11-19,Drew Fischer,,,
+754269,fifa.worldq.concacaf,2025-11-19,Juan Calderón,,,
+754268,fifa.worldq.concacaf,2025-11-19,Mario Escobar,,,
+754267,fifa.worldq.concacaf,2025-11-19,Iván Arcides Barton Cisneros,,,
+754266,fifa.worldq.concacaf,2025-11-19,"Martínez, Héctor",,,
+754271,fifa.worldq.concacaf,2025-11-19,Jose Raul Torres,,,
+633771,fifa.worldq.afc,2022-06-07,Ilgiz Tantashev,,,
+684561,fifa.worldq.afc,2023-10-12,Pranjal Banerjee,,,
+684565,fifa.worldq.afc,2023-10-12,Ismaeel Habib Ali,,,
+684562,fifa.worldq.afc,2023-10-12,Vahid Kazemi,,,
+684559,fifa.worldq.afc,2023-10-12,Mohammad Mofeed Naser Ghabayen,,,
+684560,fifa.worldq.afc,2023-10-12,Nivon Robesh Gamini,,,
+684566,fifa.worldq.afc,2023-10-12,Baraa Kamal Abu Asheh,,,
+684564,fifa.worldq.afc,2023-10-12,Razlan Joffri Ali,,,
+684558,fifa.worldq.afc,2023-10-12,Bijan Heidari,,,
+684567,fifa.worldq.afc,2023-10-12,Kassem Matar Al-Hatmi,,,
+684563,fifa.worldq.afc,2023-10-12,Nasrullo Kabirov,,,
+684571,fifa.worldq.afc,2023-10-17,Hsin-Chuan Chen,,,
+684574,fifa.worldq.afc,2023-10-17,Hasan Akrami,,,
+684575,fifa.worldq.afc,2023-10-17,Feras Taweel,,,
+684576,fifa.worldq.afc,2023-10-17,Clifford Postanes Daypuyat,,,
+684573,fifa.worldq.afc,2023-10-17,Tejas Nagvenkar,,,
+684568,fifa.worldq.afc,2023-10-17,Mahmood Salim Said Al-Majarafi,,,
+684577,fifa.worldq.afc,2023-10-17,Ammar Ebrahim Hasan Mahfoodh,,,
+684569,fifa.worldq.afc,2023-10-17,Thoriq Aalkatiri,,,
+684572,fifa.worldq.afc,2023-10-17,Ali Reda,,,
+684570,fifa.worldq.afc,2023-10-17,Ahmed Faisal Mohammad Al Ali,,,
+687477,fifa.worldq.afc,2023-11-16,Axrol Riskullaev,,,
+687395,fifa.worldq.afc,2023-11-16,Muhammad Taqi Al-Jaafari,,,
+687449,fifa.worldq.afc,2023-11-16,Rustam Lutfullin,,,
+687407,fifa.worldq.afc,2023-11-16,Bijan Heidari,,,
+687413,fifa.worldq.afc,2023-11-16,Salman Ahmad Flahi,,,
+687425,fifa.worldq.afc,2023-11-16,Ammar Ebrahim Hasan Mahfoodh,,,
+687461,fifa.worldq.afc,2023-11-16,Ali Sabah Adday Al-Qaysi,,,
+687483,fifa.worldq.afc,2023-11-16,Adham Mohammad,,,
+687437,fifa.worldq.afc,2023-11-16,Hiroyuki Kimura,,,
+687431,fifa.worldq.afc,2023-11-16,Muhammed Nazmi Nasaruddin,,,
+687443,fifa.worldq.afc,2023-11-16,Ahmed Eisa Mohamed,,,
+687419,fifa.worldq.afc,2023-11-16,Sadullo Gulmurodi,,,
+687383,fifa.worldq.afc,2023-11-16,Nasrullo Kabirov,,,
+687467,fifa.worldq.afc,2023-11-16,Hettikamkanamge Chrishantha Dilan Perera,,,
+687389,fifa.worldq.afc,2023-11-16,Shaun Evans,,,
+687455,fifa.worldq.afc,2023-11-16,Hanna Hattab,,,
+687404,fifa.worldq.afc,2023-11-16,Alireza Faghani,,,
+687473,fifa.worldq.afc,2023-11-16,Hee-Gon Kim,,,
+687465,fifa.worldq.afc,2023-11-21,Yosuke Araki,,,
+687405,fifa.worldq.afc,2023-11-21,Ilgiz Tantashev,,,
+687429,fifa.worldq.afc,2023-11-21,Majed Al-Shamrani,,,
+687454,fifa.worldq.afc,2023-11-21,Jong-Hyeok Kim,,,
+687487,fifa.worldq.afc,2023-11-21,Dae-Yong Kim,,,
+687408,fifa.worldq.afc,2023-11-21,Abdulrahman Al-Jassim,,,
+687441,fifa.worldq.afc,2023-11-21,Adel Al Naqbi,,,
+687414,fifa.worldq.afc,2023-11-21,Ahmed Al-Ali,,,
+687444,fifa.worldq.afc,2023-11-21,Abdulla Ali Al Marri,,,
+687432,fifa.worldq.afc,2023-11-21,Mohammed Abulla Hassan Mohamed,,,
+689369,fifa.worldq.afc,2023-11-21,Shen Yinhao,,,
+687384,fifa.worldq.afc,2023-11-21,Sivakorn Pu-Udom,,,
+687420,fifa.worldq.afc,2023-11-21,Mooud Bonyadifard,,,
+687478,fifa.worldq.afc,2023-11-21,Kassem Matar Al-Hatmi,,,
+687396,fifa.worldq.afc,2023-11-21,Ma Ning,,,
+687468,fifa.worldq.afc,2023-11-21,Mohammed Khled Al Hoish,,,
+687456,fifa.worldq.afc,2023-11-21,Ahmed Abu Bakar Said Al Kaf,,,
+687393,fifa.worldq.afc,2023-11-21,Ahmed Faisal Mohammad Al Ali,,,
+687426,fifa.worldq.afc,2024-03-21,Yahya Almulla,,,
+687462,fifa.worldq.afc,2024-03-21,Rustam Lutfullin,,,
+687479,fifa.worldq.afc,2024-03-21,Khamis Al Marri,,,
+687397,fifa.worldq.afc,2024-03-21,Adel Al Naqbi,,,
+687409,fifa.worldq.afc,2024-03-21,Khalid Saleh Al-Turais,,,
+687402,fifa.worldq.afc,2024-03-21,Hasan Akrami,,,
+687438,fifa.worldq.afc,2024-03-21,Woo-Sung Kim,,,
+687417,fifa.worldq.afc,2024-03-21,Shaun Evans,,,
+687450,fifa.worldq.afc,2024-03-21,Salman Ahmad Flahi,,,
+687433,fifa.worldq.afc,2024-03-21,Yosuke Araki,,,
+687421,fifa.worldq.afc,2024-03-21,Fu Ming,,,
+687469,fifa.worldq.afc,2024-03-21,Mohanad Qasim Eesee Sarray,,,
+687485,fifa.worldq.afc,2024-03-21,Shen Yinhao,,,
+687385,fifa.worldq.afc,2024-03-21,Jumpei Iida,,,
+687390,fifa.worldq.afc,2024-03-21,Hee-Gon Kim,,,
+687445,fifa.worldq.afc,2024-03-21,Abdullah Jamali,,,
+687474,fifa.worldq.afc,2024-03-21,Alex King,,,
+687457,fifa.worldq.afc,2024-03-21,Muhammad Taqi Al-Jaafari,,,
+687480,fifa.worldq.afc,2024-03-26,Mooud Bonyadifard,,,
+687484,fifa.worldq.afc,2024-03-26,Nasrullo Kabirov,,,
+687446,fifa.worldq.afc,2024-03-26,Muhammed Nazmi Nasaruddin,,,
+687418,fifa.worldq.afc,2024-03-26,Omar Al Ali,,,
+687451,fifa.worldq.afc,2024-03-26,Alireza Faghani,,,
+687410,fifa.worldq.afc,2024-03-26,Adham Mohammad,,,
+687391,fifa.worldq.afc,2024-03-26,Mohammed Al-Hoaish,,,
+687427,fifa.worldq.afc,2024-03-26,Ammar Ebrahim Hasan Mahfoodh,,,
+687422,fifa.worldq.afc,2024-03-26,Ko Hyung-Jin,,,
+687439,fifa.worldq.afc,2024-03-26,Ahmed Faisal Mohammad Al Ali,,,
+687458,fifa.worldq.afc,2024-03-26,Jong-Hyeok Kim,,,
+687434,fifa.worldq.afc,2024-03-26,Sivakorn Pu-Udom,,,
+687398,fifa.worldq.afc,2024-03-26,,,,
+687475,fifa.worldq.afc,2024-03-26,Ryo Tanimoto,,,
+687463,fifa.worldq.afc,2024-03-26,Nivon Robesh Gamini,,,
+687386,fifa.worldq.afc,2024-03-26,Sadullo Gulmurodi,,,
+687403,fifa.worldq.afc,2024-03-26,Pranjal Banerjee,,,
+687470,fifa.worldq.afc,2024-03-26,Ilgiz Tantashev,,,
+687447,fifa.worldq.afc,2024-06-06,Shaun Evans,,,
+687481,fifa.worldq.afc,2024-06-06,Jansen Foo,,,
+687423,fifa.worldq.afc,2024-06-06,Zaid Thamer,,,
+687415,fifa.worldq.afc,2024-06-06,Ilgiz Tantashev,,,
+687435,fifa.worldq.afc,2024-06-06,Kassem Matar Al-Hatmi,,,
+687411,fifa.worldq.afc,2024-06-06,Sadullo Gulmurodi,,,
+687452,fifa.worldq.afc,2024-06-06,Hanna Hattab,,,
+687399,fifa.worldq.afc,2024-06-06,Majed Al-Shamrani,,,
+687401,fifa.worldq.afc,2024-06-06,Salman Ahmad Flahi,,,
+687392,fifa.worldq.afc,2024-06-06,Fu Ming,,,
+687440,fifa.worldq.afc,2024-06-06,Yosuke Araki,,,
+687428,fifa.worldq.afc,2024-06-06,Adham Mohammad,,,
+687459,fifa.worldq.afc,2024-06-06,Ammar Ebrahim Hasan Mahfoodh,,,
+687387,fifa.worldq.afc,2024-06-06,Sivakorn Pu-Udom,,,
+687471,fifa.worldq.afc,2024-06-06,Payam Heidary,,,
+687486,fifa.worldq.afc,2024-06-06,Abdulrahman Al-Jassim,,,
+687476,fifa.worldq.afc,2024-06-06,Muhammed Nazmi Nasaruddin,,,
+687464,fifa.worldq.afc,2024-06-06,Ahmed Abu Bakar Said Al Kaf,,,
+687400,fifa.worldq.afc,2024-06-11,Ahmed Al-Ali,,,
+687412,fifa.worldq.afc,2024-06-11,Mohammed Al-Hoaish,,,
+687482,fifa.worldq.afc,2024-06-11,Khalid Saleh Al-Turais,,,
+687453,fifa.worldq.afc,2024-06-11,Rustam Lutfullin,,,
+687416,fifa.worldq.afc,2024-06-11,Mohanad Qasim Eesee Sarray,,,
+687430,fifa.worldq.afc,2024-06-11,Abdullah Jamali,,,
+687406,fifa.worldq.afc,2024-06-11,Shen Yinhao,,,
+687466,fifa.worldq.afc,2024-06-11,Mooud Bonyadifard,,,
+687442,fifa.worldq.afc,2024-06-11,Hussein Abo Yehia,,,
+687394,fifa.worldq.afc,2024-06-11,Hiroyuki Kimura,,,
+687388,fifa.worldq.afc,2024-06-11,Woo-Sung Kim,,,
+687488,fifa.worldq.afc,2024-06-11,Razlan Joffri Ali,,,
+687424,fifa.worldq.afc,2024-06-11,Alireza Faghani,,,
+687436,fifa.worldq.afc,2024-06-11,Jong-Hyeok Kim,,,
+687472,fifa.worldq.afc,2024-06-11,Ma Ning,,,
+687448,fifa.worldq.afc,2024-06-11,Omar Al Ali,,,
+687460,fifa.worldq.afc,2024-06-11,Adel Al Naqbi,,,
+689370,fifa.worldq.afc,2024-06-11,Ahmad Ibrahim,,,
+710437,fifa.worldq.afc,2024-09-05,Omar Al Ali,,,
+710440,fifa.worldq.afc,2024-09-05,Abdulrahman Al-Jassim,,,
+710436,fifa.worldq.afc,2024-09-05,Alireza Faghani,,,
+710435,fifa.worldq.afc,2024-09-05,Ahmed Abu Bakar Said Al Kaf,,,
+710438,fifa.worldq.afc,2024-09-05,Yosuke Araki,,,
+710439,fifa.worldq.afc,2024-09-05,Khalid Saleh Al-Turais,,,
+710433,fifa.worldq.afc,2024-09-05,Shaun Evans,,,
+710441,fifa.worldq.afc,2024-09-05,Adel Al Naqbi,,,
+710434,fifa.worldq.afc,2024-09-05,Adham Mohammad,,,
+710448,fifa.worldq.afc,2024-09-10,Nasrullo Kabirov,,,
+710450,fifa.worldq.afc,2024-09-10,Salman Ahmad Flahi,,,
+710449,fifa.worldq.afc,2024-09-10,Muhammed Nazmi Nasaruddin,,,
+710445,fifa.worldq.afc,2024-09-10,Ahmed Al-Ali,,,
+710444,fifa.worldq.afc,2024-09-10,Ma Ning,,,
+710443,fifa.worldq.afc,2024-09-10,Majed Al-Shamrani,,,
+710447,fifa.worldq.afc,2024-09-10,Rustam Lutfullin,,,
+710446,fifa.worldq.afc,2024-09-10,Jong-Hyeok Kim,,,
+710442,fifa.worldq.afc,2024-09-10,Hiroyuki Kimura,,,
+710456,fifa.worldq.afc,2024-10-10,Muhammed Nazmi Nasaruddin,,,
+710459,fifa.worldq.afc,2024-10-10,Hiroyuki Kimura,,,
+710454,fifa.worldq.afc,2024-10-10,Shaun Evans,,,
+710457,fifa.worldq.afc,2024-10-10,Ahmed Abu Bakar Said Al Kaf,,,
+710455,fifa.worldq.afc,2024-10-10,Alireza Faghani,,,
+710451,fifa.worldq.afc,2024-10-10,Muhammad Taqi Al-Jaafari,,,
+710453,fifa.worldq.afc,2024-10-10,Adham Mohammad,,,
+710458,fifa.worldq.afc,2024-10-10,Adel Al Naqbi,,,
+710452,fifa.worldq.afc,2024-10-10,Jong-Hyeok Kim,,,
+710466,fifa.worldq.afc,2024-10-15,Ahmed Al-Ali,,,
+710461,fifa.worldq.afc,2024-10-15,Rustam Lutfullin,,,
+710468,fifa.worldq.afc,2024-10-15,Omar Al Ali,,,
+710460,fifa.worldq.afc,2024-10-15,Mohammed Al-Hoaish,,,
+710464,fifa.worldq.afc,2024-10-15,Ma Ning,,,
+710467,fifa.worldq.afc,2024-10-15,Yosuke Araki,,,
+710465,fifa.worldq.afc,2024-10-15,Khalid Saleh Al-Turais,,,
+710463,fifa.worldq.afc,2024-10-15,Abdulrahman Al-Jassim,,,
+710462,fifa.worldq.afc,2024-10-15,Salman Ahmad Flahi,,,
+710471,fifa.worldq.afc,2024-11-14,Ali Saeed Alnaqbi,,,
+710469,fifa.worldq.afc,2024-11-14,Sadullo Gulmurodi,,,
+710470,fifa.worldq.afc,2024-11-14,Adham Mohammad,,,
+710475,fifa.worldq.afc,2024-11-14,Shaun Evans,,,
+710474,fifa.worldq.afc,2024-11-14,Fu Ming,,,
+710476,fifa.worldq.afc,2024-11-14,Mohammed Al-Hoaish,,,
+710473,fifa.worldq.afc,2024-11-14,Jong-Hyeok Kim,,,
+710472,fifa.worldq.afc,2024-11-14,Ahmed Abu Bakar Said Al Kaf,,,
+710477,fifa.worldq.afc,2024-11-15,Mooud Bonyadifard,,,
+710485,fifa.worldq.afc,2024-11-19,Muhammad Taqi Al-Jaafari,,,
+710483,fifa.worldq.afc,2024-11-19,Rustam Lutfullin,,,
+710484,fifa.worldq.afc,2024-11-19,Ahmed Al-Ali,,,
+710481,fifa.worldq.afc,2024-11-19,Ma Ning,,,
+710479,fifa.worldq.afc,2024-11-19,Yosuke Araki,,,
+710480,fifa.worldq.afc,2024-11-19,Omar Al Ali,,,
+710482,fifa.worldq.afc,2024-11-19,Khalid Saleh Al-Turais,,,
+710486,fifa.worldq.afc,2024-11-19,Ko Hyung-Jin,,,
+710478,fifa.worldq.afc,2024-11-19,Muhammed Nazmi Nasaruddin,,,
+710488,fifa.worldq.afc,2025-03-20,Adham Mohammad,,,
+710487,fifa.worldq.afc,2025-03-20,Abdulrahman Al-Jassim,,,
+710493,fifa.worldq.afc,2025-03-20,Alireza Faghani,,,
+710489,fifa.worldq.afc,2025-03-20,Ko Hyung-Jin,,,
+710491,fifa.worldq.afc,2025-03-20,Yosuke Araki,,,
+710490,fifa.worldq.afc,2025-03-20,Ma Ning,,,
+710492,fifa.worldq.afc,2025-03-20,Shaun Evans,,,
+710494,fifa.worldq.afc,2025-03-20,Mohanad Qasim Eesee Sarray,,,
+710495,fifa.worldq.afc,2025-03-20,Omar Al Ali,,,
+710501,fifa.worldq.afc,2025-03-25,Ahmed Al-Ali,,,
+710497,fifa.worldq.afc,2025-03-25,Mooud Bonyadifard,,,
+710502,fifa.worldq.afc,2025-03-25,Ilgiz Tantashev,,,
+710500,fifa.worldq.afc,2025-03-25,Sadullo Gulmurodi,,,
+710504,fifa.worldq.afc,2025-03-25,Muhammed Nazmi Nasaruddin,,,
+710499,fifa.worldq.afc,2025-03-25,Ahmed Abu Bakar Said Al Kaf,,,
+710503,fifa.worldq.afc,2025-03-25,Salman Ahmad Flahi,,,
+710498,fifa.worldq.afc,2025-03-25,Mohammed Khled Al Hoish,,,
+710496,fifa.worldq.afc,2025-03-25,Khalid Saleh Al-Turais,,,
+710513,fifa.worldq.afc,2025-06-05,Kassem Matar Al-Hatmi,,,
+710506,fifa.worldq.afc,2025-06-05,Rustam Lutfullin,,,
+710512,fifa.worldq.afc,2025-06-05,Ilgiz Tantashev,,,
+710509,fifa.worldq.afc,2025-06-05,Khalid Saleh Al-Turais,,,
+710511,fifa.worldq.afc,2025-06-05,Shaun Evans,,,
+710507,fifa.worldq.afc,2025-06-05,Yosuke Araki,,,
+710508,fifa.worldq.afc,2025-06-05,Sadullo Gulmurodi,,,
+710505,fifa.worldq.afc,2025-06-05,Adham Mohammad,,,
+710510,fifa.worldq.afc,2025-06-05,Mohammed Al-Hoaish,,,
+710516,fifa.worldq.afc,2025-06-10,Jong-Hyeok Kim,,,
+710522,fifa.worldq.afc,2025-06-10,Adel Al Naqbi,,,
+710514,fifa.worldq.afc,2025-06-10,Majed Al-Shamrani,,,
+710519,fifa.worldq.afc,2025-06-10,Ahmed Al-Ali,,,
+710518,fifa.worldq.afc,2025-06-10,Ma Ning,,,
+710515,fifa.worldq.afc,2025-06-10,Muhammed Nazmi Nasaruddin,,,
+710517,fifa.worldq.afc,2025-06-10,Omar Al Ali,,,
+710520,fifa.worldq.afc,2025-06-10,Mooud Bonyadifard,,,
+710521,fifa.worldq.afc,2025-06-10,Abdulrahman Al-Jassim,,,
+753692,fifa.worldq.afc,2025-10-08,Yosuke Araki,,,
+753691,fifa.worldq.afc,2025-10-08,Ahmed Al-Ali,,,
+753694,fifa.worldq.afc,2025-10-11,Alireza Faghani,,,
+753693,fifa.worldq.afc,2025-10-11,Ma Ning,,,
+753695,fifa.worldq.afc,2025-10-14,Ilgiz Tantashev,,,
+753696,fifa.worldq.afc,2025-10-14,Adham Mohammad,,,
+760045,fifa.worldq.afc,2025-11-13,Shaun Evans,,,
+760046,fifa.worldq.afc,2025-11-18,Yosuke Araki,,,
+687333,fifa.worldq.caf,2023-11-15,Chelanget Sabila,5.0,0.0,0.0
+687197,fifa.worldq.caf,2023-11-15,Mohamed Ali Moussa,,,
+687153,fifa.worldq.caf,2023-11-15,Elmabrouk Muhammad,,,
+687137,fifa.worldq.caf,2023-11-15,Celso Armindo Alvacao,,,
+687317,fifa.worldq.caf,2023-11-16,Kamaku Waweru,,,
+687287,fifa.worldq.caf,2023-11-16,Djindo Louis Houngnandande,,,
+687293,fifa.worldq.caf,2023-11-16,Boubou Traore,,,
+687113,fifa.worldq.caf,2023-11-16,Jelly Chavane,,,
+687273,fifa.worldq.caf,2023-11-16,Mohamed Maarouf Eid Mansour,,,
+687173,fifa.worldq.caf,2023-11-16,Mehrez Melki,,,
+687167,fifa.worldq.caf,2023-11-16,Andofetra Rakotojaona,,,
+687213,fifa.worldq.caf,2023-11-16,Youcef Gamouh,,,
+687233,fifa.worldq.caf,2023-11-16,,,,
+687377,fifa.worldq.caf,2023-11-17,Ibrahim Kalilou Traore,,,
+687227,fifa.worldq.caf,2023-11-17,Omar Artan,,,
+687303,fifa.worldq.caf,2023-11-17,Messie Jessie Nkounkou Mvoutou,,,
+687363,fifa.worldq.caf,2023-11-17,Samir Guezzaz,,,
+687347,fifa.worldq.caf,2023-11-17,Antoine Max Depadoux Effa Essouma,,,
+687243,fifa.worldq.caf,2023-11-17,Mahmoud Elbana,,,
+687123,fifa.worldq.caf,2023-11-17,Alhadi Allaou Mahamat,,,
+687203,fifa.worldq.caf,2023-11-17,Ahmed Arajiga,,,
+687263,fifa.worldq.caf,2023-11-17,Adalbert Diouf,,,
+687353,fifa.worldq.caf,2023-11-17,Ahmad Heeralall,,,
+687323,fifa.worldq.caf,2023-11-17,Joseph Odey Ogabor,,,
+687183,fifa.worldq.caf,2023-11-18,Mahmood Ismail,,,
+687257,fifa.worldq.caf,2023-11-18,Lotfi Bekoussa,,,
+687143,fifa.worldq.caf,2023-11-18,David Molise,,,
+687274,fifa.worldq.caf,2023-11-19,Issa Sy,,,
+687294,fifa.worldq.caf,2023-11-19,Samuel Uwikunda,,,
+687174,fifa.worldq.caf,2023-11-19,Souleiman Ahmed Djama,,,
+687114,fifa.worldq.caf,2023-11-19,Jean-Jacques Ndala Ngambo,,,
+687154,fifa.worldq.caf,2023-11-19,Bamlak Tessema Weyesa,,,
+687131,fifa.worldq.caf,2023-11-20,Mohamed Athoumani,,,
+687251,fifa.worldq.caf,2023-11-20,,,,
+687264,fifa.worldq.caf,2023-11-20,Jalal Jayed,,,
+687334,fifa.worldq.caf,2023-11-20,Karim Sabri,3.0,1.0,0.0
+687371,fifa.worldq.caf,2023-11-20,Mitiku Tewodros,,,
+687358,fifa.worldq.caf,2023-11-20,George Gatogato,,,
+687281,fifa.worldq.caf,2023-11-20,Tawel Younoussa Camara,,,
+687304,fifa.worldq.caf,2023-11-21,Patrice Mebiame,,,
+687214,fifa.worldq.caf,2023-11-21,Sabri Mohamed Fadul,,,
+687124,fifa.worldq.caf,2023-11-21,Lamin Jammeh,,,
+687192,fifa.worldq.caf,2023-11-21,Tsegay Mogos Teklu,,,
+687324,fifa.worldq.caf,2023-11-21,Aklesso Gnama,,,
+687184,fifa.worldq.caf,2023-11-21,Amin Omar,,,
+687311,fifa.worldq.caf,2023-11-21,Jose Nguema Owono Owono Asangono,,,
+687364,fifa.worldq.caf,2023-11-21,Abdelaziz Bouh,,,
+687204,fifa.worldq.caf,2023-11-21,Adissa Abdul Raphiou Ligali,,,
+687221,fifa.worldq.caf,2023-11-21,Godfrey Nkhakananga,,,
+687341,fifa.worldq.caf,2023-11-21,Ousmane Diakate,,,
+687161,fifa.worldq.caf,2023-11-21,Patrice Milazar,,,
+687144,fifa.worldq.caf,2023-11-21,Mustapha Ghorbal,,,
+687244,fifa.worldq.caf,2023-11-21,Abdulrazg Ahmed,,,
+687234,fifa.worldq.caf,2023-11-21,Abongile Tom,,,
+687258,fifa.worldq.caf,2024-06-03,,,,
+687378,fifa.worldq.caf,2024-06-05,Patrice Milazar,,,
+687342,fifa.worldq.caf,2024-06-05,Messie Jessie Nkounkou Mvoutou,,,
+687138,fifa.worldq.caf,2024-06-05,Godfrey Nkhakananga,,,
+687168,fifa.worldq.caf,2024-06-05,Celso Armindo Alvacao,,,
+687325,fifa.worldq.caf,2024-06-05,Abongile Tom,,,
+687351,fifa.worldq.caf,2024-06-06,Ahmed Arajiga,,,
+687252,fifa.worldq.caf,2024-06-06,Boubou Traore,,,
+687132,fifa.worldq.caf,2024-06-06,Djindo Louis Houngnandande,,,
+687228,fifa.worldq.caf,2024-06-06,Brighton Chimene,,,
+687162,fifa.worldq.caf,2024-06-06,Daniel Laryea,,,
+687295,fifa.worldq.caf,2024-06-06,Bamlak Tessema Weyesa,,,
+687193,fifa.worldq.caf,2024-06-06,Beida Damane,,,
+687115,fifa.worldq.caf,2024-06-06,Kamaku Waweru,,,
+687355,fifa.worldq.caf,2024-06-06,Amin Omar,,,
+687145,fifa.worldq.caf,2024-06-06,Ibrahim Mutaz,,,
+687282,fifa.worldq.caf,2024-06-07,Jean Ouattara,,,
+687318,fifa.worldq.caf,2024-06-07,Tsegay Mogos Teklu,,,
+687198,fifa.worldq.caf,2024-06-07,Thulani Sibandze,,,
+687222,fifa.worldq.caf,2024-06-07,Hillary Hambaba,,,
+687372,fifa.worldq.caf,2024-06-07,Jean-Jacques Ndala Ngambo,,,
+687312,fifa.worldq.caf,2024-06-07,Clement Franklin Kpan,,,
+687265,fifa.worldq.caf,2024-06-07,Abdulkadir Artan,,,
+687235,fifa.worldq.caf,2024-06-07,Issa Sy,,,
+687175,fifa.worldq.caf,2024-06-07,Alhadi Allaou Mahamat,,,
+687205,fifa.worldq.caf,2024-06-08,Mustapha Ghorbal,,,
+687288,fifa.worldq.caf,2024-06-08,Joseph Odey Ogabor,,,
+687348,fifa.worldq.caf,2024-06-09,Andofetra Rakotojaona,,,
+687155,fifa.worldq.caf,2024-06-09,Mehrez Melki,,,
+687141,fifa.worldq.caf,2024-06-09,Chelanget Sabila,,,
+687146,fifa.worldq.caf,2024-06-09,Samir Guezzaz,,,
+687326,fifa.worldq.caf,2024-06-09,Beida Damane,,,
+687335,fifa.worldq.caf,2024-06-10,Lamin Jammeh,,,
+687321,fifa.worldq.caf,2024-06-10,Emmanuel Mensah,,,
+687176,fifa.worldq.caf,2024-06-10,Pierre Atcho,,,
+687116,fifa.worldq.caf,2024-06-10,Mahmood Ismail,,,
+687296,fifa.worldq.caf,2024-06-10,Adissa Abdul Raphiou Ligali,,,
+687261,fifa.worldq.caf,2024-06-10,,,,
+687125,fifa.worldq.caf,2024-06-10,Lahlou Benbraham,,,
+687365,fifa.worldq.caf,2024-06-10,Abdulrazg Ahmed,,,
+687305,fifa.worldq.caf,2024-06-10,Pacifique Ndabihawenimana,,,
+687266,fifa.worldq.caf,2024-06-11,Jalal Jayed,,,
+687356,fifa.worldq.caf,2024-06-11,Patrice Mebiame,,,
+687231,fifa.worldq.caf,2024-06-11,Mohamed Athoumani,,,
+687171,fifa.worldq.caf,2024-06-11,Ahmad Heeralall,,,
+687215,fifa.worldq.caf,2024-06-11,Ibrahim Kalilou Traore,,,
+687381,fifa.worldq.caf,2024-06-11,Adalbert Diouf,,,
+687201,fifa.worldq.caf,2024-06-11,Aklesso Gnama,,,
+687185,fifa.worldq.caf,2024-06-11,Mohamed Maarouf Eid Mansour,,,
+687245,fifa.worldq.caf,2024-06-11,Abdelaziz Bouh,,,
+687206,fifa.worldq.caf,2024-06-11,Mohamed Elsaid,,,
+687236,fifa.worldq.caf,2024-06-11,Daniel Laryea,,,
+687275,fifa.worldq.caf,2024-06-11,Sadok Selmi,,,
+687291,fifa.worldq.caf,2024-06-11,Mohamed Ali Moussa,,,
+687253,fifa.worldq.caf,2025-03-17,,,,
+687246,fifa.worldq.caf,2025-03-17,,,,
+687373,fifa.worldq.caf,2025-03-19,Adalbert Diouf,,,
+687207,fifa.worldq.caf,2025-03-19,Lucky Kasalirwe,,,
+687327,fifa.worldq.caf,2025-03-19,Clement Franklin Kpan,1.0,0.0,31.0
+687313,fifa.worldq.caf,2025-03-20,Pierre Atcho,,,
+687216,fifa.worldq.caf,2025-03-20,Yannick Malala,,,
+687343,fifa.worldq.caf,2025-03-20,Jelly Chavane,,,
+687133,fifa.worldq.caf,2025-03-20,Daniel Laryea,,,
+687194,fifa.worldq.caf,2025-03-20,Bamlak Tessema Weyesa,,,
+687276,fifa.worldq.caf,2025-03-20,Mehrez Melki,,,
+687283,fifa.worldq.caf,2025-03-20,Abdou Abdel Mefire,,,
+687223,fifa.worldq.caf,2025-03-20,Lamin Jammeh,,,
+687357,fifa.worldq.caf,2025-03-20,Mahmood Ismail,,,
+687297,fifa.worldq.caf,2025-03-21,Ahmed Arajiga,,,
+687336,fifa.worldq.caf,2025-03-21,Adissa Abdul Raphiou Ligali,,,
+687126,fifa.worldq.caf,2025-03-21,Abdelaziz Bouh,,,
+687156,fifa.worldq.caf,2025-03-21,Celso Armindo Alvacao,,,
+687177,fifa.worldq.caf,2025-03-21,Jalal Jayed,,,
+687186,fifa.worldq.caf,2025-03-21,Mohamed Diraneh Guedi,1.0,0.0,18.0
+687267,fifa.worldq.caf,2025-03-21,Samir Guezzaz,,,
+687366,fifa.worldq.caf,2025-03-21,Abdulrazg Ahmed,,,
+687117,fifa.worldq.caf,2025-03-21,Patrice Milazar,,,
+687306,fifa.worldq.caf,2025-03-21,Andofetra Rakotojaona,,,
+687237,fifa.worldq.caf,2025-03-21,Omar Artan,,,
+687163,fifa.worldq.caf,2025-03-22,Amin Omar,,,
+687147,fifa.worldq.caf,2025-03-22,Patrice Mebiame,,,
+687232,fifa.worldq.caf,2025-03-23,Tawel Younoussa Camara,,,
+687277,fifa.worldq.caf,2025-03-23,Ibrahim Mutaz,,,
+687337,fifa.worldq.caf,2025-03-24,Mohamed Maarouf Eid Mansour,,,
+687354,fifa.worldq.caf,2025-03-24,Godfrey Nkhakananga,,,
+687127,fifa.worldq.caf,2025-03-24,Samuel Uwikunda,,,
+687349,fifa.worldq.caf,2025-03-24,Mohamed Ali Moussa,,,
+687247,fifa.worldq.caf,2025-03-24,,,,
+687262,fifa.worldq.caf,2025-03-24,,,,
+687268,fifa.worldq.caf,2025-03-24,Ring Malong,,,
+687367,fifa.worldq.caf,2025-03-24,Issa Sy,,,
+687142,fifa.worldq.caf,2025-03-24,Luxolo Badi,,,
+687328,fifa.worldq.caf,2025-03-24,Djindo Louis Houngnandande,5.0,1.0,26.0
+687217,fifa.worldq.caf,2025-03-25,Mustapha Ghorbal,,,
+687187,fifa.worldq.caf,2025-03-25,Beida Damane,,,
+687178,fifa.worldq.caf,2025-03-25,Tsegay Mogos Teklu,,,
+687202,fifa.worldq.caf,2025-03-25,Antoine Max Depadoux Effa Essouma,,,
+687307,fifa.worldq.caf,2025-03-25,Jean-Jacques Ndala Ngambo,,,
+687322,fifa.worldq.caf,2025-03-25,Joseph Odey Ogabor,,,
+687292,fifa.worldq.caf,2025-03-25,Youcef Gamouh,,,
+687208,fifa.worldq.caf,2025-03-25,Abongile Tom,,,
+687118,fifa.worldq.caf,2025-03-25,Ahmad Heeralall,,,
+687172,fifa.worldq.caf,2025-03-25,Jean Ouattara,,,
+687298,fifa.worldq.caf,2025-03-25,Pacifique Ndabihawenimana,,,
+687382,fifa.worldq.caf,2025-03-25,Aklesso Gnama,,,
+687157,fifa.worldq.caf,2025-03-25,Mohamed Athoumani,,,
+687148,fifa.worldq.caf,2025-03-25,Kamaku Waweru,,,
+687238,fifa.worldq.caf,2025-03-25,Alhadi Allaou Mahamat,,,
+687248,fifa.worldq.caf,2025-09-01,,,,
+687278,fifa.worldq.caf,2025-09-03,Jean Ouattara,,,
+687368,fifa.worldq.caf,2025-09-04,Celso Armindo Alvacao,,,
+687224,fifa.worldq.caf,2025-09-04,Pierre Jean Nguiene,,,
+687134,fifa.worldq.caf,2025-09-04,Clement Franklin Kpan,,,
+687374,fifa.worldq.caf,2025-09-04,Ahmed Arajiga,,,
+687218,fifa.worldq.caf,2025-09-04,Mohamed Diraneh Guedi,,,
+687338,fifa.worldq.caf,2025-09-04,Hillary Hambaba,,,
+687299,fifa.worldq.caf,2025-09-04,Pacifique Ndabihawenimana,6.0,0.0,22.0
+687209,fifa.worldq.caf,2025-09-04,Beida Damane,,,
+687359,fifa.worldq.caf,2025-09-04,Jalal Jayed,,,
+687329,fifa.worldq.caf,2025-09-04,Adissa Abdul Raphiou Ligali,3.0,0.0,33.0
+687308,fifa.worldq.caf,2025-09-05,Patrice Mebiame,,,
+687158,fifa.worldq.caf,2025-09-05,Brighton Chimene,,,
+687284,fifa.worldq.caf,2025-09-05,Amin Omar,,,
+687344,fifa.worldq.caf,2025-09-05,Abdulrazg Ahmed,,,
+687195,fifa.worldq.caf,2025-09-05,Lamin Jammeh,,,
+687254,fifa.worldq.caf,2025-09-05,Thabang Ketshabile,,,
+687128,fifa.worldq.caf,2025-09-05,Tawel Younoussa Camara,,,
+687188,fifa.worldq.caf,2025-09-05,Dickens Mimisa,,,
+687314,fifa.worldq.caf,2025-09-05,Vincent Kabore,,,
+687119,fifa.worldq.caf,2025-09-05,Abongile Tom,,,
+687269,fifa.worldq.caf,2025-09-05,Bouchra Karboubi,,,
+687164,fifa.worldq.caf,2025-09-05,Lucky Kasalirwe,,,
+687239,fifa.worldq.caf,2025-09-05,Jean-Jacques Ndala Ngambo,,,
+687149,fifa.worldq.caf,2025-09-05,Ahmad Heeralall,2.0,0.0,33.0
+687179,fifa.worldq.caf,2025-09-06,Alhadi Allaou Mahamat,,,
+687379,fifa.worldq.caf,2025-09-07,Naim Hosni,,,
+687330,fifa.worldq.caf,2025-09-08,Patrice Milazar,6.0,0.0,36.0
+687319,fifa.worldq.caf,2025-09-08,Bamlak Tessema Weyesa,,,
+687240,fifa.worldq.caf,2025-09-08,Djindo Louis Houngnandande,,,
+687300,fifa.worldq.caf,2025-09-08,Pacifique Ndabihawenimana,2.0,0.0,25.0
+687135,fifa.worldq.caf,2025-09-08,Aklesso Gnama,,,
+687375,fifa.worldq.caf,2025-09-08,Fabricio Duarte,,,
+687350,fifa.worldq.caf,2025-09-08,Ring Malong,,,
+687315,fifa.worldq.caf,2025-09-08,Ibrahim Kalilou Traore,,,
+687255,fifa.worldq.caf,2025-09-08,,,,
+687360,fifa.worldq.caf,2025-09-08,Luxolo Badi,,,
+687229,fifa.worldq.caf,2025-09-08,Adalbert Diouf,,,
+687285,fifa.worldq.caf,2025-09-09,Joseph Odey Ogabor,,,
+687345,fifa.worldq.caf,2025-09-09,Brahamou Sadou Ali,,,
+687139,fifa.worldq.caf,2025-09-09,Yannick Malala,,,
+687259,fifa.worldq.caf,2025-09-09,Mustapha Ghorbal,,,
+687199,fifa.worldq.caf,2025-09-09,Abdou Abdel Mefire,,,
+687120,fifa.worldq.caf,2025-09-09,Messie Jessie Nkounkou Mvoutou,,,
+687210,fifa.worldq.caf,2025-09-09,Daniel Laryea,,,
+687150,fifa.worldq.caf,2025-09-09,Omar Artan,2.0,0.0,25.0
+687180,fifa.worldq.caf,2025-09-09,Pierre Atcho,,,
+687169,fifa.worldq.caf,2025-09-09,Andofetra Rakotojaona,,,
+687225,fifa.worldq.caf,2025-09-09,Boubou Traore,,,
+687196,fifa.worldq.caf,2025-09-09,Mahmood Ismail,,,
+687270,fifa.worldq.caf,2025-09-09,Abdelaziz Bouh,,,
+687289,fifa.worldq.caf,2025-09-09,Mohamed Maarouf Eid Mansour,,,
+687165,fifa.worldq.caf,2025-09-09,Mehrez Melki,,,
+687241,fifa.worldq.caf,2025-10-06,,,,
+687226,fifa.worldq.caf,2025-10-08,Dickens Nyagrowa,,,
+687136,fifa.worldq.caf,2025-10-08,Jelly Chavane,,,
+687219,fifa.worldq.caf,2025-10-08,Mahmood Ismail,,,
+687211,fifa.worldq.caf,2025-10-08,Mitiku Tewodros,,,
+687369,fifa.worldq.caf,2025-10-08,Patrice Milazar,,,
+687361,fifa.worldq.caf,2025-10-08,Lebalang Mokete,,,
+687376,fifa.worldq.caf,2025-10-08,,,,
+687121,fifa.worldq.caf,2025-10-08,Patrice Mebiame,,,
+687129,fifa.worldq.caf,2025-10-08,Jean-Jacques Ndala Ngambo,,,
+687256,fifa.worldq.caf,2025-10-08,Boubou Traore,,,
+687249,fifa.worldq.caf,2025-10-08,Ibrahim Kalilou Traore,,,
+687286,fifa.worldq.caf,2025-10-09,Hillary Hambaba,,,
+687316,fifa.worldq.caf,2025-10-09,Beida Damane,,,
+687346,fifa.worldq.caf,2025-10-09,Lahlou Benbraham,,,
+687339,fifa.worldq.caf,2025-10-09,,,,
+687309,fifa.worldq.caf,2025-10-09,Adissa Abdul Raphiou Ligali,,,
+687301,fifa.worldq.caf,2025-10-09,Godfrey Nkhakananga,2.0,0.0,17.0
+687279,fifa.worldq.caf,2025-10-10,Joseph Odey Ogabor,,,
+687271,fifa.worldq.caf,2025-10-10,Washington Dolo,,,
+687151,fifa.worldq.caf,2025-10-10,Abdou Abdel Mefire,1.0,0.0,21.0
+687166,fifa.worldq.caf,2025-10-10,Jean Ouattara,,,
+687159,fifa.worldq.caf,2025-10-10,Lenine Delgado Rocha,,,
+687181,fifa.worldq.caf,2025-10-10,Alhadi Allaou Mahamat,,,
+687191,fifa.worldq.caf,2025-10-10,Mohamed Maarouf Eid Mansour,,,
+687331,fifa.worldq.caf,2025-10-10,Andofetra Rakotojaona,2.0,0.0,34.0
+687189,fifa.worldq.caf,2025-10-10,Mustapha Ghorbal,,,
+687250,fifa.worldq.caf,2025-10-12,Lucky Kasalirwe,,,
+687380,fifa.worldq.caf,2025-10-12,Celso Armindo Alvacao,,,
+687130,fifa.worldq.caf,2025-10-12,Adalbert Diouf,,,
+687140,fifa.worldq.caf,2025-10-12,Thulani Sibandze,,,
+687122,fifa.worldq.caf,2025-10-12,Daniel Laryea,,,
+687370,fifa.worldq.caf,2025-10-12,Pierre Atcho,,,
+687362,fifa.worldq.caf,2025-10-12,George Gatogato,,,
+687340,fifa.worldq.caf,2025-10-13,Brighton Chimene,,,
+687352,fifa.worldq.caf,2025-10-13,Pierre Jean Nguiene,,,
+687170,fifa.worldq.caf,2025-10-13,Lamin Jammeh,,,
+687332,fifa.worldq.caf,2025-10-13,Issa Sy,5.0,0.0,42.0
+687212,fifa.worldq.caf,2025-10-13,Djindo Louis Houngnandande,,,
+687220,fifa.worldq.caf,2025-10-13,Ahmed Arajiga,,,
+687200,fifa.worldq.caf,2025-10-13,Tsegay Mogos Teklu,,,
+687230,fifa.worldq.caf,2025-10-13,Yannick Malala,,,
+687260,fifa.worldq.caf,2025-10-13,,,,
+687290,fifa.worldq.caf,2025-10-14,Washington Dolo,,,
+687302,fifa.worldq.caf,2025-10-14,Ahmad Heeralall,3.0,0.0,35.0
+687310,fifa.worldq.caf,2025-10-14,Messie Jessie Nkounkou Mvoutou,,,
+687182,fifa.worldq.caf,2025-10-14,Amin Omar,,,
+687320,fifa.worldq.caf,2025-10-14,Abdulrazg Ahmed,,,
+687190,fifa.worldq.caf,2025-10-14,Mehrez Melki,,,
+687160,fifa.worldq.caf,2025-10-14,Abongile Tom,,,
+687280,fifa.worldq.caf,2025-10-14,Aklesso Gnama,,,
+687272,fifa.worldq.caf,2025-10-14,Naby Laye Toure,,,
+687242,fifa.worldq.caf,2025-10-14,Abdelaziz Bouh,4.0,0.0,26.0
+687152,fifa.worldq.caf,2025-10-14,Mohamed Ali Moussa,2.0,0.0,29.0
+760049,fifa.worldq.caf,2025-11-13,Abongile Tom,,,
+760048,fifa.worldq.caf,2025-11-13,Mahmood Ismail,,,
+761088,fifa.worldq.caf,2025-11-16,Jalal Jayed,,,
+715878,fifa.worldq.ofc,2024-09-05,,,,
+715877,fifa.worldq.ofc,2024-09-06,,,,
+720813,fifa.worldq.ofc,2024-09-09,,,,
+720815,fifa.worldq.ofc,2024-10-10,,,,
+720816,fifa.worldq.ofc,2024-10-10,,,,
+720817,fifa.worldq.ofc,2024-10-11,,,,
+720818,fifa.worldq.ofc,2024-10-12,,,,
+720819,fifa.worldq.ofc,2024-11-14,,,,
+720820,fifa.worldq.ofc,2024-11-14,,,,
+720821,fifa.worldq.ofc,2024-11-15,,,,
+720822,fifa.worldq.ofc,2024-11-15,,,,
+720823,fifa.worldq.ofc,2024-11-17,,,,
+720824,fifa.worldq.ofc,2024-11-17,,,,
+720825,fifa.worldq.ofc,2024-11-18,,,,
+720826,fifa.worldq.ofc,2024-11-18,,,,
+723663,fifa.worldq.ofc,2025-03-21,,,,
+723664,fifa.worldq.ofc,2025-03-21,,,,
+734945,fifa.worldq.ofc,2025-03-24,,,,
+690573,uefa.euro,2024-06-14,Clément Turpin,3.0,1.0,24.0
+690574,uefa.euro,2024-06-15,Slavko Vincici,4.0,0.0,22.0
+690575,uefa.euro,2024-06-15,Michael Oliver,1.0,0.0,27.0
+690576,uefa.euro,2024-06-15,Felix Zwayer,4.0,0.0,14.0
+690579,uefa.euro,2024-06-16,Artur Soares Dias,1.0,0.0,18.0
+690577,uefa.euro,2024-06-16,Sandro Scharer,3.0,0.0,21.0
+690578,uefa.euro,2024-06-16,Daniele Orsato,2.0,0.0,27.0
+690582,uefa.euro,2024-06-17,Glenn Nyberg,2.0,0.0,17.0
+690581,uefa.euro,2024-06-17,Halil Meler,4.0,0.0,24.0
+690580,uefa.euro,2024-06-17,Jesús Gil Manzano,7.0,0.0,29.0
+690583,uefa.euro,2024-06-18,Facundo Tello,3.0,0.0,17.0
+690584,uefa.euro,2024-06-18,Marco Guida,3.0,0.0,15.0
+690586,uefa.euro,2024-06-19,Francois Letexier,4.0,0.0,26.0
+690587,uefa.euro,2024-06-19,Danny Makkelie,4.0,0.0,22.0
+690585,uefa.euro,2024-06-19,Ivan Kruzliak,5.0,0.0,22.0
+690589,uefa.euro,2024-06-20,Istvan Kovacs,6.0,0.0,21.0
+690590,uefa.euro,2024-06-20,Artur Soares Dias,4.0,0.0,18.0
+690588,uefa.euro,2024-06-20,Slavko Vincici,5.0,0.0,31.0
+690593,uefa.euro,2024-06-21,Michael Oliver,1.0,0.0,21.0
+690591,uefa.euro,2024-06-21,Halil Meler,6.0,0.0,30.0
+690592,uefa.euro,2024-06-21,Anthony Taylor,1.0,0.0,21.0
+690596,uefa.euro,2024-06-22,Daniel Siebert,9.0,0.0,29.0
+690595,uefa.euro,2024-06-22,Felix Zwayer,5.0,0.0,24.0
+690594,uefa.euro,2024-06-22,Szymon Marciniak,3.0,0.0,20.0
+690597,uefa.euro,2024-06-23,Facundo Tello,6.0,0.0,29.0
+690598,uefa.euro,2024-06-23,Daniele Orsato,4.0,0.0,26.0
+690600,uefa.euro,2024-06-24,Glenn Nyberg,3.0,0.0,21.0
+690599,uefa.euro,2024-06-24,Danny Makkelie,8.0,0.0,24.0
+690604,uefa.euro,2024-06-25,Marco Guida,4.0,0.0,27.0
+690603,uefa.euro,2024-06-25,Ivan Kruzliak,3.0,0.0,26.0
+690601,uefa.euro,2024-06-25,Francois Letexier,4.0,0.0,16.0
+690602,uefa.euro,2024-06-25,Clément Turpin,5.0,0.0,20.0
+690605,uefa.euro,2024-06-26,Daniel Siebert,4.0,0.0,21.0
+690606,uefa.euro,2024-06-26,Anthony Taylor,2.0,0.0,17.0
+690608,uefa.euro,2024-06-26,Istvan Kovacs,16.0,2.0,25.0
+690607,uefa.euro,2024-06-26,Sandro Scharer,4.0,0.0,17.0
+703931,uefa.euro,2024-06-29,Szymon Marciniak,3.0,0.0,24.0
+703932,uefa.euro,2024-06-29,Michael Oliver,2.0,0.0,22.0
+703933,uefa.euro,2024-06-30,Halil Meler,9.0,0.0,31.0
+703934,uefa.euro,2024-06-30,Francois Letexier,2.0,0.0,16.0
+703935,uefa.euro,2024-07-01,Glenn Nyberg,5.0,0.0,17.0
+703936,uefa.euro,2024-07-01,Daniele Orsato,6.0,0.0,25.0
+703937,uefa.euro,2024-07-02,Felix Zwayer,4.0,0.0,17.0
+703938,uefa.euro,2024-07-02,Artur Soares Dias,4.0,0.0,17.0
+703939,uefa.euro,2024-07-05,Anthony Taylor,13.0,1.0,39.0
+703940,uefa.euro,2024-07-05,Michael Oliver,2.0,0.0,21.0
+703941,uefa.euro,2024-07-06,Daniele Orsato,3.0,0.0,21.0
+703942,uefa.euro,2024-07-06,Clément Turpin,5.0,1.0,23.0
+703943,uefa.euro,2024-07-09,Slavko Vincici,4.0,0.0,23.0
+703944,uefa.euro,2024-07-10,Felix Zwayer,6.0,0.0,17.0
+703945,uefa.euro,2024-07-14,Francois Letexier,4.0,0.0,16.0
+624153,uefa.nations,2022-06-01,Rade Obrenovic,3.0,0.0,25.0
+624157,uefa.nations,2022-06-02,Jeremie Pignard,4.0,0.0,26.0
+624156,uefa.nations,2022-06-02,Jerome Brisard,5.0,0.0,21.0
+624161,uefa.nations,2022-06-02,Ioannis Papadopoulos,2.0,0.0,21.0
+624164,uefa.nations,2022-06-02,Morten Krogh,5.0,0.0,19.0
+624160,uefa.nations,2022-06-02,,,,
+624163,uefa.nations,2022-06-02,Daniel Siebert,4.0,0.0,21.0
+624155,uefa.nations,2022-06-02,Andris Treimanis,4.0,0.0,26.0
+624154,uefa.nations,2022-06-02,Erik Lambrechts,4.0,0.0,29.0
+624158,uefa.nations,2022-06-02,Pawel Raczkowski,3.0,0.0,18.0
+624162,uefa.nations,2022-06-02,Ruddy Buquet,5.0,0.0,23.0
+624159,uefa.nations,2022-06-02,Michael Oliver,8.0,0.0,29.0
+624165,uefa.nations,2022-06-03,Istvan Vad,4.0,0.0,22.0
+624147,uefa.nations,2022-06-03,Tomasz Musial,0.0,0.0,24.0
+624027,uefa.nations,2022-06-03,Stephanie Frappart,3.0,0.0,22.0
+624151,uefa.nations,2022-06-03,José María Sánchez Martínez,2.0,0.0,20.0
+624148,uefa.nations,2022-06-03,Chris Kavanagh,2.0,0.0,17.0
+624150,uefa.nations,2022-06-03,Felix Zwayer,1.0,0.0,16.0
+624152,uefa.nations,2022-06-03,Giorgi Kruashvili,5.0,0.0,25.0
+624119,uefa.nations,2022-06-04,Radu Petrescu,3.0,0.0,17.0
+624141,uefa.nations,2022-06-04,Nick Walsh,6.0,0.0,24.0
+624142,uefa.nations,2022-06-04,Artur Soares Dias,4.0,0.0,13.0
+624143,uefa.nations,2022-06-04,David Fuxman,5.0,0.0,25.0
+624138,uefa.nations,2022-06-04,Srdjan Jovanovic,8.0,0.0,29.0
+624139,uefa.nations,2022-06-04,Andreas Ekberg,3.0,0.0,29.0
+624137,uefa.nations,2022-06-04,Farrugia Cann Trustin,4.0,0.0,24.0
+624145,uefa.nations,2022-06-05,Aliyar Aghayev,5.0,0.0,26.0
+624146,uefa.nations,2022-06-05,Enea Jorgji,3.0,0.0,15.0
+624136,uefa.nations,2022-06-05,Alain Durieux,1.0,0.0,22.0
+624130,uefa.nations,2022-06-05,Fabio Maresca,2.0,0.0,15.0
+624134,uefa.nations,2022-06-05,Francois Letexier,2.0,0.0,24.0
+624131,uefa.nations,2022-06-05,John Beaton,4.0,2.0,21.0
+624135,uefa.nations,2022-06-05,Orel Grinfeld,4.0,0.0,26.0
+624133,uefa.nations,2022-06-05,Jesús Gil Manzano,2.0,0.0,16.0
+624132,uefa.nations,2022-06-05,Anthony Taylor,6.0,0.0,20.0
+624124,uefa.nations,2022-06-06,Mario Zebec,2.0,0.0,13.0
+624128,uefa.nations,2022-06-06,Lionel Tschudi,6.0,1.0,32.0
+624121,uefa.nations,2022-06-06,Mohammed Al-Hakim,8.0,1.0,24.0
+624123,uefa.nations,2022-06-06,Marco Guida,2.0,0.0,17.0
+624120,uefa.nations,2022-06-06,Craig Pawson,2.0,0.0,31.0
+624127,uefa.nations,2022-06-06,,,,
+624129,uefa.nations,2022-06-06,Kristo  Tohver ,10.0,0.0,24.0
+624122,uefa.nations,2022-06-06,William Collum,2.0,0.0,23.0
+624115,uefa.nations,2022-06-07,Allard Lindhout,1.0,0.0,26.0
+624116,uefa.nations,2022-06-07,Sascha Stegemann,3.0,0.0,24.0
+624114,uefa.nations,2022-06-07,Robert Hennessy,2.0,2.0,17.0
+624112,uefa.nations,2022-06-07,Carlos Del Cerro Grande,1.0,0.0,11.0
+624113,uefa.nations,2022-06-07,Sandro Scharer,3.0,0.0,20.0
+624117,uefa.nations,2022-06-07,Novak Simovic,6.0,0.0,31.0
+624126,uefa.nations,2022-06-08,Ivan Kruzliak,2.0,0.0,23.0
+624140,uefa.nations,2022-06-08,Filip Glova,2.0,0.0,23.0
+624144,uefa.nations,2022-06-08,Sebastian Gishamer,4.0,0.0,24.0
+624125,uefa.nations,2022-06-08,Glenn Nyberg,1.0,0.0,22.0
+624102,uefa.nations,2022-06-09,Petri Viljanen,7.0,0.0,26.0
+624109,uefa.nations,2022-06-09,Tamas Bognar,2.0,0.0,14.0
+624105,uefa.nations,2022-06-09,Jakob Kehlet,5.0,0.0,22.0
+624110,uefa.nations,2022-06-09,Bobby Madden,3.0,0.0,19.0
+624104,uefa.nations,2022-06-09,Roi Reinshreiber,6.0,0.0,17.0
+624107,uefa.nations,2022-06-09,Fabio Verissimo,3.0,1.0,11.0
+624103,uefa.nations,2022-06-09,Matej Jug,6.0,0.0,29.0
+624106,uefa.nations,2022-06-09,Lawrence Visser,6.0,0.0,23.0
+624108,uefa.nations,2022-06-09,Serdar Gözübüyük,4.0,0.0,31.0
+624101,uefa.nations,2022-06-10,Donatas Rumsas,6.0,0.0,22.0
+624111,uefa.nations,2022-06-10,Andy Madley,3.0,0.0,28.0
+624097,uefa.nations,2022-06-10,Tiago  Martins,6.0,0.0,23.0
+624098,uefa.nations,2022-06-10,Nejc Kajtazovic,5.0,0.0,20.0
+624095,uefa.nations,2022-06-10,Anastasios Sidiropoulos ,4.0,0.0,16.0
+624100,uefa.nations,2022-06-10,Manuel Schüttengruber,2.0,0.0,22.0
+624094,uefa.nations,2022-06-10,Bartosz Frankowski,4.0,0.0,22.0
+624096,uefa.nations,2022-06-10,,,,
+624085,uefa.nations,2022-06-11,Daniel Stefanski,7.0,0.0,22.0
+624090,uefa.nations,2022-06-11,Igor Pajac,7.0,0.0,28.0
+624091,uefa.nations,2022-06-11,Marco Di Bello,3.0,0.0,20.0
+624088,uefa.nations,2022-06-11,Szymon Marciniak,5.0,0.0,29.0
+624087,uefa.nations,2022-06-11,José María Sánchez Martínez,4.0,0.0,19.0
+624089,uefa.nations,2022-06-11,António Nobre,1.0,0.0,20.0
+624092,uefa.nations,2022-06-11,Daniele Orsato,4.0,0.0,14.0
+624099,uefa.nations,2022-06-11,Halil Meler,8.0,0.0,19.0
+624086,uefa.nations,2022-06-11,Harald Lechner,4.0,0.0,28.0
+624093,uefa.nations,2022-06-11,Benoit Bastien,4.0,0.0,21.0
+624083,uefa.nations,2022-06-12,Ricardo de Burgos Bengoetxea,2.0,0.0,14.0
+624080,uefa.nations,2022-06-12,Espen Eskas,3.0,0.0,19.0
+624081,uefa.nations,2022-06-12,Dumitru Muntean,4.0,0.0,14.0
+624082,uefa.nations,2022-06-12,Harm Osmers,7.0,0.0,24.0
+624076,uefa.nations,2022-06-12,Julian Weinberger,4.0,0.0,22.0
+624078,uefa.nations,2022-06-12,Dennis Higler,3.0,0.0,24.0
+624079,uefa.nations,2022-06-12,Maurizio Mariani,7.0,1.0,28.0
+624075,uefa.nations,2022-06-12,Cüneyt Çakir,1.0,0.0,18.0
+624077,uefa.nations,2022-06-12,Fran Jovic,4.0,0.0,22.0
+624084,uefa.nations,2022-06-13,Bram van Driessche,5.0,1.0,31.0
+624073,uefa.nations,2022-06-13,Anastasios Papapetrou,1.0,0.0,17.0
+624068,uefa.nations,2022-06-13,Alejandro José Hernández Hernández,3.0,0.0,22.0
+624070,uefa.nations,2022-06-13,Orel Grinfeld,4.0,0.0,22.0
+624071,uefa.nations,2022-06-13,Duje Strukan,3.0,0.0,29.0
+624067,uefa.nations,2022-06-13,,,,
+624066,uefa.nations,2022-06-14,Nikola Dabanovic,5.0,2.0,22.0
+624074,uefa.nations,2022-06-14,Peter Kjærsgaard-Andersen,4.0,0.0,41.0
+624059,uefa.nations,2022-06-14,Georgi Kabakov ,3.0,0.0,16.0
+624060,uefa.nations,2022-06-14,Clément Turpin,3.0,1.0,24.0
+624061,uefa.nations,2022-06-14,Istvan Kovacs,2.0,0.0,16.0
+624062,uefa.nations,2022-06-14,Aleksandar Stavrev,5.0,0.0,26.0
+624058,uefa.nations,2022-06-14,Michael Fabbri,1.0,0.0,13.0
+624072,uefa.nations,2022-06-14,Horatiu Fesnic,5.0,0.0,29.0
+624069,uefa.nations,2022-06-14,Irfan Peljto,1.0,0.0,20.0
+624064,uefa.nations,2022-06-14,João Pinheiro,7.0,0.0,26.0
+624063,uefa.nations,2022-06-14,Stephanie Frappart,4.0,0.0,23.0
+624065,uefa.nations,2022-06-14,Alì Palabiyik,5.0,0.0,24.0
+624118,uefa.nations,2022-09-21,Maurizio Mariani,5.0,0.0,18.0
+624057,uefa.nations,2022-09-22,Horatiu Fesnic,5.0,1.0,27.0
+624055,uefa.nations,2022-09-22,António Nobre,4.0,0.0,21.0
+624056,uefa.nations,2022-09-22,Alì Palabiyik,3.0,0.0,19.0
+624051,uefa.nations,2022-09-22,Davide Massa,2.0,0.0,18.0
+624049,uefa.nations,2022-09-22,Andreas Ekberg,1.0,0.0,18.0
+624048,uefa.nations,2022-09-22,Juxhin Xhaja,7.0,0.0,35.0
+624052,uefa.nations,2022-09-22,Vilhjalmur Thorarinsson,4.0,0.0,37.0
+624054,uefa.nations,2022-09-22,Alejandro José Hernández Hernández,5.0,0.0,39.0
+624050,uefa.nations,2022-09-22,William Collum,5.0,0.0,30.0
+624053,uefa.nations,2022-09-22,Tobias Stieler,2.0,0.0,22.0
+624042,uefa.nations,2022-09-23,Daniel Siebert,2.0,1.0,25.0
+624046,uefa.nations,2022-09-23,Ivan Kruzliak,2.0,0.0,26.0
+624043,uefa.nations,2022-09-23,Szymon Marciniak,9.0,0.0,36.0
+624040,uefa.nations,2022-09-23,Pavel Orel,0.0,0.0,15.0
+624045,uefa.nations,2022-09-23,Carlos Del Cerro Grande,5.0,0.0,17.0
+624041,uefa.nations,2022-09-23,Slavko Vincici,3.0,0.0,20.0
+624039,uefa.nations,2022-09-23,Jesús Gil Manzano,3.0,0.0,29.0
+624047,uefa.nations,2022-09-24,João Pinheiro,4.0,0.0,19.0
+624038,uefa.nations,2022-09-24,,,,
+624036,uefa.nations,2022-09-24,Glenn Nyberg,1.0,0.0,19.0
+624037,uefa.nations,2022-09-24,Lawrence Visser,5.0,0.0,31.0
+624032,uefa.nations,2022-09-24,Aleksei Kulbakov,3.0,0.0,35.0
+624033,uefa.nations,2022-09-24,Srdjan Jovanovic,0.0,0.0,9.0
+624031,uefa.nations,2022-09-24,Donatas Rumsas,5.0,0.0,24.0
+624044,uefa.nations,2022-09-24,Sandro Scharer,8.0,0.0,30.0
+624034,uefa.nations,2022-09-24,Georgi Kabakov ,4.0,0.0,17.0
+624035,uefa.nations,2022-09-24,Clément Turpin,2.0,0.0,24.0
+624029,uefa.nations,2022-09-25,Anastasios Papapetrou,6.0,0.0,32.0
+624030,uefa.nations,2022-09-25,Stephanie Frappart,5.0,0.0,19.0
+624028,uefa.nations,2022-09-25,Harm Osmers,5.0,1.0,15.0
+624149,uefa.nations,2022-09-25,Nikola Dabanovic,6.0,0.0,25.0
+624022,uefa.nations,2022-09-25,Artur Soares Dias,4.0,0.0,21.0
+624023,uefa.nations,2022-09-25,Istvan Kovacs,2.0,0.0,15.0
+624026,uefa.nations,2022-09-25,Sergey Boyko,3.0,0.0,19.0
+624024,uefa.nations,2022-09-25,Giorgi Kruashvili,8.0,0.0,29.0
+624021,uefa.nations,2022-09-25,Anthony Taylor,4.0,0.0,21.0
+624025,uefa.nations,2022-09-25,Andris Treimanis,7.0,0.0,31.0
+624017,uefa.nations,2022-09-26,Danny Makkelie,2.0,0.0,20.0
+624016,uefa.nations,2022-09-26,Robert Harvey,6.0,0.0,22.0
+624018,uefa.nations,2022-09-26,Benoit Bastien,3.0,0.0,28.0
+624015,uefa.nations,2022-09-26,Francois Letexier,6.0,1.0,23.0
+624014,uefa.nations,2022-09-26,Julian Weinberger,8.0,1.0,34.0
+624013,uefa.nations,2022-09-26,Halil Meler,0.0,0.0,18.0
+624020,uefa.nations,2022-09-26,Kateryna Monzul,2.0,0.0,30.0
+624005,uefa.nations,2022-09-27,Ricardo de Burgos Bengoetxea,2.0,1.0,15.0
+624007,uefa.nations,2022-09-27,Filip Glova,3.0,0.0,23.0
+624011,uefa.nations,2022-09-27,Kristo  Tohver ,2.0,0.0,12.0
+624008,uefa.nations,2022-09-27,Antonio Miguel Mateu Lahoz,2.0,0.0,19.0
+624010,uefa.nations,2022-09-27,Daniele Orsato,5.0,0.0,29.0
+624012,uefa.nations,2022-09-27,Rade Obrenovic,3.0,2.0,20.0
+624006,uefa.nations,2022-09-27,,,,
+624009,uefa.nations,2022-09-27,Felix Zwayer,5.0,0.0,20.0
+624004,uefa.nations,2022-09-27,Irfan Peljto,2.0,0.0,21.0
+624019,uefa.nations,2022-09-27,Anastasios Sidiropoulos ,7.0,0.0,20.0
+654360,uefa.nations,2023-06-14,Istvan Kovacs,7.0,0.0,38.0
+663883,uefa.nations,2023-06-15,Slavko Vincici,5.0,0.0,32.0
+654362,uefa.nations,2023-06-18,Glenn Nyberg,4.0,0.0,31.0
+654361,uefa.nations,2023-06-18,Felix Zwayer,4.0,0.0,29.0
+663885,uefa.nations,2024-03-21,Giorgi Kruashvili,4.0,2.0,24.0
+663887,uefa.nations,2024-03-26,Duje Strukan,2.0,0.0,26.0
+698882,uefa.nations,2024-09-05,Balazs Berke,4.0,0.0,24.0
+698883,uefa.nations,2024-09-05,Ovidiu Alin Hategan,4.0,1.0,30.0
+698884,uefa.nations,2024-09-05,Daniel Siebert,7.0,2.0,30.0
+698890,uefa.nations,2024-09-05,Matej Jug,7.0,0.0,22.0
+698889,uefa.nations,2024-09-05,Marian Barbu,2.0,0.0,25.0
+698888,uefa.nations,2024-09-05,Halil Meler,1.0,0.0,11.0
+698887,uefa.nations,2024-09-05,Andris Treimanis,5.0,0.0,34.0
+698886,uefa.nations,2024-09-05,Glenn Nyberg,3.0,0.0,31.0
+698885,uefa.nations,2024-09-05,Serdar Gözübüyük,8.0,0.0,23.0
+698891,uefa.nations,2024-09-06,Allard Lindhout,5.0,0.0,21.0
+698894,uefa.nations,2024-09-06,Igor Pajac,6.0,0.0,37.0
+698897,uefa.nations,2024-09-06,Michael Oliver,2.0,0.0,16.0
+698898,uefa.nations,2024-09-06,Sandro Scharer,2.0,0.0,22.0
+698893,uefa.nations,2024-09-06,Willy Delajod,7.0,0.0,32.0
+698895,uefa.nations,2024-09-06,Aliyar Aghayev,5.0,1.0,19.0
+698896,uefa.nations,2024-09-06,Radu Petrescu,6.0,0.0,27.0
+698892,uefa.nations,2024-09-06,Rohit Saggi,6.0,1.0,32.0
+698899,uefa.nations,2024-09-07,Manfredas Lukjancukas,5.0,0.0,22.0
+698900,uefa.nations,2024-09-07,Nenad Minakovic,2.0,0.0,24.0
+698901,uefa.nations,2024-09-07,Orel Grinfeld,6.0,0.0,31.0
+698902,uefa.nations,2024-09-07,Mykola Balakin,5.0,0.0,33.0
+698903,uefa.nations,2024-09-07,José María Sánchez Martínez,6.0,0.0,24.0
+698906,uefa.nations,2024-09-07,Clément Turpin,1.0,0.0,24.0
+698905,uefa.nations,2024-09-07,Urs Schnyder,5.0,0.0,18.0
+698904,uefa.nations,2024-09-07,Donatas Rumsas,2.0,0.0,25.0
+698907,uefa.nations,2024-09-07,Luís Godinho,2.0,0.0,30.0
+698908,uefa.nations,2024-09-08,Lawrence Visser,6.0,0.0,30.0
+698909,uefa.nations,2024-09-08,Anastasios Sidiropoulos ,7.0,0.0,31.0
+698910,uefa.nations,2024-09-08,Chris Kavanagh,5.0,0.0,24.0
+698912,uefa.nations,2024-09-08,Kristo  Tohver ,14.0,1.0,38.0
+698911,uefa.nations,2024-09-08,Damian Sylwestrzak,4.0,0.0,28.0
+698915,uefa.nations,2024-09-08,Francois Letexier,6.0,0.0,20.0
+698916,uefa.nations,2024-09-08,Maurizio Mariani,6.0,0.0,21.0
+698914,uefa.nations,2024-09-08,Sven Jablonski,1.0,1.0,14.0
+698913,uefa.nations,2024-09-08,Irfan Peljto,5.0,1.0,19.0
+698919,uefa.nations,2024-09-09,Sebastian Gishamer,3.0,0.0,24.0
+698918,uefa.nations,2024-09-09,Tobias Stieler,4.0,0.0,18.0
+698917,uefa.nations,2024-09-09,Ivan Kruzliak,3.0,0.0,23.0
+698920,uefa.nations,2024-09-09,Georgi Kabakov ,6.0,0.0,27.0
+698924,uefa.nations,2024-09-09,Nikola Dabanovic,1.0,0.0,14.0
+698923,uefa.nations,2024-09-09,Rade Obrenovic,6.0,0.0,25.0
+698922,uefa.nations,2024-09-09,João Pinheiro,3.0,0.0,22.0
+698921,uefa.nations,2024-09-09,Enea Jorgji,3.0,0.0,17.0
+698931,uefa.nations,2024-09-10,Duje Strukan,1.0,0.0,12.0
+698925,uefa.nations,2024-09-10,Erik Lambrechts,3.0,0.0,23.0
+698926,uefa.nations,2024-09-10,Mohammed Al-Hakim,4.0,0.0,29.0
+698927,uefa.nations,2024-09-10,John Beaton,7.0,0.0,32.0
+698928,uefa.nations,2024-09-10,Morten Krogh,1.0,0.0,15.0
+698932,uefa.nations,2024-09-10,Marco Guida,3.0,0.0,20.0
+698930,uefa.nations,2024-09-10,Davide Massa,4.0,0.0,20.0
+698933,uefa.nations,2024-09-10,Harm Osmers,5.0,1.0,20.0
+698929,uefa.nations,2024-09-10,Espen Eskas,5.0,0.0,25.0
+698940,uefa.nations,2024-10-10,Jakob Sundberg,3.0,0.0,23.0
+698941,uefa.nations,2024-10-10,Milos Milanovic,8.0,0.0,35.0
+698936,uefa.nations,2024-10-10,Don Robertson,3.0,0.0,27.0
+698935,uefa.nations,2024-10-10,Andrea Colombo,6.0,0.0,24.0
+698934,uefa.nations,2024-10-10,Oleksiy Derevinskyi,4.0,0.0,18.0
+698937,uefa.nations,2024-10-10,Aleksandar Stavrev,0.0,0.0,15.0
+698938,uefa.nations,2024-10-10,Felix Zwayer,11.0,0.0,28.0
+698943,uefa.nations,2024-10-10,Nikola Dabanovic,1.0,0.0,19.0
+698939,uefa.nations,2024-10-10,Espen Eskas,3.0,1.0,26.0
+698942,uefa.nations,2024-10-10,Manfredas Lukjancukas,2.0,0.0,16.0
+698944,uefa.nations,2024-10-11,Robert Harvey,2.0,0.0,21.0
+698946,uefa.nations,2024-10-11,Francois Letexier,6.0,0.0,19.0
+698945,uefa.nations,2024-10-11,Benoit Bastien,2.0,0.0,27.0
+698947,uefa.nations,2024-10-11,Lukas Fähndrich,2.0,1.0,27.0
+698951,uefa.nations,2024-10-11,Antoni Bandic,7.0,0.0,24.0
+698950,uefa.nations,2024-10-11,Maurizio Mariani,6.0,0.0,32.0
+698949,uefa.nations,2024-10-11,Daniele Chiffi,5.0,0.0,29.0
+698948,uefa.nations,2024-10-11,Julian Weinberger,8.0,0.0,20.0
+698952,uefa.nations,2024-10-12,Ondrej Berka,5.0,0.0,27.0
+698953,uefa.nations,2024-10-12,David Smajc,11.0,0.0,31.0
+698954,uefa.nations,2024-10-12,Istvan Kovacs,4.0,0.0,21.0
+698959,uefa.nations,2024-10-12,Henrik Nalbandyan,3.0,0.0,34.0
+698955,uefa.nations,2024-10-12,Sascha Stegemann,6.0,0.0,25.0
+698958,uefa.nations,2024-10-12,Serdar Gözübüyük,5.0,0.0,28.0
+698957,uefa.nations,2024-10-12,Simone Sozza,5.0,0.0,23.0
+698956,uefa.nations,2024-10-12,Ivan Kruzliak,5.0,0.0,26.0
+698960,uefa.nations,2024-10-13,Craig Pawson,5.0,0.0,20.0
+698961,uefa.nations,2024-10-13,Stuart Attwell,3.0,0.0,22.0
+698962,uefa.nations,2024-10-13,Giorgi Kruashvili,0.0,0.0,14.0
+698963,uefa.nations,2024-10-13,Horatiu Fesnic,4.0,1.0,27.0
+698964,uefa.nations,2024-10-13,John Brooks,6.0,0.0,34.0
+698965,uefa.nations,2024-10-13,Tamas Bognar,4.0,0.0,16.0
+698967,uefa.nations,2024-10-13,Philip Farrugia,3.0,0.0,23.0
+698966,uefa.nations,2024-10-13,Joey Kooij,2.0,0.0,31.0
+698968,uefa.nations,2024-10-14,Rohit Saggi,1.0,1.0,27.0
+698969,uefa.nations,2024-10-14,Danny Makkelie,4.0,0.0,21.0
+698974,uefa.nations,2024-10-14,Irfan Peljto,7.0,1.0,24.0
+698973,uefa.nations,2024-10-14,Anthony Taylor,4.0,0.0,29.0
+698972,uefa.nations,2024-10-14,Juxhin Xhaja,5.0,0.0,26.0
+698971,uefa.nations,2024-10-14,Slavko Vincici,6.0,0.0,20.0
+698970,uefa.nations,2024-10-14,Damian Sylwestrzak,6.0,0.0,21.0
+698975,uefa.nations,2024-10-14,Ricardo de Burgos Bengoetxea,1.0,0.0,20.0
+698977,uefa.nations,2024-10-14,Guillermo Cuadra Fernández,5.0,0.0,20.0
+698976,uefa.nations,2024-10-14,Filip Glova,4.0,0.0,37.0
+698978,uefa.nations,2024-10-15,Atilla Karaoglan,8.0,0.0,36.0
+698979,uefa.nations,2024-10-15,Matej Jug,4.0,0.0,21.0
+698985,uefa.nations,2024-10-15,Nick Walsh,5.0,0.0,29.0
+698980,uefa.nations,2024-10-15,Jerome Brisard,4.0,0.0,27.0
+698981,uefa.nations,2024-10-15,Alejandro José Hernández Hernández,4.0,1.0,23.0
+698982,uefa.nations,2024-10-15,Lawrence Visser,5.0,0.0,32.0
+698984,uefa.nations,2024-10-15,Daniel Stefanski,5.0,1.0,24.0
+698983,uefa.nations,2024-10-15,Halil Meler,3.0,0.0,19.0
+698986,uefa.nations,2024-11-14,Marian Barbu,1.0,1.0,20.0
+698987,uefa.nations,2024-11-14,Anastasios Sidiropoulos ,6.0,0.0,11.0
+698988,uefa.nations,2024-11-14,Radu Petrescu,5.0,0.0,17.0
+698989,uefa.nations,2024-11-14,Tobias Stieler,3.0,0.0,18.0
+698990,uefa.nations,2024-11-14,Daniel Siebert,5.0,0.0,28.0
+698991,uefa.nations,2024-11-14,Goga Kikacheishvili,5.0,0.0,24.0
+698992,uefa.nations,2024-11-14,Harm Osmers,2.0,0.0,18.0
+698993,uefa.nations,2024-11-14,Michael Oliver,1.0,0.0,23.0
+698994,uefa.nations,2024-11-15,Nenad Minakovic,6.0,0.0,43.0
+698995,uefa.nations,2024-11-15,Rade Obrenovic,6.0,0.0,25.0
+698996,uefa.nations,2024-11-15,Juri Frischer,6.0,0.0,25.0
+698997,uefa.nations,2024-11-15,Luís Godinho,5.0,0.0,46.0
+698998,uefa.nations,2024-11-15,Donatas Rumsas,5.0,0.0,21.0
+698999,uefa.nations,2024-11-15,Morten Krogh,10.0,0.0,26.0
+699000,uefa.nations,2024-11-15,Igor Pajac,10.0,0.0,32.0
+699001,uefa.nations,2024-11-15,Orel Grinfeld,2.0,1.0,15.0
+699002,uefa.nations,2024-11-15,Clément Turpin,5.0,0.0,28.0
+699003,uefa.nations,2024-11-16,John Beaton,6.0,0.0,18.0
+699004,uefa.nations,2024-11-16,Bulat Sariyev,7.0,0.0,42.0
+699007,uefa.nations,2024-11-16,Chris Kavanagh,6.0,0.0,25.0
+699006,uefa.nations,2024-11-16,Sven Jablonski,7.0,0.0,16.0
+699005,uefa.nations,2024-11-16,Juan Martínez Munuera,3.0,0.0,23.0
+699009,uefa.nations,2024-11-16,Sandro Scharer,3.0,0.0,26.0
+699011,uefa.nations,2024-11-16,Vasilis Fotias,3.0,0.0,19.0
+699010,uefa.nations,2024-11-16,Jesús Gil Manzano,3.0,0.0,24.0
+699008,uefa.nations,2024-11-16,Mykola Balakin,6.0,1.0,28.0
+699012,uefa.nations,2024-11-17,Georgi Kabakov ,3.0,0.0,18.0
+699013,uefa.nations,2024-11-17,Daniel Schlager,6.0,0.0,15.0
+699016,uefa.nations,2024-11-17,Glenn Nyberg,3.0,0.0,21.0
+699017,uefa.nations,2024-11-17,Erik Lambrechts,6.0,1.0,16.0
+699014,uefa.nations,2024-11-17,Willy Delajod,3.0,0.0,14.0
+699015,uefa.nations,2024-11-17,Jasper Vergoote,2.0,0.0,24.0
+699018,uefa.nations,2024-11-17,Sebastian Gishamer,5.0,0.0,24.0
+699019,uefa.nations,2024-11-17,Slavko Vincici,3.0,0.0,33.0
+699021,uefa.nations,2024-11-18,Allard Lindhout,8.0,0.0,35.0
+699020,uefa.nations,2024-11-18,Davide Massa,2.0,0.0,16.0
+699022,uefa.nations,2024-11-18,Kristoffer Hagenes,3.0,1.0,34.0
+699028,uefa.nations,2024-11-18,Jeremie Pignard,6.0,0.0,31.0
+699027,uefa.nations,2024-11-18,Elchin Masiyev,3.0,0.0,34.0
+699026,uefa.nations,2024-11-18,Christian Dingert,5.0,0.0,23.0
+699025,uefa.nations,2024-11-18,Luca Pairetto,2.0,1.0,24.0
+699024,uefa.nations,2024-11-18,Felix Zwayer,4.0,1.0,21.0
+699023,uefa.nations,2024-11-18,Bastian Dankert,3.0,0.0,25.0
+699029,uefa.nations,2024-11-19,João Pinheiro,4.0,0.0,29.0
+699030,uefa.nations,2024-11-19,Aliyar Aghayev,1.0,0.0,28.0
+699045,uefa.nations,2024-11-19,Anastasios Papapetrou,9.0,0.0,23.0
+699044,uefa.nations,2024-11-19,Duje Strukan,5.0,0.0,29.0
+699043,uefa.nations,2024-11-19,Luka Bilbija,6.0,1.0,35.0
+699046,uefa.nations,2024-11-19,Urs Schnyder,11.0,0.0,20.0
+699031,uefa.nations,2024-11-19,Mikkel Redder,3.0,0.0,23.0
+699041,uefa.nations,2024-11-19,Pawel Raczkowski,6.0,0.0,26.0
+699042,uefa.nations,2024-11-19,António Nobre,8.0,0.0,24.0
+723727,uefa.nations,2025-03-20,Radu Petrescu,3.0,0.0,21.0
+723715,uefa.nations,2025-03-20,Ivan Kruzliak,4.0,0.0,30.0
+723719,uefa.nations,2025-03-20,João Pinheiro,0.0,0.0,20.0
+723725,uefa.nations,2025-03-20,Benoit Bastien,8.0,0.0,31.0
+723709,uefa.nations,2025-03-20,Espen Eskas,2.0,0.0,24.0
+723711,uefa.nations,2025-03-20,Irfan Peljto,2.0,0.0,14.0
+723721,uefa.nations,2025-03-20,Tobias Stieler,2.0,0.0,19.0
+723713,uefa.nations,2025-03-20,Francois Letexier,3.0,0.0,34.0
+723723,uefa.nations,2025-03-20,Serdar Gözübüyük,4.0,0.0,20.0
+723707,uefa.nations,2025-03-20,Glenn Nyberg,4.0,1.0,21.0
+723729,uefa.nations,2025-03-20,Maurizio Mariani,1.0,0.0,20.0
+723717,uefa.nations,2025-03-20,Sandro Scharer,1.0,0.0,17.0
+723728,uefa.nations,2025-03-23,Anthony Taylor,4.0,0.0,20.0
+723716,uefa.nations,2025-03-23,Felix Zwayer,7.0,0.0,31.0
+723724,uefa.nations,2025-03-23,Jesús Gil Manzano,5.0,1.0,22.0
+723722,uefa.nations,2025-03-23,Davide Massa,4.0,0.0,28.0
+723720,uefa.nations,2025-03-23,José María Sánchez Martínez,4.0,1.0,17.0
+723730,uefa.nations,2025-03-23,Istvan Kovacs,8.0,0.0,32.0
+723718,uefa.nations,2025-03-23,Daniel Siebert,6.0,0.0,19.0
+723710,uefa.nations,2025-03-23,Michael Oliver,8.0,0.0,38.0
+723714,uefa.nations,2025-03-23,Szymon Marciniak,7.0,0.0,28.0
+723712,uefa.nations,2025-03-23,Slavko Vincici,6.0,0.0,40.0
+723726,uefa.nations,2025-03-23,Halil Meler,6.0,0.0,24.0
+723708,uefa.nations,2025-03-23,Clément Turpin,3.0,0.0,25.0
+723735,uefa.nations,2025-06-04,Slavko Vincici,5.0,0.0,19.0
+723736,uefa.nations,2025-06-05,Michael Oliver,6.0,0.0,31.0
+723737,uefa.nations,2025-06-08,Ivan Kruzliak,5.0,0.0,18.0
+723738,uefa.nations,2025-06-08,Sandro Scharer,7.0,0.0,33.0
+723731,uefa.nations,2026-03-26,Ivan Kruzliak,4.0,0.0,22.0
+723733,uefa.nations,2026-03-26,Irfan Peljto,2.0,0.0,22.0
+723732,uefa.nations,2026-03-31,Sandro Scharer,7.0,0.0,28.0
+723734,uefa.nations,2026-03-31,Daniel Siebert,3.0,1.0,27.0
+690705,conmebol.america,2024-06-21,Jesús Valenzuela,4.0,0.0,24.0
+690706,conmebol.america,2024-06-22,Wilton Pereira Sampaio,4.0,0.0,37.0
+690708,conmebol.america,2024-06-22,Wilmer Roldán,4.0,1.0,34.0
+690707,conmebol.america,2024-06-23,Ismail Elfath,0.0,0.0,15.0
+690709,conmebol.america,2024-06-23,Maurizio Mariani,4.0,0.0,25.0
+690710,conmebol.america,2024-06-24,Piero Maza,1.0,0.0,21.0
+690711,conmebol.america,2024-06-24,Dario Herrera,3.0,0.0,28.0
+690712,conmebol.america,2024-06-25,César Arturo Ramos Palazuelos,3.0,0.0,23.0
+690714,conmebol.america,2024-06-25,Mario Escobar,1.0,1.0,31.0
+690713,conmebol.america,2024-06-26,Andrés Matonte,2.0,0.0,21.0
+690716,conmebol.america,2024-06-26,Cristián Garay,4.0,0.0,26.0
+690715,conmebol.america,2024-06-27,Raphael Claus,4.0,0.0,19.0
+690717,conmebol.america,2024-06-27,Iván Arcides Barton Cisneros,5.0,2.0,23.0
+690718,conmebol.america,2024-06-28,Juan Gabriel Benítez,1.0,0.0,26.0
+690720,conmebol.america,2024-06-28,Gustavo Tejera,3.0,0.0,33.0
+690719,conmebol.america,2024-06-29,Piero Maza,5.0,1.0,25.0
+690721,conmebol.america,2024-06-30,César Arturo Ramos Palazuelos,6.0,0.0,31.0
+690722,conmebol.america,2024-06-30,Wilmer Roldán,5.0,1.0,23.0
+690724,conmebol.america,2024-07-01,Maurizio Mariani,2.0,0.0,16.0
+690723,conmebol.america,2024-07-01,Mario Escobar,7.0,0.0,28.0
+690726,conmebol.america,2024-07-02,Edina Alves Batista,3.0,0.0,25.0
+690725,conmebol.america,2024-07-02,Kevin Paolo Ortega,3.0,0.0,24.0
+690728,conmebol.america,2024-07-03,Jesús Valenzuela,5.0,0.0,33.0
+690727,conmebol.america,2024-07-03,Yael Falcón Pérez,6.0,0.0,28.0
+703946,conmebol.america,2024-07-05,Andrés Matonte,4.0,0.0,27.0
+703947,conmebol.america,2024-07-06,Wilton Pereira Sampaio,3.0,0.0,20.0
+703948,conmebol.america,2024-07-06,Maurizio Mariani,4.0,0.0,35.0
+703949,conmebol.america,2024-07-07,Dario Herrera,4.0,1.0,41.0
+703950,conmebol.america,2024-07-10,Piero Maza,4.0,0.0,20.0
+703951,conmebol.america,2024-07-11,César Arturo Ramos Palazuelos,6.0,2.0,24.0
+703952,conmebol.america,2024-07-14,Alexis Herrera,6.0,0.0,35.0
+703953,conmebol.america,2024-07-15,Raphael Claus,4.0,0.0,26.0
+668477,concacaf.gold,2023-06-25,César Arturo Ramos Palazuelos,3.0,0.0,24.0
+668478,concacaf.gold,2023-06-25,Said Martinez,2.0,0.0,24.0
+668479,concacaf.gold,2023-06-25,Daneion Parchment,8.0,0.0,33.0
+668480,concacaf.gold,2023-06-26,Mario Escobar,4.0,0.0,26.0
+668481,concacaf.gold,2023-06-26,Adonai Gonzalez,2.0,1.0,22.0
+668482,concacaf.gold,2023-06-27,Drew Fischer,3.0,0.0,27.0
+668483,concacaf.gold,2023-06-27,Rubiel Vazquez,4.0,0.0,30.0
+668484,concacaf.gold,2023-06-28,Oshane Nation,8.0,0.0,38.0
+668485,concacaf.gold,2023-06-28,Fernando Guerrero Ramírez,6.0,0.0,32.0
+668486,concacaf.gold,2023-06-29,Juan Calderón,3.0,0.0,25.0
+668487,concacaf.gold,2023-06-29,Armando Villarreal,6.0,2.0,31.0
+668488,concacaf.gold,2023-06-30,Walter Lopez,2.0,0.0,19.0
+668489,concacaf.gold,2023-06-30,"Martínez, Héctor",2.0,0.0,27.0
+668490,concacaf.gold,2023-07-01,César Arturo Ramos Palazuelos,3.0,0.0,31.0
+668491,concacaf.gold,2023-07-01,Iván Arcides Barton Cisneros,4.0,1.0,28.0
+668492,concacaf.gold,2023-07-02,Marco Antonio Ortiz Nava,6.0,0.0,23.0
+668493,concacaf.gold,2023-07-02,Adonai Gonzalez,2.0,0.0,16.0
+668494,concacaf.gold,2023-07-02,Mario Escobar,2.0,0.0,18.0
+668496,concacaf.gold,2023-07-03,Oshane Nation,2.0,0.0,17.0
+668495,concacaf.gold,2023-07-03,Drew Fischer,10.0,0.0,31.0
+668497,concacaf.gold,2023-07-04,Keylor Herrera Villalobos,3.0,0.0,29.0
+668498,concacaf.gold,2023-07-04,Juan Calderón,5.0,1.0,32.0
+668499,concacaf.gold,2023-07-05,Bryan López,6.0,0.0,23.0
+668500,concacaf.gold,2023-07-05,Walter Lopez,6.0,0.0,32.0
+678987,concacaf.gold,2023-07-08,César Arturo Ramos Palazuelos,0.0,0.0,22.0
+678988,concacaf.gold,2023-07-09,"Martínez, Héctor",4.0,0.0,32.0
+678985,concacaf.gold,2023-07-09,Drew Fischer,4.0,0.0,31.0
+678986,concacaf.gold,2023-07-09,Marco Antonio Ortiz Nava,6.0,0.0,33.0
+676879,concacaf.gold,2023-07-12,Walter Lopez,2.0,0.0,24.0
+676878,concacaf.gold,2023-07-13,Mario Escobar,5.0,0.0,26.0
+678990,concacaf.gold,2023-07-16,"Martínez, Héctor",8.0,0.0,41.0
+735318,concacaf.gold,2025-06-15,Oshane Nation,5.0,0.0,21.0
+735319,concacaf.gold,2025-06-15,Adonai Gonzalez,1.0,0.0,19.0
+735320,concacaf.gold,2025-06-16,Walter Lopez,5.0,0.0,28.0
+735321,concacaf.gold,2025-06-16,Joseph Dickerson,3.0,0.0,34.0
+735322,concacaf.gold,2025-06-16,Keylor Herrera Villalobos,1.0,0.0,17.0
+735323,concacaf.gold,2025-06-17,Juan Calderón,1.0,0.0,26.0
+735324,concacaf.gold,2025-06-18,Katia Itzel García,4.0,0.0,36.0
+735325,concacaf.gold,2025-06-18,Mario Escobar,0.0,0.0,24.0
+735326,concacaf.gold,2025-06-18,Lukasz Szpala,8.0,0.0,25.0
+735327,concacaf.gold,2025-06-19,Selvin Brown,1.0,0.0,31.0
+735328,concacaf.gold,2025-06-19,Ismael Cornejo,3.0,1.0,25.0
+735329,concacaf.gold,2025-06-20,Marco Antonio Ortiz Nava,3.0,0.0,17.0
+735330,concacaf.gold,2025-06-20,Kwinsi Williams,8.0,0.0,27.0
+735331,concacaf.gold,2025-06-21,Adonai Gonzalez,4.0,0.0,18.0
+735332,concacaf.gold,2025-06-21,Juan Calderón,4.0,0.0,28.0
+735333,concacaf.gold,2025-06-22,Walter Lopez,2.0,0.0,31.0
+735334,concacaf.gold,2025-06-22,Keylor Herrera Villalobos,2.0,0.0,25.0
+735335,concacaf.gold,2025-06-22,Katia Itzel García,1.0,0.0,19.0
+735336,concacaf.gold,2025-06-23,Ismael Cornejo,6.0,1.0,22.0
+735337,concacaf.gold,2025-06-23,Mario Escobar,7.0,0.0,21.0
+735339,concacaf.gold,2025-06-24,Marco Antonio Ortiz Nava,4.0,0.0,22.0
+735338,concacaf.gold,2025-06-24,Selvin Brown,4.0,0.0,26.0
+735341,concacaf.gold,2025-06-25,Joseph Dickerson,4.0,2.0,30.0
+735340,concacaf.gold,2025-06-25,Oshane Nation,5.0,0.0,26.0
+735345,concacaf.gold,2025-06-28,Katia Itzel García,4.0,0.0,25.0
+735343,concacaf.gold,2025-06-29,Lukasz Szpala,3.0,0.0,29.0
+735344,concacaf.gold,2025-06-29,Keylor Herrera Villalobos,1.0,1.0,24.0
+735342,concacaf.gold,2025-06-29,Walter Lopez,4.0,0.0,28.0
+735346,concacaf.gold,2025-07-02,Oshane Nation,6.0,0.0,30.0
+735347,concacaf.gold,2025-07-03,Juan Calderón,9.0,0.0,23.0
+735348,concacaf.gold,2025-07-06,Mario Escobar,3.0,0.0,23.0
+634317,concacaf.nations.league,2022-06-02,,2.0,0.0,0.0
+634314,concacaf.nations.league,2022-06-02,,2.0,0.0,0.0
+634316,concacaf.nations.league,2022-06-02,,5.0,0.0,0.0
+634318,concacaf.nations.league,2022-06-02,,5.0,0.0,0.0
+634290,concacaf.nations.league,2022-06-02,Fernando Gomez,2.0,0.0,31.0
+634315,concacaf.nations.league,2022-06-03,,5.0,0.0,0.0
+634324,concacaf.nations.league,2022-06-03,,1.0,0.0,0.0
+634319,concacaf.nations.league,2022-06-03,,4.0,0.0,0.0
+634320,concacaf.nations.league,2022-06-03,,6.0,0.0,0.0
+634323,concacaf.nations.league,2022-06-03,,2.0,0.0,0.0
+634322,concacaf.nations.league,2022-06-03,,2.0,0.0,0.0
+634291,concacaf.nations.league,2022-06-04,Daneion Parchment,4.0,1.0,29.0
+634321,concacaf.nations.league,2022-06-04,,3.0,0.0,0.0
+634325,concacaf.nations.league,2022-06-04,,3.0,0.0,0.0
+634293,concacaf.nations.league,2022-06-04,Selvin Brown,2.0,0.0,27.0
+634326,concacaf.nations.league,2022-06-04,,0.0,0.0,0.0
+634296,concacaf.nations.league,2022-06-05,Luis Enrique Santander Aguirre,1.0,0.0,22.0
+634294,concacaf.nations.league,2022-06-05,Walter Lopez,3.0,0.0,29.0
+634327,concacaf.nations.league,2022-06-05,,2.0,0.0,0.0
+634328,concacaf.nations.league,2022-06-05,,4.0,0.0,0.0
+634330,concacaf.nations.league,2022-06-05,,1.0,0.0,0.0
+634329,concacaf.nations.league,2022-06-05,,7.0,0.0,0.0
+634331,concacaf.nations.league,2022-06-05,,3.0,1.0,0.0
+634332,concacaf.nations.league,2022-06-06,,2.0,0.0,0.0
+634336,concacaf.nations.league,2022-06-06,,3.0,0.0,0.0
+634334,concacaf.nations.league,2022-06-06,,6.0,0.0,0.0
+634337,concacaf.nations.league,2022-06-06,,3.0,0.0,0.0
+634335,concacaf.nations.league,2022-06-06,,6.0,0.0,0.0
+634333,concacaf.nations.league,2022-06-07,,3.0,0.0,0.0
+634295,concacaf.nations.league,2022-06-07,Juan Calderón,2.0,0.0,27.0
+634338,concacaf.nations.league,2022-06-07,,4.0,0.0,0.0
+634339,concacaf.nations.league,2022-06-07,,2.0,0.0,0.0
+634292,concacaf.nations.league,2022-06-07,Jose Raul Torres,7.0,0.0,27.0
+634297,concacaf.nations.league,2022-06-08,Keylor Herrera Villalobos,0.0,0.0,28.0
+634344,concacaf.nations.league,2022-06-09,,4.0,0.0,0.0
+634341,concacaf.nations.league,2022-06-09,,4.0,0.0,0.0
+634342,concacaf.nations.league,2022-06-09,,3.0,0.0,0.0
+634346,concacaf.nations.league,2022-06-09,,5.0,0.0,0.0
+634340,concacaf.nations.league,2022-06-09,,5.0,0.0,0.0
+634343,concacaf.nations.league,2022-06-09,,2.0,0.0,0.0
+634302,concacaf.nations.league,2022-06-10,Ismael Cornejo,3.0,0.0,25.0
+634299,concacaf.nations.league,2022-06-10,Nima Saghafi,0.0,0.0,24.0
+634348,concacaf.nations.league,2022-06-10,,3.0,0.0,0.0
+634345,concacaf.nations.league,2022-06-10,,5.0,0.0,0.0
+634347,concacaf.nations.league,2022-06-10,,3.0,0.0,0.0
+634300,concacaf.nations.league,2022-06-11,Iván Arcides Barton Cisneros,1.0,0.0,21.0
+635996,concacaf.nations.league,2022-06-11,,5.0,0.0,0.0
+634351,concacaf.nations.league,2022-06-11,,4.0,0.0,0.0
+634352,concacaf.nations.league,2022-06-11,,2.0,0.0,0.0
+634349,concacaf.nations.league,2022-06-11,,1.0,0.0,0.0
+634301,concacaf.nations.league,2022-06-12,Iván Arcides Barton Cisneros,4.0,0.0,25.0
+634355,concacaf.nations.league,2022-06-12,,3.0,0.0,0.0
+634350,concacaf.nations.league,2022-06-12,,3.0,1.0,0.0
+634298,concacaf.nations.league,2022-06-12,Fernando Guerrero Ramírez,0.0,1.0,25.0
+634354,concacaf.nations.league,2022-06-12,,3.0,0.0,0.0
+634353,concacaf.nations.league,2022-06-12,,2.0,0.0,0.0
+634356,concacaf.nations.league,2022-06-12,,1.0,0.0,0.0
+634361,concacaf.nations.league,2022-06-13,,3.0,0.0,0.0
+634358,concacaf.nations.league,2022-06-14,,3.0,2.0,0.0
+634359,concacaf.nations.league,2022-06-14,,1.0,0.0,0.0
+634304,concacaf.nations.league,2022-06-14,Mario Escobar,8.0,2.0,35.0
+634365,concacaf.nations.league,2022-06-14,,4.0,0.0,0.0
+634364,concacaf.nations.league,2022-06-14,,4.0,0.0,0.0
+634362,concacaf.nations.league,2022-06-14,,,,
+634360,concacaf.nations.league,2022-06-14,,3.0,0.0,0.0
+634363,concacaf.nations.league,2022-06-14,,1.0,1.0,0.0
+634305,concacaf.nations.league,2022-06-15,Armando Villarreal,4.0,0.0,32.0
+634303,concacaf.nations.league,2022-06-15,César Arturo Ramos Palazuelos,4.0,2.0,28.0
+634369,concacaf.nations.league,2023-03-23,,,,
+634367,concacaf.nations.league,2023-03-23,,3.0,0.0,0.0
+634371,concacaf.nations.league,2023-03-23,,6.0,1.0,0.0
+634366,concacaf.nations.league,2023-03-23,,4.0,1.0,0.0
+634368,concacaf.nations.league,2023-03-23,,1.0,0.0,0.0
+634306,concacaf.nations.league,2023-03-24,Said Martinez,3.0,0.0,48.0
+634370,concacaf.nations.league,2023-03-24,,0.0,0.0,0.0
+634374,concacaf.nations.league,2023-03-24,,1.0,0.0,0.0
+634307,concacaf.nations.league,2023-03-25,Daneion Parchment,3.0,0.0,19.0
+634373,concacaf.nations.league,2023-03-25,,2.0,0.0,0.0
+634372,concacaf.nations.league,2023-03-25,,4.0,0.0,0.0
+634378,concacaf.nations.league,2023-03-25,,2.0,0.0,0.0
+634376,concacaf.nations.league,2023-03-25,,1.0,2.0,0.0
+634375,concacaf.nations.league,2023-03-25,,5.0,1.0,0.0
+634377,concacaf.nations.league,2023-03-25,,2.0,0.0,0.0
+634309,concacaf.nations.league,2023-03-25,Drew Fischer,1.0,1.0,26.0
+634308,concacaf.nations.league,2023-03-26,Juan Calderón,3.0,1.0,32.0
+634381,concacaf.nations.league,2023-03-26,,0.0,0.0,0.0
+634380,concacaf.nations.league,2023-03-26,,4.0,0.0,0.0
+634382,concacaf.nations.league,2023-03-26,,4.0,0.0,0.0
+634310,concacaf.nations.league,2023-03-27,Ismail Elfath,1.0,0.0,22.0
+634385,concacaf.nations.league,2023-03-27,,2.0,0.0,0.0
+634387,concacaf.nations.league,2023-03-27,,6.0,0.0,0.0
+634379,concacaf.nations.league,2023-03-27,,3.0,1.0,0.0
+634384,concacaf.nations.league,2023-03-27,,1.0,0.0,0.0
+634311,concacaf.nations.league,2023-03-27,Mario Escobar,1.0,0.0,27.0
+634383,concacaf.nations.league,2023-03-28,,11.0,0.0,0.0
+634386,concacaf.nations.league,2023-03-28,,5.0,0.0,0.0
+634390,concacaf.nations.league,2023-03-28,,1.0,0.0,0.0
+634388,concacaf.nations.league,2023-03-28,,4.0,1.0,0.0
+634391,concacaf.nations.league,2023-03-28,,2.0,0.0,0.0
+634389,concacaf.nations.league,2023-03-28,,2.0,0.0,0.0
+634312,concacaf.nations.league,2023-03-29,Iván Arcides Barton Cisneros,2.0,0.0,31.0
+634313,concacaf.nations.league,2023-03-29,César Arturo Ramos Palazuelos,1.0,1.0,21.0
+667790,concacaf.nations.league,2023-06-15,Juan Calderón,3.0,1.0,27.0
+667789,concacaf.nations.league,2023-06-16,Iván Arcides Barton Cisneros,9.0,4.0,34.0
+667791,concacaf.nations.league,2023-06-18,Daneion Parchment,11.0,0.0,32.0
+667792,concacaf.nations.league,2023-06-19,Said Martinez,4.0,0.0,31.0
+680800,concacaf.nations.league,2023-09-07,Fernando Gomez,5.0,0.0,19.0
+680801,concacaf.nations.league,2023-09-07,Ricangel De Leca,1.0,0.0,28.0
+680537,concacaf.nations.league,2023-09-07,Daneion Parchment,6.0,0.0,31.0
+680802,concacaf.nations.league,2023-09-07,Filiberto Martinez,8.0,1.0,29.0
+680799,concacaf.nations.league,2023-09-07,Reon Radix,3.0,1.0,23.0
+680536,concacaf.nations.league,2023-09-08,Marco Antonio Ortiz Nava,5.0,0.0,20.0
+680535,concacaf.nations.league,2023-09-08,Selvin Brown,4.0,0.0,31.0
+680805,concacaf.nations.league,2023-09-08,Oliver Vergara,3.0,0.0,21.0
+680803,concacaf.nations.league,2023-09-08,Jefferson Escobar,3.0,0.0,24.0
+680539,concacaf.nations.league,2023-09-08,Randy Encarnación Solano,2.0,0.0,24.0
+680804,concacaf.nations.league,2023-09-08,Ken Pennyfeather,9.0,0.0,34.0
+680806,concacaf.nations.league,2023-09-08,Patrick Senecharles,7.0,0.0,34.0
+680538,concacaf.nations.league,2023-09-08,Mario Escobar,5.0,0.0,24.0
+680540,concacaf.nations.league,2023-09-09,Daniel Quintero Huitrón,8.0,0.0,33.0
+680808,concacaf.nations.league,2023-09-09,Mario Escobar,2.0,0.0,29.0
+680807,concacaf.nations.league,2023-09-09,Victor Rivas,4.0,0.0,29.0
+680809,concacaf.nations.league,2023-09-09,Julio Luna,3.0,0.0,14.0
+680811,concacaf.nations.league,2023-09-10,Pierre-Luc Lauziere,5.0,0.0,34.0
+680810,concacaf.nations.league,2023-09-10,Moeth Gaymes,3.0,0.0,23.0
+680543,concacaf.nations.league,2023-09-11,Oliver Vergara,6.0,2.0,31.0
+680542,concacaf.nations.league,2023-09-11,"Martínez, Héctor",7.0,0.0,32.0
+680541,concacaf.nations.league,2023-09-11,Ricardo Montero,2.0,0.0,32.0
+680814,concacaf.nations.league,2023-09-11,Ismael Cornejo,3.0,1.0,33.0
+680813,concacaf.nations.league,2023-09-11,Oshane Nation,5.0,0.0,31.0
+680815,concacaf.nations.league,2023-09-11,Reginald Gumbs,6.0,0.0,29.0
+680812,concacaf.nations.league,2023-09-12,Bryan López,0.0,1.0,22.0
+680816,concacaf.nations.league,2023-09-12,Hakeem Harvey,4.0,1.0,26.0
+680818,concacaf.nations.league,2023-09-12,Shaquille Jokil,3.0,0.0,31.0
+680817,concacaf.nations.league,2023-09-12,Rubiel Vazquez,5.0,0.0,28.0
+680544,concacaf.nations.league,2023-09-12,Fernando Guerrero Ramírez,4.0,0.0,34.0
+680820,concacaf.nations.league,2023-09-12,Benjamin Whitty,3.0,0.0,16.0
+680819,concacaf.nations.league,2023-09-12,Melvin Matamoros,3.0,2.0,31.0
+680546,concacaf.nations.league,2023-09-13,César Arturo Ramos Palazuelos,5.0,1.0,22.0
+680545,concacaf.nations.league,2023-09-13,Iván Arcides Barton Cisneros,1.0,0.0,11.0
+680824,concacaf.nations.league,2023-10-12,Josue David Ugalde Aguilar,1.0,0.0,24.0
+680822,concacaf.nations.league,2023-10-12,Ricangel De Leca,1.0,1.0,29.0
+680549,concacaf.nations.league,2023-10-12,Víctor Alfonso Cáceres Hernández,2.0,0.0,22.0
+680823,concacaf.nations.league,2023-10-12,Norberto Da Silva,5.0,0.0,33.0
+680548,concacaf.nations.league,2023-10-12,Joseph Dickerson,2.0,0.0,28.0
+680821,concacaf.nations.league,2023-10-13,Oshane Nation,2.0,1.0,19.0
+680547,concacaf.nations.league,2023-10-13,Walter Lopez,3.0,0.0,21.0
+680825,concacaf.nations.league,2023-10-13,Jorge Leira,5.0,1.0,29.0
+680827,concacaf.nations.league,2023-10-13,Steffon Dewar,5.0,0.0,34.0
+680550,concacaf.nations.league,2023-10-13,Ismail Elfath,3.0,0.0,29.0
+680551,concacaf.nations.league,2023-10-13,César Arturo Ramos Palazuelos,0.0,0.0,16.0
+680826,concacaf.nations.league,2023-10-14,Benjamin Whitty,7.0,1.0,38.0
+680552,concacaf.nations.league,2023-10-14,Iván Arcides Barton Cisneros,7.0,0.0,17.0
+680828,concacaf.nations.league,2023-10-14,Juan Calderón,5.0,0.0,21.0
+680829,concacaf.nations.league,2023-10-14,Kwinsi Williams,2.0,0.0,21.0
+680830,concacaf.nations.league,2023-10-14,Ismael Cornejo,6.0,0.0,26.0
+680831,concacaf.nations.league,2023-10-14,Sergio Reyna,2.0,0.0,23.0
+680833,concacaf.nations.league,2023-10-15,Nicolas Wassouf,2.0,0.0,24.0
+680832,concacaf.nations.league,2023-10-15,Yadel Martinez,6.0,0.0,33.0
+680553,concacaf.nations.league,2023-10-16,Keylor Herrera Villalobos,4.0,0.0,33.0
+680554,concacaf.nations.league,2023-10-16,Mario Escobar,2.0,0.0,18.0
+680555,concacaf.nations.league,2023-10-16,Christopher Mason,3.0,0.0,25.0
+680834,concacaf.nations.league,2023-10-16,Jaime Alfredo Herrera,1.0,1.0,22.0
+680835,concacaf.nations.league,2023-10-16,Hakeem Harvey,11.0,0.0,29.0
+680838,concacaf.nations.league,2023-10-16,Pierre-Luc Lauziere,5.0,0.0,28.0
+680836,concacaf.nations.league,2023-10-17,Nima Saghafi,1.0,0.0,44.0
+680837,concacaf.nations.league,2023-10-17,José Valladares,4.0,0.0,22.0
+680841,concacaf.nations.league,2023-10-17,Reon Radix,3.0,0.0,16.0
+680842,concacaf.nations.league,2023-10-17,Sergio Rozenhaut,5.0,1.0,37.0
+680839,concacaf.nations.league,2023-10-17,Randy Encarnación Solano,7.0,0.0,30.0
+680840,concacaf.nations.league,2023-10-17,David Gómez,1.0,0.0,29.0
+680556,concacaf.nations.league,2023-10-18,"Martínez, Héctor",3.0,0.0,31.0
+680557,concacaf.nations.league,2023-10-18,Drew Fischer,4.0,0.0,31.0
+680558,concacaf.nations.league,2023-10-18,Armando Villarreal,2.0,1.0,24.0
+680846,concacaf.nations.league,2023-11-16,Reginald Gumbs,4.0,0.0,35.0
+680845,concacaf.nations.league,2023-11-16,Reon Radix,2.0,0.0,18.0
+680843,concacaf.nations.league,2023-11-16,David Gómez,2.0,0.0,17.0
+680844,concacaf.nations.league,2023-11-16,Ken Pennyfeather,3.0,0.0,26.0
+689485,concacaf.nations.league,2023-11-17,Oshane Nation,1.0,1.0,23.0
+689489,concacaf.nations.league,2023-11-17,Mario Escobar,6.0,0.0,31.0
+680848,concacaf.nations.league,2023-11-17,Yadel Martinez,8.0,0.0,33.0
+680847,concacaf.nations.league,2023-11-17,Kwinsi Williams,4.0,0.0,37.0
+680849,concacaf.nations.league,2023-11-17,Jaime Alfredo Herrera,4.0,0.0,24.0
+680850,concacaf.nations.league,2023-11-18,Jefferson Escobar,1.0,0.0,29.0
+689484,concacaf.nations.league,2023-11-18,Juan Calderón,6.0,0.0,29.0
+689483,concacaf.nations.league,2023-11-18,Mary Penso,3.0,0.0,25.0
+680853,concacaf.nations.league,2023-11-18,Tristley Bassue,4.0,0.0,26.0
+680851,concacaf.nations.league,2023-11-18,Benjamin Whitty,2.0,1.0,21.0
+680852,concacaf.nations.league,2023-11-19,Rubiel Vazquez,,,
+680854,concacaf.nations.league,2023-11-19,Daniel Quintero Huitrón,5.0,0.0,18.0
+680855,concacaf.nations.league,2023-11-19,Marco Antonio Ortiz Nava,1.0,0.0,14.0
+680859,concacaf.nations.league,2023-11-20,Norberto Da Silva,0.0,1.0,25.0
+680858,concacaf.nations.league,2023-11-20,Timothy Derry,4.0,0.0,27.0
+680857,concacaf.nations.league,2023-11-20,Moeth Gaymes,6.0,0.0,34.0
+689486,concacaf.nations.league,2023-11-21,Walter Lopez,0.0,0.0,0.0
+689482,concacaf.nations.league,2023-11-21,"Martínez, Héctor",3.0,0.0,34.0
+680860,concacaf.nations.league,2023-11-21,Jose Raul Torres,3.0,0.0,25.0
+680861,concacaf.nations.league,2023-11-21,Kimbell Ward,4.0,0.0,20.0
+690104,concacaf.nations.league,2023-11-21,Ricangel De Leca,5.0,0.0,24.0
+680862,concacaf.nations.league,2023-11-22,Sergio Rozenhaut,2.0,0.0,24.0
+680864,concacaf.nations.league,2023-11-22,Steffon Dewar,2.0,0.0,24.0
+689487,concacaf.nations.league,2023-11-22,César Arturo Ramos Palazuelos,2.0,1.0,16.0
+680856,concacaf.nations.league,2023-11-22,Jose Ignacio Fuentes Godinez,7.0,0.0,37.0
+689488,concacaf.nations.league,2023-11-22,Iván Arcides Barton Cisneros,12.0,2.0,34.0
+690324,concacaf.nations.league,2024-03-21,Selvin Brown,0.0,0.0,0.0
+690323,concacaf.nations.league,2024-03-22,Walter Lopez,2.0,0.0,21.0
+690325,concacaf.nations.league,2024-03-23,Marco Antonio Ortiz Nava,4.0,0.0,21.0
+690326,concacaf.nations.league,2024-03-23,Ismail Elfath,2.0,0.0,40.0
+701209,concacaf.nations.league,2024-03-24,Tori Penso,3.0,0.0,23.0
+701210,concacaf.nations.league,2024-03-25,Drew Fischer,0.0,0.0,0.0
+702733,concacaf.nations.league,2024-09-04,Jose Ignacio Fuentes Godinez,,,
+702732,concacaf.nations.league,2024-09-04,Jefferson Escobar,,,
+702734,concacaf.nations.league,2024-09-04,Jonathan Leiton,,,
+702736,concacaf.nations.league,2024-09-05,Christopher Mason,,,
+702735,concacaf.nations.league,2024-09-05,Benjamin Pineda,,,
+702738,concacaf.nations.league,2024-09-06,Katia Itzel García,,,
+702739,concacaf.nations.league,2024-09-06,Jon Freemon,,,
+702737,concacaf.nations.league,2024-09-06,Jose Raul Torres,,,
+702745,concacaf.nations.league,2024-09-06,Julio Luna,,,
+702743,concacaf.nations.league,2024-09-06,Hakeem Harvey,,,
+702741,concacaf.nations.league,2024-09-06,Ken Pennyfeather,,,
+702744,concacaf.nations.league,2024-09-07,Filiberto Martinez,,,
+702740,concacaf.nations.league,2024-09-07,Filip Dujic,,,
+702742,concacaf.nations.league,2024-09-07,David Gómez,,,
+702746,concacaf.nations.league,2024-09-07,Mary Penso,,,
+702750,concacaf.nations.league,2024-09-07,Sanchez Bass,,,
+702749,concacaf.nations.league,2024-09-07,Cleon Culley,,,
+702751,concacaf.nations.league,2024-09-07,Shavin Greene,,,
+702748,concacaf.nations.league,2024-09-07,Odette Hamilton,,,
+702747,concacaf.nations.league,2024-09-07,Moeth Gaymes,,,
+702752,concacaf.nations.league,2024-09-08,Rubiel Vazquez,,,
+702753,concacaf.nations.league,2024-09-09,Steven Madrigal,,,
+702756,concacaf.nations.league,2024-09-09,Reon Radix,,,
+702759,concacaf.nations.league,2024-09-09,Kwinsi Williams,,,
+702754,concacaf.nations.league,2024-09-09,Jose Corporan,,,
+702758,concacaf.nations.league,2024-09-09,Carly Shaw-Maclaren,,,
+702760,concacaf.nations.league,2024-09-10,Kimbell Ward,,,
+702755,concacaf.nations.league,2024-09-10,Josue David Ugalde Aguilar,,,
+702757,concacaf.nations.league,2024-09-10,Daniel Quintero Huitrón,,,
+702763,concacaf.nations.league,2024-09-10,Okeito Nicholson,,,
+702761,concacaf.nations.league,2024-09-10,Steffon Dewar,,,
+702768,concacaf.nations.league,2024-09-10,Tristley Bassue,,,
+702767,concacaf.nations.league,2024-09-10,Sergio Rozenhaut,,,
+702762,concacaf.nations.league,2024-09-10,Pierre-Luc Lauziere,,,
+702765,concacaf.nations.league,2024-09-10,,,,
+702766,concacaf.nations.league,2024-09-10,Adonis Carrasco,,,
+702764,concacaf.nations.league,2024-09-11,Víctor Alfonso Cáceres Hernández,,,
+702787,concacaf.nations.league,2024-10-09,Vimarest Diaz,,,
+702784,concacaf.nations.league,2024-10-10,José Valladares,,,
+702785,concacaf.nations.league,2024-10-10,Ray Torres,,,
+702774,concacaf.nations.league,2024-10-10,Lukasz Szpala,,,
+702776,concacaf.nations.league,2024-10-10,Hakeem Harvey,,,
+702775,concacaf.nations.league,2024-10-10,Sergio Reyna,,,
+702772,concacaf.nations.league,2024-10-11,Oshane Nation,,,
+702773,concacaf.nations.league,2024-10-11,Mario Escobar,,,
+702781,concacaf.nations.league,2024-10-11,Selvin Brown,,,
+702778,concacaf.nations.league,2024-10-11,Benjamin Pineda,,,
+702782,concacaf.nations.league,2024-10-11,Jon Freemon,,,
+702777,concacaf.nations.league,2024-10-11,Adonai Gonzalez,,,
+702783,concacaf.nations.league,2024-10-12,Kwinsi Williams,,,
+702779,concacaf.nations.league,2024-10-12,Odette Hamilton,,,
+702780,concacaf.nations.league,2024-10-12,Ismael Cornejo,,,
+702786,concacaf.nations.league,2024-10-12,Steven Madrigal,,,
+702770,concacaf.nations.league,2024-10-12,Ricangel De Leca,,,
+702788,concacaf.nations.league,2024-10-12,Fernando Javier Moron Valdelamar,,,
+702771,concacaf.nations.league,2024-10-13,Benjamin Whitty,,,
+702769,concacaf.nations.league,2024-10-13,Ekaterina Koroleva,,,
+702789,concacaf.nations.league,2024-10-13,Khamal Harding-Hodge,,,
+702790,concacaf.nations.league,2024-10-14,Tristley Bassue,,,
+702797,concacaf.nations.league,2024-10-14,Christopher Mason,,,
+702793,concacaf.nations.league,2024-10-14,Moeth Gaymes,,,
+702792,concacaf.nations.league,2024-10-14,Michael Venne,,,
+702796,concacaf.nations.league,2024-10-15,David Gómez,,,
+702795,concacaf.nations.league,2024-10-15,Armando Villarreal,,,
+702794,concacaf.nations.league,2024-10-15,Iván Arcides Barton Cisneros,,,
+702791,concacaf.nations.league,2024-10-15,Bryan López,,,
+702801,concacaf.nations.league,2024-10-15,Cristhofer Corado,,,
+702799,concacaf.nations.league,2024-10-15,,,,
+702804,concacaf.nations.league,2024-10-15,Josue David Ugalde Aguilar,,,
+702802,concacaf.nations.league,2024-10-16,Michael Akangou,,,
+702805,concacaf.nations.league,2024-10-16,Joseph Dickerson,,,
+702798,concacaf.nations.league,2024-10-16,Pierre-Luc Lauziere,,,
+702800,concacaf.nations.league,2024-10-16,Steffon Dewar,,,
+702803,concacaf.nations.league,2024-10-16,Victor Rivas,,,
+702806,concacaf.nations.league,2024-11-14,Jorge Leira,,,
+722545,concacaf.nations.league,2024-11-14,Mary Penso,,,
+722547,concacaf.nations.league,2024-11-15,Keylor Herrera Villalobos,,,
+702807,concacaf.nations.league,2024-11-15,Steven Madrigal,,,
+721462,concacaf.nations.league,2024-11-15,Juan Calderón,,,
+721461,concacaf.nations.league,2024-11-15,"Martínez, Héctor",,,
+722548,concacaf.nations.league,2024-11-15,Adonai Gonzalez,,,
+702810,concacaf.nations.league,2024-11-15,Shavin Greene,,,
+702808,concacaf.nations.league,2024-11-15,Norberto Da Silva,,,
+722546,concacaf.nations.league,2024-11-15,Odette Hamilton,,,
+702809,concacaf.nations.league,2024-11-15,Félix Mojica,,,
+721464,concacaf.nations.league,2024-11-15,Oshane Nation,,,
+702811,concacaf.nations.league,2024-11-16,Nicolas Wassouf,,,
+721463,concacaf.nations.league,2024-11-16,Walter Lopez,,,
+702813,concacaf.nations.league,2024-11-16,Patrick Senecharles,,,
+702812,concacaf.nations.league,2024-11-16,Nelson Salgado,,,
+702814,concacaf.nations.league,2024-11-17,Jose Raul Torres,,,
+702815,concacaf.nations.league,2024-11-18,Sergio Reyna,,,
+722550,concacaf.nations.league,2024-11-18,Iván Arcides Barton Cisneros,,,
+702816,concacaf.nations.league,2024-11-18,Jose Corporan,,,
+702819,concacaf.nations.league,2024-11-18,Fernando Javier Moron Valdelamar,,,
+702818,concacaf.nations.league,2024-11-18,Fernando Gomez,,,
+702817,concacaf.nations.league,2024-11-19,Rubiel Vazquez,,,
+721468,concacaf.nations.league,2024-11-19,Mario Escobar,,,
+721466,concacaf.nations.league,2024-11-19,César Arturo Ramos Palazuelos,,,
+702821,concacaf.nations.league,2024-11-19,Timothy Derry,,,
+722552,concacaf.nations.league,2024-11-19,Ismael Cornejo,,,
+702820,concacaf.nations.league,2024-11-19,,,,
+722551,concacaf.nations.league,2024-11-19,Marco Antonio Ortiz Nava,,,
+722549,concacaf.nations.league,2024-11-19,Selvin Brown,,,
+721467,concacaf.nations.league,2024-11-20,Katia Itzel García,,,
+721465,concacaf.nations.league,2024-11-20,Drew Fischer,,,
+723669,concacaf.nations.league,2025-03-20,Oshane Nation,,,
+723670,concacaf.nations.league,2025-03-21,"Martínez, Héctor",,,
+723671,concacaf.nations.league,2025-03-23,Katia Itzel García,,,
+723672,concacaf.nations.league,2025-03-24,Mario Escobar,,,
+689252,caf.nations,2024-01-13,Amin Omar,3.0,0.0,21.0
+689253,caf.nations,2024-01-14,Abongile Tom,3.0,0.0,24.0
+689254,caf.nations,2024-01-14,Beida Damane,4.0,0.0,18.0
+689255,caf.nations,2024-01-14,Jean-Jacques Ndala Ngambo,6.0,0.0,32.0
+689256,caf.nations,2024-01-15,Rédouane Jiyed,2.0,1.0,31.0
+689257,caf.nations,2024-01-15,Ibrahim Mutaz,3.0,1.0,28.0
+689258,caf.nations,2024-01-15,Issa Sy,5.0,0.0,27.0
+689259,caf.nations,2024-01-16,Jalal Jayed,5.0,0.0,34.0
+689260,caf.nations,2024-01-16,Omar Artan,0.0,0.0,25.0
+689261,caf.nations,2024-01-16,Mohamed Hussein,5.0,0.0,25.0
+689262,caf.nations,2024-01-17,Alhadi Allaou Mahamat,5.0,1.0,25.0
+689263,caf.nations,2024-01-17,Bamlak Tessema Weyesa,2.0,0.0,22.0
+689264,caf.nations,2024-01-18,Samuel Uwikunda,2.0,0.0,26.0
+689266,caf.nations,2024-01-18,Mustapha Ghorbal,1.0,0.0,36.0
+689268,caf.nations,2024-01-18,Pierre Atcho,1.0,0.0,34.0
+689269,caf.nations,2024-01-19,Samir Guezzaz,1.0,0.0,32.0
+689265,caf.nations,2024-01-19,Mahmood Ismail,4.0,0.0,28.0
+689267,caf.nations,2024-01-19,Abdelaziz Bouh,4.0,0.0,29.0
+689270,caf.nations,2024-01-20,Abongile Tom,7.0,0.0,31.0
+689271,caf.nations,2024-01-20,Mohamed Maarouf Eid Mansour,3.0,0.0,27.0
+689272,caf.nations,2024-01-20,Daniel Laryea,2.0,0.0,27.0
+689273,caf.nations,2024-01-21,Kamaku Waweru,4.0,0.0,34.0
+689274,caf.nations,2024-01-21,Djindo Louis Houngnandande,1.0,1.0,27.0
+689275,caf.nations,2024-01-21,Youcef Gamouh,1.0,0.0,32.0
+689276,caf.nations,2024-01-22,Mahmood Ismail,5.0,0.0,43.0
+689277,caf.nations,2024-01-22,Bouchra Karboubi,3.0,0.0,32.0
+689279,caf.nations,2024-01-22,Alhadi Allaou Mahamat,3.0,0.0,18.0
+689278,caf.nations,2024-01-22,Ibrahim Mutaz,9.0,0.0,42.0
+689280,caf.nations,2024-01-23,Bamlak Tessema Weyesa,4.0,0.0,23.0
+689281,caf.nations,2024-01-23,Pacifique Ndabihawenimana,4.0,0.0,31.0
+689282,caf.nations,2024-01-23,Jean-Jacques Ndala Ngambo,4.0,0.0,25.0
+689283,caf.nations,2024-01-23,Omar Artan,6.0,0.0,33.0
+689285,caf.nations,2024-01-24,Samuel Uwikunda,1.0,0.0,30.0
+689284,caf.nations,2024-01-24,Issa Sy,0.0,0.0,22.0
+689286,caf.nations,2024-01-24,Amin Omar,1.0,0.0,14.0
+689287,caf.nations,2024-01-24,Patrice Mebiame,1.0,0.0,26.0
+697521,caf.nations,2024-01-27,Beida Damane,1.0,2.0,34.0
+697522,caf.nations,2024-01-27,Rédouane Jiyed,4.0,0.0,40.0
+697523,caf.nations,2024-01-28,Omar Artan,1.0,1.0,30.0
+697524,caf.nations,2024-01-28,Abongile Tom,5.0,1.0,41.0
+697525,caf.nations,2024-01-29,Mohamed Elsaid,2.0,0.0,30.0
+697526,caf.nations,2024-01-29,Pierre Atcho,7.0,0.0,51.0
+697527,caf.nations,2024-01-30,Ibrahim Mutaz,4.0,0.0,37.0
+697528,caf.nations,2024-01-30,Mahmood Ismail,4.0,1.0,29.0
+698121,caf.nations,2024-02-02,Issa Sy,4.0,0.0,34.0
+698135,caf.nations,2024-02-02,Mustapha Ghorbal,3.0,0.0,33.0
+698136,caf.nations,2024-02-03,Mohamed Elsaid,6.0,3.0,48.0
+698137,caf.nations,2024-02-03,Jean-Jacques Ndala Ngambo,1.0,0.0,34.0
+698429,caf.nations,2024-02-07,Amin Omar,2.0,1.0,33.0
+698428,caf.nations,2024-02-07,Ibrahim Mutaz,0.0,0.0,30.0
+698615,caf.nations,2024-02-10,Bamlak Tessema Weyesa,1.0,0.0,20.0
+698616,caf.nations,2024-02-11,Beida Damane,5.0,0.0,33.0
+732133,caf.nations,2025-12-21,Jean-Jacques Ndala Ngambo,4.0,0.0,39.0
+732134,caf.nations,2025-12-22,Abdulkadir Artan,2.0,0.0,28.0
+732136,caf.nations,2025-12-22,Mahmood Ismail,4.0,0.0,40.0
+732135,caf.nations,2025-12-22,Issa Sy,4.0,0.0,28.0
+732137,caf.nations,2025-12-23,Abongile Tom,6.0,0.0,27.0
+732139,caf.nations,2025-12-23,Abdelaziz Bouh,3.0,0.0,23.0
+732138,caf.nations,2025-12-23,Beida Damane,1.0,0.0,30.0
+732140,caf.nations,2025-12-23,Patrice Mebiame,3.0,0.0,30.0
+732142,caf.nations,2025-12-24,Mohamed Maarouf Eid Mansour,2.0,1.0,28.0
+732143,caf.nations,2025-12-24,Pierre Atcho,1.0,1.0,25.0
+732144,caf.nations,2025-12-24,Samuel Uwikunda,3.0,0.0,24.0
+732141,caf.nations,2025-12-24,Amin Omar,3.0,0.0,25.0
+732145,caf.nations,2025-12-26,Kamaku Waweru,7.0,0.0,41.0
+732146,caf.nations,2025-12-26,Pacifique Ndabihawenimana,3.0,1.0,19.0
+732148,caf.nations,2025-12-26,Ahmad Heeralall,2.0,0.0,28.0
+732147,caf.nations,2025-12-26,Abdou Abdel Mefire,9.0,0.0,37.0
+732149,caf.nations,2025-12-27,Shamirah Nabadda,4.0,0.0,39.0
+732152,caf.nations,2025-12-27,Lahlou Benbraham,1.0,0.0,30.0
+732151,caf.nations,2025-12-27,Jalal Jayed,5.0,0.0,32.0
+732150,caf.nations,2025-12-27,Boubou Traore,3.0,0.0,33.0
+732156,caf.nations,2025-12-28,Mehrez Melki,4.0,0.0,20.0
+732154,caf.nations,2025-12-28,Messie Jessie Nkounkou Mvoutou,6.0,0.0,24.0
+732153,caf.nations,2025-12-28,Daniel Laryea,5.0,0.0,43.0
+732155,caf.nations,2025-12-28,Mustapha Ghorbal,4.0,0.0,33.0
+732157,caf.nations,2025-12-29,Clement Franklin Kpan,3.0,0.0,26.0
+732159,caf.nations,2025-12-29,Kech Chaf Mustapha,2.0,0.0,25.0
+732158,caf.nations,2025-12-29,Alhadi Allaou Mahamat,4.0,1.0,30.0
+732160,caf.nations,2025-12-29,Issa Sy,5.0,1.0,35.0
+732163,caf.nations,2025-12-30,Jean-Jacques Ndala Ngambo,4.0,0.0,23.0
+732164,caf.nations,2025-12-30,Djindo Louis Houngnandande,3.0,1.0,20.0
+732161,caf.nations,2025-12-30,Samuel Uwikunda,5.0,1.0,39.0
+732162,caf.nations,2025-12-30,Ahmad Heeralall,0.0,0.0,22.0
+732165,caf.nations,2025-12-31,Pacifique Ndabihawenimana,5.0,0.0,28.0
+732166,caf.nations,2025-12-31,Amin Omar,2.0,0.0,15.0
+732167,caf.nations,2025-12-31,Omar Artan,3.0,0.0,34.0
+732168,caf.nations,2025-12-31,Jalal Jayed,3.0,0.0,27.0
+732170,caf.nations,2026-01-03,Beida Damane,4.0,0.0,39.0
+732169,caf.nations,2026-01-03,Abongile Tom,10.0,1.0,41.0
+732171,caf.nations,2026-01-04,Boubou Traore,6.0,0.0,31.0
+732172,caf.nations,2026-01-04,Kamaku Waweru,7.0,0.0,27.0
+732173,caf.nations,2026-01-05,Pierre Atcho,8.0,0.0,34.0
+732174,caf.nations,2026-01-05,Abdou Abdel Mefire,4.0,0.0,35.0
+732175,caf.nations,2026-01-06,Mahmoud Mansour,5.0,0.0,41.0
+732176,caf.nations,2026-01-06,Mahmood Ismail,3.0,0.0,37.0
+732177,caf.nations,2026-01-09,Abongile Tom,6.0,1.0,22.0
+732178,caf.nations,2026-01-09,Beida Damane,4.0,0.0,43.0
+732180,caf.nations,2026-01-10,Issa Sy,8.0,0.0,37.0
+732179,caf.nations,2026-01-10,Mustapha Ghorbal,2.0,0.0,25.0
+732181,caf.nations,2026-01-14,Pierre Atcho,3.0,0.0,21.0
+732182,caf.nations,2026-01-14,Daniel Laryea,2.0,0.0,51.0
+732183,caf.nations,2026-01-17,Jalal Jayed,3.0,0.0,31.0
+732184,caf.nations,2026-01-18,Jean-Jacques Ndala Ngambo,7.0,0.0,42.0
+635992,fifa.friendly,2022-06-01,,1.0,0.0,0.0
+635991,fifa.friendly,2022-06-01,,3.0,0.0,0.0
+635224,fifa.friendly,2022-06-01,Yudi Nurcahya,1.0,0.0,0.0
+635993,fifa.friendly,2022-06-01,,2.0,0.0,0.0
+636214,fifa.friendly,2022-06-01,,,,
+635264,fifa.friendly,2022-06-01,Kristo  Tohver ,6.0,0.0,0.0
+635001,fifa.friendly,2022-06-01,Saad Al-Fadhli,4.0,0.0,23.0
+634539,fifa.friendly,2022-06-01,Ismael Cornejo,6.0,0.0,30.0
+634942,fifa.friendly,2022-06-02,Chris Beath,2.0,0.0,29.0
+634866,fifa.friendly,2022-06-02,Ryuji Sato,1.0,0.0,20.0
+636215,fifa.friendly,2022-06-02,,0.0,0.0,0.0
+634289,fifa.friendly,2022-06-03,Ricardo Montero,1.0,0.0,26.0
+634245,fifa.friendly,2022-06-03,Juan Calderón,3.0,0.0,30.0
+636468,fifa.friendly,2022-06-03,,1.0,1.0,0.0
+634597,fifa.friendly,2022-06-05,Ishmael Barbara,5.0,0.0,31.0
+634972,fifa.friendly,2022-06-05,Jason Barcelo,3.0,0.0,44.0
+636177,fifa.friendly,2022-06-05,Urs Schnyder,0.0,0.0,15.0
+634642,fifa.friendly,2022-06-05,Adonai Gonzalez,1.0,0.0,27.0
+635079,fifa.friendly,2022-06-05,,,,
+636176,fifa.friendly,2022-06-05,,,,
+634279,fifa.friendly,2022-06-05,Oliver Vergara,6.0,0.0,31.0
+634664,fifa.friendly,2022-06-06,Alireza Faghani,4.0,0.0,30.0
+634867,fifa.friendly,2022-06-06,Ryuji Sato,2.0,1.0,32.0
+634973,fifa.friendly,2022-06-09,Jason Barcelo,2.0,0.0,36.0
+637033,fifa.friendly,2022-06-09,,,,
+635995,fifa.friendly,2022-06-09,,0.0,0.0,0.0
+635053,fifa.friendly,2022-06-09,Michael Fabbri,3.0,0.0,0.0
+637034,fifa.friendly,2022-06-09,,,,
+637052,fifa.friendly,2022-06-10,,3.0,0.0,0.0
+637053,fifa.friendly,2022-06-10,,3.0,0.0,0.0
+634868,fifa.friendly,2022-06-10,Jeremie Pignard,5.0,0.0,17.0
+634596,fifa.friendly,2022-06-11,,,,
+634644,fifa.friendly,2022-06-11,,,,
+636912,fifa.friendly,2022-06-11,Cristián Garay,4.0,0.0,32.0
+634819,fifa.friendly,2022-06-12,Moeth Gaymes,4.0,0.0,33.0
+637060,fifa.friendly,2022-06-12,Mohammed Ahmed Al Shammari,0.0,0.0,0.0
+635213,fifa.friendly,2022-06-13,,,,
+637054,fifa.friendly,2022-06-14,,6.0,2.0,0.0
+637055,fifa.friendly,2022-06-14,,3.0,0.0,0.0
+635655,fifa.friendly,2022-06-14,Jeremie Pignard,2.0,0.0,13.0
+652188,fifa.friendly,2022-08-20,,,,
+652182,fifa.friendly,2022-08-20,,,,
+652189,fifa.friendly,2022-08-23,,,,
+652183,fifa.friendly,2022-08-23,,,,
+652184,fifa.friendly,2022-08-26,Sebastian Gishamer,3.0,0.0,19.0
+634280,fifa.friendly,2022-09-01,Nima Saghafi,2.0,0.0,32.0
+653860,fifa.friendly,2022-09-20,,,,
+654031,fifa.friendly,2022-09-21,,2.0,0.0,0.0
+654032,fifa.friendly,2022-09-21,,1.0,0.0,0.0
+654033,fifa.friendly,2022-09-21,,0.0,0.0,0.0
+653197,fifa.friendly,2022-09-21,,3.0,0.0,0.0
+654034,fifa.friendly,2022-09-21,,3.0,0.0,0.0
+646556,fifa.friendly,2022-09-22,Ryuji Sato,2.0,0.0,30.0
+654053,fifa.friendly,2022-09-22,,1.0,0.0,0.0
+654035,fifa.friendly,2022-09-22,,1.0,0.0,0.0
+654054,fifa.friendly,2022-09-22,,5.0,1.0,0.0
+654236,fifa.friendly,2022-09-22,Gabriel Henry,1.0,0.0,0.0
+653858,fifa.friendly,2022-09-22,Sebastian Gishamer,4.0,0.0,0.0
+654036,fifa.friendly,2022-09-22,,4.0,0.0,0.0
+654037,fifa.friendly,2022-09-22,,,,
+652267,fifa.friendly,2022-09-23,Woo-Sung Kim,5.0,0.0,0.0
+652568,fifa.friendly,2022-09-23,,5.0,1.0,20.0
+641088,fifa.friendly,2022-09-23,Felix Zwayer,1.0,0.0,19.0
+654039,fifa.friendly,2022-09-23,,,,
+654040,fifa.friendly,2022-09-23,,4.0,0.0,0.0
+654041,fifa.friendly,2022-09-23,,4.0,1.0,0.0
+654038,fifa.friendly,2022-09-23,,1.0,0.0,0.0
+645882,fifa.friendly,2022-09-23,Walter Altmann,1.0,0.0,18.0
+650127,fifa.friendly,2022-09-23,Harald Lechner,3.0,0.0,0.0
+649349,fifa.friendly,2022-09-23,Manuel Schüttengruber,2.0,0.0,14.0
+653668,fifa.friendly,2022-09-23,Sadok Selmi,2.0,0.0,0.0
+634974,fifa.friendly,2022-09-23,Ivan Bebek,3.0,0.0,22.0
+652192,fifa.friendly,2022-09-23,Mikael Lesage,6.0,0.0,29.0
+652249,fifa.friendly,2022-09-23,Beida Damane,3.0,0.0,0.0
+654042,fifa.friendly,2022-09-23,,0.0,0.0,0.0
+652584,fifa.friendly,2022-09-23,Tawel Younoussa Camara,2.0,0.0,0.0
+650194,fifa.friendly,2022-09-23,Martin Dohál,5.0,0.0,27.0
+652247,fifa.friendly,2022-09-24,Rubiel Vazquez,2.0,0.0,23.0
+654043,fifa.friendly,2022-09-24,,2.0,0.0,0.0
+654045,fifa.friendly,2022-09-24,,4.0,0.0,0.0
+659435,fifa.friendly,2022-09-24,,,,
+654044,fifa.friendly,2022-09-24,,0.0,0.0,0.0
+653767,fifa.friendly,2022-09-24,Abdul Hakim Haidi,2.0,0.0,0.0
+653960,fifa.friendly,2022-09-24,Janny Sikazwe,3.0,0.0,28.0
+653766,fifa.friendly,2022-09-24,Daniyar Sakhi,1.0,0.0,22.0
+653788,fifa.friendly,2022-09-24,Aurelien Petit,1.0,0.0,0.0
+652268,fifa.friendly,2022-09-24,Bastien Dechepy,1.0,0.0,24.0
+654090,fifa.friendly,2022-09-24,Mohamed Chehoum,1.0,0.0,0.0
+650117,fifa.friendly,2022-09-24,,,,
+645879,fifa.friendly,2022-09-25,Oscar Moncada,1.0,0.0,21.0
+645228,fifa.friendly,2022-09-25,Bryan López,3.0,0.0,31.0
+641089,fifa.friendly,2022-09-25,Yosuke Araki,3.0,0.0,27.0
+654241,fifa.friendly,2022-09-25,,5.0,0.0,0.0
+654242,fifa.friendly,2022-09-25,,9.0,0.0,0.0
+654047,fifa.friendly,2022-09-25,,4.0,0.0,0.0
+654048,fifa.friendly,2022-09-26,,3.0,0.0,0.0
+654298,fifa.friendly,2022-09-26,,2.0,0.0,0.0
+654299,fifa.friendly,2022-09-26,,0.0,0.0,0.0
+653859,fifa.friendly,2022-09-26,Abdoulaye Manet,0.0,0.0,0.0
+652269,fifa.friendly,2022-09-27,Dae-Yong Kim,0.0,0.0,0.0
+654049,fifa.friendly,2022-09-27,,3.0,0.0,0.0
+652569,fifa.friendly,2022-09-27,Alex King,3.0,0.0,23.0
+654300,fifa.friendly,2022-09-27,,4.0,0.0,0.0
+650193,fifa.friendly,2022-09-27,Sascha Stegemann,2.0,0.0,27.0
+654052,fifa.friendly,2022-09-27,,0.0,0.0,0.0
+653768,fifa.friendly,2022-09-27,Xaypasert Phongsanit,6.0,1.0,0.0
+654301,fifa.friendly,2022-09-27,,3.0,0.0,0.0
+653809,fifa.friendly,2022-09-27,Harald Lechner,2.0,0.0,27.0
+653771,fifa.friendly,2022-09-27,Manuel Schüttengruber,3.0,0.0,0.0
+652270,fifa.friendly,2022-09-27,Khalid Saleh Al-Turais,5.0,0.0,0.0
+649350,fifa.friendly,2022-09-27,Peter Kralovic,3.0,0.0,27.0
+654050,fifa.friendly,2022-09-27,,2.0,0.0,0.0
+654302,fifa.friendly,2022-09-27,,0.0,0.0,0.0
+654024,fifa.friendly,2022-09-27,Thulani Sibandze,4.0,0.0,0.0
+654091,fifa.friendly,2022-09-27,Ibrahim Noureddine,5.0,1.0,0.0
+650005,fifa.friendly,2022-09-27,Julian Weinberger,2.0,0.0,18.0
+653669,fifa.friendly,2022-09-27,Youssef Essrayri,2.0,0.0,0.0
+653681,fifa.friendly,2022-09-27,Thomas Leonard,8.0,0.0,0.0
+652573,fifa.friendly,2022-09-27,Dario Bel,3.0,0.0,0.0
+641090,fifa.friendly,2022-09-27,Ivan Bebek,2.0,0.0,19.0
+652193,fifa.friendly,2022-09-27,Ruddy Buquet,5.0,1.0,22.0
+652250,fifa.friendly,2022-09-27,Mehrez Melki,3.0,0.0,0.0
+654303,fifa.friendly,2022-09-27,,3.0,0.0,0.0
+652585,fifa.friendly,2022-09-27,,7.0,0.0,0.0
+654304,fifa.friendly,2022-09-27,,2.0,0.0,0.0
+650128,fifa.friendly,2022-09-27,Jesús Gil Manzano,2.0,0.0,0.0
+653253,fifa.friendly,2022-09-28,Marco Antonio Ortiz Nava,1.0,0.0,22.0
+653679,fifa.friendly,2022-09-28,Benjamin Pineda,1.0,0.0,30.0
+650118,fifa.friendly,2022-09-28,Ismail Elfath,5.0,0.0,0.0
+645229,fifa.friendly,2022-09-28,Nima Saghafi,3.0,0.0,34.0
+656810,fifa.friendly,2022-09-29,,,,
+656811,fifa.friendly,2022-10-01,,6.0,0.0,0.0
+656812,fifa.friendly,2022-10-13,,1.0,0.0,0.0
+654358,fifa.friendly,2022-10-22,Mohamed Ahmed Yousef Al-Hammadi,,,
+654558,fifa.friendly,2022-10-23,,,,
+653961,fifa.friendly,2022-10-26,,,,
+654690,fifa.friendly,2022-10-27,,,,
+656203,fifa.friendly,2022-10-29,,,,
+650116,fifa.friendly,2022-10-30,,2.0,1.0,0.0
+656204,fifa.friendly,2022-11-02,,,,
+654687,fifa.friendly,2022-11-05,,,,
+641091,fifa.friendly,2022-11-06,Ahmed Eisa Mohamed,3.0,0.0,14.0
+654610,fifa.friendly,2022-11-09,Jean-Jacques Ndala Ngambo,2.0,0.0,0.0
+656823,fifa.friendly,2022-11-09,,5.0,0.0,0.0
+645883,fifa.friendly,2022-11-09,Guillermo Cuadra Fernández,0.0,0.0,20.0
+654564,fifa.friendly,2022-11-10,Fernando Gomez,3.0,0.0,0.0
+645230,fifa.friendly,2022-11-10,Yahya Almulla,3.0,0.0,30.0
+655819,fifa.friendly,2022-11-10,Sadullo Gulmurodi,4.0,0.0,0.0
+655818,fifa.friendly,2022-11-11,Jumpei Iida,3.0,0.0,32.0
+655602,fifa.friendly,2022-11-11,Abdullah Jamali,2.0,0.0,24.0
+654565,fifa.friendly,2022-11-12,Gustavo Correia,5.0,0.0,31.0
+657119,fifa.friendly,2022-11-15,Sultan Mohamed Saleh,4.0,0.0,0.0
+652219,fifa.friendly,2022-11-15,,,,
+656813,fifa.friendly,2022-11-15,,7.0,0.0,0.0
+656814,fifa.friendly,2022-11-16,,,,
+635832,fifa.friendly,2022-11-16,Adham Mohammad,0.0,0.0,18.0
+654617,fifa.friendly,2022-11-16,Sergey Karasev,0.0,0.0,0.0
+653772,fifa.friendly,2022-11-16,Ibrahim Nour El Din,2.0,0.0,20.0
+656799,fifa.friendly,2022-11-16,Jalal Jayed,1.0,0.0,0.0
+654064,fifa.friendly,2022-11-16,José Luis Munuera Montero,2.0,1.0,21.0
+653765,fifa.friendly,2022-11-16,Martin Dohál,0.0,0.0,0.0
+655626,fifa.friendly,2022-11-16,,,,
+652186,fifa.friendly,2022-11-16,,,,
+652187,fifa.friendly,2022-11-16,,,,
+654068,fifa.friendly,2022-11-16,,,,
+654019,fifa.friendly,2022-11-16,Mohammed Al-Hoaish,0.0,0.0,19.0
+654386,fifa.friendly,2022-11-16,Harm Osmers,5.0,0.0,20.0
+654613,fifa.friendly,2022-11-16,Visar Kastrati,4.0,0.0,26.0
+653322,fifa.friendly,2022-11-16,Farrugia Cann Trustin,3.0,0.0,0.0
+655814,fifa.friendly,2022-11-16,,,,
+657001,fifa.friendly,2022-11-16,Amir Loucif,4.0,0.0,0.0
+645231,fifa.friendly,2022-11-16,César Soto Grado,1.0,0.0,14.0
+654065,fifa.friendly,2022-11-16,Genc Nuza,4.0,0.0,40.0
+654611,fifa.friendly,2022-11-17,John Alexander Ospina,6.0,2.0,27.0
+656815,fifa.friendly,2022-11-17,,6.0,1.0,0.0
+650693,fifa.friendly,2022-11-17,Ahmed Issa Darwish,2.0,0.0,18.0
+657757,fifa.friendly,2022-11-17,,,,
+657758,fifa.friendly,2022-11-17,,,,
+653774,fifa.friendly,2022-11-17,Omar Al Ali,2.0,0.0,21.0
+654566,fifa.friendly,2022-11-17,,,,
+656034,fifa.friendly,2022-11-17,Ilgiz Tantashev,1.0,0.0,22.0
+654030,fifa.friendly,2022-11-17,Ahmed Abu Bakar Said Al Kaf,1.0,0.0,15.0
+656217,fifa.friendly,2022-11-17,Adel Al Naqbi,,,
+655822,fifa.friendly,2022-11-17,,,,
+650694,fifa.friendly,2022-11-17,Nicolas Laforge,,,
+657759,fifa.friendly,2022-11-17,,,,
+655817,fifa.friendly,2022-11-17,Alain Durieux,,,
+653962,fifa.friendly,2022-11-17,Irfan Peljto,,,
+654029,fifa.friendly,2022-11-17,Novak Simovic,3.0,0.0,24.0
+655586,fifa.friendly,2022-11-17,Arda Kardesler,,,
+656801,fifa.friendly,2022-11-17,Lebalang Mokete,2.0,0.0,23.0
+653776,fifa.friendly,2022-11-17,Chrysovalantis Theouli,2.0,0.0,19.0
+653436,fifa.friendly,2022-11-17,Jonathan Lardot,,,
+654248,fifa.friendly,2022-11-17,Allard Lindhout,0.0,0.0,20.0
+656816,fifa.friendly,2022-11-17,,,,
+654571,fifa.friendly,2022-11-18,Sultan Mohamed Saleh,,,
+653666,fifa.friendly,2022-11-18,Ali Shaban,2.0,0.0,15.0
+652190,fifa.friendly,2022-11-18,Khalid Saleh Al-Turais,,,
+656817,fifa.friendly,2022-11-18,,,,
+657746,fifa.friendly,2022-11-19,,,,
+657745,fifa.friendly,2022-11-19,,,,
+657725,fifa.friendly,2022-11-19,,,,
+656819,fifa.friendly,2022-11-19,,,,
+653773,fifa.friendly,2022-11-19,,,,
+656800,fifa.friendly,2022-11-19,Bouchra Karboubi,,,
+655627,fifa.friendly,2022-11-19,,,,
+655813,fifa.friendly,2022-11-19,,,,
+655599,fifa.friendly,2022-11-19,,,,
+654569,fifa.friendly,2022-11-19,William Collum,0.0,0.0,20.0
+657754,fifa.friendly,2022-11-19,,,,
+655912,fifa.friendly,2022-11-19,Espen Eskas,2.0,1.0,19.0
+653783,fifa.friendly,2022-11-19,,,,
+655550,fifa.friendly,2022-11-20,Rubiel Vazquez,4.0,0.0,33.0
+654612,fifa.friendly,2022-11-20,Flavio Rodrigues de Souza,,,
+656818,fifa.friendly,2022-11-20,,,,
+657002,fifa.friendly,2022-11-20,Daniyar Sakhi,1.0,0.0,17.0
+657761,fifa.friendly,2022-11-20,,,,
+654735,fifa.friendly,2022-11-20,Ondrej Berka,2.0,0.0,29.0
+654069,fifa.friendly,2022-11-20,,,,
+654139,fifa.friendly,2022-11-20,Morten Krogh,1.0,0.0,21.0
+656802,fifa.friendly,2022-11-20,Joshua Bondo,5.0,0.0,33.0
+653323,fifa.friendly,2022-11-20,Manfredas Lukjancukas,11.0,1.0,0.0
+656986,fifa.friendly,2022-11-20,,1.0,0.0,0.0
+651170,fifa.friendly,2022-11-20,Christopher Jäger,6.0,0.0,0.0
+657755,fifa.friendly,2022-11-20,,,,
+654681,fifa.friendly,2022-11-20,,0.0,0.0,0.0
+657120,fifa.friendly,2022-11-20,Omar Al Ali,2.0,0.0,0.0
+650695,fifa.friendly,2022-11-20,Yasar Kemal Ugurlu,2.0,0.0,0.0
+654249,fifa.friendly,2022-11-20,Chrysovalantis Theouli,3.0,0.0,26.0
+653324,fifa.friendly,2022-11-20,Daniele Chiffi,2.0,0.0,23.0
+654066,fifa.friendly,2022-11-20,Christian Dingert,3.0,0.0,24.0
+657260,fifa.friendly,2022-11-20,,,,
+656820,fifa.friendly,2022-11-20,,0.0,0.0,0.0
+656009,fifa.friendly,2022-11-21,,,,
+658380,fifa.friendly,2022-11-24,,,,
+658381,fifa.friendly,2022-11-27,,,,
+659080,fifa.friendly,2022-12-09,,,,
+657021,fifa.friendly,2022-12-11,Mohd Amirul Bin Yaacob,1.0,0.0,16.0
+659240,fifa.friendly,2022-12-14,,,,
+659241,fifa.friendly,2022-12-14,,,,
+657022,fifa.friendly,2022-12-14,Mohd Amirul Bin Yaacob,1.0,0.0,26.0
+659242,fifa.friendly,2022-12-14,,,,
+659433,fifa.friendly,2022-12-17,,,,
+659434,fifa.friendly,2022-12-17,,,,
+660279,fifa.friendly,2022-12-23,,,,
+660627,fifa.friendly,2022-12-30,,,,
+660280,fifa.friendly,2022-12-30,,,,
+660628,fifa.friendly,2022-12-30,,,,
+660873,fifa.friendly,2023-01-03,,,,
+660874,fifa.friendly,2023-01-05,,,,
+661487,fifa.friendly,2023-01-07,,,,
+661486,fifa.friendly,2023-01-07,,,,
+660875,fifa.friendly,2023-01-07,,,,
+661519,fifa.friendly,2023-01-08,,,,
+658264,fifa.friendly,2023-01-08,Miguel Nogueira,,,
+661520,fifa.friendly,2023-01-09,,,,
+661524,fifa.friendly,2023-01-09,,,,
+658265,fifa.friendly,2023-01-09,,,,
+661522,fifa.friendly,2023-01-10,,,,
+661521,fifa.friendly,2023-01-10,,,,
+658266,fifa.friendly,2023-01-12,Gustavo Correia,,,
+658267,fifa.friendly,2023-01-12,Luís Godinho,,,
+662473,fifa.friendly,2023-01-14,,,,
+656206,fifa.friendly,2023-01-26,Daneion Parchment,,,
+660115,fifa.friendly,2023-01-28,,,,
+656207,fifa.friendly,2023-01-29,Said Martinez,,,
+664458,fifa.friendly,2023-01-29,,,,
+666888,fifa.friendly,2023-02-22,,,,
+666721,fifa.friendly,2023-02-23,,,,
+666722,fifa.friendly,2023-02-24,,,,
+666793,fifa.friendly,2023-02-25,,,,
+667227,fifa.friendly,2023-02-26,,,,
+666895,fifa.friendly,2023-02-27,,,,
+667509,fifa.friendly,2023-03-03,,,,
+666889,fifa.friendly,2023-03-03,,,,
+666880,fifa.friendly,2023-03-04,,,,
+667510,fifa.friendly,2023-03-04,,,,
+667511,fifa.friendly,2023-03-05,,,,
+666890,fifa.friendly,2023-03-09,,,,
+666891,fifa.friendly,2023-03-11,,,,
+664861,fifa.friendly,2023-03-13,Nima Saghafi,,,
+666892,fifa.friendly,2023-03-15,,,,
+667515,fifa.friendly,2023-03-15,,,,
+665650,fifa.friendly,2023-03-18,,,,
+667502,fifa.friendly,2023-03-19,,,,
+667222,fifa.friendly,2023-03-20,,,,
+667223,fifa.friendly,2023-03-20,,,,
+667221,fifa.friendly,2023-03-21,,,,
+667503,fifa.friendly,2023-03-21,,,,
+666894,fifa.friendly,2023-03-22,,,,
+667512,fifa.friendly,2023-03-22,,,,
+660074,fifa.friendly,2023-03-22,Andrei Chivulete,,,
+664877,fifa.friendly,2023-03-23,Victor Rivas,,,
+664854,fifa.friendly,2023-03-23,Sivakorn Pu-Udom,,,
+667224,fifa.friendly,2023-03-23,,,,
+667505,fifa.friendly,2023-03-23,,,,
+667506,fifa.friendly,2023-03-23,,,,
+667365,fifa.friendly,2023-03-23,Ilgiz Tantashev,,,
+658369,fifa.friendly,2023-03-23,Walter Altmann,,,
+666850,fifa.friendly,2023-03-23,Christian Ferreira,,,
+667504,fifa.friendly,2023-03-24,,,,
+666821,fifa.friendly,2023-03-24,Dae-Yong Kim,,,
+665808,fifa.friendly,2023-03-24,Ko Hyung-Jin,,,
+664900,fifa.friendly,2023-03-24,Pei Yun,,,
+666805,fifa.friendly,2023-03-24,Faisal Sulaiman Al-Balawi,,,
+667669,fifa.friendly,2023-03-24,,,,
+666809,fifa.friendly,2023-03-24,Abdulrahman Al Marri,,,
+667507,fifa.friendly,2023-03-25,,,,
+667513,fifa.friendly,2023-03-25,,,,
+666893,fifa.friendly,2023-03-25,,,,
+667362,fifa.friendly,2023-03-25,Razlan Joffri Ali,,,
+665812,fifa.friendly,2023-03-25,,,,
+665805,fifa.friendly,2023-03-25,,,,
+666611,fifa.friendly,2023-03-25,Mohamed Ahmed Yousef Al-Hammadi,,,
+667671,fifa.friendly,2023-03-25,,,,
+667670,fifa.friendly,2023-03-25,,,,
+664576,fifa.friendly,2023-03-25,Maria Ferrieri Caputi,,,
+665817,fifa.friendly,2023-03-25,Sadok Selmi,,,
+664855,fifa.friendly,2023-03-26,Woo-Sung Kim,,,
+667225,fifa.friendly,2023-03-26,,,,
+667766,fifa.friendly,2023-03-26,,,,
+667107,fifa.friendly,2023-03-26,Axrol Riskullaev,,,
+662204,fifa.friendly,2023-03-27,Jonathan Lardot,,,
+663379,fifa.friendly,2023-03-27,,,,
+667768,fifa.friendly,2023-03-27,,,,
+666808,fifa.friendly,2023-03-28,Flavio Rodrigues de Souza,,,
+666822,fifa.friendly,2023-03-28,Sang-Hyeop Chae,,,
+667508,fifa.friendly,2023-03-28,,,,
+664902,fifa.friendly,2023-03-28,Muhammad Taqi Al-Jaafari,,,
+665807,fifa.friendly,2023-03-28,Yosuke Araki,,,
+667226,fifa.friendly,2023-03-28,,,,
+667514,fifa.friendly,2023-03-28,,,,
+667363,fifa.friendly,2023-03-28,Razlan Joffri Ali,,,
+667784,fifa.friendly,2023-03-28,,,,
+658372,fifa.friendly,2023-03-28,,,,
+667382,fifa.friendly,2023-03-28,Zaid Thamer,,,
+665806,fifa.friendly,2023-03-28,,,,
+666847,fifa.friendly,2023-03-28,Saud Alsamhan,,,
+666806,fifa.friendly,2023-03-28,Khalid Saleh Al-Turais,,,
+667786,fifa.friendly,2023-03-28,,,,
+667785,fifa.friendly,2023-03-28,,,,
+664577,fifa.friendly,2023-03-28,Willy Delajod,,,
+667787,fifa.friendly,2023-03-28,,,,
+666810,fifa.friendly,2023-03-28,Ahmed Eisa Mohamed,,,
+664578,fifa.friendly,2023-03-28,Juan Martínez Munuera,,,
+666851,fifa.friendly,2023-03-28,Gustavo Tejera,,,
+667374,fifa.friendly,2023-04-20,Bryan López,,,
+669322,fifa.friendly,2023-06-08,Nelson Salgado,,,
+669324,fifa.friendly,2023-06-08,,,,
+668029,fifa.friendly,2023-06-09,,,,
+668915,fifa.friendly,2023-06-11,David Gómez,,,
+668758,fifa.friendly,2023-06-11,Ismail Elfath,,,
+670122,fifa.friendly,2023-06-11,,,,
+669312,fifa.friendly,2023-06-11,,,,
+687516,fifa.friendly,2023-06-11,Daiyrbek Abdyldaev,,,
+670123,fifa.friendly,2023-06-11,,,,
+668914,fifa.friendly,2023-06-11,Andrés Merlos,,,
+668608,fifa.friendly,2023-06-12,Anastasios Sidiropoulos ,,,
+670741,fifa.friendly,2023-06-12,,,,
+669012,fifa.friendly,2023-06-12,Mahamadou Keita,,,
+670749,fifa.friendly,2023-06-13,,,,
+669313,fifa.friendly,2023-06-14,Andofetra Rakotojaona,,,
+667398,fifa.friendly,2023-06-14,Muhammad Usaid Jamal,,,
+670136,fifa.friendly,2023-06-14,,,,
+687517,fifa.friendly,2023-06-14,Kirill Levnikov,,,
+670140,fifa.friendly,2023-06-14,,,,
+687518,fifa.friendly,2023-06-14,,,,
+669094,fifa.friendly,2023-06-14,Wagner Do Nascimento Magalhaes,,,
+668620,fifa.friendly,2023-06-15,Andy Madley,,,
+670137,fifa.friendly,2023-06-15,,,,
+669280,fifa.friendly,2023-06-15,Ma Ning,,,
+670138,fifa.friendly,2023-06-15,,,,
+670139,fifa.friendly,2023-06-15,,,,
+669005,fifa.friendly,2023-06-15,Stefan Ebner,,,
+668759,fifa.friendly,2023-06-16,Jaime Alfredo Herrera,,,
+668903,fifa.friendly,2023-06-16,Nima Saghafi,,,
+668778,fifa.friendly,2023-06-16,Ryo Tanimoto,,,
+668423,fifa.friendly,2023-06-16,Liu Kwok Man,,,
+668525,fifa.friendly,2023-06-16,Shaun Evans,,,
+670141,fifa.friendly,2023-06-16,,,,
+666853,fifa.friendly,2023-06-16,Craig Pawson,,,
+668901,fifa.friendly,2023-06-16,Stefan Ebner,,,
+668609,fifa.friendly,2023-06-16,Orel Grinfeld,,,
+668659,fifa.friendly,2023-06-16,Miguel Nogueira,,,
+668916,fifa.friendly,2023-06-17,Nicolás Lamolina,,,
+687519,fifa.friendly,2023-06-17,,,,
+670142,fifa.friendly,2023-06-17,,,,
+687520,fifa.friendly,2023-06-17,,,,
+669396,fifa.friendly,2023-06-17,Andris Treimanis,,,
+668782,fifa.friendly,2023-06-17,Victor Rivas,,,
+669314,fifa.friendly,2023-06-18,Ben Amisy Tsimanohitsy Ibrahim,,,
+670143,fifa.friendly,2023-06-18,,,,
+668684,fifa.friendly,2023-06-18,Gustavo Tejera,,,
+670486,fifa.friendly,2023-06-18,Abdullah Jamali,,,
+668904,fifa.friendly,2023-06-18,Jeremy Scheer,,,
+670119,fifa.friendly,2023-06-19,,,,
+670144,fifa.friendly,2023-06-19,,,,
+668420,fifa.friendly,2023-06-19,Jansen Foo,,,
+670145,fifa.friendly,2023-06-19,,,,
+669281,fifa.friendly,2023-06-19,Muhammad Usaid Jamal,,,
+669255,fifa.friendly,2023-06-19,Manuel Schüttengruber,,,
+670745,fifa.friendly,2023-06-19,,,,
+668536,fifa.friendly,2023-06-20,Khamis Al Marri,,,
+668526,fifa.friendly,2023-06-20,Muhammad Taqi Al-Jaafari,,,
+667783,fifa.friendly,2023-06-20,Yudai  Yamamoto,,,
+670146,fifa.friendly,2023-06-20,,,,
+670147,fifa.friendly,2023-06-20,,,,
+687521,fifa.friendly,2023-06-20,Axrol Riskullaev,,,
+687522,fifa.friendly,2023-06-20,Kirill Levnikov,,,
+663868,fifa.friendly,2023-06-20,Matthew De Gabriele,,,
+668610,fifa.friendly,2023-06-20,Halil Meler,,,
+670497,fifa.friendly,2023-06-20,Abdelaziz Bouh,,,
+669397,fifa.friendly,2023-06-20,Gustavo Correia,,,
+669095,fifa.friendly,2023-06-20,Braulio Da Silva Machado,,,
+668917,fifa.friendly,2023-06-21,José Argote,,,
+668783,fifa.friendly,2023-06-21,Víctor Alfonso Cáceres Hernández,,,
+685130,fifa.friendly,2023-08-02,,,,
+685156,fifa.friendly,2023-08-27,Pablo Echavarría,,,
+687827,fifa.friendly,2023-08-29,,,,
+687828,fifa.friendly,2023-09-01,,,,
+687826,fifa.friendly,2023-09-03,,,,
+684696,fifa.friendly,2023-09-03,César Arturo Ramos Palazuelos,,,
+687830,fifa.friendly,2023-09-06,,,,
+687829,fifa.friendly,2023-09-06,,,,
+668027,fifa.friendly,2023-09-06,,,,
+685704,fifa.friendly,2023-09-06,Milos Boskovic,,,
+687841,fifa.friendly,2023-09-07,,,,
+687831,fifa.friendly,2023-09-07,,,,
+687832,fifa.friendly,2023-09-07,,,,
+687842,fifa.friendly,2023-09-07,,,,
+688010,fifa.friendly,2023-09-07,,,,
+686736,fifa.friendly,2023-09-07,Abdulrahman Al-Jassim,,,
+683819,fifa.friendly,2023-09-07,Lazar Lukic,,,
+664878,fifa.friendly,2023-09-07,Kristoffer Karlsson,,,
+682034,fifa.friendly,2023-09-07,Robert Jones,,,
+669427,fifa.friendly,2023-09-07,William Collum,,,
+687833,fifa.friendly,2023-09-08,,,,
+687834,fifa.friendly,2023-09-08,,,,
+687835,fifa.friendly,2023-09-08,,,,
+687836,fifa.friendly,2023-09-08,Muhammad Usaid Jamal,,,
+685800,fifa.friendly,2023-09-08,John Brooks,,,
+684730,fifa.friendly,2023-09-09,Abdulhadi Al Rowaily,,,
+685782,fifa.friendly,2023-09-09,Godfrey Nkhakananga,,,
+669756,fifa.friendly,2023-09-09,João Pinheiro,,,
+677566,fifa.friendly,2023-09-09,Nelson Salgado,,,
+683508,fifa.friendly,2023-09-10,Ismail Elfath,,,
+688008,fifa.friendly,2023-09-10,,,,
+688009,fifa.friendly,2023-09-10,,,,
+664147,fifa.friendly,2023-09-10,Igor Pajac,,,
+687837,fifa.friendly,2023-09-11,,,,
+687839,fifa.friendly,2023-09-11,,,,
+687838,fifa.friendly,2023-09-11,,,,
+688022,fifa.friendly,2023-09-11,,,,
+687843,fifa.friendly,2023-09-11,,,,
+688024,fifa.friendly,2023-09-12,,,,
+688025,fifa.friendly,2023-09-12,,,,
+685129,fifa.friendly,2023-09-12,Sami Ahmed Al-Jurays,,,
+676872,fifa.friendly,2023-09-12,Allard Lindhout,,,
+686737,fifa.friendly,2023-09-12,Abdoul Karim Twagiramukiza,,,
+688023,fifa.friendly,2023-09-12,,,,
+687531,fifa.friendly,2023-09-12,Ante Culina,,,
+685783,fifa.friendly,2023-09-12,Godfrey Nkhakananga,,,
+687824,fifa.friendly,2023-09-12,Ahmed Abu Bakar Said Al Kaf,,,
+688013,fifa.friendly,2023-09-12,Mohammed Khled Al Hoish,,,
+666198,fifa.friendly,2023-09-12,,,,
+687825,fifa.friendly,2023-09-12,Kouassi Attidgbe,,,
+685801,fifa.friendly,2023-09-12,Andy Madley,,,
+675055,fifa.friendly,2023-09-12,Ammar Ashkanani,,,
+680953,fifa.friendly,2023-09-12,Jeremie Pignard,,,
+656202,fifa.friendly,2023-09-12,Davide Massa,,,
+669757,fifa.friendly,2023-09-12,Anthony Taylor,,,
+680928,fifa.friendly,2023-09-12,Yelebodom Gado Mawabwe Bodjona,,,
+680939,fifa.friendly,2023-09-12,Beida Damane,,,
+683509,fifa.friendly,2023-09-13,Victor Rivas,,,
+677567,fifa.friendly,2023-09-13,Ismail Elfath,,,
+688482,fifa.friendly,2023-09-30,,,,
+688483,fifa.friendly,2023-10-08,,,,
+688484,fifa.friendly,2023-10-08,,,,
+688345,fifa.friendly,2023-10-10,Chun Sing Woo,,,
+688485,fifa.friendly,2023-10-11,,,,
+688486,fifa.friendly,2023-10-11,,,,
+664901,fifa.friendly,2023-10-11,Philip Farrugia,,,
+689230,fifa.friendly,2023-10-12,,,,
+688317,fifa.friendly,2023-10-12,Ahmed Issa Darwish,,,
+665809,fifa.friendly,2023-10-12,Rohit Saggi,,,
+686757,fifa.friendly,2023-10-12,,,,
+688527,fifa.friendly,2023-10-12,Khalid Saleh Al-Turais,,,
+688487,fifa.friendly,2023-10-12,,,,
+667377,fifa.friendly,2023-10-12,Antti Munukka,,,
+688263,fifa.friendly,2023-10-12,Mehrez Melki,,,
+685568,fifa.friendly,2023-10-13,Alex King,,,
+685802,fifa.friendly,2023-10-13,Mohd Amirul Bin Yaacob,,,
+689231,fifa.friendly,2023-10-13,,,,
+689236,fifa.friendly,2023-10-13,,,,
+689232,fifa.friendly,2023-10-13,,,,
+689233,fifa.friendly,2023-10-13,,,,
+687523,fifa.friendly,2023-10-13,Mohammad Arafah,,,
+689234,fifa.friendly,2023-10-13,,,,
+688488,fifa.friendly,2023-10-13,,,,
+688097,fifa.friendly,2023-10-13,Luís Godinho,,,
+685784,fifa.friendly,2023-10-13,David Molise,,,
+687524,fifa.friendly,2023-10-13,Mohammed Al-Hoaish,,,
+666607,fifa.friendly,2023-10-13,Stephanie Frappart,,,
+689235,fifa.friendly,2023-10-13,,,,
+688489,fifa.friendly,2023-10-14,,,,
+688490,fifa.friendly,2023-10-14,,,,
+689248,fifa.friendly,2023-10-14,,,,
+689245,fifa.friendly,2023-10-14,,,,
+689249,fifa.friendly,2023-10-14,,,,
+688318,fifa.friendly,2023-10-14,Adissa Abdul Raphiou Ligali,,,
+687844,fifa.friendly,2023-10-14,,,,
+689246,fifa.friendly,2023-10-14,,,,
+689247,fifa.friendly,2023-10-14,,,,
+669758,fifa.friendly,2023-10-14,Fernando Guerrero Ramírez,,,
+683510,fifa.friendly,2023-10-15,Joseph Dickerson,,,
+689250,fifa.friendly,2023-10-15,,,,
+689303,fifa.friendly,2023-10-15,,,,
+686738,fifa.friendly,2023-10-16,Ping Wun Tam,,,
+689289,fifa.friendly,2023-10-16,,,,
+688348,fifa.friendly,2023-10-16,Miguel Nogueira,,,
+688264,fifa.friendly,2023-10-16,Yahya Almulla,,,
+688500,fifa.friendly,2023-10-16,Atilla Karaoglan,,,
+688153,fifa.friendly,2023-10-16,Willy Delajod,,,
+685333,fifa.friendly,2023-10-17,Di Wang,,,
+688098,fifa.friendly,2023-10-17,Mohd Amirul Bin Yaacob,,,
+689290,fifa.friendly,2023-10-17,,,,
+689293,fifa.friendly,2023-10-17,,,,
+689251,fifa.friendly,2023-10-17,,,,
+685569,fifa.friendly,2023-10-17,,,,
+689299,fifa.friendly,2023-10-17,,,,
+689367,fifa.friendly,2023-10-17,,,,
+687845,fifa.friendly,2023-10-17,António Nobre,,,
+688966,fifa.friendly,2023-10-17,Mohamed Khaled,,,
+689294,fifa.friendly,2023-10-17,,,,
+689295,fifa.friendly,2023-10-17,,,,
+689292,fifa.friendly,2023-10-17,,,,
+683820,fifa.friendly,2023-10-17,Mervan Bejtullahu,,,
+689296,fifa.friendly,2023-10-17,,,,
+665810,fifa.friendly,2023-10-17,Farrugia Cann Trustin,,,
+689368,fifa.friendly,2023-10-17,,,,
+689297,fifa.friendly,2023-10-17,,,,
+688491,fifa.friendly,2023-10-17,,,,
+689298,fifa.friendly,2023-10-17,,,,
+689288,fifa.friendly,2023-10-17,Ahmad Ibrahim,,,
+689291,fifa.friendly,2023-10-17,,,,
+681654,fifa.friendly,2023-10-17,Stuart Attwell,,,
+668913,fifa.friendly,2023-10-17,Tobias Stieler,,,
+685785,fifa.friendly,2023-10-17,Benoit Bado,,,
+683511,fifa.friendly,2023-10-18,Rubiel Vazquez,,,
+669759,fifa.friendly,2023-10-18,Marco Antonio Ortiz Nava,,,
+690105,fifa.friendly,2023-11-12,,,,
+668900,fifa.friendly,2023-11-15,Marian Barbu,,,
+664879,fifa.friendly,2023-11-16,Vilhjalmur Thorarinsson,,,
+690256,fifa.friendly,2023-11-17,,,,
+688123,fifa.friendly,2023-11-17,Luca Cibelli,,,
+688956,fifa.friendly,2023-11-18,Bartosz Frankowski,,,
+663869,fifa.friendly,2023-11-19,,,,
+689888,fifa.friendly,2023-11-20,Aleksei Kulbakov,,,
+690309,fifa.friendly,2023-11-21,,,,
+685766,fifa.friendly,2023-11-21,Slavko Vincici,,,
+675059,fifa.friendly,2023-11-21,Ondrej Berka,,,
+686758,fifa.friendly,2023-11-21,Urs Schnyder,,,
+690347,fifa.friendly,2023-12-10,,,,
+688316,fifa.friendly,2023-12-17,Victor Rivas,,,
+692601,fifa.friendly,2023-12-29,,,,
+694552,fifa.friendly,2023-12-30,,,,
+689808,fifa.friendly,2023-12-31,Mahmood Salim Said Al-Majarafi,,,
+689519,fifa.friendly,2024-01-01,Woo-Sung Kim,,,
+694555,fifa.friendly,2024-01-01,,,,
+693431,fifa.friendly,2024-01-02,Bahattin Simsek,,,
+694586,fifa.friendly,2024-01-04,,,,
+690701,fifa.friendly,2024-01-04,,,,
+693432,fifa.friendly,2024-01-05,Kadir Saglam,,,
+694556,fifa.friendly,2024-01-05,Yousif Saeed Hasan,,,
+694610,fifa.friendly,2024-01-05,,,,
+692530,fifa.friendly,2024-01-05,Ammar Ashkanani,,,
+694553,fifa.friendly,2024-01-05,,,,
+693925,fifa.friendly,2024-01-06,Yahya Almulla,,,
+688265,fifa.friendly,2024-01-06,Mohamed Abdalla Alharmoodi,,,
+694611,fifa.friendly,2024-01-06,,,,
+694612,fifa.friendly,2024-01-06,,,,
+693921,fifa.friendly,2024-01-06,Dedjinnanchi Tanisla Ahomlanto,,,
+694551,fifa.friendly,2024-01-06,Abdulrazg Ahmed,,,
+694613,fifa.friendly,2024-01-06,,,,
+694614,fifa.friendly,2024-01-06,,,,
+690840,fifa.friendly,2024-01-06,,,,
+693583,fifa.friendly,2024-01-07,Hashem Al Ibrahim,,,
+694615,fifa.friendly,2024-01-07,,,,
+693958,fifa.friendly,2024-01-07,,,,
+694560,fifa.friendly,2024-01-08,,,,
+694649,fifa.friendly,2024-01-08,,,,
+694650,fifa.friendly,2024-01-08,,,,
+693959,fifa.friendly,2024-01-08,Ousmane Diakate,,,
+690268,fifa.friendly,2024-01-08,,,,
+693926,fifa.friendly,2024-01-08,,,,
+694557,fifa.friendly,2024-01-08,Charles Benle Bulu,,,
+692531,fifa.friendly,2024-01-09,,,,
+694654,fifa.friendly,2024-01-09,,,,
+693927,fifa.friendly,2024-01-09,,,,
+694655,fifa.friendly,2024-01-09,,,,
+694554,fifa.friendly,2024-01-09,Aklesso Gnama,,,
+693974,fifa.friendly,2024-01-09,Mohammed Braheh,,,
+690848,fifa.friendly,2024-01-09,,,,
+694656,fifa.friendly,2024-01-10,,,,
+694558,fifa.friendly,2024-01-10,,,,
+695550,fifa.friendly,2024-01-10,,,,
+690849,fifa.friendly,2024-01-10,,,,
+693960,fifa.friendly,2024-01-10,,,,
+694616,fifa.friendly,2024-01-11,,,,
+694618,fifa.friendly,2024-01-12,,,,
+690688,fifa.friendly,2024-01-12,Kyriakos Athanasiou,,,
+690687,fifa.friendly,2024-01-14,Rubiel Vazquez,,,
+690571,fifa.friendly,2024-01-18,Natalie Simon,,,
+697127,fifa.friendly,2024-01-19,,,,
+690424,fifa.friendly,2024-01-20,Pierre-Luc Lauziere,,,
+691170,fifa.friendly,2024-02-03,Steven Madrigal,,,
+699337,fifa.friendly,2024-03-01,,,,
+699734,fifa.friendly,2024-03-03,,,,
+698280,fifa.friendly,2024-03-14,,,,
+701267,fifa.friendly,2024-03-14,,,,
+700804,fifa.friendly,2024-03-17,,,,
+700805,fifa.friendly,2024-03-18,,,,
+700585,fifa.friendly,2024-03-20,,,,
+700586,fifa.friendly,2024-03-20,,,,
+700806,fifa.friendly,2024-03-21,,,,
+701196,fifa.friendly,2024-03-21,,,,
+698281,fifa.friendly,2024-03-21,,,,
+693934,fifa.friendly,2024-03-21,,,,
+693345,fifa.friendly,2024-03-21,Arda Kardesler,,,
+697788,fifa.friendly,2024-03-21,Sandi Putros,,,
+700587,fifa.friendly,2024-03-21,,,,
+700807,fifa.friendly,2024-03-21,,,,
+690340,fifa.friendly,2024-03-21,Ricardo de Burgos Bengoetxea,,,
+698287,fifa.friendly,2024-03-21,Nabil Boukhalfa,,,
+698418,fifa.friendly,2024-03-21,Rubiel Vazquez,,,
+698420,fifa.friendly,2024-03-22,Lukasz Szpala,,,
+700588,fifa.friendly,2024-03-22,,,,
+700808,fifa.friendly,2024-03-22,,,,
+700809,fifa.friendly,2024-03-22,,,,
+700811,fifa.friendly,2024-03-22,,,,
+697519,fifa.friendly,2024-03-22,Aliyar Aghayev,,,
+699068,fifa.friendly,2024-03-22,,,,
+700813,fifa.friendly,2024-03-22,,,,
+698485,fifa.friendly,2024-03-22,,,,
+699128,fifa.friendly,2024-03-22,,,,
+700491,fifa.friendly,2024-03-22,Jalal Jayed,,,
+698138,fifa.friendly,2024-03-22,,,,
+694651,fifa.friendly,2024-03-22,Willy Delajod,,,
+700814,fifa.friendly,2024-03-22,,,,
+700810,fifa.friendly,2024-03-22,,,,
+699778,fifa.friendly,2024-03-22,Stephanie Frappart,,,
+699075,fifa.friendly,2024-03-22,Luca Pairetto,,,
+698532,fifa.friendly,2024-03-22,Bartosz Frankowski,,,
+690894,fifa.friendly,2024-03-22,Erik Lambrechts,,,
+690928,fifa.friendly,2024-03-22,Kristoffer Karlsson,,,
+699076,fifa.friendly,2024-03-22,Clement Franklin Kpan,,,
+698122,fifa.friendly,2024-03-22,Michael Oliver,,,
+698288,fifa.friendly,2024-03-22,Abdelaziz Bouh,,,
+700815,fifa.friendly,2024-03-22,,,,
+700816,fifa.friendly,2024-03-22,,,,
+700812,fifa.friendly,2024-03-22,,,,
+700817,fifa.friendly,2024-03-22,,,,
+699100,fifa.friendly,2024-03-22,Boubou Traore,,,
+699139,fifa.friendly,2024-03-23,Victor Rivas,,,
+697143,fifa.friendly,2024-03-23,Paulo Cezar Zanovelli Da Silva,,,
+700714,fifa.friendly,2024-03-23,Dickens Mimisa,,,
+700715,fifa.friendly,2024-03-23,Brighton Chimene,,,
+699773,fifa.friendly,2024-03-23,Milos Gigovic,,,
+693341,fifa.friendly,2024-03-23,Rohit Saggi,,,
+693430,fifa.friendly,2024-03-23,Farrugia Cann Trustin,,,
+691328,fifa.friendly,2024-03-23,Allard Lindhout,,,
+689956,fifa.friendly,2024-03-23,Artur Soares Dias,,,
+690850,fifa.friendly,2024-03-23,Jesús Gil Manzano,,,
+701238,fifa.friendly,2024-03-23,,,,
+699074,fifa.friendly,2024-03-23,Mohamed Maarouf Eid Mansour,,,
+700818,fifa.friendly,2024-03-23,,,,
+701264,fifa.friendly,2024-03-24,,,,
+700819,fifa.friendly,2024-03-24,,,,
+700820,fifa.friendly,2024-03-24,,,,
+698419,fifa.friendly,2024-03-24,Jon Freemon,,,
+698430,fifa.friendly,2024-03-24,Armando Villarreal,,,
+700821,fifa.friendly,2024-03-25,,,,
+700822,fifa.friendly,2024-03-25,,,,
+700823,fifa.friendly,2024-03-25,,,,
+700824,fifa.friendly,2024-03-25,,,,
+699101,fifa.friendly,2024-03-25,Elchin Masiyev,,,
+700825,fifa.friendly,2024-03-25,,,,
+697520,fifa.friendly,2024-03-25,Kristo  Tohver ,,,
+693346,fifa.friendly,2024-03-25,Marco Di Bello,,,
+698282,fifa.friendly,2024-03-25,,,,
+699073,fifa.friendly,2024-03-25,,,,
+698123,fifa.friendly,2024-03-25,Marcel Birsan,,,
+700827,fifa.friendly,2024-03-25,,,,
+700828,fifa.friendly,2024-03-25,,,,
+700829,fifa.friendly,2024-03-25,,,,
+698289,fifa.friendly,2024-03-25,Houssam Benyahia,,,
+700826,fifa.friendly,2024-03-25,,,,
+701268,fifa.friendly,2024-03-25,,,,
+701281,fifa.friendly,2024-03-26,Israel Mpaima,,,
+700998,fifa.friendly,2024-03-26,,,,
+701282,fifa.friendly,2024-03-26,Godfrey Nkhakananga,,,
+700484,fifa.friendly,2024-03-26,Bouchra Karboubi,,,
+701211,fifa.friendly,2024-03-26,Mads Kristoffersen,,,
+698618,fifa.friendly,2024-03-26,,,,
+698483,fifa.friendly,2024-03-26,Ovidiu Alin Hategan,,,
+697777,fifa.friendly,2024-03-26,Martin Dohál,,,
+694652,fifa.friendly,2024-03-26,Giorgi Kruashvili,,,
+700831,fifa.friendly,2024-03-26,,,,
+700830,fifa.friendly,2024-03-26,,,,
+694653,fifa.friendly,2024-03-26,Julian Weinberger,,,
+691329,fifa.friendly,2024-03-26,Philip Farrugia,,,
+692534,fifa.friendly,2024-03-26,Alejandro Muñiz Ruiz,,,
+699348,fifa.friendly,2024-03-26,Ruddy Buquet,,,
+699779,fifa.friendly,2024-03-26,Jeremie Pignard,,,
+698533,fifa.friendly,2024-03-26,Daniele Chiffi,,,
+689957,fifa.friendly,2024-03-26,Sebastian Gishamer,,,
+690893,fifa.friendly,2024-03-26,Espen Eskas,,,
+701212,fifa.friendly,2024-03-26,,,,
+693342,fifa.friendly,2024-03-26,Pawel Raczkowski,,,
+690929,fifa.friendly,2024-03-26,Robert Jones,,,
+697066,fifa.friendly,2024-03-26,Irfan Peljto,,,
+701261,fifa.friendly,2024-03-26,Adalbert Diouf,,,
+697789,fifa.friendly,2024-03-26,Anthony Taylor,,,
+701262,fifa.friendly,2024-03-26,Ahmed Ghandour,,,
+696634,fifa.friendly,2024-03-26,António Nobre,,,
+698290,fifa.friendly,2024-03-26,Amir Loucif,,,
+700492,fifa.friendly,2024-03-26,Samir Guezzaz,,,
+700833,fifa.friendly,2024-03-26,,,,
+699099,fifa.friendly,2024-03-26,Mohamed Ali Moussa,,,
+698878,fifa.friendly,2024-03-27,Rubiel Vazquez,,,
+700834,fifa.friendly,2024-03-27,,,,
+700832,fifa.friendly,2024-03-27,,,,
+697144,fifa.friendly,2024-03-27,Braulio Da Silva Machado,,,
+699140,fifa.friendly,2024-03-27,Josef Mickelson,,,
+701631,fifa.friendly,2024-04-06,,,,
+701632,fifa.friendly,2024-04-07,,,,
+702487,fifa.friendly,2024-05-13,,,,
+702605,fifa.friendly,2024-05-15,,,,
+702488,fifa.friendly,2024-05-15,,,,
+702616,fifa.friendly,2024-05-19,,,,
+702718,fifa.friendly,2024-05-26,,,,
+702719,fifa.friendly,2024-05-27,,,,
+700701,fifa.friendly,2024-06-01,Yosuke Araki,,,
+702360,fifa.friendly,2024-06-01,Oscar Barrera,,,
+702618,fifa.friendly,2024-06-02,Muhammad Taqi Al-Jaafari,,,
+697146,fifa.friendly,2024-06-03,Jamie Robinson,,,
+693935,fifa.friendly,2024-06-03,Matej Jug,,,
+698619,fifa.friendly,2024-06-03,Bence Csonka,,,
+698294,fifa.friendly,2024-06-03,Rohit Saggi,,,
+700917,fifa.friendly,2024-06-03,Walter Altmann,,,
+698291,fifa.friendly,2024-06-04,Andreas Argyrou,,,
+699071,fifa.friendly,2024-06-04,Kyriakos Athanasiou,,,
+695548,fifa.friendly,2024-06-04,Atilla Karaoglan,,,
+699060,fifa.friendly,2024-06-04,António Nobre,,,
+698534,fifa.friendly,2024-06-04,Christian-Petru Ciochirca,,,
+698535,fifa.friendly,2024-06-04,Luís Godinho,,,
+698879,fifa.friendly,2024-06-04,Sebastian Gishamer,,,
+699129,fifa.friendly,2024-06-05,Julian Weinberger,,,
+698439,fifa.friendly,2024-06-05,Kristoffer Hagenes,,,
+698484,fifa.friendly,2024-06-05,Mikkel Redder,,,
+698284,fifa.friendly,2024-06-05,Kristoffer Karlsson,,,
+701987,fifa.friendly,2024-06-05,Lawrence Visser,,,
+699861,fifa.friendly,2024-06-05,Gustavo Correia,,,
+692532,fifa.friendly,2024-06-06,Oshane Nation,,,
+702200,fifa.friendly,2024-06-06,Jamie Robinson,,,
+700290,fifa.friendly,2024-06-06,Rohit Saggi,,,
+702828,fifa.friendly,2024-06-07,,,,
+701562,fifa.friendly,2024-06-07,Stefan Ebner,,,
+698486,fifa.friendly,2024-06-07,,,,
+699800,fifa.friendly,2024-06-07,Mihály Káprály,,,
+702335,fifa.friendly,2024-06-07,Rustam Omarov,,,
+695549,fifa.friendly,2024-06-07,Antoniou Menelaus,,,
+698438,fifa.friendly,2024-06-07,Davide Massa,,,
+700918,fifa.friendly,2024-06-07,José Luis Munuera Montero,,,
+700713,fifa.friendly,2024-06-07,Andy Madley,,,
+697147,fifa.friendly,2024-06-07,Lukasz Kuzma,,,
+701635,fifa.friendly,2024-06-08,Guillermo Guerrero,,,
+703368,fifa.friendly,2024-06-08,,,,
+698292,fifa.friendly,2024-06-08,Arda Kardesler,,,
+699104,fifa.friendly,2024-06-08,Claudio Pereira,,,
+699102,fifa.friendly,2024-06-08,,,,
+699072,fifa.friendly,2024-06-08,Jasper Vergoote,,,
+699061,fifa.friendly,2024-06-08,Maria Ferrieri Caputi,,,
+698040,fifa.friendly,2024-06-08,Harm Osmers,,,
+698482,fifa.friendly,2024-06-08,Stephanie Frappart,,,
+698041,fifa.friendly,2024-06-08,Pawel Raczkowski,,,
+701680,fifa.friendly,2024-06-08,Bastien Dechepy,,,
+699069,fifa.friendly,2024-06-08,Fernando Gomez,,,
+692533,fifa.friendly,2024-06-09,Lukasz Szpala,,,
+699062,fifa.friendly,2024-06-09,Chrysovalantis Theouli,,,
+698283,fifa.friendly,2024-06-09,Aleksandar Stavrev,,,
+699130,fifa.friendly,2024-06-09,Daniel Stefanski,,,
+701986,fifa.friendly,2024-06-09,Fabio Verissimo,,,
+701634,fifa.friendly,2024-06-09,Drew Fischer,,,
+698253,fifa.friendly,2024-06-10,Michal Ocenas,,,
+700291,fifa.friendly,2024-06-10,Evangelos Manouhos,,,
+700703,fifa.friendly,2024-06-10,Balazs Berke,,,
+702829,fifa.friendly,2024-06-11,,,,
+703520,fifa.friendly,2024-06-11,,,,
+702361,fifa.friendly,2024-06-11,,,,
+702331,fifa.friendly,2024-06-11,,,,
+702513,fifa.friendly,2024-06-11,Alan Kijas,,,
+700289,fifa.friendly,2024-06-11,Andrei Chivulete,,,
+699103,fifa.friendly,2024-06-11,,,,
+702330,fifa.friendly,2024-06-11,Jason Barcelo,,,
+698536,fifa.friendly,2024-06-11,Chris Kavanagh,,,
+701636,fifa.friendly,2024-06-12,Pablo Echavarría,,,
+699281,fifa.friendly,2024-06-12,Said Martinez,,,
+702336,fifa.friendly,2024-06-13,Lukasz Szpala,,,
+699278,fifa.friendly,2024-06-15,Joseph Dickerson,,,
+702197,fifa.friendly,2024-06-15,Kwinsi Williams,,,
+702242,fifa.friendly,2024-06-15,Daniel Quintero Huitrón,,,
+702269,fifa.friendly,2024-06-16,Ismael Cornejo,,,
+701623,fifa.friendly,2024-06-16,David Gómez,,,
+716795,fifa.friendly,2024-09-01,Fernando Gomez,,,
+720717,fifa.friendly,2024-09-02,,,,
+720718,fifa.friendly,2024-09-04,,,,
+720719,fifa.friendly,2024-09-04,,,,
+718532,fifa.friendly,2024-09-04,,,,
+720720,fifa.friendly,2024-09-05,,,,
+720811,fifa.friendly,2024-09-05,,,,
+719313,fifa.friendly,2024-09-05,Suhaizi Bin Shukri,,,
+719314,fifa.friendly,2024-09-07,,,,
+707615,fifa.friendly,2024-09-07,Keylor Herrera Villalobos,,,
+701259,fifa.friendly,2024-09-08,Joseph Dickerson,,,
+720721,fifa.friendly,2024-09-08,,,,
+720814,fifa.friendly,2024-09-08,,,,
+719315,fifa.friendly,2024-09-10,Suhaizi Bin Shukri,,,
+700292,fifa.friendly,2024-09-10,,,,
+707616,fifa.friendly,2024-09-10,Selvin Brown,,,
+701260,fifa.friendly,2024-09-11,Victor Rivas,,,
+722279,fifa.friendly,2024-10-10,,,,
+721479,fifa.friendly,2024-10-10,,,,
+702509,fifa.friendly,2024-10-10,,,,
+722280,fifa.friendly,2024-10-11,,,,
+722281,fifa.friendly,2024-10-12,,,,
+707617,fifa.friendly,2024-10-13,Katia Itzel García,,,
+722282,fifa.friendly,2024-10-13,,,,
+720256,fifa.friendly,2024-10-13,,,,
+722283,fifa.friendly,2024-10-14,,,,
+722284,fifa.friendly,2024-10-15,,,,
+719859,fifa.friendly,2024-10-15,Tori Penso,,,
+719821,fifa.friendly,2024-10-16,Keylor Herrera Villalobos,,,
+723314,fifa.friendly,2024-11-13,,,,
+723315,fifa.friendly,2024-11-13,,,,
+723317,fifa.friendly,2024-11-14,,,,
+723318,fifa.friendly,2024-11-14,,,,
+723316,fifa.friendly,2024-11-14,,,,
+722554,fifa.friendly,2024-11-14,Ping Wun Tam,,,
+702512,fifa.friendly,2024-11-14,Gustavo Correia,,,
+722698,fifa.friendly,2024-11-15,Rustam Lutfullin,,,
+723319,fifa.friendly,2024-11-16,,,,
+723320,fifa.friendly,2024-11-16,,,,
+722677,fifa.friendly,2024-11-17,Ping Wun Tam,,,
+723321,fifa.friendly,2024-11-18,,,,
+723322,fifa.friendly,2024-11-18,,,,
+723590,fifa.friendly,2024-11-19,,,,
+723323,fifa.friendly,2024-11-19,,,,
+723324,fifa.friendly,2024-11-19,,,,
+723591,fifa.friendly,2024-11-19,,,,
+722701,fifa.friendly,2024-11-19,Majed Al-Shamrani,,,
+718533,fifa.friendly,2024-11-19,,,,
+724473,fifa.friendly,2024-12-09,,,,
+724667,fifa.friendly,2024-12-09,,,,
+725027,fifa.friendly,2024-12-15,,,,
+725028,fifa.friendly,2024-12-15,,,,
+724801,fifa.friendly,2024-12-17,,,,
+727544,fifa.friendly,2024-12-21,,,,
+727545,fifa.friendly,2024-12-21,,,,
+727613,fifa.friendly,2024-12-22,,,,
+729249,fifa.friendly,2025-01-04,Nasir Siyah,,,
+729250,fifa.friendly,2025-01-07,Nasir Siyah,,,
+729251,fifa.friendly,2025-01-09,Suleiman Hemed Said,,,
+729805,fifa.friendly,2025-01-10,,,,
+730053,fifa.friendly,2025-01-13,,,,
+723617,fifa.friendly,2025-01-18,Steven Madrigal,,,
+724802,fifa.friendly,2025-01-23,Cristhofer Corado,,,
+732256,fifa.friendly,2025-02-07,,,,
+730104,fifa.friendly,2025-02-08,Dario Herrera,,,
+732257,fifa.friendly,2025-02-10,,,,
+733122,fifa.friendly,2025-02-17,,,,
+734198,fifa.friendly,2025-03-06,,,,
+734199,fifa.friendly,2025-03-09,,,,
+734485,fifa.friendly,2025-03-13,,,,
+734504,fifa.friendly,2025-03-14,,,,
+731388,fifa.friendly,2025-03-16,Luis Enrique Santander Aguirre,,,
+734505,fifa.friendly,2025-03-19,,,,
+734506,fifa.friendly,2025-03-19,,,,
+734507,fifa.friendly,2025-03-19,,,,
+734874,fifa.friendly,2025-03-19,,,,
+734217,fifa.friendly,2025-03-19,Ilgiz Tantashev,,,
+734508,fifa.friendly,2025-03-20,,,,
+727884,fifa.friendly,2025-03-20,,,,
+734942,fifa.friendly,2025-03-20,,,,
+734509,fifa.friendly,2025-03-21,,,,
+733727,fifa.friendly,2025-03-21,Razlan Joffri Ali,,,
+732253,fifa.friendly,2025-03-21,Mohammed Al-Hakim,,,
+734510,fifa.friendly,2025-03-22,,,,
+729806,fifa.friendly,2025-03-22,Luca Cibelli,,,
+733984,fifa.friendly,2025-03-22,,,,
+734511,fifa.friendly,2025-03-25,,,,
+734218,fifa.friendly,2025-03-25,Adel Al Naqbi,,,
+730054,fifa.friendly,2025-03-25,Aleko Aptsiauri,,,
+730105,fifa.friendly,2025-03-25,Matthew Macdermid,,,
+730972,fifa.friendly,2025-03-25,Enea Jorgji,,,
+734512,fifa.friendly,2025-03-25,,,,
+734513,fifa.friendly,2025-03-26,,,,
+735698,fifa.friendly,2025-05-08,,,,
+735834,fifa.friendly,2025-05-20,,,,
+735835,fifa.friendly,2025-05-20,,,,
+735924,fifa.friendly,2025-05-24,,,,
+735930,fifa.friendly,2025-05-24,,,,
+736087,fifa.friendly,2025-05-28,,,,
+735406,fifa.friendly,2025-05-28,Stuart Attwell,,,
+736096,fifa.friendly,2025-05-29,,,,
+736097,fifa.friendly,2025-05-30,,,,
+735762,fifa.friendly,2025-05-30,,,,
+736093,fifa.friendly,2025-05-31,Samuel Barrott,,,
+736090,fifa.friendly,2025-05-31,Stuart Attwell,,,
+736102,fifa.friendly,2025-05-31,,,,
+736103,fifa.friendly,2025-06-01,,,,
+736104,fifa.friendly,2025-06-01,,,,
+735836,fifa.friendly,2025-06-02,Lahlou Benbraham,0.0,0.0,0.0
+736105,fifa.friendly,2025-06-03,,,,
+735586,fifa.friendly,2025-06-04,Ping Wun Tam,,,
+736106,fifa.friendly,2025-06-05,,,,
+736107,fifa.friendly,2025-06-05,,,,
+736108,fifa.friendly,2025-06-05,,,,
+736109,fifa.friendly,2025-06-05,,,,
+735520,fifa.friendly,2025-06-05,Mahmood Ismail,0.0,0.0,0.0
+735029,fifa.friendly,2025-06-05,,,,
+735573,fifa.friendly,2025-06-05,Sergey Karasev,,,
+736110,fifa.friendly,2025-06-05,,,,
+736119,fifa.friendly,2025-06-06,,,,
+731577,fifa.friendly,2025-06-06,Igor Stojchevski,,,
+736111,fifa.friendly,2025-06-06,,,,
+736114,fifa.friendly,2025-06-06,,,,
+733972,fifa.friendly,2025-06-06,,,,
+732130,fifa.friendly,2025-06-06,Matthew De Gabriele,,,
+733053,fifa.friendly,2025-06-06,Aliyar Aghayev,,,
+731575,fifa.friendly,2025-06-06,Atilla Karaoglan,,,
+735916,fifa.friendly,2025-06-06,Thulani Sibandze,,,
+734867,fifa.friendly,2025-06-06,David Dickinson,,,
+734876,fifa.friendly,2025-06-06,Adam Ladebäck,,,
+731307,fifa.friendly,2025-06-06,Granite Maqedonci,,,
+736112,fifa.friendly,2025-06-06,,,,
+736113,fifa.friendly,2025-06-06,,,,
+736767,fifa.friendly,2025-06-06,,,,
+736169,fifa.friendly,2025-06-06,Mohamed El Baroudi,,,
+733164,fifa.friendly,2025-06-06,Boubou Traore,,,
+733688,fifa.friendly,2025-06-07,,,,
+736094,fifa.friendly,2025-06-07,Bouchra Karboubi,,,
+735075,fifa.friendly,2025-06-07,Antoniou Menelaus,0.0,0.0,0.0
+732251,fifa.friendly,2025-06-07,Harm Osmers,,,
+734219,fifa.friendly,2025-06-07,Fernando Javier Moron Valdelamar,,,
+734938,fifa.friendly,2025-06-07,Josue David Ugalde Aguilar,,,
+734177,fifa.friendly,2025-06-07,Victor Rivas,,,
+734939,fifa.friendly,2025-06-07,Pierre-Luc Lauziere,,,
+736115,fifa.friendly,2025-06-08,,,,
+735583,fifa.friendly,2025-06-08,,,,
+736116,fifa.friendly,2025-06-09,,,,
+738238,fifa.friendly,2025-06-09,,,,
+731306,fifa.friendly,2025-06-09,Julian Weinberger,,,
+736168,fifa.friendly,2025-06-09,,,,
+731305,fifa.friendly,2025-06-09,,,,
+736118,fifa.friendly,2025-06-09,,,,
+736117,fifa.friendly,2025-06-09,,,,
+737524,fifa.friendly,2025-06-09,,,,
+735696,fifa.friendly,2025-06-09,Karim Sabri,,,
+733165,fifa.friendly,2025-06-09,Mehrez Melki,,,
+731576,fifa.friendly,2025-06-10,Viktor Shimusik,0.0,0.0,0.0
+736120,fifa.friendly,2025-06-10,,,,
+736121,fifa.friendly,2025-06-10,,,,
+732244,fifa.friendly,2025-06-10,Nikola Dabanovic,,,
+733054,fifa.friendly,2025-06-10,Sayat Karabaev,,,
+735076,fifa.friendly,2025-06-10,Rohit Saggi,,,
+736095,fifa.friendly,2025-06-10,Mohamed El Baroudi,,,
+735176,fifa.friendly,2025-06-10,Robert Harvey,,,
+736078,fifa.friendly,2025-06-10,Keabetswe Dintwa,,,
+733159,fifa.friendly,2025-06-10,Stephanie Frappart,,,
+732252,fifa.friendly,2025-06-10,Nathan Verboomen,,,
+735528,fifa.friendly,2025-06-10,Matteo Marchetti,,,
+734875,fifa.friendly,2025-06-10,Stefan Ebner,,,
+732254,fifa.friendly,2025-06-10,Morten Krogh,,,
+736032,fifa.friendly,2025-06-10,,,,
+734940,fifa.friendly,2025-06-10,Carly Shaw-Maclaren,,,
+734220,fifa.friendly,2025-06-11,Andrew Samuel,,,
+734941,fifa.friendly,2025-06-11,Filip Dujic,,,
+734176,fifa.friendly,2025-06-11,Moeth Gaymes,,,
+749917,fifa.friendly,2025-07-04,,,,
+751361,fifa.friendly,2025-07-07,,,,
+753880,fifa.friendly,2025-07-21,,,,
+753881,fifa.friendly,2025-07-21,,,,
+754177,fifa.friendly,2025-07-22,Mitiku Tewodros,,,
+753973,fifa.friendly,2025-07-24,,,,
+754178,fifa.friendly,2025-07-24,Ahmed Arajiga,,,
+753882,fifa.friendly,2025-07-24,,,,
+753883,fifa.friendly,2025-07-27,,,,
+753974,fifa.friendly,2025-07-27,,,,
+753972,fifa.friendly,2025-07-27,,,,
+753884,fifa.friendly,2025-07-27,,,,
+755140,fifa.friendly,2025-07-31,,,,
+755890,fifa.friendly,2025-08-24,Abdulrahman Al-Jassim,,,
+758155,fifa.friendly,2025-09-02,,,,
+755868,fifa.friendly,2025-09-03,Khalid Saleh Al-Turais,,,
+758156,fifa.friendly,2025-09-04,,,,
+755903,fifa.friendly,2025-09-04,Martin Dohál,,,
+758157,fifa.friendly,2025-09-04,,,,
+754179,fifa.friendly,2025-09-04,Aaron Wyn Jones,,,
+733152,fifa.friendly,2025-09-04,Robert Hennessy,,,
+755849,fifa.friendly,2025-09-04,Ilgiz Tantashev,,,
+743812,fifa.friendly,2025-09-05,Don Robertson,,,
+756766,fifa.friendly,2025-09-05,,,,
+757633,fifa.friendly,2025-09-05,Ryo Tanimoto,,,
+733151,fifa.friendly,2025-09-05,Lothar D'Hondt,,,
+758158,fifa.friendly,2025-09-06,,,,
+758159,fifa.friendly,2025-09-06,,,,
+735765,fifa.friendly,2025-09-06,Reon Radix,,,
+735773,fifa.friendly,2025-09-07,Rubiel Vazquez,,,
+755869,fifa.friendly,2025-09-07,Yousif Saeed Hasan,,,
+758161,fifa.friendly,2025-09-08,,,,
+756767,fifa.friendly,2025-09-08,Ko Hyung-Jin,,,
+758160,fifa.friendly,2025-09-08,,,,
+758162,fifa.friendly,2025-09-08,,,,
+749810,fifa.friendly,2025-09-08,Martin Dohál,,,
+743813,fifa.friendly,2025-09-09,Don Robertson,,,
+758412,fifa.friendly,2025-09-09,,,,
+758163,fifa.friendly,2025-09-09,,,,
+758164,fifa.friendly,2025-09-09,,,,
+735175,fifa.friendly,2025-09-09,,,,
+758165,fifa.friendly,2025-09-09,,,,
+733167,fifa.friendly,2025-09-09,Robert Jones,,,
+757072,fifa.friendly,2025-09-09,,,,
+735766,fifa.friendly,2025-09-09,Bryan López,,,
+735774,fifa.friendly,2025-09-10,Guido Gonzales Jr.,,,
+759724,fifa.friendly,2025-10-05,,,,
+758379,fifa.friendly,2025-10-08,,,,
+759725,fifa.friendly,2025-10-08,,,,
+759726,fifa.friendly,2025-10-09,,,,
+730657,fifa.friendly,2025-10-09,Ishmael Barbara,,,
+733158,fifa.friendly,2025-10-09,Urs Schnyder,,,
+756251,fifa.friendly,2025-10-09,Erik Lambrechts,,,
+758972,fifa.friendly,2025-10-09,Sadok Selmi,,,
+739959,fifa.friendly,2025-10-10,Ko Hyung-Jin,,,
+757631,fifa.friendly,2025-10-10,Abdulrahman Al-Jassim,,,
+758400,fifa.friendly,2025-10-10,Razlan Joffri Ali,,,
+758719,fifa.friendly,2025-10-10,Mehmet Türkmen,,,
+735086,fifa.friendly,2025-10-10,Nikola Dabanovic,,,
+759715,fifa.friendly,2025-10-10,Leandro Rey Hilfer,,,
+749807,fifa.friendly,2025-10-10,Steven Madrigal,,,
+758378,fifa.friendly,2025-10-11,Tori Penso,,,
+753161,fifa.friendly,2025-10-11,Filip Dujic,,,
+759727,fifa.friendly,2025-10-11,,,,
+751638,fifa.friendly,2025-10-12,Ismail Elfath,,,
+733031,fifa.friendly,2025-10-12,Vitalijs Spasjonnikovs,,,
+758411,fifa.friendly,2025-10-13,Muhammad Izzul Fikri Kamaruzzaman,,,
+731304,fifa.friendly,2025-10-13,,,,
+759212,fifa.friendly,2025-10-14,,,,
+757632,fifa.friendly,2025-10-14,Jong-Hyeok Kim,0.0,0.0,0.0
+739960,fifa.friendly,2025-10-14,Yosuke Araki,,,
+735087,fifa.friendly,2025-10-14,,,,
+759665,fifa.friendly,2025-10-14,Adel Al Naqbi,,,
+733153,fifa.friendly,2025-10-14,Horatiu Fesnic,,,
+758681,fifa.friendly,2025-10-14,Lukas Fähndrich,,,
+755879,fifa.friendly,2025-10-14,Nikola Dabanovic,,,
+758373,fifa.friendly,2025-10-15,Armando Villarreal,,,
+746411,fifa.friendly,2025-10-15,Guido Gonzales Jr.,,,
+753162,fifa.friendly,2025-10-15,Pierre-Luc Lauziere,,,
+755899,fifa.friendly,2025-10-15,Juan Calderón,,,
+760837,fifa.friendly,2025-11-09,,,,
+760185,fifa.friendly,2025-11-12,Mohamed Rafiq Aouina,0.0,0.0,0.0
+755902,fifa.friendly,2025-11-12,Kamal Umudlu,,,
+760871,fifa.friendly,2025-11-12,,,,
+761045,fifa.friendly,2025-11-12,,,,
+761046,fifa.friendly,2025-11-12,,,,
+760872,fifa.friendly,2025-11-12,,,,
+760873,fifa.friendly,2025-11-12,,,,
+761047,fifa.friendly,2025-11-12,,,,
+760874,fifa.friendly,2025-11-13,,,,
+760870,fifa.friendly,2025-11-13,,,,
+760875,fifa.friendly,2025-11-13,,,,
+760876,fifa.friendly,2025-11-13,,,,
+761069,fifa.friendly,2025-11-13,,,,
+760121,fifa.friendly,2025-11-13,Hoang Ngoc Ha,,,
+760877,fifa.friendly,2025-11-13,,,,
+759987,fifa.friendly,2025-11-13,Mohamed Abdalla Alharmoodi,,,
+760378,fifa.friendly,2025-11-13,Abdullah Dhafer Al Shehri,0.0,0.0,14.0
+757634,fifa.friendly,2025-11-13,Pawel Raczkowski,,,
+755121,fifa.friendly,2025-11-13,Edgar Malcevs,,,
+757628,fifa.friendly,2025-11-13,,,,
+758183,fifa.friendly,2025-11-14,Fernando Gomez,,,
+760050,fifa.friendly,2025-11-14,Ben Abraham,,,
+758720,fifa.friendly,2025-11-14,Ma Ning,,,
+760843,fifa.friendly,2025-11-14,Kadir Saglam,,,
+760880,fifa.friendly,2025-11-14,,,,
+760281,fifa.friendly,2025-11-14,Hillary Hambaba,,,
+760879,fifa.friendly,2025-11-14,,,,
+759988,fifa.friendly,2025-11-14,Ahmed Eisa Mohamed Ahmed Eisa Darwish,0.0,0.0,0.0
+760376,fifa.friendly,2025-11-14,Yahya Almulla,,,
+760186,fifa.friendly,2025-11-14,Samir Guezzaz,1.0,1.0,26.0
+760886,fifa.friendly,2025-11-14,,,,
+760878,fifa.friendly,2025-11-14,,,,
+760374,fifa.friendly,2025-11-14,Moussa Diou,,,
+760379,fifa.friendly,2025-11-14,,,,
+759662,fifa.friendly,2025-11-14,,,,
+760882,fifa.friendly,2025-11-15,,,,
+760259,fifa.friendly,2025-11-15,Armando Villarreal,,,
+760883,fifa.friendly,2025-11-15,,,,
+760282,fifa.friendly,2025-11-15,Keabetswe Dintwa,,,
+760884,fifa.friendly,2025-11-15,,,,
+760885,fifa.friendly,2025-11-15,,,,
+755900,fifa.friendly,2025-11-15,Firdavs Norsafarov,,,
+760051,fifa.friendly,2025-11-15,Jarred Gillett,,,
+760801,fifa.friendly,2025-11-15,,,,
+761131,fifa.friendly,2025-11-15,,,,
+760887,fifa.friendly,2025-11-15,,,,
+761282,fifa.friendly,2025-11-15,,,,
+760888,fifa.friendly,2025-11-15,,,,
+758376,fifa.friendly,2025-11-15,Cristhofer Corado,,,
+760889,fifa.friendly,2025-11-15,,,,
+761283,fifa.friendly,2025-11-15,,,,
+760890,fifa.friendly,2025-11-16,,,,
+761285,fifa.friendly,2025-11-16,,,,
+761284,fifa.friendly,2025-11-16,,,,
+758715,fifa.friendly,2025-11-16,Victor Rivas,,,
+758718,fifa.friendly,2025-11-16,Fernando Javier Moron Valdelamar,,,
+760891,fifa.friendly,2025-11-17,,,,
+760895,fifa.friendly,2025-11-17,,,,
+760893,fifa.friendly,2025-11-17,,,,
+760892,fifa.friendly,2025-11-17,,,,
+761121,fifa.friendly,2025-11-17,Rawdha Al Mansoori,,,
+760915,fifa.friendly,2025-11-17,Mohamed Ebrahim Saad,,,
+733166,fifa.friendly,2025-11-17,Joonas Jaanovits,,,
+760380,fifa.friendly,2025-11-17,,,,
+758721,fifa.friendly,2025-11-18,Fu Ming,0.0,0.0,0.0
+760052,fifa.friendly,2025-11-18,Ahmed Al-Ali,,,
+760898,fifa.friendly,2025-11-18,,,,
+760409,fifa.friendly,2025-11-18,Mohammed Al-Hoaish,,,
+760824,fifa.friendly,2025-11-18,Atilla Karaoglan,0.0,0.0,0.0
+760897,fifa.friendly,2025-11-18,,,,
+761315,fifa.friendly,2025-11-18,Luxolo Badi,,,
+760896,fifa.friendly,2025-11-18,,,,
+761122,fifa.friendly,2025-11-18,Ali Saeed Alnaqbi,0.0,0.0,0.0
+760377,fifa.friendly,2025-11-18,Abdulhadi Al Rowaily,,,
+755901,fifa.friendly,2025-11-18,Kirill Levnikov,,,
+731578,fifa.friendly,2025-11-18,Orel Grinfeld,,,
+760047,fifa.friendly,2025-11-18,,,,
+760899,fifa.friendly,2025-11-18,,,,
+760375,fifa.friendly,2025-11-18,Ousmane Diakate,0.0,0.0,0.0
+760053,fifa.friendly,2025-11-18,Jerome Brisard,,,
+760605,fifa.friendly,2025-11-18,,,,
+761286,fifa.friendly,2025-11-18,,,,
+760900,fifa.friendly,2025-11-18,,,,
+760901,fifa.friendly,2025-11-18,,,,
+758377,fifa.friendly,2025-11-19,Julio Luna,,,
+759185,fifa.friendly,2025-11-19,,,,
+760258,fifa.friendly,2025-11-19,Tori Penso,,,
+758717,fifa.friendly,2025-11-19,Ismail Elfath,,,
+758974,fifa.friendly,2025-11-19,Joseph Dickerson,,,
+758716,fifa.friendly,2025-11-19,Rubiel Vazquez,,,
+762772,fifa.friendly,2025-12-16,Javier Alberola Rojas,,,
+762474,fifa.friendly,2025-12-16,Mahmoud Nagi,,,
+401842482,fifa.friendly,2025-12-18,,,,
+401842588,fifa.friendly,2025-12-21,Roberto Pérez Gutierrez,4.0,0.0,42.0
+401844264,fifa.friendly,2026-01-18,Rosendo Mendoza,4.0,0.0,26.0
+762557,fifa.friendly,2026-01-18,Bruno Arleu de Araujo,4.0,0.0,0.0
+401856092,fifa.friendly,2026-01-18,,,,
+401842387,fifa.friendly,2026-01-23,Guido Gonzales Jr.,3.0,0.0,23.0
+401842388,fifa.friendly,2026-01-25,Carlos Betancourt,6.0,1.0,23.0
+401857718,fifa.friendly,2026-01-26,,,,
+401842389,fifa.friendly,2026-02-26,Steven Madrigal,2.0,0.0,17.0
+401862403,fifa.friendly,2026-03-15,Guillermo Guerrero,1.0,0.0,0.0
+401866497,fifa.friendly,2026-03-25,,,,
+401866395,fifa.friendly,2026-03-25,,,,
+401866479,fifa.friendly,2026-03-25,,,,
+401866396,fifa.friendly,2026-03-25,,,,
+401866480,fifa.friendly,2026-03-26,,,,
+401866481,fifa.friendly,2026-03-26,,,,
+401866397,fifa.friendly,2026-03-26,,,,
+401860814,fifa.friendly,2026-03-26,,,,
+401862357,fifa.friendly,2026-03-26,Mohamed Diraneh Guedi,2.0,0.0,0.0
+401851163,fifa.friendly,2026-03-26,,,,
+401859832,fifa.friendly,2026-03-26,,,,
+401850918,fifa.friendly,2026-03-26,,,,
+763032,fifa.friendly,2026-03-26,,2.0,0.0,0.0
+401856642,fifa.friendly,2026-03-26,,,,
+762452,fifa.friendly,2026-03-26,Guido Gonzales Jr.,7.0,1.0,24.0
+401866380,fifa.friendly,2026-03-26,,,,
+401866379,fifa.friendly,2026-03-26,,,,
+401866381,fifa.friendly,2026-03-26,,,,
+401847048,fifa.friendly,2026-03-26,Rubiel Vazquez,3.0,0.0,25.0
+401866382,fifa.friendly,2026-03-27,,,,
+401866383,fifa.friendly,2026-03-27,,,,
+401866384,fifa.friendly,2026-03-27,,,,
+401856419,fifa.friendly,2026-03-27,Calvin Berg,2.0,1.0,24.0
+401856591,fifa.friendly,2026-03-27,Alex King,6.0,0.0,28.0
+401856601,fifa.friendly,2026-03-27,Casey Reibelt,4.0,0.0,22.0
+401861601,fifa.friendly,2026-03-27,Naufal Fairuski,2.0,0.0,0.0
+401856592,fifa.friendly,2026-03-27,Robert Jones,4.0,0.0,35.0
+401861039,fifa.friendly,2026-03-27,Rustam Lutfullin,3.0,0.0,21.0
+401861777,fifa.friendly,2026-03-27,Cihan Aydin,2.0,0.0,0.0
+401861602,fifa.friendly,2026-03-27,Muhammad Taqi Al-Jaafari,1.0,0.0,0.0
+401866483,fifa.friendly,2026-03-27,Abdullo Davlatov,1.0,0.0,18.0
+401861921,fifa.friendly,2026-03-27,,,,
+401866398,fifa.friendly,2026-03-27,,,,
+401866400,fifa.friendly,2026-03-27,,,,
+401862401,fifa.friendly,2026-03-27,George Gatogato,1.0,0.0,0.0
+401862882,fifa.friendly,2026-03-27,Khudoyberganov Abdurashid,2.0,1.0,23.0
+401856593,fifa.friendly,2026-03-27,Mohammed Al-Hoaish,3.0,0.0,23.0
+401859835,fifa.friendly,2026-03-27,,,,
+401860541,fifa.friendly,2026-03-27,Thabang Ketshabile,3.0,0.0,28.0
+401862038,fifa.friendly,2026-03-27,Kadir Saglam,4.0,0.0,0.0
+401854539,fifa.friendly,2026-03-27,Abdulla Ali Al Marri,2.0,0.0,25.0
+401866402,fifa.friendly,2026-03-27,,,,
+401861598,fifa.friendly,2026-03-27,Daniele Chiffi,1.0,0.0,20.0
+401866385,fifa.friendly,2026-03-27,,,,
+401866482,fifa.friendly,2026-03-27,,,,
+401862318,fifa.friendly,2026-03-27,Andrea Colombo,0.0,0.0,23.0
+762553,fifa.friendly,2026-03-27,Sven Jablonski,3.0,0.0,19.0
+762549,fifa.friendly,2026-03-27,Lawrence Visser,1.0,0.0,20.0
+762550,fifa.friendly,2026-03-27,Chris Kavanagh,0.0,0.0,18.0
+401865041,fifa.friendly,2026-03-27,Luís Godinho,0.0,0.0,20.0
+401860936,fifa.friendly,2026-03-27,José Luis Munuera Montero,1.0,0.0,32.0
+401866386,fifa.friendly,2026-03-27,,,,
+401866131,fifa.friendly,2026-03-27,Derlis López,2.0,0.0,30.0
+401866484,fifa.friendly,2026-03-28,,,,
+401866405,fifa.friendly,2026-03-28,Keabetswe Dintwa,1.0,0.0,0.0
+401866404,fifa.friendly,2026-03-28,,,,
+401865146,fifa.friendly,2026-03-28,,,,
+401860779,fifa.friendly,2026-03-28,Ian McNabb,0.0,0.0,15.0
+401861999,fifa.friendly,2026-03-28,Jeremie Pignard,2.0,0.0,19.0
+401856638,fifa.friendly,2026-03-28,Jon Freemon,2.0,1.0,29.0
+401857704,fifa.friendly,2026-03-28,Rohit Saggi,4.0,0.0,24.0
+401856618,fifa.friendly,2026-03-28,Shaun Evans,2.0,0.0,23.0
+762258,fifa.friendly,2026-03-28,Esteban Ostojich,2.0,0.0,18.0
+401867002,fifa.friendly,2026-03-28,,,,
+401856640,fifa.friendly,2026-03-29,Pierre-Luc Lauziere,4.0,1.0,30.0
+401867003,fifa.friendly,2026-03-29,,,,
+762263,fifa.friendly,2026-03-29,Walter Lopez,2.0,0.0,21.0
+763033,fifa.friendly,2026-03-29,,,,
+401866730,fifa.friendly,2026-03-29,Lucky Kasalirwe,2.0,0.0,0.0
+401858183,fifa.friendly,2026-03-29,,,,
+401866738,fifa.friendly,2026-03-29,,,,
+762453,fifa.friendly,2026-03-29,Victor Rivas,4.0,0.0,27.0
+401866387,fifa.friendly,2026-03-29,,,,
+401866388,fifa.friendly,2026-03-29,,,,
+401866389,fifa.friendly,2026-03-29,,,,
+401866390,fifa.friendly,2026-03-29,,,,
+401866391,fifa.friendly,2026-03-30,,,,
+401866392,fifa.friendly,2026-03-30,,,,
+401856602,fifa.friendly,2026-03-30,Anna-Marie Keighley,3.0,0.0,22.0
+401856420,fifa.friendly,2026-03-30,Jack Morgan,2.0,1.0,16.0
+401867001,fifa.friendly,2026-03-30,,,,
+401866485,fifa.friendly,2026-03-30,,,,
+401866865,fifa.friendly,2026-03-30,Muhammed Nazmi Nasaruddin,3.0,0.0,0.0
+401866741,fifa.friendly,2026-03-30,Ahmed Arajiga,1.0,0.0,0.0
+401861040,fifa.friendly,2026-03-30,Taichiev Mederbek,1.0,0.0,20.0
+401866531,fifa.friendly,2026-03-30,,,,
+401850919,fifa.friendly,2026-03-30,,,,
+401866740,fifa.friendly,2026-03-30,,2.0,0.0,0.0
+401861939,fifa.friendly,2026-03-30,,,,
+758380,fifa.friendly,2026-03-30,,,,
+762773,fifa.friendly,2026-03-30,Stuart Attwell,4.0,0.0,18.0
+401866393,fifa.friendly,2026-03-30,,,,
+401866394,fifa.friendly,2026-03-30,,,,
+401856594,fifa.friendly,2026-03-31,Alireza Faghani,4.0,1.0,27.0
+401856595,fifa.friendly,2026-03-31,Andy Madley,0.0,0.0,25.0
+401859221,fifa.friendly,2026-03-31,,,,
+401861778,fifa.friendly,2026-03-31,Cihan Aydin,6.0,0.0,0.0
+401866401,fifa.friendly,2026-03-31,,,,
+401856620,fifa.friendly,2026-03-31,Duje Strukan,5.0,0.0,0.0
+401866403,fifa.friendly,2026-03-31,,,,
+762552,fifa.friendly,2026-03-31,Jasper Vergoote,0.0,0.0,13.0
+401860868,fifa.friendly,2026-03-31,,,,
+401856619,fifa.friendly,2026-03-31,Balazs Berke,2.0,0.0,19.0
+401867105,fifa.friendly,2026-03-31,Moemedi Thabologang,1.0,0.0,0.0
+401857705,fifa.friendly,2026-03-31,Florian Badstübner,3.0,0.0,26.0
+401862915,fifa.friendly,2026-03-31,Rustam Lutfullin,4.0,0.0,20.0
+401862040,fifa.friendly,2026-03-31,Atilla Karaoglan,4.0,1.0,0.0
+401860542,fifa.friendly,2026-03-31,Thabang Ketshabile,7.0,0.0,24.0
+401856641,fifa.friendly,2026-03-31,Carly Shaw-Maclaren,2.0,0.0,0.0
+401866399,fifa.friendly,2026-03-31,,,,
+401860937,fifa.friendly,2026-03-31,Eric Wattellier,9.0,0.0,19.0
+401862402,fifa.friendly,2026-03-31,Guillermo Cuadra Fernández,5.0,0.0,27.0
+401856643,fifa.friendly,2026-03-31,,,,
+401862321,fifa.friendly,2026-03-31,Luca Pairetto,7.0,0.0,28.0
+401859485,fifa.friendly,2026-03-31,Daniel Elder,0.0,0.0,18.0
+401856596,fifa.friendly,2026-03-31,Sander Van Der Eijk,1.0,0.0,20.0
+762554,fifa.friendly,2026-03-31,Nick Walsh,2.0,0.0,20.0
+762551,fifa.friendly,2026-03-31,Sascha Stegemann,2.0,1.0,22.0
+401866866,fifa.friendly,2026-03-31,Iwan Griffith,1.0,0.0,13.0
+401866739,fifa.friendly,2026-03-31,Ondrej Berka,0.0,0.0,0.0
+401866760,fifa.friendly,2026-03-31,Juan Martínez Munuera,1.0,0.0,0.0
+401866761,fifa.friendly,2026-03-31,Robert Hennessy,2.0,0.0,21.0
+401862000,fifa.friendly,2026-03-31,Abdelaziz Bouh,3.0,0.0,0.0
+401851847,fifa.friendly,2026-03-31,Georgi Kabakov ,3.0,1.0,20.0
+762259,fifa.friendly,2026-03-31,Sven Jablonski,2.0,0.0,21.0
+401865273,fifa.friendly,2026-03-31,,,,
+401866132,fifa.friendly,2026-03-31,Alexis Herrera,1.0,0.0,15.0
+401843261,fifa.friendly,2026-04-01,Armando Villarreal,4.0,0.0,25.0
+401856639,fifa.friendly,2026-04-01,Keylor Herrera Villalobos,6.0,0.0,30.0
+762264,fifa.friendly,2026-04-01,Rosendo Mendoza,5.0,0.0,34.0
+401865597,fifa.friendly,2026-05-16,,1.0,0.0,21.0
+401873391,fifa.friendly,2026-05-21,,,,
+401861774,fifa.friendly,2026-05-23,Selvin Brown,2.0,0.0,27.0
+401872678,fifa.friendly,2026-05-26,,,,
+401867936,fifa.friendly,2026-05-26,,4.0,0.0,0.0
+401873506,fifa.friendly,2026-05-27,,,,
+401870853,fifa.friendly,2026-05-28,Lahlou Benbraham,3.0,0.0,32.0
+401860781,fifa.friendly,2026-05-28,Jamie Robinson,0.0,2.0,25.0
+401872547,fifa.friendly,2026-05-29,Atilla Karaoglan,2.0,0.0,0.0
+401871530,fifa.friendly,2026-05-29,Ricardo de Burgos Bengoetxea,,,
+401874069,fifa.friendly,2026-05-29,,,,
+401871131,fifa.friendly,2026-05-29,Lebalang Mokete,2.0,0.0,18.0
+401869326,fifa.friendly,2026-05-29,Rade Obrenovic,1.0,0.0,0.0
+401856621,fifa.friendly,2026-05-30,Goga Kikacheishvili,4.0,1.0,28.0
+401874051,fifa.friendly,2026-05-30,Andy Madley,0.0,0.0,0.0
+401874104,fifa.friendly,2026-05-30,Samuel Barrott,0.0,0.0,0.0
+401869431,fifa.friendly,2026-05-30,Pierre-Luc Lauziere,2.0,0.0,27.0
+401872679,fifa.friendly,2026-05-31,Victor Rivas,4.0,0.0,22.0
+401861775,fifa.friendly,2026-05-31,,2.0,0.0,17.0
+401867618,fifa.friendly,2026-05-31,Damian Kos,3.0,0.0,20.0
+401874272,fifa.friendly,2026-05-31,,,,
+401862319,fifa.friendly,2026-05-31,Rohit Saggi,0.0,0.0,21.0
+401872603,fifa.friendly,2026-05-31,Michal Ocenas,1.0,0.0,0.0
+401871172,fifa.friendly,2026-05-31,João António Ferreira Gonçalves,6.0,0.0,0.0
+401872548,fifa.friendly,2026-05-31,Filip Glova,2.0,0.0,0.0
+758381,fifa.friendly,2026-05-31,Matheus Delgado Candançan,0.0,0.0,18.0
+762592,fifa.friendly,2026-05-31,Nick Walsh,1.0,0.0,30.0
+401864003,fifa.friendly,2026-05-31,Daniel Schlager,1.0,0.0,18.0
+401869442,fifa.friendly,2026-06-01,Ioannis Papadopoulos,3.0,0.0,0.0
+401869443,fifa.friendly,2026-06-01,Mihály Káprály,5.0,0.0,0.0
+401864055,fifa.friendly,2026-06-01,Balazs Berke,1.0,0.0,12.0
+401871359,fifa.friendly,2026-06-01,José Luis Munuera Montero,1.0,0.0,26.0
+401856597,fifa.friendly,2026-06-01,Jeremie Pignard,3.0,1.0,24.0
+401866134,fifa.friendly,2026-06-01,Guillermo Guerrero,4.0,0.0,24.0
+401853575,fifa.friendly,2026-06-02,Marco Antonio Ortiz Nava,4.0,0.0,24.0
+401856361,fifa.friendly,2026-06-02,Rade Obrenovic,4.0,0.0,26.0
+401865145,fifa.friendly,2026-06-02,,6.0,0.0,0.0
+401872680,fifa.friendly,2026-06-02,Boubou Traore,4.0,1.0,24.0
+401863573,fifa.friendly,2026-06-02,Oscar Johnson,2.0,0.0,20.0
+401871830,fifa.friendly,2026-06-03,Rubiel Vazquez,,,
+401874390,fifa.friendly,2026-06-03,,,,
+401873447,fifa.friendly,2026-06-03,,0.0,0.0,0.0
+401872614,fifa.friendly,2026-06-03,Antoine Chiaramonti,,,
+401871529,fifa.friendly,2026-06-03,Milos Savovic,2.0,0.0,15.0
+401871169,fifa.friendly,2026-06-03,Lothar D'Hondt,1.0,0.0,16.0
+401869325,fifa.friendly,2026-06-03,Joey Kooij,2.0,0.0,23.0
+401863500,fifa.friendly,2026-06-03,Jakob Semler,0.0,0.0,20.0
+401867373,fifa.friendly,2026-06-03,Marian Barbu,4.0,0.0,0.0
+401870075,fifa.friendly,2026-06-04,Nelson Salgado,2.0,0.0,0.0
+401871496,fifa.friendly,2026-06-04,Natalie Simon,5.0,0.0,41.0
+401874457,fifa.friendly,2026-06-04,,,,
+401874456,fifa.friendly,2026-06-04,,,,
+401874168,fifa.friendly,2026-06-04,Jelly Chavane,5.0,0.0,0.0
+401874458,fifa.friendly,2026-06-04,,,,
+401871360,fifa.friendly,2026-06-04,Seth Galia,2.0,1.0,26.0
+401867323,fifa.friendly,2026-06-04,Patrik Kolaric,3.0,1.0,0.0
+401874358,fifa.friendly,2026-06-04,,0.0,0.0,0.0
+401870033,fifa.friendly,2026-06-04,Javier Alberola Rojas,,,
+401870034,fifa.friendly,2026-06-04,Aaron Wyn Jones,2.0,0.0,17.0
+401871471,fifa.friendly,2026-06-04,Florian Badstübner,4.0,0.0,18.0
+401864934,fifa.friendly,2026-06-04,Sebastian Gishamer,1.0,0.0,17.0
+401870095,fifa.friendly,2026-06-05,Pierre-Luc Lauziere,1.0,0.0,0.0
+401861776,fifa.friendly,2026-06-05,Tori Penso,4.0,0.0,17.0
+401871786,fifa.friendly,2026-06-05,Rustam Lutfullin,3.0,0.0,25.0
+401873712,fifa.friendly,2026-06-05,,,,
+401873713,fifa.friendly,2026-06-05,,,,
+401871837,fifa.friendly,2026-06-05,Muhammed Nazmi Nasaruddin,3.0,0.0,22.0
+401870465,fifa.friendly,2026-06-05,Muhammad Taqi Al-Jaafari,3.0,0.0,0.0
+401871112,fifa.friendly,2026-06-05,Aliyar Aghayev,0.0,0.0,0.0
+401870001,fifa.friendly,2026-06-05,Duncan Nicolson,,,
+401869444,fifa.friendly,2026-06-05,Wojciech Myc,3.0,0.0,0.0
+401867937,fifa.friendly,2026-06-05,Tural Qurbanov,4.0,0.0,0.0
+401870854,fifa.friendly,2026-06-05,Nenad Minakovic,3.0,1.0,27.0
+401873734,fifa.friendly,2026-06-05,,,,
+401861779,fifa.friendly,2026-06-05,Ante Culina,4.0,0.0,25.0
+401871785,fifa.friendly,2026-06-05,Mihály Káprály,,,
+401873630,fifa.friendly,2026-06-05,,0.0,0.0,0.0
+401871132,fifa.friendly,2026-06-05,,2.0,0.0,0.0
+401873680,fifa.friendly,2026-06-05,Reon Radix,0.0,0.0,26.0
+401860780,fifa.friendly,2026-06-05,,3.0,0.0,22.0
+401871781,fifa.friendly,2026-06-06,Filip Dujic,5.0,0.0,32.0
+401875164,fifa.friendly,2026-06-06,,,,
+401873735,fifa.friendly,2026-06-06,,,,
+401856622,fifa.friendly,2026-06-06,Anastasios Sidiropoulos ,2.0,1.0,18.0
+401866137,fifa.friendly,2026-06-06,Kyriakos Athanasiou,,,
+401873448,fifa.friendly,2026-06-06,,0.0,0.0,0.0
+401873737,fifa.friendly,2026-06-06,,,,
+401873739,fifa.friendly,2026-06-06,,,,
+401872613,fifa.friendly,2026-06-06,Antoine Chiaramonti,0.0,0.0,0.0
+401862883,fifa.friendly,2026-06-06,Luca Zufferli,0.0,2.0,25.0
+401869206,fifa.friendly,2026-06-06,Rohit Saggi,2.0,0.0,30.0
+401870098,fifa.friendly,2026-06-06,Genc Nuza,0.0,0.0,0.0
+762260,fifa.friendly,2026-06-06,Piero Maza,4.0,0.0,21.0
+401871528,fifa.friendly,2026-06-06,Luis Enrique Santander Aguirre,1.0,0.0,0.0
+401869743,fifa.friendly,2026-06-06,Ekaterina Koroleva,5.0,0.0,24.0
+401868148,fifa.friendly,2026-06-06,Rosendo Mendoza,4.0,0.0,29.0
+401860828,fifa.friendly,2026-06-06,Natalie Simon,0.0,0.0,23.0
+401870103,fifa.friendly,2026-06-06,Rubiel Vazquez,2.0,0.0,29.0
+401875160,fifa.friendly,2026-06-06,,,,
+401861998,fifa.friendly,2026-06-06,Adonai Gonzalez,2.0,0.0,20.0
+401871361,fifa.friendly,2026-06-06,Daniel Quintero Huitrón,3.0,0.0,28.0
+401868047,fifa.friendly,2026-06-07,Victor Rivas,5.0,0.0,28.0
+401873741,fifa.friendly,2026-06-07,,,,
+401874916,fifa.friendly,2026-06-07,,,,
+401874169,fifa.friendly,2026-06-07,Jelly Chavane,0.0,1.0,0.0
+401871527,fifa.friendly,2026-06-07,Anojen Kanagasingam,0.0,0.0,0.0
+401874917,fifa.friendly,2026-06-07,,,,
+401871170,fifa.friendly,2026-06-07,Sigurd Smehus Kringstad,3.0,0.0,22.0
+401872604,fifa.friendly,2026-06-07,Juxhin Xhaja,,,
+401856623,fifa.friendly,2026-06-07,Bence Csonka,0.0,0.0,16.0
+401870630,fifa.friendly,2026-06-07,Yigal Frid,3.0,1.0,25.0
+401866598,fifa.friendly,2026-06-07,Pierre-Luc Lauziere,2.0,0.0,18.0
+401870000,fifa.friendly,2026-06-07,Marco Antonio Ortiz Nava,4.0,0.0,14.0
+401862320,fifa.friendly,2026-06-07,Jesús Rafael López Valle,1.0,1.0,24.0
+401871814,fifa.friendly,2026-06-08,Alyssa Pennington,2.0,1.0,27.0
+401869804,fifa.friendly,2026-06-08,Sascha Stegemann,0.0,0.0,13.0
+401867679,fifa.friendly,2026-06-09,Fernando Gomez,1.0,0.0,11.0
+401873736,fifa.friendly,2026-06-09,,,,
+401873247,fifa.friendly,2026-06-09,Ko Hyung-Jin,2.0,0.0,16.0
+401873742,fifa.friendly,2026-06-09,,,,
+401873743,fifa.friendly,2026-06-09,,,,
+401873677,fifa.friendly,2026-06-09,Muhammad Taqi Al-Jaafari,1.0,0.0,0.0
+401873744,fifa.friendly,2026-06-09,,,,
+401873508,fifa.friendly,2026-06-09,,,,
+401866138,fifa.friendly,2026-06-09,Aleko Aptsiauri,,,
+401873738,fifa.friendly,2026-06-09,,,,
+401871171,fifa.friendly,2026-06-09,Mehrez Melki,4.0,0.0,32.0
+401873676,fifa.friendly,2026-06-09,,,,
+401874100,fifa.friendly,2026-06-09,,0.0,0.0,0.0
+401871492,fifa.friendly,2026-06-09,Rafael Shafeev,,,
+401873740,fifa.friendly,2026-06-09,,,,
+401861661,fifa.friendly,2026-06-09,Pavle Ilic,7.0,1.0,29.0
+401870855,fifa.friendly,2026-06-09,Nenad Minakovic,3.0,0.0,29.0
+401871580,fifa.friendly,2026-06-09,Márton Rúsz,0.0,0.0,0.0
+401875460,fifa.friendly,2026-06-09,,,,
+401875461,fifa.friendly,2026-06-09,,,,
+401871362,fifa.friendly,2026-06-09,Victor Rivas,4.0,1.0,30.0
+401867950,fifa.friendly,2026-06-10,,8.0,0.0,34.0
+401873603,fifa.friendly,2026-06-10,Filip Dujic,5.0,1.0,0.0
+401875463,fifa.friendly,2026-06-10,,,,
+401867372,fifa.friendly,2026-06-10,Mateo Busquets Ferrer,4.0,0.0,30.0
+401860829,fifa.friendly,2026-06-10,Facundo Tello,4.0,0.0,31.0
+401874117,fifa.friendly,2026-06-11,,4.0,0.0,0.0
+401869744,fifa.friendly,2026-06-11,,0.0,0.0,0.0
+760421,fifa.world,2026-06-14,Jesús Valenzuela,1.0,0.0,16.0
+760417,fifa.world,2026-06-13,Danny Makkelie,6.0,0.0,30.0
+760416,fifa.world,2026-06-12,Facundo Tello,5.0,0.0,30.0
+760420,fifa.world,2026-06-13,Héctor Martínez,3.0,0.0,23.0
+760419,fifa.world,2026-06-13,Slavko Vincici,2.0,0.0,30.0
+760423,fifa.world,2026-06-14,Francois Letexier,4.0,0.0,23.0
+760422,fifa.world,2026-06-14,Jalal Jayed,0.0,0.0,29.0
+760418,fifa.world,2026-06-14,Mustapha Ghorbal,4.0,0.0,44.0
+760425,fifa.world,2026-06-14,Ismail Elfath,3.0,0.0,14.0
+760424,fifa.world,2026-06-15,Yael Falcón Pérez,1.0,0.0,18.0

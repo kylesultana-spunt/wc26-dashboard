@@ -1,0 +1,22 @@
+# Transfermarkt dump is huge (>100MB) — exceeds GitHub limits. The *derived* CSVs
+# (club_rates.csv, ref_club_rates.csv) are committed, so CI doesn't need the zip.
+data/tm/player-scores.zip
+data/tm/appearances.csv
+data/tm/game_lineups.csv
+data/tm/game_events.csv
+data/tm/games.csv
+data/tm/player_valuations.csv
+data/tm/players.csv
+
+# secrets — never commit
+data/apifootball_key.txt
+odds_api_key.txt
+
+# build output (regenerated)
+public/
+
+__pycache__/
+*.pyc
+
+# ESPN raw match cache (~800MB) — CI caches it instead (actions/cache); harvest rebuilds it
+data/raw/

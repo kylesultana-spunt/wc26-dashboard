@@ -1,0 +1,193 @@
+{
+ "_ts": "2026-06-12 23:42",
+ "Brazil|Morocco": {
+  "corners over 7.5": {
+   "o": 1.5,
+   "src": "oddschecker best"
+  },
+  "corners over 8.5": {
+   "o": 1.8696,
+   "src": "oddschecker best"
+  },
+  "corners over 9.5": {
+   "o": 2.375,
+   "src": "oddschecker best"
+  },
+  "corners over 10.5": {
+   "o": 3.25,
+   "src": "oddschecker best"
+  },
+  "corners over 11.5": {
+   "o": 4.75,
+   "src": "oddschecker best"
+  },
+  "corners over 12.5": {
+   "o": 6.5,
+   "src": "oddschecker best"
+  },
+  "corners under 7.5": {
+   "o": 2.75,
+   "src": "oddschecker best"
+  },
+  "corners under 8.5": {
+   "o": 2.0,
+   "src": "oddschecker best"
+  },
+  "corners under 9.5": {
+   "o": 1.6154,
+   "src": "oddschecker best"
+  },
+  "corners under 10.5": {
+   "o": 1.4,
+   "src": "oddschecker best"
+  },
+  "corners under 11.5": {
+   "o": 1.2222,
+   "src": "oddschecker best"
+  },
+  "corners under 12.5": {
+   "o": 1.1333,
+   "src": "oddschecker best"
+  }
+ },
+ "Qatar|Switzerland": {
+  "corners over 7.5": {
+   "o": 1.4,
+   "src": "oddschecker best"
+  },
+  "corners over 8.5": {
+   "o": 1.6667,
+   "src": "oddschecker best"
+  },
+  "corners over 9.5": {
+   "o": 2.1,
+   "src": "oddschecker best"
+  },
+  "corners over 10.5": {
+   "o": 2.875,
+   "src": "oddschecker best"
+  },
+  "corners over 11.5": {
+   "o": 4.0,
+   "src": "oddschecker best"
+  },
+  "corners over 12.5": {
+   "o": 5.5,
+   "src": "oddschecker best"
+  },
+  "corners under 7.5": {
+   "o": 3.1,
+   "src": "oddschecker best"
+  },
+  "corners under 8.5": {
+   "o": 2.25,
+   "src": "oddschecker best"
+  },
+  "corners under 9.5": {
+   "o": 1.8,
+   "src": "oddschecker best"
+  },
+  "corners under 10.5": {
+   "o": 1.5,
+   "src": "oddschecker best"
+  },
+  "corners under 11.5": {
+   "o": 1.3333,
+   "src": "oddschecker best"
+  },
+  "corners under 12.5": {
+   "o": 1.1667,
+   "src": "oddschecker best"
+  }
+ },
+ "United States|Paraguay": {
+  "corners over 7.5": {
+   "o": 1.5333,
+   "src": "oddschecker best"
+  },
+  "corners over 8.5": {
+   "o": 1.9091,
+   "src": "oddschecker best"
+  },
+  "corners over 9.5": {
+   "o": 2.5,
+   "src": "oddschecker best"
+  },
+  "corners over 10.5": {
+   "o": 3.5,
+   "src": "oddschecker best"
+  },
+  "corners over 11.5": {
+   "o": 5.0,
+   "src": "oddschecker best"
+  },
+  "corners over 12.5": {
+   "o": 7.5,
+   "src": "oddschecker best"
+  },
+  "corners under 7.5": {
+   "o": 2.75,
+   "src": "oddschecker best"
+  },
+  "corners under 8.5": {
+   "o": 2.0,
+   "src": "oddschecker best"
+  },
+  "corners under 9.5": {
+   "o": 1.6154,
+   "src": "oddschecker best"
+  },
+  "corners under 10.5": {
+   "o": 1.3636,
+   "src": "oddschecker best"
+  },
+  "corners under 11.5": {
+   "o": 1.2222,
+   "src": "oddschecker best"
+  },
+  "corners under 12.5": {
+   "o": 1.1111,
+   "src": "oddschecker best"
+  },
+  "Paraguay goals over 0.5": {
+   "o": 1.6154,
+   "src": "oddschecker best"
+  },
+  "Paraguay goals over 1.5": {
+   "o": 4.2,
+   "src": "oddschecker best"
+  },
+  "Christian Pulisic SoT 1+": {
+   "o": 1.5714,
+   "src": "oddschecker best"
+  },
+  "Folarin Balogun SoT 1+": {
+   "o": 1.5714,
+   "src": "oddschecker best"
+  },
+  "Haji Wright SoT 1+": {
+   "o": 1.5714,
+   "src": "oddschecker best"
+  },
+  "Ricardo Pepi SoT 1+": {
+   "o": 1.5714,
+   "src": "oddschecker best"
+  },
+  "Julio Enciso SoT 1+": {
+   "o": 1.7273,
+   "src": "oddschecker best"
+  },
+  "Alex Zendejas SoT 1+": {
+   "o": 1.8333,
+   "src": "oddschecker best"
+  },
+  "Antonio Sanabria SoT 1+": {
+   "o": 1.9091,
+   "src": "oddschecker best"
+  },
+  "Alex Arce SoT 1+": {
+   "o": 1.9091,
+   "src": "oddschecker best"
+  }
+ }
+}
