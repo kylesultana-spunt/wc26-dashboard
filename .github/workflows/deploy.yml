@@ -42,7 +42,7 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add data/team_matches.csv data/player_matches.csv data/referee_matches.csv \
                   data/review_cache_v2.json data/events_index.json data/tempo.json \
-                  data/elo.tsv data/results_all.csv 2>/dev/null || true
+                  data/elo.tsv data/results_all.csv data/fixtures.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "no new match data — skipping rebuild/deploy"; exit 0
           fi

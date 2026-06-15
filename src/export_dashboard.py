@@ -83,7 +83,7 @@ def main():
         if not rname and not f["done"]:
             try:
                 fd = _dt.date.fromisoformat(f["date"][:10])
-                if 0 <= (fd - _today).days <= 3:   # imminent: try the announced official
+                if 0 <= (fd - _today).days <= 5:   # appointed refs show ~1-2 days out; check 5
                     jd = json.load(urllib.request.urlopen(urllib.request.Request(
                         f"https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event={f['eid']}",
                         headers={"User-Agent": "Mozilla/5.0"}), timeout=15))
@@ -93,6 +93,7 @@ def main():
             except Exception:
                 pass
         f["ref"] = rname or ""
+    json.dump(fixtures, open(os.path.join(models.DATA, "fixtures.json"), "w"))  # change here = schedule/ref update -> triggers redeploy
 
     # players: fast vectorised per-90 with shrinkage to position mean
     p = pd.read_csv(os.path.join(models.DATA, "player_matches.csv"))
