@@ -20,7 +20,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "..", "data")
 BASE = "https://api.oddspapi.io/v4"
 WINDOW_DAYS = 2                      # only fetch fixtures kicking off within this many days
-MAX_FIXTURES = 8                     # cap odds calls per run (free tier = ~250/month)
+MAX_FIXTURES = 6                     # cap odds calls per run (free tier = ~250/month)
+CAT_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data",
+                        "oddspapi_markets.json")  # cached market catalog (rarely changes)
 SPORT_SOCCER = 10
 SHARP = "pinnacle"
 # OddsPapi marketType + period=fulltime  ->  our market-key prefix
@@ -88,8 +90,16 @@ def run():
     if len(want) > MAX_FIXTURES:
         soonest = sorted(want.values(), key=lambda f: f["date"])[:MAX_FIXTURES]
         want = {(_akey(f["home"]), _akey(f["away"])): f for f in soonest}
-    cat = {m["marketId"]: m for m in _get("markets", sportId=SPORT_SOCCER)}
-    time.sleep(1.0)
+    # Market catalog rarely changes — cache it to disk (committed) so we don't spend a
+    # request on it every run. Only the markets we map are kept, to keep the file small.
+    if os.path.exists(CAT_PATH):
+        cat = {int(k): v for k, v in json.load(open(CAT_PATH)).items()}
+    else:
+        keep = set(TOTALS) | {"bothteamsscore"}
+        cat = {m["marketId"]: m for m in _get("markets", sportId=SPORT_SOCCER)
+               if m.get("marketType") in keep and m.get("period") == "fulltime"}
+        json.dump({str(k): v for k, v in cat.items()}, open(CAT_PATH, "w"))
+        time.sleep(1.0)
     lo = min(f["date"][:10] for f in want.values())
     hi = (dt.date.fromisoformat(lo) + dt.timedelta(days=WINDOW_DAYS)).isoformat()
     opfix = _get("fixtures", sportId=SPORT_SOCCER, **{"from": lo, "to": hi})
