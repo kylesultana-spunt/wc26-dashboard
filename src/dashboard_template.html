@@ -1336,6 +1336,10 @@ let s=`<div class="thebet" style="margin-top:0"><div><span class="tb-chip">SCORE
 <div class="l2" style="margin:-4px 0 6px">at these odds, anything above ~55% is profit territory</div>
 <div class="legend2"><i style="color:var(--green)">■</i> hit — landed at/above what we expected · <i style="color:var(--red)">■</i> miss — came in under · <i style="color:var(--amber)">■</i> hit, but way beyond the upper range</div>`;
 s+=`<div class="l2" style="margin-bottom:10px">avg miss on match totals: ${Object.entries(errs).map(([k,v])=>`${k} ±${(v.reduce((x,y)=>x+y,0)/v.length).toFixed(1)}`).join(" · ")}</div>`;
+// transparency: finished fixtures whose box-score stats aren't in yet (so a gap is visible, not silent)
+{const have=new Set(R.map(m=>`${m.home}|${m.away}`));  // match on teams, not date (TZ can shift the day)
+ const waiting=(D.fixtures||[]).filter(f=>f.done&&!have.has(`${f.home}|${f.away}`));
+ if(waiting.length)s+=`<div class="l2" style="margin-bottom:10px;color:var(--amber)">${R.length} of ${R.length+waiting.length} finished matches recorded · awaiting box-score stats: ${waiting.map(f=>`${f.home} v ${f.away}`).join(" · ")} (auto-fills on next refresh once published)</div>`;}
 for(const m of Rc){
   s+=`<div class="slip" style="margin-bottom:10px">
   <div style="display:flex;justify-content:space-between;align-items:baseline">

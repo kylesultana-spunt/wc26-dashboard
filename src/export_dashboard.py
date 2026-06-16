@@ -166,10 +166,13 @@ def main():
     pm_all = pd.read_csv(os.path.join(models.DATA, "player_matches.csv"))
     done = [f for f in fixtures if f["done"]]
     by_date = {}
+    # Persist by team-pairing, not date: a fixture's kickoff date can shift a day under
+    # TZ conversion, which would otherwise orphan an already-graded match (or duplicate it).
+    have_pairs = {(v["home"], v["away"]) for v in rcache.values()}
     for f in done:
-        fid = f"{f['date'][:10]}|{f['home']}|{f['away']}"
-        if fid not in rcache:
-            by_date.setdefault(f["date"][:10], []).append(f)
+        if (f["home"], f["away"]) in have_pairs:
+            continue
+        by_date.setdefault(f["date"][:10], []).append(f)
     for d, fs in sorted(by_date.items()):
         try:
             mmp = models.MatchModel(asof=d)  # model as it stood before that day
