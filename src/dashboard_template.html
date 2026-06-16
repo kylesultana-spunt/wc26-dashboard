@@ -1341,15 +1341,17 @@ for(const m of Rc){
   <div style="display:flex;justify-content:space-between;align-items:baseline">
     <span style="font-size:15.5px;font-weight:800">${m.home} <span class="big" style="font-size:16px">${m.score}</span> ${m.away}</span>
     <span class="l2">${m.date}</span></div>
-  <table><tr><th></th><th style="text-align:right">${m.home} exp</th><th style="text-align:right">got</th><th style="text-align:right">${m.away} exp</th><th style="text-align:right">got</th></tr>
+  <table><tr><th></th><th style="text-align:right">${m.home} exp</th><th style="text-align:right">got</th><th style="text-align:right">${m.away} exp</th><th style="text-align:right">got</th><th style="text-align:right;border-left:1px solid var(--line)">total exp</th><th style="text-align:right">got</th></tr>
   ${m.exp.map(e=>{
     const PHI={goals:1,corners:L.disp.corners,cards:L.disp.yellows,shots:L.disp.shots,SoT:L.disp.sot,fouls:L.disp.fouls};
     const grade=(mu,act)=>{const sd=Math.sqrt(Math.max(PHI[e.label]||1.5,1)*Math.max(mu,0.3));
       if(act<mu)return"var(--red)";              // under the expectation = miss
       if(act>mu+2*sd)return"var(--amber)";       // hit, but blew way past the range
       return"var(--green)";};                    // at/above expectation = hit
+    const te=e.eh+e.ea, tg=e.ah+e.aa;            // match total (both teams combined)
     return `<tr><td>${e.label}</td><td class="num">${e.eh}</td><td class="num" style="color:${grade(e.eh,e.ah)};font-weight:700">${e.ah}</td>
-    <td class="num">${e.ea}</td><td class="num" style="color:${grade(e.ea,e.aa)};font-weight:700">${e.aa}</td></tr>`;}).join("")}
+    <td class="num">${e.ea}</td><td class="num" style="color:${grade(e.ea,e.aa)};font-weight:700">${e.aa}</td>
+    <td class="num" style="border-left:1px solid var(--line);font-weight:700">${te}</td><td class="num" style="color:${grade(te,tg)};font-weight:800">${tg}</td></tr>`;}).join("")}
   </table>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px">
     <div><div style="font-size:12.5px;font-weight:800;color:var(--dim);border-bottom:1px solid var(--line);padding-bottom:3px">MODEL 1 (V1) — ${(m.calls_v1||[]).reduce((s,c)=>s+c.hit,0)}/${(m.calls_v1||[]).length}</div>${_renderCalls(m.calls_v1)}</div>
