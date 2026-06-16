@@ -20,6 +20,10 @@ python3 src/build_tempo.py
 if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ] || \
    { [ "$(date -u +%H)" = "09" ] && [ "$(date -u +%M)" -lt 15 ]; }; then
   python3 src/build_squads.py || true     # refresh 26-man squads (ESPN) once a day
+  # club gamelog is ~1200 ESPN calls — weekly (Mondays) or on a manual run
+  if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ] || [ "$(date -u +%u)" = "1" ]; then
+    python3 src/build_player_club.py || true
+  fi
   python3 src/fetch_odds.py || true
 fi
 

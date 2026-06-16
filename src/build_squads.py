@@ -38,7 +38,7 @@ def run():
                 pos = (a.get("position") or {}).get("abbreviation") or \
                       (a.get("position") or {}).get("name", "")
                 if nm:
-                    roster.append({"name": nm, "pos": pos})
+                    roster.append({"name": nm, "pos": pos, "id": a.get("id")})
             if roster:
                 squads[name] = roster
                 print(f"  {name}: {len(roster)}")

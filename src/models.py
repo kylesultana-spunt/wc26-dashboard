@@ -371,6 +371,22 @@ class PlayerStats:
                              if os.path.exists(path) else None)
         return self._club_df
 
+    # ESPN club gamelog: per-appearance fouls/shots from a player's full club season —
+    # a much larger sample than national caps for these markets. Blended like the TM club data.
+    ECLUB_W = 0.6        # weight per club game, capped at 40 games
+    ECLUB_COL = {"fouls_committed": "fc_pg", "fouls_suffered": "fa_pg",
+                 "shots": "shots_pg", "sot": "sot_pg"}
+
+    def _eclub(self):
+        if not hasattr(self, "_eclub_df"):
+            path = os.path.join(DATA, "player_club_rates.csv")
+            if os.path.exists(path):
+                df = pd.read_csv(path)
+                self._eclub_df = {(r.team, r.nname): r for r in df.itertuples()}
+            else:
+                self._eclub_df = None
+        return self._eclub_df
+
     def per90(self, player, team, stat, k=6.0):
         import unicodedata
         rows = self.p[(self.p.player == player) & (self.p.team == team)]
@@ -391,6 +407,15 @@ class PlayerStats:
                 c = cdf.loc[nn]
                 ce = self.CLUB_W * float(c["mins"]) / 90.0
                 num += ce * float(c[self.CLUB_COL[stat]])
+                den += ce
+        edf = self._eclub()
+        if edf is not None and stat in self.ECLUB_COL:
+            nnp = unicodedata.normalize("NFKD", str(player)).encode("ascii", "ignore").decode().lower()
+            nnp = " ".join(nnp.replace("-", " ").split())
+            rec = edf.get((team, nnp))
+            if rec is not None:
+                ce = self.ECLUB_W * min(float(rec.games), 40.0)
+                num += ce * float(getattr(rec, self.ECLUB_COL[stat]))
                 den += ce
         if den == 0:
             return prior, 0, 75.0
