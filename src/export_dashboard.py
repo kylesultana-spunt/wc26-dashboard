@@ -299,9 +299,9 @@ def main():
                          + sims["yellows"][a] + sims["reds"][a])}
         btts = float(((sims["goals"][h] > 0) & (sims["goals"][a] > 0)).mean())
         for k, m in od.get("markets", {}).items():
-            best, so, su = m.get("best"), m.get("sharp_over"), m.get("sharp_under")
-            if not best or best <= 1.0 or not so or not su:
-                continue                      # need a Pinnacle line to validate against
+            b365, so, su = m.get("b365"), m.get("sharp_over"), m.get("sharp_under")
+            if not b365 or b365 <= 1.0 or not so or not su:
+                continue                      # need a Bet365 price + a Pinnacle line
             if k == "btts_yes":
                 raw = btts
             else:
@@ -314,16 +314,20 @@ def main():
                     continue
                 raw = float((tot[fam] > line).mean())
             p = calf(raw, k)                  # model probability (calibrated)
-            sharp = (1 / so) / ((1 / so) + (1 / su))   # Pinnacle de-vig = true prob
-            edge = best * sharp - 1           # REAL edge: best book price vs the sharp fair line
-            if not (EDGE_MIN <= edge <= 0.25):  # floor = value; cap kills stale/erroneous outliers
+            if not (0.15 <= p <= 0.92):
                 continue
-            kelly = max((sharp * best - 1) / (best - 1), 0) / 4
+            sharp = (1 / so) / ((1 / so) + (1 / su))   # Pinnacle de-vig = true prob
+            edge = b365 * p - 1               # edge: Bet365 price vs OUR MODEL's probability
+            sharp_edge = b365 * sharp - 1     # same vs Pinnacle's fair line (the trust-check)
+            if not (EDGE_MIN <= edge <= 0.30):  # floor = value; cap kills nonsense
+                continue
+            kelly = max((p * b365 - 1) / (b365 - 1), 0) / 4   # quarter-Kelly off the model prob
             value.append({"match": f"{h} v {a}", "key": k.replace("_", " "),
                           "p": round(p, 3), "sharp": round(sharp, 3),
-                          "best": best, "book": m.get("book"), "edge": round(edge, 3),
+                          "b365": b365, "edge": round(edge, 3),
+                          "sharp_edge": round(sharp_edge, 3),
                           "kelly": round(kelly, 3),
-                          "beats_sharp": bool(p >= sharp)})   # model agrees it's value
+                          "beats_sharp": bool(sharp_edge >= 0)})  # Pinnacle also says Bet365 is generous
     value.sort(key=lambda x: -x["edge"])
     print(f"value finder: {len(value)} +EV bets from {len(odds)} priced fixtures")
 

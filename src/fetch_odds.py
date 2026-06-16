@@ -137,10 +137,12 @@ def run():
                                   if o["outcomeName"].lower().startswith("under")), None)
                     po = _price(bd, mid, over); pu = _price(bd, mid, under)
                     k = f"{TOTALS[mt]}_over_{line}"
-                    a = agg.setdefault(k, {"best": 0.0, "book": None,
+                    a = agg.setdefault(k, {"best": 0.0, "book": None, "b365": None,
                                            "sharp_over": None, "sharp_under": None})
                     if po and po > a["best"]:
                         a["best"], a["book"] = po, slug
+                    if slug == "bet365" and po:
+                        a["b365"] = po
                     if slug == SHARP:
                         a["sharp_over"], a["sharp_under"] = po, pu
                 elif mt == "bothteamsscore":
@@ -149,10 +151,12 @@ def run():
                     no = next((o["outcomeId"] for o in m["outcomes"]
                                if o["outcomeName"].lower() == "no"), None)
                     py = _price(bd, mid, yes); pn = _price(bd, mid, no)
-                    a = agg.setdefault("btts_yes", {"best": 0.0, "book": None,
+                    a = agg.setdefault("btts_yes", {"best": 0.0, "book": None, "b365": None,
                                                     "sharp_over": None, "sharp_under": None})
                     if py and py > a["best"]:
                         a["best"], a["book"] = py, slug
+                    if slug == "bet365" and py:
+                        a["b365"] = py
                     if slug == SHARP:
                         a["sharp_over"], a["sharp_under"] = py, pn
         for k, a in agg.items():

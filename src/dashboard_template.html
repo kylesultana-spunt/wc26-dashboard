@@ -1106,16 +1106,17 @@ if(val)renderValue();
 document.querySelectorAll("#viewTabs button").forEach(b=>b.className=b.dataset.v===view?"on":"");}
 function renderValue(){
 const V=D.value||[]; const el=$("valueBody");
-if(!V.length){el.innerHTML='<div class="nobet">No live value right now. Odds are pulled for matches within ~3 days of kickoff, and the finder flags only bets where your model price beats the <b>best available</b> book price by ≥3%. Corners are the main covered market; check back nearer kickoff as more books and markets come in.</div>';return;}
+if(!V.length){el.innerHTML='<div class="nobet">No live value at Bet365 right now. Odds are pulled for matches within ~2 days of kickoff, and the finder flags only bets where the <b>Bet365 price beats Pinnacle fair odds</b> by ≥3%. Bet365 is a major book so it usually prices close to the sharp line — value is rarer than if you shopped many books. Corners are the main covered market; check back nearer kickoff.</div>';return;}
 const strong=V.filter(v=>v.beats_sharp).length;
-let s=`<div class="hint">Real prices from 130+ books (OddsPapi). <b>Edge</b> = the best available price vs <b>Pinnacle's no-vig (fair) line</b> — i.e. a softer book is paying more than the sharpest book says it's worth. That's market-validated value, not model guesswork. <b>model</b> is your model's probability (cross-check) and <b>✓</b> flags where your model also rates it at least as likely as the sharp line. Stake is quarter-Kelly off the fair price. <b>${strong}</b> of ${V.length} have model agreement. Lines move fast — always re-check the live price before betting.</div>
+const od=p=>p?(1/p).toFixed(2):'—';
+let s=`<div class="hint">All odds decimal. <b>Edge</b> = <b>Bet365's price</b> vs <b>your model's probability</b> — bets where your model thinks Bet365 is paying too much. <b>✓</b> means Pinnacle (the sharp benchmark) <b>also</b> says Bet365 is generous — those are the trustworthy ones; the rest rely on your model being right (Bet365 prices close to the sharp line, so most edges here are your model's opinion). Stake is quarter-Kelly off the model. <b>${strong}</b> of ${V.length} are sharp-confirmed. Re-check the live Bet365 price before betting.</div>
 <div style="overflow-x:auto"><table class="vtab" style="width:100%;border-collapse:collapse;font-size:13px">
-<tr style="text-align:left;color:var(--dim)"><th>Match</th><th>Bet</th><th style="text-align:right">model</th><th style="text-align:right">sharp</th><th style="text-align:right">best</th><th>book</th><th style="text-align:right">edge</th><th style="text-align:right">stake</th><th>vs sharp</th></tr>`;
+<tr style="text-align:left;color:var(--dim)"><th>Match</th><th>Bet</th><th style="text-align:right">model odds</th><th style="text-align:right">Pinnacle (fair)</th><th style="text-align:right">Bet365</th><th style="text-align:right">edge</th><th style="text-align:right">stake</th><th>✓</th></tr>`;
 for(const v of V){
   s+=`<tr style="border-top:1px solid var(--line)"><td>${v.match}</td><td><b>${v.key}</b></td>
-   <td style="text-align:right">${(v.p*100).toFixed(0)}%</td>
-   <td style="text-align:right">${v.sharp!=null?(v.sharp*100).toFixed(0)+'%':'—'}</td>
-   <td style="text-align:right"><b>${v.best.toFixed(2)}</b></td><td>${v.book||'—'}</td>
+   <td style="text-align:right">${od(v.p)}</td>
+   <td style="text-align:right">${od(v.sharp)}</td>
+   <td style="text-align:right;font-weight:800">${v.b365.toFixed(2)}</td>
    <td style="text-align:right;color:var(--green);font-weight:800">+${(v.edge*100).toFixed(1)}%</td>
    <td style="text-align:right">${(v.kelly*100).toFixed(1)}%</td>
    <td>${v.beats_sharp?'<span style="color:var(--green)">✓</span>':'<span style="color:var(--dim)">—</span>'}</td></tr>`;}
