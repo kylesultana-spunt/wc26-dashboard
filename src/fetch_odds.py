@@ -27,6 +27,8 @@ SPORT_SOCCER = 10
 SHARP = "pinnacle"
 # OddsPapi marketType + period=fulltime  ->  our market-key prefix
 TOTALS = {"totals": "goals", "totals-corners": "corners", "totals-cards": "cards"}
+TEAM = {"teamtotals-corners-team1": "tc1", "teamtotals-corners-team2": "tc2"}  # home/away corners
+MAP = {**TOTALS, **TEAM}
 
 
 def _key():
@@ -95,7 +97,7 @@ def run():
     if os.path.exists(CAT_PATH):
         cat = {int(k): v for k, v in json.load(open(CAT_PATH)).items()}
     else:
-        keep = set(TOTALS) | {"bothteamsscore"}
+        keep = set(MAP) | {"bothteamsscore"}
         cat = {m["marketId"]: m for m in _get("markets", sportId=SPORT_SOCCER)
                if m.get("marketType") in keep and m.get("period") == "fulltime"}
         json.dump({str(k): v for k, v in cat.items()}, open(CAT_PATH, "w"))
@@ -129,14 +131,14 @@ def run():
                 if not m or m.get("period") != "fulltime":
                     continue
                 mt = m.get("marketType")
-                if mt in TOTALS:
+                if mt in MAP:
                     line = m.get("handicap")
                     over = next((o["outcomeId"] for o in m["outcomes"]
                                  if o["outcomeName"].lower().startswith("over")), None)
                     under = next((o["outcomeId"] for o in m["outcomes"]
                                   if o["outcomeName"].lower().startswith("under")), None)
                     po = _price(bd, mid, over); pu = _price(bd, mid, under)
-                    k = f"{TOTALS[mt]}_over_{line}"
+                    k = f"{MAP[mt]}_over_{line}"
                     a = agg.setdefault(k, {"best": 0.0, "book": None, "b365": None,
                                            "sharp_over": None, "sharp_under": None})
                     if po and po > a["best"]:

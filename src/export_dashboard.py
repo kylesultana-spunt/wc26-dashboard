@@ -302,8 +302,19 @@ def main():
             b365, so, su = m.get("b365"), m.get("sharp_over"), m.get("sharp_under")
             if not b365 or b365 <= 1.0 or not so or not su:
                 continue                      # need a Bet365 price + a Pinnacle line
+            label = k.replace("_", " ")
+            ck = k                            # calibration key (family)
             if k == "btts_yes":
                 raw = btts
+            elif k.startswith("tc1_over_") or k.startswith("tc2_over_"):  # per-team corners
+                team = h if k.startswith("tc1") else a
+                line = float(k.split("_over_")[1])
+                lh = line * 2
+                if abs(lh - round(lh)) > 1e-9 or round(lh) % 2 == 0:
+                    continue
+                raw = float((sims["corners"][team] > line).mean())
+                label = f"{team} corners over {line}"
+                ck = "corners_over_x"
             else:
                 fam, _, ln = k.partition("_over_")
                 if fam not in tot:
@@ -313,7 +324,7 @@ def main():
                 if abs(lh - round(lh)) > 1e-9 or round(lh) % 2 == 0:
                     continue
                 raw = float((tot[fam] > line).mean())
-            p = calf(raw, k)                  # model probability (calibrated)
+            p = calf(raw, ck)                 # model probability (calibrated)
             if not (0.15 <= p <= 0.92):
                 continue
             sharp = (1 / so) / ((1 / so) + (1 / su))   # Pinnacle de-vig = true prob
@@ -322,7 +333,7 @@ def main():
             if not (EDGE_MIN <= edge <= 0.30):  # floor = value; cap kills nonsense
                 continue
             kelly = max((p * b365 - 1) / (b365 - 1), 0) / 4   # quarter-Kelly off the model prob
-            value.append({"match": f"{h} v {a}", "key": k.replace("_", " "),
+            value.append({"match": f"{h} v {a}", "key": label,
                           "p": round(p, 3), "sharp": round(sharp, 3),
                           "b365": b365, "edge": round(edge, 3),
                           "sharp_edge": round(sharp_edge, 3),

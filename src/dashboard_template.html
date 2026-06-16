@@ -816,7 +816,7 @@ function rationale(r){
 const{h,a,lam}=CUR;
 const s=statOf(r.key),team=whichTeam(r.key);
 const over=!/under| no$/.test(r.key);
-const line=parseFloat((r.key.match(/(\d+)\+/)||r.key.match(/([\d.]+)(?:\s*\(3w\))?$/)||[])[1]);
+const line=parseFloat((r.key.match(/([\d.]+)\+/)||r.key.match(/([\d.]+)(?:\s*\(3w\))?$/)||[])[1]);
 const noun=STAT_NOUN[s]||s;
 const eloGap=Math.abs(Math.round(D.teams[h].elo-D.teams[a].elo));
 const fav=D.teams[h].elo>=D.teams[a].elo?h:a, dog=fav===h?a:h;
