@@ -143,86 +143,106 @@ def main():
         top = sorted(players[t].items(), key=lambda kv: -kv[1]["n"])[:45]
         players[t] = dict(top)
 
-    book_out = {}  # odds feed + oddschecker integration removed
-    # ---- review of completed fixtures: model (as of kickoff) vs reality ----
+    book_out = {}  # odds feed removed
+    # ---- ONE locked set of bets per fixture (single source of truth) ----
+    # bets.py selects 18 tips (6 match / 6 team / 6 player). The first build within ~1h of
+    # kickoff (or after the match) FREEZES them into locked_bets.json; thereafter they are
+    # never recomputed. The same frozen set is shown live and graded after the match, so what
+    # you saw is exactly what gets scored. Monte Carlo is seeded per event id => reproducible.
+    import bets
     cal = json.load(open(os.path.join(models.DATA, "calibration.json")))
-    def _cal(p, key=None):
-        p = min(max(p, 1e-4), 1 - 1e-4)
-        lp = np.log(p / (1 - p))
-        c = (cal.get("fam", {}).get(models.market_family(key)) if key else None) or cal
-        return float(min(1 / (1 + np.exp(-(c["a"] + c["b"] * lp))), 0.93))
-    _bak = os.path.join(models.DATA, "calibration.json.global.bak")
-    cal_v1 = json.load(open(_bak)) if os.path.exists(_bak) else cal   # previous model version
-    def _cal_v1(p, key=None):
-        p = min(max(p, 1e-4), 1 - 1e-4); lp = np.log(p / (1 - p))
-        c = (cal_v1.get("fam", {}).get(models.market_family(key)) if key else None) or cal_v1
-        return float(min(1 / (1 + np.exp(-(c["a"] + c["b"] * lp))), 0.93))
-    import backtest as _bt
-    rcache_path = os.path.join(models.DATA, "review_cache_v2.json")
-    rcache = json.load(open(rcache_path)) if os.path.exists(rcache_path) else {}
     tm_all = pd.read_csv(os.path.join(models.DATA, "team_matches.csv"))
     tm_all = tm_all[tm_all.comp == "fifa.world"]
-    import review_tips
     pm_all = pd.read_csv(os.path.join(models.DATA, "player_matches.csv"))
-    done = [f for f in fixtures if f["done"]]
-    by_date = {}
-    # Persist by team-pairing, not date: a fixture's kickoff date can shift a day under
-    # TZ conversion, which would otherwise orphan an already-graded match (or duplicate it).
-    have_pairs = {(v["home"], v["away"]) for v in rcache.values()}
-    for f in done:
-        if (f["home"], f["away"]) in have_pairs:
-            continue
-        by_date.setdefault(f["date"][:10], []).append(f)
-    for d, fs in sorted(by_date.items()):
+    locks_path = os.path.join(models.DATA, "locked_bets.json")
+    locks = json.load(open(locks_path)) if os.path.exists(locks_path) else {}
+    PS_now = models.PlayerStats()
+    now_mt = pd.Timestamp.now(tz="Europe/Malta")
+    _mm_cache, _ps_cache = {}, {}
+    def _models_asof(asof):
+        if asof is None:
+            return mm, PS_now
+        if asof not in _mm_cache:
+            _mm_cache[asof] = models.MatchModel(asof=asof)
+            _ps_cache[asof] = models.PlayerStats(asof=asof)
+        return _mm_cache[asof], _ps_cache[asof]
+
+    def _compute(f, asof=None):
+        h, a, eid = f["home"], f["away"], str(f.get("eid"))
+        bets.reseed(eid)
+        mmp, ps = _models_asof(asof)
+        ref = f.get("ref") or ref_by_event.get(eid) or None
+        lam, sims = mmp.simulate(h, a, stage="group", ref=ref)
+        probs = models.market_probs(sims, h, a)
+        tips = bets.select(bets.candidates(mmp, ps, probs, players, h, a, ref), cal)
+        exp_pred = []
+        for label, stat in [("goals", "goals"), ("corners", "corners"), ("cards", None),
+                            ("shots", "shots"), ("SoT", "sot"), ("fouls", "fouls")]:
+            if stat:
+                eh_ = float(np.median(sims[stat][h])); ea_ = float(np.median(sims[stat][a]))
+            else:
+                eh_ = float(np.median(sims["yellows"][h] + sims["reds"][h]))
+                ea_ = float(np.median(sims["yellows"][a] + sims["reds"][a]))
+            exp_pred.append({"label": label, "eh": round(eh_, 1), "ea": round(ea_, 1)})
+        return tips, exp_pred
+
+    locked_disp, review = {}, []
+    for f in fixtures:
+        h, a, eid = f["home"], f["away"], str(f.get("eid"))
         try:
-            mmp = models.MatchModel(asof=d)  # model as it stood before that day
-            ps_d = models.PlayerStats(asof=d)
-        except Exception as e:
-            print(f"review: model asof {d} failed: {e}")
-            continue
-        for f in fs:
-            h, a = f["home"], f["away"]
-            rh = tm_all[(tm_all.team == h) & (tm_all.opponent == a) & (tm_all.date == d)]
-            ra = tm_all[(tm_all.team == a) & (tm_all.opponent == h) & (tm_all.date == d)]
-            if len(rh) != 1 or len(ra) != 1:
-                continue  # stats not harvested yet -> next refresh
-            row_h, row_a = rh.iloc[0].to_dict(), ra.iloc[0].to_dict()
-            ref_e = ref_by_event.get(str(row_h.get("event_id")))
-            lam, sims = mmp.simulate(h, a, stage="group", ref=ref_e)
-            probs = models.market_probs(sims, h, a)
-            exp_rows = []
-            for label, stat in [("goals", "goals"), ("corners", "corners"),
-                                ("cards", None), ("shots", "shots"), ("SoT", "sot"),
-                                ("fouls", "fouls")]:
-                if stat:
-                    eh_ = float(np.median(sims[stat][h])); ea_ = float(np.median(sims[stat][a]))
-                    ah_, aa_ = row_h.get(f"{stat}_for"), row_a.get(f"{stat}_for")
-                else:  # cards: medians of combined yellows+reds simulations
-                    eh_ = float(np.median(sims["yellows"][h] + sims["reds"][h]))
-                    ea_ = float(np.median(sims["yellows"][a] + sims["reds"][a]))
-                    ah_ = (row_h.get("yellows_for") or 0) + (row_h.get("reds_for") or 0)
-                    aa_ = (row_a.get("yellows_for") or 0) + (row_a.get("reds_for") or 0)
-                if ah_ is None or (isinstance(ah_, float) and np.isnan(ah_)):
-                    continue
-                exp_rows.append({"label": label, "eh": round(eh_, 1), "ea": round(ea_, 1),
-                                 "ah": int(ah_), "aa": int(aa_)})
-            # 6 Match + 6 Team + 6 Player tips per match, graded as-of-kickoff
-            ev = str(int(row_h.get("event_id")))
-            pm_ev = pm_all[pm_all.event_id.astype(str) == ev]
-            cands = review_tips.build_candidates(mmp, ps_d, probs, row_h, row_a, h, a, ref_e, pm_ev)
-            calls = review_tips.pick(cands, _cal)        # v2 (current, per-market calibration)
-            calls_v1 = review_tips.pick(cands, _cal_v1)  # v1 (previous global calibration)
-            fid = f"{d}|{h}|{a}"
-            rcache[fid] = {"date": d, "home": h, "away": a,
-                           "score": f"{int(row_h['goals_for'])}-{int(row_a['goals_for'])}",
-                           "exp": exp_rows, "calls": calls, "calls_v1": calls_v1}
-            print(f"review built: {h} v {a} ({rcache[fid]['score']})")
-    json.dump(rcache, open(rcache_path, "w"))
-    review = sorted(rcache.values(), key=lambda r: r["date"], reverse=True)
+            ko = pd.Timestamp(f["date"][:16]).tz_localize("Europe/Malta")
+        except Exception:
+            ko = None
+        in_window = bool(f["done"]) or (ko is not None and now_mt >= ko - pd.Timedelta(hours=1))
+        near = ko is not None and (ko - now_mt) <= pd.Timedelta(days=5)
+        if eid in locks:
+            entry = locks[eid]
+        elif in_window:                                   # FREEZE now
+            tips, exp_pred = _compute(f, asof=(f["date"][:10] if f["done"] else None))
+            entry = {"home": h, "away": a, "kickoff": f["date"], "eid": eid,
+                     "locked_at": now_mt.strftime("%Y-%m-%d %H:%M") + " (Malta)",
+                     "tips": tips, "exp_pred": exp_pred}
+            locks[eid] = entry
+            print(f"LOCKED bets: {h} v {a}")
+        elif near:                                        # provisional preview (not frozen)
+            tips, exp_pred = _compute(f)
+            entry = {"home": h, "away": a, "kickoff": f["date"], "eid": eid,
+                     "locked_at": None, "tips": tips, "exp_pred": exp_pred}
+        else:                                             # far off: lock closer to kickoff
+            entry = {"home": h, "away": a, "kickoff": f["date"], "eid": eid,
+                     "locked_at": None, "tips": [], "exp_pred": []}
+        locked_disp[f"{h}|{a}"] = {"locked": entry["locked_at"] is not None,
+                                   "lock_time": entry["locked_at"],
+                                   "kickoff": f["date"], "tips": entry["tips"]}
+        if f["done"]:                                     # grade once stats are in
+            rh = tm_all[(tm_all.team == h) & (tm_all.event_id.astype(str) == eid)]
+            ra = tm_all[(tm_all.team == a) & (tm_all.event_id.astype(str) == eid)]
+            if len(rh) == 1 and len(ra) == 1 and entry["tips"]:
+                row_h, row_a = rh.iloc[0].to_dict(), ra.iloc[0].to_dict()
+                pm_ev = pm_all[pm_all.event_id.astype(str) == eid]
+                graded = bets.grade([dict(t) for t in entry["tips"]], row_h, row_a, h, a, pm_ev)
+                STMAP = {"goals": "goals", "corners": "corners", "shots": "shots",
+                         "SoT": "sot", "fouls": "fouls"}
+                exp_rows = []
+                for e in entry["exp_pred"]:
+                    if e["label"] == "cards":
+                        ah_ = (row_h.get("yellows_for") or 0) + (row_h.get("reds_for") or 0)
+                        aa_ = (row_a.get("yellows_for") or 0) + (row_a.get("reds_for") or 0)
+                    else:
+                        st = STMAP[e["label"]]
+                        ah_ = row_h.get(f"{st}_for"); aa_ = row_a.get(f"{st}_for")
+                    if ah_ is None or (isinstance(ah_, float) and np.isnan(ah_)):
+                        continue
+                    exp_rows.append({**e, "ah": int(ah_), "aa": int(aa_)})
+                review.append({"date": f["date"][:10], "home": h, "away": a,
+                               "score": f"{int(row_h['goals_for'])}-{int(row_a['goals_for'])}",
+                               "exp": exp_rows, "tips": graded})
+    json.dump(locks, open(locks_path, "w"))
+    review = sorted(review, key=lambda r: r["date"], reverse=True)
     data = {
         "asof": pd.Timestamp.now(tz="Europe/Malta").strftime("%Y-%m-%d %H:%M") + " (Malta)",
         "teams": team_data, "refs": refs, "players": players, "fixtures": fixtures,
-        "book": {}, "review": review,  # odds feed removed — manual entry only
+        "book": {}, "review": review, "locked": locked_disp,  # odds feed removed; locked = frozen per-fixture bets
         "league": {"means": {s: round(ts.means[s], 4) for s in EXPORT_STATS},
                    "disp": {s: round(ts.disp[s], 4) for s in EXPORT_STATS},
                    "beta": {s: round(ts.elo_beta.get(s, 0.0), 5) for s in EXPORT_STATS},

@@ -37,7 +37,7 @@ jobs:
       - name: Did a match's data change?
         id: chg
         run: |
-          if git diff --quiet -- data/team_matches.csv data/review_cache_v2.json data/fixtures.json; then
+          if git diff --quiet -- data/team_matches.csv data/locked_bets.json data/fixtures.json; then
             echo "go=false" >> "$GITHUB_OUTPUT"; echo "no new match data"
           else
             echo "go=true"  >> "$GITHUB_OUTPUT"; echo "new data -> will deploy"

@@ -243,7 +243,7 @@ tr.grp td{background:var(--panel2);font-weight:700;font-size:11px;color:var(--ma
       <div class="panel" id="playerGraphPanel" style="display:none"><h2>Graphs &amp; Data — Player</h2>
         <div class="statdetail" id="playerDetail"></div></div>
       <div class="panel" id="slipsPanel" style="display:none"><h2>Bet Tips</h2>
-      <div class="hint"><b>6 tips each</b> for Match, Team and Player markets (18 per match). The model is calibrated, so edge comes from the <b>price gap to the book</b>, not from confidence — these lean into the markets books price softest (cards, fouls, corners, props) and avoid the efficient ones (match goals, result) you can't beat. Type a bookmaker price into any card and it ranks by <b>real EV</b>, shows your edge, and tells you the stake. No odds are pulled in automatically.</div>
+      <div class="hint"><b>6 tips each</b> for Match, Team and Player markets (18 per match) — one definite set per fixture. They <b>lock in automatically ~1 hour before kickoff</b> and never change after that; the exact locked set is what gets graded in Record. The model is calibrated, so edge comes from the <b>price gap to the book</b>, not confidence — the tips lean into the markets books price softest (cards, fouls, corners, props). Type a bookmaker price into any card to see your edge, EV and stake. No odds are pulled in automatically.</div>
       <div class="tipTabs" id="tipTabs">
         <button data-cat="match" class="on">Match Stats</button>
         <button data-cat="team">Team Stats</button>
@@ -759,6 +759,20 @@ function selectTips(cands,n){
   return out;}
 function buildSlips(){
 const{h,a,lam}=CUR;
+// LOCKED bets: a scheduled fixture has a frozen, Python-selected set — the single source of
+// truth that gets graded after the match. Render exactly that; don't re-select in the browser.
+const _lk=(D.locked&&D.locked[`${h}|${a}`])||null;
+if(_lk){
+  CUR.locked=_lk.locked;CUR.lockTime=_lk.lock_time;CUR.kickoff=_lk.kickoff;
+  const saved=JSON.parse(localStorage.getItem(oddsKey())||"{}");
+  const rows=(_lk.tips||[]).map(t=>{const o=parseFloat(saved[t.k])||null;
+    return{key:t.k,mk:t.mk,group:t.cat,cat:t.cat,pc:t.p,fair:t.fair,
+      odds:saved[t.k]||"",o,edge:o?t.p-1/o:0};});
+  slipCats={match:rows.filter(r=>r.cat==="match"),team:rows.filter(r=>r.cat==="team"),
+    player:rows.filter(r=>r.cat==="player")};
+  renderSlips();return;}
+CUR.locked=undefined;
+// (custom matchup, not a scheduled fixture) — provisional preview only, computed live.
 // over-side only, no result/1X2. PRICED door: book pays and we beat implied (edge).
 // UNPRICED door: model 40-68% (the band where 1.7+ prices live). Score favours real edge.
 const isResult=r=>r.group==="Result"||r.group==="Score"||
@@ -878,7 +892,16 @@ const el=$("slips");
 document.querySelectorAll("#tipTabs button").forEach(b=>b.classList.toggle("on",b.dataset.cat===slipTab));
 slipState=slipCats[slipTab]||[];
 el.innerHTML="";
-if(!slipState.length){el.innerHTML=`<div class="nopicks">No qualifying ${slipTab} tips for this match yet.</div>`;return;}
+// lock-status banner (only for scheduled fixtures, where CUR.locked is set)
+if(CUR&&CUR.locked!==undefined){
+  const b=document.createElement("div");b.className="hint";b.style.cssText="margin:0 0 10px";
+  b.innerHTML=CUR.locked
+    ?`🔒 <b>Locked${CUR.lockTime?" · "+CUR.lockTime:""}.</b> This exact set of bets is stored and is what gets graded after the match — it won't change.`
+    :`⏳ <b>Provisional.</b> These lock in automatically about 1 hour before kickoff${CUR.kickoff?" ("+CUR.kickoff+")":""}; until then they can still change as data updates.`;
+  el.appendChild(b);}
+if(!slipState.length){const more=document.createElement("div");more.className="nopicks";
+  more.textContent=(CUR&&CUR.locked===false)?"Bets for this match lock in about 1 hour before kickoff.":`No qualifying ${slipTab} tips for this match.`;
+  el.appendChild(more);return;}
 slipState.forEach((r,si)=>{
   const o=r.o;
   const ev=o?r.pc*o-1:null;
@@ -922,6 +945,11 @@ slipState.forEach((r,si)=>{
   el.appendChild(card);});
 el.querySelectorAll(".oddsmini").forEach(inp=>{inp.onchange=()=>{
   const r=slipState[+inp.dataset.k];
+  if(CUR&&CUR.locked!==undefined){            // locked fixture: store the price by tip key
+    const saved=JSON.parse(localStorage.getItem(oddsKey())||"{}");
+    if(inp.value)saved[r.key]=inp.value; else delete saved[r.key];
+    localStorage.setItem(oddsKey(),JSON.stringify(saved));
+    buildSlips();return;}
   const row=lastRows.find(x=>x.key===r.key);
   if(row){row.odds=inp.value;row.auto=false;}
   saveOdds();buildSlips();renderTable();};});}
@@ -1269,15 +1297,13 @@ function _calHealth(C){
 function renderTrends(R){
   if(!R||R.length===0) return "";
   const C=[...R].sort((a,b)=> a.date<b.date?-1:(a.date>b.date?1:((a.home||"")<(b.home||"")?-1:1)));
-  let cH2=0,cT2=0,cH1=0,cT1=0; const bp=[],bp1=[];
+  let cH=0,cT=0; const bp=[];
   C.forEach((m,i)=>{
-    let h2=0,t2=0;for(const c of m.calls){t2++;h2+=c.hit;}cH2+=h2;cT2+=t2;
-    const vv1=m.calls_v1||m.calls; let h1=0,t1=0;for(const c of vv1){t1++;h1+=c.hit;}cH1+=h1;cT1+=t1;
-    const r2=t2?h2/t2:null,c2=cT2?cH2/cT2:null,r1=t1?h1/t1:null,c1=cT1?cH1/cT1:null;
+    let h=0,t=0;for(const c of (m.tips||[])){if(c.hit==null)continue;t++;h+=c.hit;}cH+=h;cT+=t;
+    const r=t?h/t:null,cu=cT?cH/cT:null;
     const pc=x=>x==null?"\u2014":Math.round(x*100)+"%";
-    const tip=`<b>${m.home} ${m.score||""} ${m.away}</b><br>${m.date}<br><span style="color:var(--green)">Model 2:</span> run ${pc(c2)} (match ${pc(r2)})<br><span style="color:var(--dim)">Model 1:</span> run ${pc(c1)} (match ${pc(r1)})`;
-    bp.push({i:i,date:m.date,home:m.home,away:m.away,score:m.score,raw:r2,cum:c2,tip:tip});
-    bp1.push({i:i,date:m.date,raw:r1,cum:c1});});
+    const tip=`<b>${m.home} ${m.score||""} ${m.away}</b><br>${m.date}<br>run ${pc(cu)} \u00b7 this match ${pc(r)}`;
+    bp.push({i:i,date:m.date,home:m.home,away:m.away,score:m.score,raw:r,cum:cu,tip:tip});});
   const v=(typeof ALGO_VERSIONS!=="undefined")?ALGO_VERSIONS:[];
   const btns=_STATBTNS.map(b=>`<button class="statBtn" data-stat="${b[0]}">${b[1]}</button>`).join("");
   const betLatest=bp.length?Math.round((([...bp].reverse().find(p=>p.cum!=null)||{cum:0}).cum)*100)+"%":"—";
@@ -1292,11 +1318,11 @@ function renderTrends(R){
   ${_calHealth(C)}
   <div class="slip" style="margin-bottom:10px;padding:10px 12px">
    <div style="display:flex;justify-content:space-between;align-items:baseline">
-     <span style="font-size:14px;font-weight:800">Bets we got right — Model 1 vs Model 2</span>
+     <span style="font-size:14px;font-weight:800">Bets we got right</span>
      <span style="font-size:15px;font-weight:800;color:var(--green)">${betLatest}</span></div>
-   <div class="l2" style="margin:-1px 0 2px">share of graded picks that landed (running · 100% = best)</div>
-   ${_pctChart([{pts:bp,col:"var(--green)"},{pts:bp1,col:"var(--dim)",dash:true}],v)}
-   <div class="legend2" style="margin-top:4px"><i style="color:var(--green)">\u25cf</i> Model 2 (V2 \u2014 current) &nbsp;\u00b7&nbsp; <i style="color:var(--dim)">\u2508</i> Model 1 (V1 \u2014 previous)</div></div>
+   <div class="l2" style="margin:-1px 0 2px">share of the locked bets that landed (running · 100% = best)</div>
+   ${_pctChart([{pts:bp,col:"var(--green)"}],v)}
+   <div class="legend2" style="margin-top:4px"><i style="color:var(--green)">\u25cf</i> share of locked bets that landed (running)</div></div>
   <div class="slip" style="margin-bottom:10px;padding:10px 12px">
    <div style="font-size:14px;font-weight:800;margin-bottom:6px">Stat prediction calibration (z-score) — our number vs reality</div>
    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:2px">${btns}</div>
@@ -1314,9 +1340,13 @@ function _renderCalls(calls){
   let out="";
   for(const cat of ["match","team","player"]){
     const cc=calls.filter(c=>(c.cat||"match")===cat); if(!cc.length)continue;
-    const hit=cc.reduce((s,c)=>s+c.hit,0);
-    out+=`<div class="subhead" style="margin:8px 0 2px">${CL[cat]} — ${hit}/${cc.length}</div>`+cc.map(c=>
-      `<div class="l2" style="margin:2px 0">${c.hit?'<span style="color:var(--green)">✓</span>':'<span style="color:var(--red)">✗</span>'} ${c.k.replace(/_/g," ")} — ${(c.p*100).toFixed(0)}% · fair <span style="color:var(--amber)">${(c.fair||1/c.p).toFixed(2)}</span></div>`).join("");
+    const live=cc.filter(c=>c.hit!=null);
+    const hit=live.reduce((s,c)=>s+c.hit,0);
+    out+=`<div class="subhead" style="margin:8px 0 2px">${CL[cat]} — ${hit}/${live.length}</div>`+cc.map(c=>{
+      const mark=c.hit==null?'<span style="color:var(--dim)">•</span>':
+        c.hit?'<span style="color:var(--green)">✓</span>':'<span style="color:var(--red)">✗</span>';
+      const vn=c.hit==null?' <span class="l2">(void — didn\'t feature)</span>':'';
+      return `<div class="l2" style="margin:2px 0">${mark} ${(c.k||"").replace(/_/g," ")} — ${(c.p*100).toFixed(0)}% · fair <span style="color:var(--amber)">${(c.fair||1/c.p).toFixed(2)}</span>${vn}</div>`;}).join("");
   }
   return out;
 }
@@ -1328,7 +1358,7 @@ if(!R.length){el.innerHTML='<div class="nobet">No completed matches harvested ye
 // accuracy summary
 let hits=0,tot=0;const errs={};
 for(const m of R){
-  for(const c of m.calls){tot++;hits+=c.hit;}
+  for(const c of (m.tips||[])){if(c.hit==null)continue;tot++;hits+=c.hit;}
   for(const e of m.exp){errs.setdefault;(errs[e.label]=errs[e.label]||[]).push(Math.abs((e.eh+e.ea)-(e.ah+e.aa)));}}
 let s=`<div class="thebet" style="margin-top:0"><div><span class="tb-chip">SCORE</span>
 <span class="tb-mkt">the picks (fair odds 1.5–2.4): ${hits}/${tot} landed</span></div>
@@ -1357,10 +1387,8 @@ for(const m of Rc){
     <td class="num">${e.ea}</td><td class="num" style="color:${grade(e.ea,e.aa)};font-weight:700">${e.aa}</td>
     <td class="num" style="border-left:1px solid var(--line);font-weight:700">${te}</td><td class="num" style="color:${grade(te,tg)};font-weight:800">${tg}</td></tr>`;}).join("")}
   </table>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px">
-    <div><div style="font-size:12.5px;font-weight:800;color:var(--dim);border-bottom:1px solid var(--line);padding-bottom:3px">MODEL 1 (V1) — ${(m.calls_v1||[]).reduce((s,c)=>s+c.hit,0)}/${(m.calls_v1||[]).length}</div>${_renderCalls(m.calls_v1)}</div>
-    <div><div style="font-size:12.5px;font-weight:800;color:var(--mag);border-bottom:1px solid var(--mag);padding-bottom:3px">MODEL 2 (V2) — ${(m.calls||[]).reduce((s,c)=>s+c.hit,0)}/${(m.calls||[]).length}</div>${_renderCalls(m.calls)}</div>
-  </div>
+  <div style="margin-top:8px">
+    <div style="font-size:12.5px;font-weight:800;color:var(--mag);border-bottom:1px solid var(--mag);padding-bottom:3px">THE LOCKED BETS — ${(m.tips||[]).filter(c=>c.hit!=null).reduce((s,c)=>s+c.hit,0)}/${(m.tips||[]).filter(c=>c.hit!=null).length} landed</div>${_renderCalls(m.tips)}</div>
   </div>`;}
 el.innerHTML=renderTrends(R)+s;wireTrends(R);}
 renderPast();applyView();
