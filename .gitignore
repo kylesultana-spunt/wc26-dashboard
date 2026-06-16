@@ -20,3 +20,4 @@ __pycache__/
 
 # ESPN raw match cache (~800MB) — CI caches it instead (actions/cache); harvest rebuilds it
 data/raw/
+data/oddsapi_key.txt

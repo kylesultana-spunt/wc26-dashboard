@@ -196,6 +196,7 @@ tr.grp td{background:var(--panel2);font-weight:700;font-size:11px;color:var(--ma
 <div class="app">
 <div class="scopes" id="viewTabs">
   <button class="on" data-v="up">Upcoming Match</button>
+  <button data-v="value">💰 Value Finder</button>
   <button data-v="past">Record of Model Performance</button>
 </div>
 <aside>
@@ -221,6 +222,8 @@ tr.grp td{background:var(--panel2);font-weight:700;font-size:11px;color:var(--ma
 <div class="maincol">
   <div class="panel" id="pastPanel" style="display:none"><h2>How the model did — expectation (as of kickoff) vs reality</h2>
   <div id="pastBody"></div></div>
+  <div class="panel" id="valuePanel" style="display:none"><h2>Value Finder — where the model beats the market</h2>
+  <div id="valueBody"></div></div>
   <div class="empty" id="empty">Pick a fixture on the left and hit <b>RUN MODEL</b>.</div>
   <div class="panel" id="askPanel" style="display:none"><h2>Bet checker — pick your bet, get a verdict</h2>
   <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
@@ -1090,15 +1093,34 @@ $("askScope").onchange=fillAskLine;
 // ---------- UPCOMING | PAST RESULTS view ----------
 let view="up",hasRun=false;
 function applyView(){
-const up=view==="up";
-$("pastPanel").style.display=up?"none":"";
+const up=view==="up", val=view==="value", past=view==="past";
+$("pastPanel").style.display=past?"":"none";
+$("valuePanel").style.display=val?"":"none";
 $("empty").style.display=(up&&!hasRun)?"":"none";
 $("upGrid").style.display=(up&&hasRun)?"grid":"none";
 for(const id of["askPanel","kpiPanel","matchGraphPanel","slipsPanel","allPanel"])$(id).style.display=(up&&hasRun)?"":"none";
 const _pl=up&&hasRun&&playerExp.length;
 $("playerMenuPanel").style.display=_pl?"":"none";
 $("playerGraphPanel").style.display=_pl?"":"none";
+if(val)renderValue();
 document.querySelectorAll("#viewTabs button").forEach(b=>b.className=b.dataset.v===view?"on":"");}
+function renderValue(){
+const V=D.value||[]; const el=$("valueBody");
+if(!V.length){el.innerHTML='<div class="nobet">No live value right now. Odds are pulled for matches within ~3 days of kickoff, and the finder flags only bets where your model price beats the <b>best available</b> book price by ≥3%. Corners are the main covered market; check back nearer kickoff as more books and markets come in.</div>';return;}
+const strong=V.filter(v=>v.beats_sharp).length;
+let s=`<div class="hint">Real prices from 130+ books (OddsPapi). <b>Edge</b> = the best available price vs <b>Pinnacle's no-vig (fair) line</b> — i.e. a softer book is paying more than the sharpest book says it's worth. That's market-validated value, not model guesswork. <b>model</b> is your model's probability (cross-check) and <b>✓</b> flags where your model also rates it at least as likely as the sharp line. Stake is quarter-Kelly off the fair price. <b>${strong}</b> of ${V.length} have model agreement. Lines move fast — always re-check the live price before betting.</div>
+<div style="overflow-x:auto"><table class="vtab" style="width:100%;border-collapse:collapse;font-size:13px">
+<tr style="text-align:left;color:var(--dim)"><th>Match</th><th>Bet</th><th style="text-align:right">model</th><th style="text-align:right">sharp</th><th style="text-align:right">best</th><th>book</th><th style="text-align:right">edge</th><th style="text-align:right">stake</th><th>vs sharp</th></tr>`;
+for(const v of V){
+  s+=`<tr style="border-top:1px solid var(--line)"><td>${v.match}</td><td><b>${v.key}</b></td>
+   <td style="text-align:right">${(v.p*100).toFixed(0)}%</td>
+   <td style="text-align:right">${v.sharp!=null?(v.sharp*100).toFixed(0)+'%':'—'}</td>
+   <td style="text-align:right"><b>${v.best.toFixed(2)}</b></td><td>${v.book||'—'}</td>
+   <td style="text-align:right;color:var(--green);font-weight:800">+${(v.edge*100).toFixed(1)}%</td>
+   <td style="text-align:right">${(v.kelly*100).toFixed(1)}%</td>
+   <td>${v.beats_sharp?'<span style="color:var(--green)">✓</span>':'<span style="color:var(--dim)">—</span>'}</td></tr>`;}
+s+=`</table></div>`;
+el.innerHTML=s;}
 document.querySelectorAll("#viewTabs button").forEach(b=>{b.onclick=()=>{view=b.dataset.v;applyView();};});
 document.querySelectorAll("#tipTabs button").forEach(b=>{b.onclick=()=>{slipTab=b.dataset.cat;renderSlips();};});
 /* ===== PERFORMANCE TRENDS (added) =====

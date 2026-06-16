@@ -463,8 +463,14 @@ class MatchModel:
         out["_meta"] = {"elo": {home: eh, away: ea}, "ref_mult": ref_mult, "ref_n": ref_n}
         return out
 
-    def simulate(self, home, away, **kw):
+    def simulate(self, home, away, stat_mult=None, **kw):
         lam = self.lambdas(home, away, **kw)
+        if stat_mult:                       # lineup-aware tilt: scale a stat's rate per team
+            for s, perteam in stat_mult.items():
+                if s in lam:
+                    for t, mlt in perteam.items():
+                        if t in lam[s]:
+                            lam[s][t] *= mlt
         sims = {}
         for s in ["goals", "corners", "shots", "sot", "fouls", "yellows", "reds",
                   "offsides", "tackles", "saves"]:

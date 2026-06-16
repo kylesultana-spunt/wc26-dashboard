@@ -139,6 +139,39 @@ def main():
                 den += ce
             rec[s] = round((num + K * prior) / (den + K), 4)
         players.setdefault(team, {})[name] = rec
+    # ---- restrict the pool to the current 26-man squad (drops cut/retired players) ----
+    import unicodedata as _ud2
+    def _nm(s):
+        s = _ud2.normalize("NFKD", str(s)).encode("ascii", "ignore").decode().lower()
+        return " ".join(s.replace("-", " ").split())
+    sq_path = os.path.join(models.DATA, "squads.json")
+    if os.path.exists(sq_path):
+        squads = json.load(open(sq_path))
+        sq_norm = {}
+        for tm, roster in squads.items():
+            full, li = set(), set()
+            for pl in roster:
+                n = _nm(pl["name"]); full.add(n)
+                tk = n.split()
+                if tk:
+                    li.add(tk[-1] + "|" + tk[0][0])     # lastname|firstinitial fallback
+            sq_norm[tm] = (full, li)
+        dropped = 0
+        for t in list(players):
+            if t not in sq_norm:
+                continue                                # team not matched -> leave as-is
+            full, li = sq_norm[t]
+            kept = {}
+            for nm, rec in players[t].items():
+                n = _nm(nm); tk = n.split()
+                key = (tk[-1] + "|" + tk[0][0]) if tk else ""
+                if n in full or key in li:
+                    kept[nm] = rec
+                else:
+                    dropped += 1
+            if kept:                                    # only apply if we matched someone
+                players[t] = kept
+        print(f"squad filter: pool restricted to current squads (dropped {dropped} non-squad players)")
     for t in players:  # cap squad lists
         top = sorted(players[t].items(), key=lambda kv: -kv[1]["n"])[:45]
         players[t] = dict(top)
@@ -167,14 +200,16 @@ def main():
             _ps_cache[asof] = models.PlayerStats(asof=asof)
         return _mm_cache[asof], _ps_cache[asof]
 
-    def _compute(f, asof=None):
+    def _compute(f, asof=None, want_xi=False):
         h, a, eid = f["home"], f["away"], str(f.get("eid"))
         bets.reseed(eid)
         mmp, ps = _models_asof(asof)
         ref = f.get("ref") or ref_by_event.get(eid) or None
-        lam, sims = mmp.simulate(h, a, stage="group", ref=ref)
+        xi = bets.fetch_xi(eid) if want_xi else {}    # only at lock time (~1h pre-KO); else skip ESPN
+        smult = bets.stat_mult(ps, players, h, a, xi) if xi else None  # lineup tilt (fouls/shots)
+        lam, sims = mmp.simulate(h, a, stage="group", ref=ref, stat_mult=smult)
         probs = models.market_probs(sims, h, a)
-        tips = bets.select(bets.candidates(mmp, ps, probs, players, h, a, ref), cal)
+        tips = bets.select(bets.candidates(mmp, ps, probs, players, h, a, ref, xi=xi), cal)
         exp_pred = []
         for label, stat in [("goals", "goals"), ("corners", "corners"), ("cards", None),
                             ("shots", "shots"), ("SoT", "sot"), ("fouls", "fouls")]:
@@ -197,8 +232,8 @@ def main():
         near = ko is not None and (ko - now_mt) <= pd.Timedelta(days=5)
         if eid in locks:
             entry = locks[eid]
-        elif in_window:                                   # FREEZE now
-            tips, exp_pred = _compute(f, asof=(f["date"][:10] if f["done"] else None))
+        elif in_window:                                   # FREEZE now (pull confirmed XI)
+            tips, exp_pred = _compute(f, asof=(f["date"][:10] if f["done"] else None), want_xi=True)
             entry = {"home": h, "away": a, "kickoff": f["date"], "eid": eid,
                      "locked_at": now_mt.strftime("%Y-%m-%d %H:%M") + " (Malta)",
                      "tips": tips, "exp_pred": exp_pred}
@@ -239,10 +274,63 @@ def main():
                                "exp": exp_rows, "tips": graded})
     json.dump(locks, open(locks_path, "w"))
     review = sorted(review, key=lambda r: r["date"], reverse=True)
+
+    # ---- Value Finder: model probability vs real market price (OddsPapi) ----
+    # For every upcoming fixture with live odds, compare the model's probability for each
+    # priced market (corners / goals / cards totals + BTTS) to the BEST price across 130+
+    # books, and to Pinnacle's no-vig "fair" line. Flag only genuine value.
+    odds_path = os.path.join(models.DATA, "odds.json")
+    odds = json.load(open(odds_path)) if os.path.exists(odds_path) else {}
+    calf = bets._calfn(cal)
+    EDGE_MIN = 0.03
+    fix_by_eid = {str(f.get("eid")): f for f in fixtures}
+    value = []
+    for eid, od in odds.items():
+        f = fix_by_eid.get(eid)
+        if not f or f.get("done"):
+            continue
+        bets.reseed(eid)
+        h, a = f["home"], f["away"]
+        ref = f.get("ref") or ref_by_event.get(eid) or None
+        lam, sims = mm.simulate(h, a, stage="group", ref=ref)
+        tot = {"corners": sims["corners"][h] + sims["corners"][a],
+               "goals": sims["goals"][h] + sims["goals"][a],
+               "cards": (sims["yellows"][h] + sims["reds"][h]
+                         + sims["yellows"][a] + sims["reds"][a])}
+        btts = float(((sims["goals"][h] > 0) & (sims["goals"][a] > 0)).mean())
+        for k, m in od.get("markets", {}).items():
+            best, so, su = m.get("best"), m.get("sharp_over"), m.get("sharp_under")
+            if not best or best <= 1.0 or not so or not su:
+                continue                      # need a Pinnacle line to validate against
+            if k == "btts_yes":
+                raw = btts
+            else:
+                fam, _, ln = k.partition("_over_")
+                if fam not in tot:
+                    continue
+                line = float(ln)
+                lh = line * 2                 # keep only clean .5 lines (binary over/under)
+                if abs(lh - round(lh)) > 1e-9 or round(lh) % 2 == 0:
+                    continue
+                raw = float((tot[fam] > line).mean())
+            p = calf(raw, k)                  # model probability (calibrated)
+            sharp = (1 / so) / ((1 / so) + (1 / su))   # Pinnacle de-vig = true prob
+            edge = best * sharp - 1           # REAL edge: best book price vs the sharp fair line
+            if not (EDGE_MIN <= edge <= 0.25):  # floor = value; cap kills stale/erroneous outliers
+                continue
+            kelly = max((sharp * best - 1) / (best - 1), 0) / 4
+            value.append({"match": f"{h} v {a}", "key": k.replace("_", " "),
+                          "p": round(p, 3), "sharp": round(sharp, 3),
+                          "best": best, "book": m.get("book"), "edge": round(edge, 3),
+                          "kelly": round(kelly, 3),
+                          "beats_sharp": bool(p >= sharp)})   # model agrees it's value
+    value.sort(key=lambda x: -x["edge"])
+    print(f"value finder: {len(value)} +EV bets from {len(odds)} priced fixtures")
+
     data = {
         "asof": pd.Timestamp.now(tz="Europe/Malta").strftime("%Y-%m-%d %H:%M") + " (Malta)",
         "teams": team_data, "refs": refs, "players": players, "fixtures": fixtures,
-        "book": {}, "review": review, "locked": locked_disp,  # odds feed removed; locked = frozen per-fixture bets
+        "book": {}, "review": review, "locked": locked_disp, "value": value,  # value = +EV bets vs real market
         "league": {"means": {s: round(ts.means[s], 4) for s in EXPORT_STATS},
                    "disp": {s: round(ts.disp[s], 4) for s in EXPORT_STATS},
                    "beta": {s: round(ts.elo_beta.get(s, 0.0), 5) for s in EXPORT_STATS},

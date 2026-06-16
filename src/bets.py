@@ -10,6 +10,7 @@ Determinism: the Monte Carlo is seeded per fixture (by event id) before the tips
 computed, so a fixture's tips are identical every run.
 """
 import math
+import json
 import numpy as np
 import pandas as pd
 import models
@@ -77,8 +78,61 @@ def _player_label(pl, mk):
     return None, None, None
 
 
-def candidates(mmp, ps, probs, players, h, a, ref):
-    """Pre-match candidate tips (over-side, no outcomes), keyed by category."""
+def fetch_xi(eid):
+    """Confirmed starting XI per team from ESPN (posted ~1h before kickoff). {} if not yet up.
+    Falls back to API-Football lineups if an ODDS/API key path is set and ESPN is empty."""
+    import urllib.request
+    try:
+        url = ("https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event="
+               + str(eid))
+        s = json.load(urllib.request.urlopen(urllib.request.Request(
+            url, headers={"User-Agent": "Mozilla/5.0"}), timeout=20))
+        out = {}
+        for r in s.get("rosters", []) or []:
+            team = (r.get("team") or {}).get("displayName")
+            xi = [e.get("athlete", {}).get("displayName")
+                  for e in r.get("roster", []) or [] if e.get("starter")]
+            if team and len(xi) >= 11:
+                out[team] = xi
+        return out
+    except Exception:
+        return {}
+
+
+def _team_xi(players, h, a, team):
+    return [n for n, t in _expected_starters(players, h, a) if t == team]
+
+
+def _xi_sum(ps, team, names, col):
+    tot = 0.0
+    for nm in names:
+        try:
+            tot += ps.per90(nm, team, col)[0]
+        except Exception:
+            pass
+    return tot
+
+
+def stat_mult(ps, players, h, a, xi, W=0.5):
+    """Lineup tilt for fouls & shots (validated on backtest); corners/SoT follow shots.
+    Returns per-stat per-team multipliers vs the team's default expected XI (≈1 if same)."""
+    out = {"fouls": {}, "shots": {}, "sot": {}, "corners": {}}
+    pool = lambda t: players.get(t) or {}
+    for t in (h, a):
+        base = _team_xi(players, h, a, t)
+        act = [n for n in (xi.get(t) or []) if n in pool(t)] or base
+        for stat, col in (("fouls", "fouls_committed"), ("shots", "shots")):
+            b = _xi_sum(ps, t, base, col)
+            x = _xi_sum(ps, t, act, col)
+            out[stat][t] = 1.0 if b <= 0 else max(0.7, min(1.4, 1 + W * (x / b - 1)))
+        out["sot"][t] = 1 + 0.5 * (out["shots"][t] - 1)
+        out["corners"][t] = 1 + 0.5 * (out["shots"][t] - 1)
+    return out
+
+
+def candidates(mmp, ps, probs, players, h, a, ref, xi=None):
+    """Pre-match candidate tips (over-side, no outcomes), keyed by category.
+    If a confirmed XI is given, player props cover those starters; else the expected XI."""
     out = {"match": [], "team": [], "player": []}
     for k, p in probs.items():
         if any(k.startswith(s) for s in SKIP):
@@ -87,7 +141,14 @@ def candidates(mmp, ps, probs, players, h, a, ref):
             continue
         out[_cat(k)].append({"key": k, "mk": k, "raw": float(p),
                              "fam": models.market_family(k)})
-    for pl, team in _expected_starters(players, h, a):
+    pool = players.get(h, {}); pool_a = players.get(a, {})
+    if xi:
+        roster = [(n, h) for n in xi.get(h, []) if n in pool] + \
+                 [(n, a) for n in xi.get(a, []) if n in pool_a]
+        roster = roster or _expected_starters(players, h, a)
+    else:
+        roster = _expected_starters(players, h, a)
+    for pl, team in roster:
         try:
             pp = models.player_prop_probs(ps, mmp, pl, team, a if team == h else h, ref=ref)
         except Exception:

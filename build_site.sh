@@ -13,6 +13,16 @@ python3 src/harvest.py refresh
 until python3 src/harvest.py | grep -q DONE; do echo "...fetching more"; done
 python3 src/build_referees.py
 python3 src/build_tempo.py
+
+# Pull real bookmaker odds once a day (09:00 UTC) or on a manual run — OddsPapi's free
+# tier is ~250 calls/month, so we can't poll it every 15 min. Refreshes data/odds.json,
+# which the Value Finder reads. Manual: run `python3 src/fetch_odds.py` locally any time.
+if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ] || \
+   { [ "$(date -u +%H)" = "09" ] && [ "$(date -u +%M)" -lt 15 ]; }; then
+  python3 src/build_squads.py || true     # refresh 26-man squads (ESPN) once a day
+  python3 src/fetch_odds.py || true
+fi
+
 python3 src/export_dashboard.py
 
 # stage for Cloudflare Pages (publish dir = public/, entrypoint index.html)
