@@ -269,7 +269,7 @@ def main():
                     if ah_ is None or (isinstance(ah_, float) and np.isnan(ah_)):
                         continue
                     exp_rows.append({**e, "ah": int(ah_), "aa": int(aa_)})
-                review.append({"date": f["date"][:10], "home": h, "away": a,
+                review.append({"date": f["date"][:10], "ko": f["date"], "home": h, "away": a,
                                "score": f"{int(row_h['goals_for'])}-{int(row_a['goals_for'])}",
                                "exp": exp_rows, "tips": graded})
     json.dump(locks, open(locks_path, "w"))

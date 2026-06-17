@@ -1319,7 +1319,7 @@ function _calHealth(C){
 }
 function renderTrends(R){
   if(!R||R.length===0) return "";
-  const C=[...R].sort((a,b)=> a.date<b.date?-1:(a.date>b.date?1:((a.home||"")<(b.home||"")?-1:1)));
+  const C=[...R].sort((a,b)=>{const ka=a.ko||a.date,kb=b.ko||b.date;return ka<kb?-1:ka>kb?1:0;});  // true kickoff order
   let cH=0,cT=0; const bp=[];
   C.forEach((m,i)=>{
     let h=0,t=0;for(const c of (m.tips||[])){if(c.hit==null)continue;t++;h+=c.hit;}cH+=h;cT+=t;
@@ -1375,7 +1375,7 @@ function _renderCalls(calls){
 }
 function renderPast(){
 const R=D.review||[];
-const Rc=[...R].sort((a,b)=>a.date>b.date?-1:(a.date<b.date?1:((a.home||"")<(b.home||"")?-1:1)));
+const Rc=[...R].sort((a,b)=>{const ka=a.ko||a.date,kb=b.ko||b.date;return ka>kb?-1:ka<kb?1:0;});  // newest kickoff first
 const el=$("pastBody");
 if(!R.length){el.innerHTML='<div class="nobet">No completed matches harvested yet — run <b>./refresh.sh</b> a few hours after full-time and the played games appear here, graded.</div>';return;}
 // accuracy summary
