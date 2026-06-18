@@ -209,7 +209,7 @@ tr.grp td{background:var(--panel2);font-weight:700;font-size:11px;color:var(--ma
       <option value="group">Group</option><option value="r32">Round of 32</option>
       <option value="r16">Round of 16</option><option value="qf">Quarter-final</option>
       <option value="sf">Semi-final</option><option value="final">Final</option></select>
-    <label>Referee (when announced)</label><select id="ref"><option value="">unknown (avg)</option></select>
+    <label>Referee (auto)</label><input type="hidden" id="ref" value=""><div id="refDisplay" style="font-size:13px;font-weight:600;padding:7px 10px;border:1px solid var(--panel2);border-radius:8px;color:var(--dim)">— pick a fixture —</div>
     <div class="chk"><input type="checkbox" id="rivalry"><label for="rivalry" style="margin:0">rivalry / grudge match</label></div>
   </div>
   <div class="side"><h2>Player props</h2>
@@ -584,13 +584,14 @@ D.fixtures.filter(f=>!f.done).forEach(f=>{
   b.innerHTML=`${f.home} v ${f.away}<small>${f.date}</small>`;
   b.onclick=()=>{document.querySelectorAll(".fix").forEach(x=>x.classList.remove("sel"));
     b.classList.add("sel");$("home").value=f.home;$("away").value=f.away;
-    const rs=$("ref");
-    if(f.ref){if(![...rs.options].some(o=>o.value===f.ref)){const o=document.createElement("option");o.value=f.ref;o.textContent=f.ref+" (assigned)";rs.appendChild(o);}rs.value=f.ref;}
-    else rs.value="";
+    setRef(f.ref||"");
     teamsChanged();};
   fl.appendChild(b);});
-D.refs.forEach(r=>{const o=document.createElement("option");o.value=r.name;
-o.textContent=`${r.name} (${r.mult>1?"+":""}${Math.round((r.mult-1)*100)}% cards, n=${r.n})`;$("ref").appendChild(o)});
+function setRef(name){$("ref").value=name||"";
+  const k=(D.refs||[]).find(r=>r.name===name);
+  $("refDisplay").textContent=name
+    ?(name+(k?` · ${k.mult>1?"+":""}${Math.round((k.mult-1)*100)}% cards vs avg`:" · no card history yet"))
+    :"not yet announced — using tournament average";}
 function fillPlayerSel(){
 const s=$("paddsel");s.innerHTML='<option value="">+ add a player…</option>';
 for(const t of[$("home").value,$("away").value]){
@@ -611,7 +612,7 @@ const p=JSON.parse(v);
 if(!selPlayers.some(x=>x.team===p.team&&x.name===p.name))selPlayers.push(p);
 $("paddsel").value="";renderChips();};
 function teamsChanged(){selPlayers=[];renderChips();fillPlayerSel();}
-$("home").onchange=teamsChanged;$("away").onchange=teamsChanged;
+$("home").onchange=()=>{setRef("");teamsChanged();};$("away").onchange=()=>{setRef("");teamsChanged();};
 fillPlayerSel();
 $("asof").textContent=D.asof;
 // ---------- state ----------

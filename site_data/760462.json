@@ -1,0 +1,9103 @@
+{
+"eid": "760462",
+"date": "2026-06-24 21:00",
+"home": "Bosnia-Herzegovina",
+"away": "Qatar",
+"ref": "",
+"stage": "group",
+"done": false,
+"elo": {
+"Bosnia-Herzegovina": 1552.8,
+"Qatar": 1421.0
+},
+"lambdas": {
+"goals": {
+"Bosnia-Herzegovina": 1.6146240182723377,
+"Qatar": 1.0278334542178693
+},
+"corners": {
+"Bosnia-Herzegovina": 5.050856211719299,
+"Qatar": 3.143172307484572
+},
+"shots": {
+"Bosnia-Herzegovina": 15.919558554633708,
+"Qatar": 8.769851284330196
+},
+"sot": {
+"Bosnia-Herzegovina": 4.851061615520244,
+"Qatar": 2.4751969626341417
+},
+"fouls": {
+"Bosnia-Herzegovina": 14.290562193976767,
+"Qatar": 11.498879203017896
+},
+"yellows": {
+"Bosnia-Herzegovina": 1.682726404489912,
+"Qatar": 1.7060195723679314
+},
+"reds": {
+"Bosnia-Herzegovina": 0.04755350976992911,
+"Qatar": 0.3195475568075817
+},
+"offsides": {
+"Bosnia-Herzegovina": 1.2391673985763736,
+"Qatar": 1.148030136227239
+},
+"tackles": {
+"Bosnia-Herzegovina": 12.374685488838601,
+"Qatar": 14.722975036031974
+},
+"saves": {
+"Bosnia-Herzegovina": 1.6277914651448213,
+"Qatar": 3.0835717872785438
+}
+},
+"exp_pred": [
+{
+"label": "goals",
+"eh": 1.0,
+"ea": 1.0
+},
+{
+"label": "corners",
+"eh": 5.0,
+"ea": 3.0
+},
+{
+"label": "cards",
+"eh": 2.0,
+"ea": 2.0
+},
+{
+"label": "shots",
+"eh": 15.0,
+"ea": 8.0
+},
+{
+"label": "SoT",
+"eh": 5.0,
+"ea": 2.0
+},
+{
+"label": "fouls",
+"eh": 14.0,
+"ea": 11.0
+}
+],
+"tips": [
+{
+"k": "fouls over 23.5",
+"mk": "fouls_over_23.5",
+"cat": "match",
+"p": 0.612,
+"fair": 1.63,
+"fam": "fouls"
+},
+{
+"k": "cards over 2.5",
+"mk": "cards_over_2.5",
+"cat": "match",
+"p": 0.676,
+"fair": 1.48,
+"fam": "cards"
+},
+{
+"k": "corners 3w over 5",
+"mk": "corners_3w_over_5",
+"cat": "match",
+"p": 0.671,
+"fair": 1.49,
+"fam": "corners"
+},
+{
+"k": "offsides over 1.5",
+"mk": "offsides_over_1.5",
+"cat": "match",
+"p": 0.624,
+"fair": 1.6,
+"fam": "offsides"
+},
+{
+"k": "sot over 5.5",
+"mk": "sot_over_5.5",
+"cat": "match",
+"p": 0.67,
+"fair": 1.49,
+"fam": "shots"
+},
+{
+"k": "goals 1h over 0.5",
+"mk": "goals_1h_over_0.5",
+"cat": "match",
+"p": 0.67,
+"fair": 1.49,
+"fam": "goals"
+},
+{
+"k": "btt cards yes",
+"mk": "btt_cards_yes",
+"cat": "team",
+"p": 0.673,
+"fair": 1.49,
+"fam": "cards"
+},
+{
+"k": "team corners Bosnia-Herzegovina over 3.5",
+"mk": "team_corners_Bosnia-Herzegovina_over_3.5",
+"cat": "team",
+"p": 0.616,
+"fair": 1.62,
+"fam": "corners"
+},
+{
+"k": "gk saves Qatar over 2.5",
+"mk": "gk_saves_Qatar_over_2.5",
+"cat": "team",
+"p": 0.557,
+"fair": 1.8,
+"fam": "saves"
+},
+{
+"k": "team shots Bosnia-Herzegovina over 12.5",
+"mk": "team_shots_Bosnia-Herzegovina_over_12.5",
+"cat": "team",
+"p": 0.652,
+"fair": 1.53,
+"fam": "shots"
+},
+{
+"k": "team goals Qatar over 0.5",
+"mk": "team_goals_Qatar_over_0.5",
+"cat": "team",
+"p": 0.625,
+"fair": 1.6,
+"fam": "goals"
+},
+{
+"k": "team cards Qatar over 1.5",
+"mk": "team_cards_Qatar_over_1.5",
+"cat": "team",
+"p": 0.588,
+"fair": 1.7,
+"fam": "cards"
+},
+{
+"k": "Esmir Bajraktarevic fouls committed 0.5+",
+"mk": "Esmir Bajraktarevic_fouls_committed_over_0.5",
+"cat": "player",
+"p": 0.665,
+"fair": 1.5,
+"fam": "Esmir Bajraktarevic",
+"player": "Esmir Bajraktarevic",
+"stat": "fouls_committed",
+"line": 0.5,
+"team": "Bosnia-Herzegovina",
+"pos": "SUB",
+"form": [
+{
+"v": 1,
+"hit": true
+},
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 1,
+"hit": true
+},
+{
+"v": 2,
+"hit": true
+}
+]
+},
+{
+"k": "Nikola Vasilj shots 0.5+",
+"mk": "Nikola Vasilj_shots_over_0.5",
+"cat": "player",
+"p": 0.655,
+"fair": 1.53,
+"fam": "Nikola Vasilj",
+"player": "Nikola Vasilj",
+"stat": "shots",
+"line": 0.5,
+"team": "Bosnia-Herzegovina",
+"pos": "G",
+"form": [
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 0,
+"hit": false
+}
+]
+},
+{
+"k": "Ermedin Demirovic fouls suffered 0.5+",
+"mk": "Ermedin Demirovic_fouls_suffered_over_0.5",
+"cat": "player",
+"p": 0.647,
+"fair": 1.55,
+"fam": "Ermedin Demirovic",
+"player": "Ermedin Demirovic",
+"stat": "fouls_suffered",
+"line": 0.5,
+"team": "Bosnia-Herzegovina",
+"pos": "CF-R",
+"form": [
+{
+"v": 1,
+"hit": true
+},
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 2,
+"hit": true
+}
+]
+},
+{
+"k": "Almoez Ali fouls suffered 0.5+",
+"mk": "Almoez Ali_fouls_suffered_over_0.5",
+"cat": "player",
+"p": 0.645,
+"fair": 1.55,
+"fam": "Almoez Ali",
+"player": "Almoez Ali",
+"stat": "fouls_suffered",
+"line": 0.5,
+"team": "Qatar",
+"pos": "CF-R",
+"form": [
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 1,
+"hit": true
+},
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 1,
+"hit": true
+},
+{
+"v": 1,
+"hit": true
+}
+]
+},
+{
+"k": "Hassan Al-Haydos fouls committed 0.5+",
+"mk": "Hassan Al-Haydos_fouls_committed_over_0.5",
+"cat": "player",
+"p": 0.63,
+"fair": 1.59,
+"fam": "Hassan Al-Haydos",
+"player": "Hassan Al-Haydos",
+"stat": "fouls_committed",
+"line": 0.5,
+"team": "Qatar",
+"pos": "SUB",
+"form": [
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 2,
+"hit": true
+},
+{
+"v": 0,
+"hit": false
+}
+]
+},
+{
+"k": "Edin Dzeko shots 2.5+",
+"mk": "Edin Dzeko_shots_over_2.5",
+"cat": "player",
+"p": 0.594,
+"fair": 1.68,
+"fam": "Edin Dzeko",
+"player": "Edin Dzeko",
+"stat": "shots",
+"line": 2.5,
+"team": "Bosnia-Herzegovina",
+"pos": "F",
+"form": [
+{
+"v": 3,
+"hit": true
+},
+{
+"v": 1,
+"hit": false
+},
+{
+"v": 0,
+"hit": false
+},
+{
+"v": 5,
+"hit": true
+},
+{
+"v": 1,
+"hit": false
+}
+]
+}
+],
+"markets": [
+{
+"market": "Ahmed Alaaeldin_assists_over_0.5",
+"p": 0.0959,
+"fair": 10.431,
+"min_odds": 21.801,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_fouls_committed_over_0.5",
+"p": 0.5864,
+"fair": 1.705,
+"min_odds": 1.864,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_fouls_committed_over_1.5",
+"p": 0.2574,
+"fair": 3.885,
+"min_odds": 4.822,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_fouls_committed_over_2.5",
+"p": 0.0859,
+"fair": 11.644,
+"min_odds": 27.871,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_fouls_suffered_over_0.5",
+"p": 0.5258,
+"fair": 1.902,
+"min_odds": 2.102,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_fouls_suffered_over_1.5",
+"p": 0.2021,
+"fair": 4.948,
+"min_odds": 6.574,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_fouls_suffered_over_2.5",
+"p": 0.0577,
+"fair": 17.339,
+"min_odds": 130.306,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_goals_over_0.5",
+"p": 0.131,
+"fair": 7.635,
+"min_odds": 12.35,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_goals_over_1.5",
+"p": 0.0105,
+"fair": 94.794,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_score_or_assist",
+"p": 0.2009,
+"fair": 4.977,
+"min_odds": 6.626,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_shots_over_0.5",
+"p": 0.653,
+"fair": 1.531,
+"min_odds": 1.658,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_shots_over_1.5",
+"p": 0.3644,
+"fair": 2.744,
+"min_odds": 3.181,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_shots_over_2.5",
+"p": 0.166,
+"fair": 6.025,
+"min_odds": 8.622,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_shots_over_3.5",
+"p": 0.061,
+"fair": 16.384,
+"min_odds": 90.605,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_shots_over_4.5",
+"p": 0.0186,
+"fair": 53.769,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_sot_over_0.5",
+"p": 0.4349,
+"fair": 2.299,
+"min_odds": 2.598,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_sot_over_1.5",
+"p": 0.1498,
+"fair": 6.676,
+"min_odds": 10.022,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_sot_over_2.5",
+"p": 0.0372,
+"fair": 26.855,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_sot_over_3.5",
+"p": 0.0072,
+"fair": 139.432,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Alaaeldin_to_be_booked",
+"p": 0.2077,
+"fair": 4.814,
+"min_odds": 6.341,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_assists_over_0.5",
+"p": 0.0437,
+"fair": 22.897,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_fouls_committed_over_0.5",
+"p": 0.6568,
+"fair": 1.522,
+"min_odds": 1.648,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_fouls_committed_over_1.5",
+"p": 0.3318,
+"fair": 3.014,
+"min_odds": 3.548,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_fouls_committed_over_2.5",
+"p": 0.1311,
+"fair": 7.626,
+"min_odds": 12.326,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_fouls_suffered_over_0.5",
+"p": 0.6319,
+"fair": 1.583,
+"min_odds": 1.719,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_fouls_suffered_over_1.5",
+"p": 0.3041,
+"fair": 3.288,
+"min_odds": 3.935,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_fouls_suffered_over_2.5",
+"p": 0.1133,
+"fair": 8.822,
+"min_odds": 15.786,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_goals_over_0.5",
+"p": 0.0464,
+"fair": 21.535,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_goals_over_1.5",
+"p": 0.0012,
+"fair": 805.079,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_score_or_assist",
+"p": 0.0822,
+"fair": 12.171,
+"min_odds": 31.089,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_shots_over_0.5",
+"p": 0.4101,
+"fair": 2.439,
+"min_odds": 2.777,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_shots_over_1.5",
+"p": 0.1314,
+"fair": 7.611,
+"min_odds": 12.287,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_shots_over_2.5",
+"p": 0.03,
+"fair": 33.3,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_shots_over_3.5",
+"p": 0.0053,
+"fair": 188.033,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_shots_over_4.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_sot_over_0.5",
+"p": 0.1573,
+"fair": 6.357,
+"min_odds": 9.32,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_sot_over_1.5",
+"p": 0.0157,
+"fair": 63.778,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_sot_over_2.5",
+"p": 0.0011,
+"fair": 938.446,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ahmed Fathy_to_be_booked",
+"p": 0.2671,
+"fair": 3.744,
+"min_odds": 4.606,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Akram Afif_assists_over_0.5",
+"p": 0.0897,
+"fair": 11.144,
+"min_odds": 25.168,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Akram Afif_fouls_committed_over_0.5",
+"p": 0.4569,
+"fair": 2.189,
+"min_odds": 2.458,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Akram Afif_fouls_committed_over_1.5",
+"p": 0.1484,
+"fair": 6.74,
+"min_odds": 10.166,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Akram Afif_fouls_committed_over_2.5",
+"p": 0.0349,
+"fair": 28.67,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Akram Afif_fouls_suffered_over_0.5",
+"p": 0.722,
+"fair": 1.385,
+"min_odds": 1.5,
+"fam": "fouls",
+"flag": "value"
+},
+{
+"market": "Akram Afif_fouls_suffered_over_1.5",
+"p": 0.4117,
+"fair": 2.429,
+"min_odds": 2.765,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Akram Afif_fouls_suffered_over_2.5",
+"p": 0.1886,
+"fair": 5.302,
+"min_odds": 7.215,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Akram Afif_goals_over_0.5",
+"p": 0.1836,
+"fair": 5.448,
+"min_odds": 7.488,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Akram Afif_goals_over_1.5",
+"p": 0.0214,
+"fair": 46.665,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Akram Afif_score_or_assist",
+"p": 0.2437,
+"fair": 4.103,
+"min_odds": 5.162,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Akram Afif_shots_over_0.5",
+"p": 0.7025,
+"fair": 1.423,
+"min_odds": 1.533,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Akram Afif_shots_over_1.5",
+"p": 0.4262,
+"fair": 2.346,
+"min_odds": 2.658,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Akram Afif_shots_over_2.5",
+"p": 0.2168,
+"fair": 4.612,
+"min_odds": 5.995,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Akram Afif_shots_over_3.5",
+"p": 0.0909,
+"fair": 11.005,
+"min_odds": 24.467,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Akram Afif_shots_over_4.5",
+"p": 0.0317,
+"fair": 31.497,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Akram Afif_sot_over_0.5",
+"p": 0.4285,
+"fair": 2.334,
+"min_odds": 2.642,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Akram Afif_sot_over_1.5",
+"p": 0.1449,
+"fair": 6.901,
+"min_odds": 10.536,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Akram Afif_sot_over_2.5",
+"p": 0.0353,
+"fair": 28.355,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Akram Afif_sot_over_3.5",
+"p": 0.0066,
+"fair": 150.4,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Akram Afif_to_be_booked",
+"p": 0.1152,
+"fair": 8.682,
+"min_odds": 15.343,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_assists_over_0.5",
+"p": 0.1327,
+"fair": 7.538,
+"min_odds": 12.097,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_fouls_committed_over_0.5",
+"p": 0.7708,
+"fair": 1.297,
+"min_odds": 1.5,
+"fam": "fouls",
+"flag": "value"
+},
+{
+"market": "Al-Hashmi Al-Hussain_fouls_committed_over_1.5",
+"p": 0.4794,
+"fair": 2.086,
+"min_odds": 2.329,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_fouls_committed_over_2.5",
+"p": 0.2445,
+"fair": 4.09,
+"min_odds": 5.142,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_fouls_suffered_over_0.5",
+"p": 0.6965,
+"fair": 1.436,
+"min_odds": 1.547,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_fouls_suffered_over_1.5",
+"p": 0.379,
+"fair": 2.638,
+"min_odds": 3.039,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_fouls_suffered_over_2.5",
+"p": 0.164,
+"fair": 6.097,
+"min_odds": 8.771,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_goals_over_0.5",
+"p": 0.1797,
+"fair": 5.563,
+"min_odds": 7.707,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_goals_over_1.5",
+"p": 0.0205,
+"fair": 48.775,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_score_or_assist",
+"p": 0.2711,
+"fair": 3.689,
+"min_odds": 4.523,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_shots_over_0.5",
+"p": 0.7178,
+"fair": 1.393,
+"min_odds": 1.5,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_shots_over_1.5",
+"p": 0.4463,
+"fair": 2.241,
+"min_odds": 2.523,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_shots_over_2.5",
+"p": 0.2345,
+"fair": 4.264,
+"min_odds": 5.419,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_shots_over_3.5",
+"p": 0.1022,
+"fair": 9.782,
+"min_odds": 19.145,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_shots_over_4.5",
+"p": 0.0373,
+"fair": 26.842,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_sot_over_0.5",
+"p": 0.4273,
+"fair": 2.34,
+"min_odds": 2.65,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_sot_over_1.5",
+"p": 0.144,
+"fair": 6.944,
+"min_odds": 10.637,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_sot_over_2.5",
+"p": 0.0349,
+"fair": 28.649,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_sot_over_3.5",
+"p": 0.0066,
+"fair": 152.578,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Al-Hashmi Al-Hussain_to_be_booked",
+"p": 0.2798,
+"fair": 3.574,
+"min_odds": 4.352,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Almoez Ali_assists_over_0.5",
+"p": 0.1099,
+"fair": 9.102,
+"min_odds": 16.702,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Almoez Ali_fouls_committed_over_0.5",
+"p": 0.5945,
+"fair": 1.682,
+"min_odds": 1.837,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Almoez Ali_fouls_committed_over_1.5",
+"p": 0.2654,
+"fair": 3.769,
+"min_odds": 4.644,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Almoez Ali_fouls_committed_over_2.5",
+"p": 0.0903,
+"fair": 11.07,
+"min_odds": 24.793,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Almoez Ali_fouls_suffered_over_0.5",
+"p": 0.6453,
+"fair": 1.55,
+"min_odds": 1.68,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Almoez Ali_fouls_suffered_over_1.5",
+"p": 0.3189,
+"fair": 3.136,
+"min_odds": 3.719,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Almoez Ali_fouls_suffered_over_2.5",
+"p": 0.1227,
+"fair": 8.152,
+"min_odds": 13.761,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Almoez Ali_goals_over_0.5",
+"p": 0.1978,
+"fair": 5.056,
+"min_odds": 6.766,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Almoez Ali_goals_over_1.5",
+"p": 0.0251,
+"fair": 39.849,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Almoez Ali_score_or_assist",
+"p": 0.2705,
+"fair": 3.697,
+"min_odds": 4.535,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Almoez Ali_shots_over_0.5",
+"p": 0.6985,
+"fair": 1.432,
+"min_odds": 1.542,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Almoez Ali_shots_over_1.5",
+"p": 0.421,
+"fair": 2.375,
+"min_odds": 2.695,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Almoez Ali_shots_over_2.5",
+"p": 0.2123,
+"fair": 4.71,
+"min_odds": 6.161,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Almoez Ali_shots_over_3.5",
+"p": 0.0881,
+"fair": 11.356,
+"min_odds": 26.276,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Almoez Ali_shots_over_4.5",
+"p": 0.0304,
+"fair": 32.867,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Almoez Ali_sot_over_0.5",
+"p": 0.4315,
+"fair": 2.317,
+"min_odds": 2.621,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Almoez Ali_sot_over_1.5",
+"p": 0.1472,
+"fair": 6.795,
+"min_odds": 10.291,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Almoez Ali_sot_over_2.5",
+"p": 0.0362,
+"fair": 27.642,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Almoez Ali_sot_over_3.5",
+"p": 0.0069,
+"fair": 145.162,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Almoez Ali_to_be_booked",
+"p": 0.1584,
+"fair": 6.315,
+"min_odds": 9.229,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Dedic_assists_over_0.5",
+"p": 0.1718,
+"fair": 5.822,
+"min_odds": 8.213,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Dedic_fouls_committed_over_0.5",
+"p": 0.5283,
+"fair": 1.893,
+"min_odds": 2.091,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Dedic_fouls_committed_over_1.5",
+"p": 0.2042,
+"fair": 4.898,
+"min_odds": 6.486,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Dedic_fouls_committed_over_2.5",
+"p": 0.0587,
+"fair": 17.05,
+"min_odds": 115.605,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Dedic_fouls_suffered_over_0.5",
+"p": 0.5991,
+"fair": 1.669,
+"min_odds": 1.821,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Dedic_fouls_suffered_over_1.5",
+"p": 0.27,
+"fair": 3.704,
+"min_odds": 4.546,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Dedic_fouls_suffered_over_2.5",
+"p": 0.093,
+"fair": 10.757,
+"min_odds": 23.274,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Dedic_goals_over_0.5",
+"p": 0.029,
+"fair": 34.528,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Amar Dedic_goals_over_1.5",
+"p": 0.0005,
+"fair": 2103.381,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Amar Dedic_score_or_assist",
+"p": 0.1879,
+"fair": 5.323,
+"min_odds": 7.253,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Dedic_shots_over_0.5",
+"p": 0.516,
+"fair": 1.938,
+"min_odds": 2.146,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Dedic_shots_over_1.5",
+"p": 0.2186,
+"fair": 4.575,
+"min_odds": 5.932,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Dedic_shots_over_2.5",
+"p": 0.0698,
+"fair": 14.322,
+"min_odds": 50.449,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Dedic_shots_over_3.5",
+"p": 0.0174,
+"fair": 57.538,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Dedic_shots_over_4.5",
+"p": 0.0036,
+"fair": 278.949,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Dedic_sot_over_0.5",
+"p": 0.1312,
+"fair": 7.621,
+"min_odds": 12.312,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Dedic_sot_over_1.5",
+"p": 0.0106,
+"fair": 94.439,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Dedic_sot_over_2.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Dedic_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Dedic_to_be_booked",
+"p": 0.1719,
+"fair": 5.816,
+"min_odds": 8.201,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Memic_assists_over_0.5",
+"p": 0.1972,
+"fair": 5.072,
+"min_odds": 6.795,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Memic_fouls_committed_over_0.5",
+"p": 0.6661,
+"fair": 1.501,
+"min_odds": 1.623,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Memic_fouls_committed_over_1.5",
+"p": 0.3425,
+"fair": 2.92,
+"min_odds": 3.419,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Memic_fouls_committed_over_2.5",
+"p": 0.1383,
+"fair": 7.231,
+"min_odds": 11.326,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Memic_fouls_suffered_over_0.5",
+"p": 0.6637,
+"fair": 1.507,
+"min_odds": 1.629,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Memic_fouls_suffered_over_1.5",
+"p": 0.3397,
+"fair": 2.944,
+"min_odds": 3.452,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Memic_fouls_suffered_over_2.5",
+"p": 0.1364,
+"fair": 7.331,
+"min_odds": 11.573,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Memic_goals_over_0.5",
+"p": 0.1105,
+"fair": 9.046,
+"min_odds": 16.517,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Amar Memic_goals_over_1.5",
+"p": 0.0074,
+"fair": 134.988,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Amar Memic_score_or_assist",
+"p": 0.2678,
+"fair": 3.735,
+"min_odds": 4.592,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amar Memic_shots_over_0.5",
+"p": 0.7399,
+"fair": 1.351,
+"min_odds": 1.5,
+"fam": "shots",
+"flag": "value"
+},
+{
+"market": "Amar Memic_shots_over_1.5",
+"p": 0.4763,
+"fair": 2.099,
+"min_odds": 2.346,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Memic_shots_over_2.5",
+"p": 0.262,
+"fair": 3.817,
+"min_odds": 4.717,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Memic_shots_over_3.5",
+"p": 0.1208,
+"fair": 8.277,
+"min_odds": 14.122,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Memic_shots_over_4.5",
+"p": 0.0468,
+"fair": 21.369,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Memic_sot_over_0.5",
+"p": 0.3544,
+"fair": 2.822,
+"min_odds": 3.285,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Memic_sot_over_1.5",
+"p": 0.0948,
+"fair": 10.544,
+"min_odds": 22.303,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Memic_sot_over_2.5",
+"p": 0.0177,
+"fair": 56.519,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Memic_sot_over_3.5",
+"p": 0.0026,
+"fair": 389.844,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amar Memic_to_be_booked",
+"p": 0.212,
+"fair": 4.716,
+"min_odds": 6.171,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_assists_over_0.5",
+"p": 0.1201,
+"fair": 8.326,
+"min_odds": 14.263,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_fouls_committed_over_0.5",
+"p": 0.5311,
+"fair": 1.883,
+"min_odds": 2.079,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_fouls_committed_over_1.5",
+"p": 0.2066,
+"fair": 4.84,
+"min_odds": 6.386,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_fouls_committed_over_2.5",
+"p": 0.0598,
+"fair": 16.726,
+"min_odds": 102.164,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_fouls_suffered_over_0.5",
+"p": 0.5696,
+"fair": 1.756,
+"min_odds": 1.924,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_fouls_suffered_over_1.5",
+"p": 0.2413,
+"fair": 4.144,
+"min_odds": 5.228,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_fouls_suffered_over_2.5",
+"p": 0.0772,
+"fair": 12.955,
+"min_odds": 36.781,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_goals_over_0.5",
+"p": 0.1539,
+"fair": 6.496,
+"min_odds": 9.621,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_goals_over_1.5",
+"p": 0.0148,
+"fair": 67.58,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_score_or_assist",
+"p": 0.2396,
+"fair": 4.174,
+"min_odds": 5.275,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_shots_over_0.5",
+"p": 0.5363,
+"fair": 1.865,
+"min_odds": 2.056,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_shots_over_1.5",
+"p": 0.2379,
+"fair": 4.204,
+"min_odds": 5.323,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_shots_over_2.5",
+"p": 0.0805,
+"fair": 12.426,
+"min_odds": 32.811,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_shots_over_3.5",
+"p": 0.0213,
+"fair": 46.978,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_shots_over_4.5",
+"p": 0.0047,
+"fair": 214.552,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_sot_over_0.5",
+"p": 0.2133,
+"fair": 4.688,
+"min_odds": 6.124,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_sot_over_1.5",
+"p": 0.0306,
+"fair": 32.707,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_sot_over_2.5",
+"p": 0.003,
+"fair": 336.207,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Amir Hadziahmetovic_to_be_booked",
+"p": 0.2074,
+"fair": 4.822,
+"min_odds": 6.353,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_assists_over_0.5",
+"p": 0.0908,
+"fair": 11.018,
+"min_odds": 24.534,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_fouls_committed_over_0.5",
+"p": 0.6419,
+"fair": 1.558,
+"min_odds": 1.689,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_fouls_committed_over_1.5",
+"p": 0.3151,
+"fair": 3.174,
+"min_odds": 3.772,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_fouls_committed_over_2.5",
+"p": 0.1202,
+"fair": 8.316,
+"min_odds": 14.236,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_fouls_suffered_over_0.5",
+"p": 0.6623,
+"fair": 1.51,
+"min_odds": 1.633,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_fouls_suffered_over_1.5",
+"p": 0.3381,
+"fair": 2.958,
+"min_odds": 3.471,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_fouls_suffered_over_2.5",
+"p": 0.1353,
+"fair": 7.39,
+"min_odds": 11.72,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_goals_over_0.5",
+"p": 0.1753,
+"fair": 5.705,
+"min_odds": 7.983,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_goals_over_1.5",
+"p": 0.0194,
+"fair": 51.439,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_score_or_assist",
+"p": 0.2369,
+"fair": 4.221,
+"min_odds": 5.351,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_shots_over_0.5",
+"p": 0.6677,
+"fair": 1.498,
+"min_odds": 1.619,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_shots_over_1.5",
+"p": 0.3823,
+"fair": 2.616,
+"min_odds": 3.009,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_shots_over_2.5",
+"p": 0.1801,
+"fair": 5.552,
+"min_odds": 7.685,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_shots_over_3.5",
+"p": 0.0689,
+"fair": 14.513,
+"min_odds": 52.897,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_shots_over_4.5",
+"p": 0.0219,
+"fair": 45.723,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_sot_over_0.5",
+"p": 0.3381,
+"fair": 2.958,
+"min_odds": 3.471,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_sot_over_1.5",
+"p": 0.0853,
+"fair": 11.718,
+"min_odds": 28.296,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_sot_over_2.5",
+"p": 0.0149,
+"fair": 66.956,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_sot_over_3.5",
+"p": 0.002,
+"fair": 491.656,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Armin Gigovic_to_be_booked",
+"p": 0.187,
+"fair": 5.348,
+"min_odds": 7.3,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Assim Madibo_assists_over_0.5",
+"p": 0.11,
+"fair": 9.09,
+"min_odds": 16.663,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Assim Madibo_fouls_committed_over_0.5",
+"p": 0.6962,
+"fair": 1.436,
+"min_odds": 1.548,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Assim Madibo_fouls_committed_over_1.5",
+"p": 0.3787,
+"fair": 2.641,
+"min_odds": 3.043,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Assim Madibo_fouls_committed_over_2.5",
+"p": 0.1637,
+"fair": 6.107,
+"min_odds": 8.792,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Assim Madibo_fouls_suffered_over_0.5",
+"p": 0.6568,
+"fair": 1.523,
+"min_odds": 1.648,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Assim Madibo_fouls_suffered_over_1.5",
+"p": 0.3318,
+"fair": 3.014,
+"min_odds": 3.549,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Assim Madibo_fouls_suffered_over_2.5",
+"p": 0.1311,
+"fair": 7.628,
+"min_odds": 12.33,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Assim Madibo_goals_over_0.5",
+"p": 0.1498,
+"fair": 6.675,
+"min_odds": 10.019,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Assim Madibo_goals_over_1.5",
+"p": 0.014,
+"fair": 71.548,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Assim Madibo_score_or_assist",
+"p": 0.2283,
+"fair": 4.38,
+"min_odds": 5.608,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Assim Madibo_shots_over_0.5",
+"p": 0.597,
+"fair": 1.675,
+"min_odds": 1.828,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Assim Madibo_shots_over_1.5",
+"p": 0.3004,
+"fair": 3.329,
+"min_odds": 3.994,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Assim Madibo_shots_over_2.5",
+"p": 0.1194,
+"fair": 8.372,
+"min_odds": 14.4,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Assim Madibo_shots_over_3.5",
+"p": 0.0376,
+"fair": 26.561,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Assim Madibo_shots_over_4.5",
+"p": 0.0098,
+"fair": 101.932,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Assim Madibo_sot_over_0.5",
+"p": 0.3349,
+"fair": 2.986,
+"min_odds": 3.51,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Assim Madibo_sot_over_1.5",
+"p": 0.0836,
+"fair": 11.969,
+"min_odds": 29.806,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Assim Madibo_sot_over_2.5",
+"p": 0.0144,
+"fair": 69.268,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Assim Madibo_sot_over_3.5",
+"p": 0.0019,
+"fair": 515.007,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Assim Madibo_to_be_booked",
+"p": 0.2755,
+"fair": 3.63,
+"min_odds": 4.435,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_assists_over_0.5",
+"p": 0.0555,
+"fair": 18.014,
+"min_odds": 181.378,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_fouls_committed_over_0.5",
+"p": 0.5311,
+"fair": 1.883,
+"min_odds": 2.079,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_fouls_committed_over_1.5",
+"p": 0.2066,
+"fair": 4.84,
+"min_odds": 6.386,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_fouls_committed_over_2.5",
+"p": 0.0598,
+"fair": 16.725,
+"min_odds": 102.136,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_fouls_suffered_over_0.5",
+"p": 0.3313,
+"fair": 3.018,
+"min_odds": 3.554,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_fouls_suffered_over_1.5",
+"p": 0.0737,
+"fair": 13.576,
+"min_odds": 42.268,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_fouls_suffered_over_2.5",
+"p": 0.0114,
+"fair": 87.616,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_goals_over_0.5",
+"p": 0.028,
+"fair": 35.695,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_goals_over_1.5",
+"p": 0.0004,
+"fair": 2250.056,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_score_or_assist",
+"p": 0.0766,
+"fair": 13.061,
+"min_odds": 37.643,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_shots_over_0.5",
+"p": 0.2433,
+"fair": 4.11,
+"min_odds": 5.172,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_shots_over_1.5",
+"p": 0.0409,
+"fair": 24.422,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_shots_over_2.5",
+"p": 0.0047,
+"fair": 213.572,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_shots_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_shots_over_4.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_sot_over_0.5",
+"p": 0.1328,
+"fair": 7.532,
+"min_odds": 12.082,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_sot_over_1.5",
+"p": 0.0109,
+"fair": 92.085,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_sot_over_2.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ayoub Al-Oui_to_be_booked",
+"p": 0.114,
+"fair": 8.771,
+"min_odds": 15.623,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_assists_over_0.5",
+"p": 0.1203,
+"fair": 8.313,
+"min_odds": 14.227,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_fouls_committed_over_0.5",
+"p": 0.5717,
+"fair": 1.749,
+"min_odds": 1.917,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_fouls_committed_over_1.5",
+"p": 0.2432,
+"fair": 4.111,
+"min_odds": 5.175,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_fouls_committed_over_2.5",
+"p": 0.0782,
+"fair": 12.784,
+"min_odds": 35.433,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_fouls_suffered_over_0.5",
+"p": 0.4779,
+"fair": 2.092,
+"min_odds": 2.337,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_fouls_suffered_over_1.5",
+"p": 0.1638,
+"fair": 6.106,
+"min_odds": 8.789,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_fouls_suffered_over_2.5",
+"p": 0.0409,
+"fair": 24.428,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_goals_over_0.5",
+"p": 0.0836,
+"fair": 11.959,
+"min_odds": 29.747,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_goals_over_1.5",
+"p": 0.0042,
+"fair": 240.729,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_score_or_assist",
+"p": 0.1807,
+"fair": 5.535,
+"min_odds": 7.653,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_shots_over_0.5",
+"p": 0.561,
+"fair": 1.783,
+"min_odds": 1.957,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_shots_over_1.5",
+"p": 0.2624,
+"fair": 3.811,
+"min_odds": 4.708,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_shots_over_2.5",
+"p": 0.095,
+"fair": 10.528,
+"min_odds": 22.228,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_shots_over_3.5",
+"p": 0.027,
+"fair": 37.021,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_shots_over_4.5",
+"p": 0.0064,
+"fair": 157.41,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_sot_over_0.5",
+"p": 0.2659,
+"fair": 3.761,
+"min_odds": 4.632,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_sot_over_1.5",
+"p": 0.0499,
+"fair": 20.049,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_sot_over_2.5",
+"p": 0.0064,
+"fair": 156.85,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Benjamin Tahirovic_to_be_booked",
+"p": 0.1933,
+"fair": 5.173,
+"min_odds": 6.977,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_assists_over_0.5",
+"p": 0.0172,
+"fair": 58.231,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_fouls_committed_over_0.5",
+"p": 0.522,
+"fair": 1.916,
+"min_odds": 2.119,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_fouls_committed_over_1.5",
+"p": 0.1989,
+"fair": 5.029,
+"min_odds": 6.718,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_fouls_committed_over_2.5",
+"p": 0.0562,
+"fair": 17.805,
+"min_odds": 162.21,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_fouls_suffered_over_0.5",
+"p": 0.4238,
+"fair": 2.359,
+"min_odds": 2.675,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_fouls_suffered_over_1.5",
+"p": 0.1259,
+"fair": 7.945,
+"min_odds": 13.181,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_fouls_suffered_over_2.5",
+"p": 0.0268,
+"fair": 37.366,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_goals_over_0.5",
+"p": 0.0373,
+"fair": 26.812,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_goals_over_1.5",
+"p": 0.0008,
+"fair": 1258.39,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_score_or_assist",
+"p": 0.0511,
+"fair": 19.575,
+"min_odds": 920.413,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_shots_over_0.5",
+"p": 0.4424,
+"fair": 2.26,
+"min_odds": 2.549,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_shots_over_1.5",
+"p": 0.1555,
+"fair": 6.429,
+"min_odds": 9.474,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_shots_over_2.5",
+"p": 0.0396,
+"fair": 25.234,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_shots_over_3.5",
+"p": 0.0078,
+"fair": 127.829,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_shots_over_4.5",
+"p": 0.0013,
+"fair": 777.69,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_sot_over_0.5",
+"p": 0.2195,
+"fair": 4.556,
+"min_odds": 5.901,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_sot_over_1.5",
+"p": 0.0326,
+"fair": 30.703,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_sot_over_2.5",
+"p": 0.0033,
+"fair": 304.849,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Boualem Khoukhi_to_be_booked",
+"p": 0.1409,
+"fair": 7.099,
+"min_odds": 11.005,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_assists_over_0.5",
+"p": 0.0357,
+"fair": 28.021,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_fouls_committed_over_0.5",
+"p": 0.6893,
+"fair": 1.451,
+"min_odds": 1.564,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_fouls_committed_over_1.5",
+"p": 0.3701,
+"fair": 2.702,
+"min_odds": 3.124,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_fouls_committed_over_2.5",
+"p": 0.1576,
+"fair": 6.347,
+"min_odds": 9.297,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_fouls_suffered_over_0.5",
+"p": 0.3094,
+"fair": 3.232,
+"min_odds": 3.855,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_fouls_suffered_over_1.5",
+"p": 0.0635,
+"fair": 15.747,
+"min_odds": 74.048,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_fouls_suffered_over_2.5",
+"p": 0.009,
+"fair": 110.639,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_goals_over_0.5",
+"p": 0.0494,
+"fair": 20.227,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_goals_over_1.5",
+"p": 0.0014,
+"fair": 708.383,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_score_or_assist",
+"p": 0.0781,
+"fair": 12.801,
+"min_odds": 35.564,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_shots_over_0.5",
+"p": 0.4298,
+"fair": 2.327,
+"min_odds": 2.633,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_shots_over_1.5",
+"p": 0.1459,
+"fair": 6.856,
+"min_odds": 10.433,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_shots_over_2.5",
+"p": 0.0356,
+"fair": 28.056,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_shots_over_3.5",
+"p": 0.0067,
+"fair": 148.199,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_shots_over_4.5",
+"p": 0.0011,
+"fair": 939.299,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_sot_over_0.5",
+"p": 0.2094,
+"fair": 4.775,
+"min_odds": 6.272,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_sot_over_1.5",
+"p": 0.0294,
+"fair": 34.054,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_sot_over_2.5",
+"p": 0.0028,
+"fair": 357.867,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dennis Hadzikadunic_to_be_booked",
+"p": 0.2555,
+"fair": 3.914,
+"min_odds": 4.866,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_assists_over_0.5",
+"p": 0.1065,
+"fair": 9.389,
+"min_odds": 17.697,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_fouls_committed_over_0.5",
+"p": 0.7087,
+"fair": 1.411,
+"min_odds": 1.518,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_fouls_committed_over_1.5",
+"p": 0.3945,
+"fair": 2.535,
+"min_odds": 2.903,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_fouls_committed_over_2.5",
+"p": 0.1755,
+"fair": 5.699,
+"min_odds": 7.971,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_fouls_suffered_over_0.5",
+"p": 0.5452,
+"fair": 1.834,
+"min_odds": 2.02,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_fouls_suffered_over_1.5",
+"p": 0.2189,
+"fair": 4.568,
+"min_odds": 5.92,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_fouls_suffered_over_2.5",
+"p": 0.0658,
+"fair": 15.209,
+"min_odds": 63.489,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_goals_over_0.5",
+"p": 0.1452,
+"fair": 6.889,
+"min_odds": 10.51,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_goals_over_1.5",
+"p": 0.0131,
+"fair": 76.448,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_score_or_assist",
+"p": 0.2216,
+"fair": 4.513,
+"min_odds": 5.829,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_shots_over_0.5",
+"p": 0.5636,
+"fair": 1.774,
+"min_odds": 1.947,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_shots_over_1.5",
+"p": 0.2651,
+"fair": 3.772,
+"min_odds": 4.648,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_shots_over_2.5",
+"p": 0.0967,
+"fair": 10.344,
+"min_odds": 21.424,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_shots_over_3.5",
+"p": 0.0277,
+"fair": 36.092,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_shots_over_4.5",
+"p": 0.0066,
+"fair": 152.279,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_sot_over_0.5",
+"p": 0.2507,
+"fair": 3.988,
+"min_odds": 4.982,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_sot_over_1.5",
+"p": 0.0438,
+"fair": 22.85,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_sot_over_2.5",
+"p": 0.0052,
+"fair": 192.501,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Dzenis Burnic_to_be_booked",
+"p": 0.3017,
+"fair": 3.315,
+"min_odds": 3.973,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_assists_over_0.5",
+"p": 0.1486,
+"fair": 6.727,
+"min_odds": 10.137,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_fouls_committed_over_0.5",
+"p": 0.5517,
+"fair": 1.812,
+"min_odds": 1.993,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_fouls_committed_over_1.5",
+"p": 0.2248,
+"fair": 4.448,
+"min_odds": 5.72,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_fouls_committed_over_2.5",
+"p": 0.0687,
+"fair": 14.558,
+"min_odds": 53.499,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_fouls_suffered_over_0.5",
+"p": 0.689,
+"fair": 1.451,
+"min_odds": 1.565,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_fouls_suffered_over_1.5",
+"p": 0.3699,
+"fair": 2.704,
+"min_odds": 3.126,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_fouls_suffered_over_2.5",
+"p": 0.1574,
+"fair": 6.355,
+"min_odds": 9.314,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_goals_over_0.5",
+"p": 0.4421,
+"fair": 2.262,
+"min_odds": 2.55,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_goals_over_1.5",
+"p": 0.1403,
+"fair": 7.128,
+"min_odds": 11.076,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_score_or_assist",
+"p": 0.5098,
+"fair": 1.961,
+"min_odds": 2.175,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_shots_over_0.5",
+"p": 0.9175,
+"fair": 1.09,
+"min_odds": 1.5,
+"fam": "shots",
+"flag": "value"
+},
+{
+"market": "Edin Dzeko_shots_over_1.5",
+"p": 0.7706,
+"fair": 1.298,
+"min_odds": 1.5,
+"fam": "shots",
+"flag": "value"
+},
+{
+"market": "Edin Dzeko_shots_over_2.5",
+"p": 0.5939,
+"fair": 1.684,
+"min_odds": 1.839,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_shots_over_3.5",
+"p": 0.4197,
+"fair": 2.383,
+"min_odds": 2.705,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_shots_over_4.5",
+"p": 0.2694,
+"fair": 3.712,
+"min_odds": 4.558,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_sot_over_0.5",
+"p": 0.7048,
+"fair": 1.419,
+"min_odds": 1.527,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_sot_over_1.5",
+"p": 0.4293,
+"fair": 2.33,
+"min_odds": 2.637,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_sot_over_2.5",
+"p": 0.2194,
+"fair": 4.557,
+"min_odds": 5.901,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_sot_over_3.5",
+"p": 0.0925,
+"fair": 10.807,
+"min_odds": 23.513,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edin Dzeko_to_be_booked",
+"p": 0.1771,
+"fair": 5.648,
+"min_odds": 7.87,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_assists_over_0.5",
+"p": 0.1153,
+"fair": 8.676,
+"min_odds": 15.324,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_fouls_committed_over_0.5",
+"p": 0.6874,
+"fair": 1.455,
+"min_odds": 1.569,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_fouls_committed_over_1.5",
+"p": 0.3678,
+"fair": 2.719,
+"min_odds": 3.147,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_fouls_committed_over_2.5",
+"p": 0.1559,
+"fair": 6.414,
+"min_odds": 9.442,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_fouls_suffered_over_0.5",
+"p": 0.7137,
+"fair": 1.401,
+"min_odds": 1.507,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_fouls_suffered_over_1.5",
+"p": 0.4008,
+"fair": 2.495,
+"min_odds": 2.851,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_fouls_suffered_over_2.5",
+"p": 0.1802,
+"fair": 5.548,
+"min_odds": 7.678,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_goals_over_0.5",
+"p": 0.1439,
+"fair": 6.947,
+"min_odds": 10.645,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_goals_over_1.5",
+"p": 0.0129,
+"fair": 77.797,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_score_or_assist",
+"p": 0.2272,
+"fair": 4.401,
+"min_odds": 5.642,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_shots_over_0.5",
+"p": 0.711,
+"fair": 1.406,
+"min_odds": 1.513,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_shots_over_1.5",
+"p": 0.4374,
+"fair": 2.286,
+"min_odds": 2.581,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_shots_over_2.5",
+"p": 0.2266,
+"fair": 4.413,
+"min_odds": 5.663,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_shots_over_3.5",
+"p": 0.0971,
+"fair": 10.301,
+"min_odds": 21.242,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_shots_over_4.5",
+"p": 0.0347,
+"fair": 28.798,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_sot_over_0.5",
+"p": 0.4988,
+"fair": 2.005,
+"min_odds": 2.228,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_sot_over_1.5",
+"p": 0.2029,
+"fair": 4.929,
+"min_odds": 6.541,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_sot_over_2.5",
+"p": 0.0616,
+"fair": 16.227,
+"min_odds": 86.029,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_sot_over_3.5",
+"p": 0.0146,
+"fair": 68.705,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Edm\u00edlson Junior_to_be_booked",
+"p": 0.0797,
+"fair": 12.548,
+"min_odds": 33.677,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_assists_over_0.5",
+"p": 0.1963,
+"fair": 5.094,
+"min_odds": 6.836,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_fouls_committed_over_0.5",
+"p": 0.781,
+"fair": 1.28,
+"min_odds": 1.5,
+"fam": "fouls",
+"flag": "value"
+},
+{
+"market": "Ermedin Demirovic_fouls_committed_over_1.5",
+"p": 0.4946,
+"fair": 2.022,
+"min_odds": 2.249,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_fouls_committed_over_2.5",
+"p": 0.2579,
+"fair": 3.877,
+"min_odds": 4.809,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_fouls_suffered_over_0.5",
+"p": 0.6466,
+"fair": 1.546,
+"min_odds": 1.676,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_fouls_suffered_over_1.5",
+"p": 0.3203,
+"fair": 3.122,
+"min_odds": 3.699,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_fouls_suffered_over_2.5",
+"p": 0.1236,
+"fair": 8.09,
+"min_odds": 13.584,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_goals_over_0.5",
+"p": 0.3641,
+"fair": 2.746,
+"min_odds": 3.184,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_goals_over_1.5",
+"p": 0.0923,
+"fair": 10.837,
+"min_odds": 23.655,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_score_or_assist",
+"p": 0.4675,
+"fair": 2.139,
+"min_odds": 2.395,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_shots_over_0.5",
+"p": 0.8216,
+"fair": 1.217,
+"min_odds": 1.5,
+"fam": "shots",
+"flag": "value"
+},
+{
+"market": "Ermedin Demirovic_shots_over_1.5",
+"p": 0.5975,
+"fair": 1.674,
+"min_odds": 1.826,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_shots_over_2.5",
+"p": 0.3849,
+"fair": 2.598,
+"min_odds": 2.986,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_shots_over_3.5",
+"p": 0.2166,
+"fair": 4.616,
+"min_odds": 6.001,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_shots_over_4.5",
+"p": 0.1053,
+"fair": 9.498,
+"min_odds": 18.089,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_sot_over_0.5",
+"p": 0.6034,
+"fair": 1.657,
+"min_odds": 1.807,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_sot_over_1.5",
+"p": 0.3074,
+"fair": 3.253,
+"min_odds": 3.885,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_sot_over_2.5",
+"p": 0.1242,
+"fair": 8.049,
+"min_odds": 13.469,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_sot_over_3.5",
+"p": 0.0399,
+"fair": 25.077,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ermedin Demirovic_to_be_booked",
+"p": 0.2513,
+"fair": 3.979,
+"min_odds": 4.967,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_assists_over_0.5",
+"p": 0.2148,
+"fair": 4.654,
+"min_odds": 6.066,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_fouls_committed_over_0.5",
+"p": 0.6655,
+"fair": 1.503,
+"min_odds": 1.625,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_fouls_committed_over_1.5",
+"p": 0.3418,
+"fair": 2.926,
+"min_odds": 3.427,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_fouls_committed_over_2.5",
+"p": 0.1378,
+"fair": 7.257,
+"min_odds": 11.39,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_fouls_suffered_over_0.5",
+"p": 0.6602,
+"fair": 1.515,
+"min_odds": 1.639,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_fouls_suffered_over_1.5",
+"p": 0.3357,
+"fair": 2.979,
+"min_odds": 3.5,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_fouls_suffered_over_2.5",
+"p": 0.1337,
+"fair": 7.478,
+"min_odds": 11.944,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_goals_over_0.5",
+"p": 0.2376,
+"fair": 4.209,
+"min_odds": 5.331,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_goals_over_1.5",
+"p": 0.037,
+"fair": 27.015,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_score_or_assist",
+"p": 0.3777,
+"fair": 2.647,
+"min_odds": 3.051,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_shots_over_0.5",
+"p": 0.7876,
+"fair": 1.27,
+"min_odds": 1.5,
+"fam": "shots",
+"flag": "value"
+},
+{
+"market": "Esmir Bajraktarevic_shots_over_1.5",
+"p": 0.5449,
+"fair": 1.835,
+"min_odds": 2.021,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_shots_over_2.5",
+"p": 0.3293,
+"fair": 3.037,
+"min_odds": 3.581,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_shots_over_3.5",
+"p": 0.1708,
+"fair": 5.855,
+"min_odds": 8.278,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_shots_over_4.5",
+"p": 0.0755,
+"fair": 13.246,
+"min_odds": 39.225,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_sot_over_0.5",
+"p": 0.4881,
+"fair": 2.049,
+"min_odds": 2.283,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_sot_over_1.5",
+"p": 0.1934,
+"fair": 5.171,
+"min_odds": 6.974,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_sot_over_2.5",
+"p": 0.0569,
+"fair": 17.58,
+"min_odds": 145.306,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_sot_over_3.5",
+"p": 0.013,
+"fair": 76.947,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Esmir Bajraktarevic_to_be_booked",
+"p": 0.1426,
+"fair": 7.012,
+"min_odds": 10.798,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_assists_over_0.5",
+"p": 0.1228,
+"fair": 8.142,
+"min_odds": 13.733,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_fouls_committed_over_0.5",
+"p": 0.6896,
+"fair": 1.45,
+"min_odds": 1.563,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_fouls_committed_over_1.5",
+"p": 0.3705,
+"fair": 2.699,
+"min_odds": 3.12,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_fouls_committed_over_2.5",
+"p": 0.1579,
+"fair": 6.335,
+"min_odds": 9.271,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_fouls_suffered_over_0.5",
+"p": 0.4591,
+"fair": 2.178,
+"min_odds": 2.445,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_fouls_suffered_over_1.5",
+"p": 0.1499,
+"fair": 6.67,
+"min_odds": 10.008,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_fouls_suffered_over_2.5",
+"p": 0.0355,
+"fair": 28.191,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_goals_over_0.5",
+"p": 0.3368,
+"fair": 2.969,
+"min_odds": 3.487,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_goals_over_1.5",
+"p": 0.078,
+"fair": 12.815,
+"min_odds": 35.675,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_score_or_assist",
+"p": 0.4031,
+"fair": 2.481,
+"min_odds": 2.832,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_shots_over_0.5",
+"p": 0.7819,
+"fair": 1.279,
+"min_odds": 1.5,
+"fam": "shots",
+"flag": "value"
+},
+{
+"market": "Haris Tabakovic_shots_over_1.5",
+"p": 0.5364,
+"fair": 1.864,
+"min_odds": 2.056,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_shots_over_2.5",
+"p": 0.3206,
+"fair": 3.119,
+"min_odds": 3.696,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_shots_over_3.5",
+"p": 0.164,
+"fair": 6.098,
+"min_odds": 8.772,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_shots_over_4.5",
+"p": 0.0713,
+"fair": 14.017,
+"min_odds": 46.854,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_sot_over_0.5",
+"p": 0.5276,
+"fair": 1.895,
+"min_odds": 2.094,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_sot_over_1.5",
+"p": 0.2295,
+"fair": 4.357,
+"min_odds": 5.571,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_sot_over_2.5",
+"p": 0.0758,
+"fair": 13.195,
+"min_odds": 38.784,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_sot_over_3.5",
+"p": 0.0195,
+"fair": 51.193,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Haris Tabakovic_to_be_booked",
+"p": 0.1602,
+"fair": 6.241,
+"min_odds": 9.071,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_assists_over_0.5",
+"p": 0.1301,
+"fair": 7.685,
+"min_odds": 12.482,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_fouls_committed_over_0.5",
+"p": 0.6297,
+"fair": 1.588,
+"min_odds": 1.725,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_fouls_committed_over_1.5",
+"p": 0.3018,
+"fair": 3.313,
+"min_odds": 3.971,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_fouls_committed_over_2.5",
+"p": 0.1119,
+"fair": 8.935,
+"min_odds": 16.152,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_fouls_suffered_over_0.5",
+"p": 0.5202,
+"fair": 1.922,
+"min_odds": 2.127,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_fouls_suffered_over_1.5",
+"p": 0.1973,
+"fair": 5.067,
+"min_odds": 6.787,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_fouls_suffered_over_2.5",
+"p": 0.0555,
+"fair": 18.028,
+"min_odds": 182.848,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_goals_over_0.5",
+"p": 0.1864,
+"fair": 5.364,
+"min_odds": 7.33,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_goals_over_1.5",
+"p": 0.0221,
+"fair": 45.162,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_score_or_assist",
+"p": 0.2749,
+"fair": 3.637,
+"min_odds": 4.445,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_shots_over_0.5",
+"p": 0.6116,
+"fair": 1.635,
+"min_odds": 1.781,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_shots_over_1.5",
+"p": 0.3165,
+"fair": 3.16,
+"min_odds": 3.753,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_shots_over_2.5",
+"p": 0.1305,
+"fair": 7.661,
+"min_odds": 12.417,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_shots_over_3.5",
+"p": 0.0429,
+"fair": 23.332,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_shots_over_4.5",
+"p": 0.0116,
+"fair": 85.936,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_sot_over_0.5",
+"p": 0.3577,
+"fair": 2.796,
+"min_odds": 3.25,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_sot_over_1.5",
+"p": 0.0968,
+"fair": 10.33,
+"min_odds": 21.364,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_sot_over_2.5",
+"p": 0.0183,
+"fair": 54.677,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_sot_over_3.5",
+"p": 0.0027,
+"fair": 372.526,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Hassan Al-Haydos_to_be_booked",
+"p": 0.2749,
+"fair": 3.637,
+"min_odds": 4.446,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_assists_over_0.5",
+"p": 0.0701,
+"fair": 14.261,
+"min_odds": 49.693,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_fouls_committed_over_0.5",
+"p": 0.5103,
+"fair": 1.96,
+"min_odds": 2.172,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_fouls_committed_over_1.5",
+"p": 0.1892,
+"fair": 5.285,
+"min_odds": 7.184,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_fouls_committed_over_2.5",
+"p": 0.0518,
+"fair": 19.314,
+"min_odds": 562.977,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_fouls_suffered_over_0.5",
+"p": 0.5017,
+"fair": 1.993,
+"min_odds": 2.214,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_fouls_suffered_over_1.5",
+"p": 0.1822,
+"fair": 5.488,
+"min_odds": 7.564,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_fouls_suffered_over_2.5",
+"p": 0.0487,
+"fair": 20.54,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_goals_over_0.5",
+"p": 0.0282,
+"fair": 35.457,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_goals_over_1.5",
+"p": 0.0005,
+"fair": 2219.67,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_score_or_assist",
+"p": 0.0903,
+"fair": 11.068,
+"min_odds": 24.784,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_shots_over_0.5",
+"p": 0.465,
+"fair": 2.15,
+"min_odds": 2.409,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_shots_over_1.5",
+"p": 0.1738,
+"fair": 5.755,
+"min_odds": 8.079,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_shots_over_2.5",
+"p": 0.0476,
+"fair": 21.005,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_shots_over_3.5",
+"p": 0.0101,
+"fair": 98.873,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_shots_over_4.5",
+"p": 0.0018,
+"fair": 559.82,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_sot_over_0.5",
+"p": 0.262,
+"fair": 3.817,
+"min_odds": 4.717,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_sot_over_1.5",
+"p": 0.0483,
+"fair": 20.718,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_sot_over_2.5",
+"p": 0.0061,
+"fair": 165.134,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Homam Ahmed_to_be_booked",
+"p": 0.1248,
+"fair": 8.012,
+"min_odds": 13.367,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Issa Laye_assists_over_0.5",
+"p": 0.0878,
+"fair": 11.392,
+"min_odds": 26.47,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Issa Laye_fouls_committed_over_0.5",
+"p": 0.5281,
+"fair": 1.894,
+"min_odds": 2.092,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Issa Laye_fouls_committed_over_1.5",
+"p": 0.2041,
+"fair": 4.9,
+"min_odds": 6.491,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Issa Laye_fouls_committed_over_2.5",
+"p": 0.0586,
+"fair": 17.067,
+"min_odds": 116.379,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Issa Laye_fouls_suffered_over_0.5",
+"p": 0.5621,
+"fair": 1.779,
+"min_odds": 1.953,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Issa Laye_fouls_suffered_over_1.5",
+"p": 0.2343,
+"fair": 4.268,
+"min_odds": 5.426,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Issa Laye_fouls_suffered_over_2.5",
+"p": 0.0735,
+"fair": 13.598,
+"min_odds": 42.483,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Issa Laye_goals_over_0.5",
+"p": 0.0832,
+"fair": 12.021,
+"min_odds": 30.134,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Issa Laye_goals_over_1.5",
+"p": 0.0041,
+"fair": 243.32,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Issa Laye_score_or_assist",
+"p": 0.1525,
+"fair": 6.557,
+"min_odds": 9.754,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Issa Laye_shots_over_0.5",
+"p": 0.5927,
+"fair": 1.687,
+"min_odds": 1.843,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Issa Laye_shots_over_1.5",
+"p": 0.2957,
+"fair": 3.382,
+"min_odds": 4.07,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Issa Laye_shots_over_2.5",
+"p": 0.1163,
+"fair": 8.598,
+"min_odds": 15.083,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Issa Laye_shots_over_3.5",
+"p": 0.0362,
+"fair": 27.613,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Issa Laye_shots_over_4.5",
+"p": 0.0093,
+"fair": 107.266,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Issa Laye_sot_over_0.5",
+"p": 0.2699,
+"fair": 3.705,
+"min_odds": 4.547,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Issa Laye_sot_over_1.5",
+"p": 0.0516,
+"fair": 19.389,
+"min_odds": 634.799,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Issa Laye_sot_over_2.5",
+"p": 0.0067,
+"fair": 148.819,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Issa Laye_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Issa Laye_to_be_booked",
+"p": 0.1264,
+"fair": 7.912,
+"min_odds": 13.089,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Basic_assists_over_0.5",
+"p": 0.1015,
+"fair": 9.853,
+"min_odds": 19.422,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Basic_fouls_committed_over_0.5",
+"p": 0.7199,
+"fair": 1.389,
+"min_odds": 1.5,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Basic_fouls_committed_over_1.5",
+"p": 0.4089,
+"fair": 2.446,
+"min_odds": 2.786,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Basic_fouls_committed_over_2.5",
+"p": 0.1865,
+"fair": 5.363,
+"min_odds": 7.327,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Basic_fouls_suffered_over_0.5",
+"p": 0.6066,
+"fair": 1.648,
+"min_odds": 1.797,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Basic_fouls_suffered_over_1.5",
+"p": 0.2776,
+"fair": 3.603,
+"min_odds": 4.394,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Basic_fouls_suffered_over_2.5",
+"p": 0.0973,
+"fair": 10.272,
+"min_odds": 21.12,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Basic_goals_over_0.5",
+"p": 0.1087,
+"fair": 9.204,
+"min_odds": 17.05,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Ivan Basic_goals_over_1.5",
+"p": 0.0071,
+"fair": 139.917,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Ivan Basic_score_or_assist",
+"p": 0.1859,
+"fair": 5.38,
+"min_odds": 7.36,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Basic_shots_over_0.5",
+"p": 0.7127,
+"fair": 1.403,
+"min_odds": 1.509,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Basic_shots_over_1.5",
+"p": 0.4396,
+"fair": 2.275,
+"min_odds": 2.567,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Basic_shots_over_2.5",
+"p": 0.2285,
+"fair": 4.376,
+"min_odds": 5.602,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Basic_shots_over_3.5",
+"p": 0.0983,
+"fair": 10.172,
+"min_odds": 20.7,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Basic_shots_over_4.5",
+"p": 0.0353,
+"fair": 28.309,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Basic_sot_over_0.5",
+"p": 0.3943,
+"fair": 2.536,
+"min_odds": 2.905,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Basic_sot_over_1.5",
+"p": 0.1203,
+"fair": 8.31,
+"min_odds": 14.217,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Basic_sot_over_2.5",
+"p": 0.026,
+"fair": 38.434,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Basic_sot_over_3.5",
+"p": 0.0044,
+"fair": 229.301,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Basic_to_be_booked",
+"p": 0.2011,
+"fair": 4.973,
+"min_odds": 6.619,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_assists_over_0.5",
+"p": 0.0422,
+"fair": 23.678,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_fouls_committed_over_0.5",
+"p": 0.8109,
+"fair": 1.233,
+"min_odds": 1.5,
+"fam": "fouls",
+"flag": "value"
+},
+{
+"market": "Ivan Sunjic_fouls_committed_over_1.5",
+"p": 0.5411,
+"fair": 1.848,
+"min_odds": 2.036,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_fouls_committed_over_2.5",
+"p": 0.3011,
+"fair": 3.321,
+"min_odds": 3.982,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_fouls_suffered_over_0.5",
+"p": 0.5455,
+"fair": 1.833,
+"min_odds": 2.018,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_fouls_suffered_over_1.5",
+"p": 0.2192,
+"fair": 4.562,
+"min_odds": 5.911,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_fouls_suffered_over_2.5",
+"p": 0.0659,
+"fair": 15.177,
+"min_odds": 62.94,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_goals_over_0.5",
+"p": 0.0462,
+"fair": 21.649,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_goals_over_1.5",
+"p": 0.0012,
+"fair": 813.782,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_score_or_assist",
+"p": 0.0807,
+"fair": 12.392,
+"min_odds": 32.576,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_shots_over_0.5",
+"p": 0.5842,
+"fair": 1.712,
+"min_odds": 1.872,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_shots_over_1.5",
+"p": 0.2866,
+"fair": 3.489,
+"min_odds": 4.226,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_shots_over_2.5",
+"p": 0.1103,
+"fair": 9.064,
+"min_odds": 16.577,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_shots_over_3.5",
+"p": 0.0335,
+"fair": 29.813,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_shots_over_4.5",
+"p": 0.0084,
+"fair": 118.612,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_sot_over_0.5",
+"p": 0.291,
+"fair": 3.436,
+"min_odds": 4.149,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_sot_over_1.5",
+"p": 0.061,
+"fair": 16.389,
+"min_odds": 90.781,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_sot_over_2.5",
+"p": 0.0088,
+"fair": 114.192,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_sot_over_3.5",
+"p": 0.001,
+"fair": 1017.369,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Ivan Sunjic_to_be_booked",
+"p": 0.2197,
+"fair": 4.552,
+"min_odds": 5.894,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_assists_over_0.5",
+"p": 0.0648,
+"fair": 15.431,
+"min_odds": 67.545,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_fouls_committed_over_0.5",
+"p": 0.6504,
+"fair": 1.538,
+"min_odds": 1.666,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_fouls_committed_over_1.5",
+"p": 0.3245,
+"fair": 3.082,
+"min_odds": 3.643,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_fouls_committed_over_2.5",
+"p": 0.1263,
+"fair": 7.917,
+"min_odds": 13.105,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_fouls_suffered_over_0.5",
+"p": 0.5051,
+"fair": 1.98,
+"min_odds": 2.198,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_fouls_suffered_over_1.5",
+"p": 0.1849,
+"fair": 5.408,
+"min_odds": 7.411,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_fouls_suffered_over_2.5",
+"p": 0.0499,
+"fair": 20.048,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_goals_over_0.5",
+"p": 0.0709,
+"fair": 14.11,
+"min_odds": 47.912,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_goals_over_1.5",
+"p": 0.003,
+"fair": 338.516,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_score_or_assist",
+"p": 0.1223,
+"fair": 8.176,
+"min_odds": 13.829,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_shots_over_0.5",
+"p": 0.4333,
+"fair": 2.308,
+"min_odds": 2.609,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_shots_over_1.5",
+"p": 0.1485,
+"fair": 6.734,
+"min_odds": 10.152,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_shots_over_2.5",
+"p": 0.0367,
+"fair": 27.236,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_shots_over_3.5",
+"p": 0.007,
+"fair": 142.197,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_shots_over_4.5",
+"p": 0.0011,
+"fair": 891.021,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_sot_over_0.5",
+"p": 0.2138,
+"fair": 4.678,
+"min_odds": 6.106,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_sot_over_1.5",
+"p": 0.0307,
+"fair": 32.548,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_sot_over_2.5",
+"p": 0.003,
+"fair": 333.678,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jassem Gaber_to_be_booked",
+"p": 0.2156,
+"fair": 4.638,
+"min_odds": 6.038,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_assists_over_0.5",
+"p": 0.093,
+"fair": 10.749,
+"min_odds": 23.237,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_fouls_committed_over_0.5",
+"p": 0.483,
+"fair": 2.07,
+"min_odds": 2.309,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_fouls_committed_over_1.5",
+"p": 0.1676,
+"fair": 5.966,
+"min_odds": 8.501,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_fouls_committed_over_2.5",
+"p": 0.0425,
+"fair": 23.525,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_fouls_suffered_over_0.5",
+"p": 0.5646,
+"fair": 1.771,
+"min_odds": 1.943,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_fouls_suffered_over_1.5",
+"p": 0.2365,
+"fair": 4.228,
+"min_odds": 5.361,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_fouls_suffered_over_2.5",
+"p": 0.0747,
+"fair": 13.388,
+"min_odds": 40.494,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_goals_over_0.5",
+"p": 0.2642,
+"fair": 3.785,
+"min_odds": 4.669,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_goals_over_1.5",
+"p": 0.0464,
+"fair": 21.55,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_score_or_assist",
+"p": 0.3199,
+"fair": 3.126,
+"min_odds": 3.705,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_shots_over_0.5",
+"p": 0.7062,
+"fair": 1.416,
+"min_odds": 1.524,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_shots_over_1.5",
+"p": 0.431,
+"fair": 2.32,
+"min_odds": 2.624,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_shots_over_2.5",
+"p": 0.221,
+"fair": 4.525,
+"min_odds": 5.848,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_shots_over_3.5",
+"p": 0.0935,
+"fair": 10.694,
+"min_odds": 22.981,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_shots_over_4.5",
+"p": 0.033,
+"fair": 30.297,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_sot_over_0.5",
+"p": 0.5058,
+"fair": 1.977,
+"min_odds": 2.194,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_sot_over_1.5",
+"p": 0.2092,
+"fair": 4.78,
+"min_odds": 6.281,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_sot_over_2.5",
+"p": 0.0649,
+"fair": 15.414,
+"min_odds": 67.227,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_sot_over_3.5",
+"p": 0.0157,
+"fair": 63.874,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Jovo Lukic_to_be_booked",
+"p": 0.1788,
+"fair": 5.591,
+"min_odds": 7.761,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_assists_over_0.5",
+"p": 0.1259,
+"fair": 7.942,
+"min_odds": 13.174,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_fouls_committed_over_0.5",
+"p": 0.765,
+"fair": 1.307,
+"min_odds": 1.5,
+"fam": "fouls",
+"flag": "value"
+},
+{
+"market": "Karim Boudiaf_fouls_committed_over_1.5",
+"p": 0.471,
+"fair": 2.123,
+"min_odds": 2.375,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_fouls_committed_over_2.5",
+"p": 0.2372,
+"fair": 4.216,
+"min_odds": 5.342,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_fouls_suffered_over_0.5",
+"p": 0.7524,
+"fair": 1.329,
+"min_odds": 1.5,
+"fam": "fouls",
+"flag": "value"
+},
+{
+"market": "Karim Boudiaf_fouls_suffered_over_1.5",
+"p": 0.453,
+"fair": 2.208,
+"min_odds": 2.482,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_fouls_suffered_over_2.5",
+"p": 0.2219,
+"fair": 4.506,
+"min_odds": 5.817,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_goals_over_0.5",
+"p": 0.1709,
+"fair": 5.853,
+"min_odds": 8.275,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_goals_over_1.5",
+"p": 0.0184,
+"fair": 54.281,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_score_or_assist",
+"p": 0.2585,
+"fair": 3.869,
+"min_odds": 4.797,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_shots_over_0.5",
+"p": 0.7296,
+"fair": 1.371,
+"min_odds": 1.5,
+"fam": "shots",
+"flag": "value"
+},
+{
+"market": "Karim Boudiaf_shots_over_1.5",
+"p": 0.4622,
+"fair": 2.164,
+"min_odds": 2.426,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_shots_over_2.5",
+"p": 0.2489,
+"fair": 4.018,
+"min_odds": 5.028,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_shots_over_3.5",
+"p": 0.1118,
+"fair": 8.943,
+"min_odds": 16.178,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_shots_over_4.5",
+"p": 0.0421,
+"fair": 23.756,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_sot_over_0.5",
+"p": 0.4123,
+"fair": 2.425,
+"min_odds": 2.76,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_sot_over_1.5",
+"p": 0.133,
+"fair": 7.519,
+"min_odds": 12.05,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_sot_over_2.5",
+"p": 0.0306,
+"fair": 32.645,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_sot_over_3.5",
+"p": 0.0055,
+"fair": 182.926,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Karim Boudiaf_to_be_booked",
+"p": 0.2874,
+"fair": 3.479,
+"min_odds": 4.212,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_assists_over_0.5",
+"p": 0.2492,
+"fair": 4.013,
+"min_odds": 5.021,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_fouls_committed_over_0.5",
+"p": 0.6161,
+"fair": 1.623,
+"min_odds": 1.766,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_fouls_committed_over_1.5",
+"p": 0.2874,
+"fair": 3.479,
+"min_odds": 4.212,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_fouls_committed_over_2.5",
+"p": 0.1031,
+"fair": 9.695,
+"min_odds": 18.815,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_fouls_suffered_over_0.5",
+"p": 0.7445,
+"fair": 1.343,
+"min_odds": 1.5,
+"fam": "fouls",
+"flag": "value"
+},
+{
+"market": "Kerim Alajbegovic_fouls_suffered_over_1.5",
+"p": 0.4419,
+"fair": 2.263,
+"min_odds": 2.552,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_fouls_suffered_over_2.5",
+"p": 0.2128,
+"fair": 4.7,
+"min_odds": 6.144,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_goals_over_0.5",
+"p": 0.2135,
+"fair": 4.684,
+"min_odds": 6.117,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_goals_over_1.5",
+"p": 0.0295,
+"fair": 33.904,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_score_or_assist",
+"p": 0.3848,
+"fair": 2.599,
+"min_odds": 2.987,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_shots_over_0.5",
+"p": 0.8757,
+"fair": 1.142,
+"min_odds": 1.5,
+"fam": "shots",
+"flag": "value"
+},
+{
+"market": "Kerim Alajbegovic_shots_over_1.5",
+"p": 0.6896,
+"fair": 1.45,
+"min_odds": 1.564,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_shots_over_2.5",
+"p": 0.4909,
+"fair": 2.037,
+"min_odds": 2.268,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_shots_over_3.5",
+"p": 0.3139,
+"fair": 3.186,
+"min_odds": 3.789,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_shots_over_4.5",
+"p": 0.1779,
+"fair": 5.62,
+"min_odds": 7.816,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_sot_over_0.5",
+"p": 0.6259,
+"fair": 1.598,
+"min_odds": 1.736,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_sot_over_1.5",
+"p": 0.3327,
+"fair": 3.006,
+"min_odds": 3.538,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_sot_over_2.5",
+"p": 0.1421,
+"fair": 7.036,
+"min_odds": 10.855,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_sot_over_3.5",
+"p": 0.0486,
+"fair": 20.597,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Kerim Alajbegovic_to_be_booked",
+"p": 0.2538,
+"fair": 3.94,
+"min_odds": 4.907,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_assists_over_0.5",
+"p": 0.0034,
+"fair": 291.517,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_fouls_committed_over_0.5",
+"p": 0.1739,
+"fair": 5.752,
+"min_odds": 8.074,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_fouls_committed_over_1.5",
+"p": 0.0185,
+"fair": 54.043,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_fouls_committed_over_2.5",
+"p": 0.0013,
+"fair": 746.008,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_fouls_suffered_over_0.5",
+"p": 0.2913,
+"fair": 3.433,
+"min_odds": 4.144,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_fouls_suffered_over_1.5",
+"p": 0.0558,
+"fair": 17.933,
+"min_odds": 173.499,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_fouls_suffered_over_2.5",
+"p": 0.0074,
+"fair": 135.629,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_goals_over_0.5",
+"p": 0.0017,
+"fair": 594.428,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_goals_over_1.5",
+"p": 0.0003,
+"fair": 3239.021,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_saves_over_1.5",
+"p": 0.7721,
+"fair": 1.295,
+"min_odds": 1.5,
+"fam": "saves",
+"flag": "value"
+},
+{
+"market": "Mahmoud Abunada_saves_over_2.5",
+"p": 0.5829,
+"fair": 1.716,
+"min_odds": 1.876,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_saves_over_3.5",
+"p": 0.3969,
+"fair": 2.52,
+"min_odds": 2.883,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_saves_over_4.5",
+"p": 0.2418,
+"fair": 4.135,
+"min_odds": 5.213,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_score_or_assist",
+"p": 0.0048,
+"fair": 209.426,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_shots_over_0.5",
+"p": 0.1205,
+"fair": 8.301,
+"min_odds": 14.19,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_shots_over_1.5",
+"p": 0.0088,
+"fair": 113.497,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_shots_over_2.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_shots_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_shots_over_4.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_sot_over_0.5",
+"p": 0.0099,
+"fair": 100.774,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_sot_over_1.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_sot_over_2.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mahmoud Abunada_to_be_booked",
+"p": 0.2002,
+"fair": 4.995,
+"min_odds": 6.657,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_assists_over_0.5",
+"p": 0.0042,
+"fair": 240.238,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_fouls_committed_over_0.5",
+"p": 0.0285,
+"fair": 35.048,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_fouls_committed_over_1.5",
+"p": 0.0004,
+"fair": 2256.352,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_fouls_committed_over_2.5",
+"p": 0.0003,
+"fair": 3149.53,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_fouls_suffered_over_0.5",
+"p": 0.1471,
+"fair": 6.8,
+"min_odds": 10.302,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_fouls_suffered_over_1.5",
+"p": 0.013,
+"fair": 76.932,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_fouls_suffered_over_2.5",
+"p": 0.0008,
+"fair": 1279.337,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_goals_over_0.5",
+"p": 0.002,
+"fair": 489.865,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_goals_over_1.5",
+"p": 0.0003,
+"fair": 3239.021,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_saves_over_1.5",
+"p": 0.4943,
+"fair": 2.023,
+"min_odds": 2.251,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_saves_over_2.5",
+"p": 0.2681,
+"fair": 3.73,
+"min_odds": 4.585,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_saves_over_3.5",
+"p": 0.121,
+"fair": 8.261,
+"min_odds": 14.076,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_saves_over_4.5",
+"p": 0.0458,
+"fair": 21.85,
+"min_odds": 1000000.0,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_score_or_assist",
+"p": 0.0058,
+"fair": 172.623,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_shots_over_0.5",
+"p": 0.0155,
+"fair": 64.67,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_shots_over_1.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_shots_over_2.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_shots_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_shots_over_4.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_sot_over_0.5",
+"p": 0.0144,
+"fair": 69.331,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_sot_over_1.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_sot_over_2.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Martin Zlomislic_to_be_booked",
+"p": 0.0498,
+"fair": 20.083,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_assists_over_0.5",
+"p": 0.1281,
+"fair": 7.808,
+"min_odds": 12.81,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_fouls_committed_over_0.5",
+"p": 0.6849,
+"fair": 1.46,
+"min_odds": 1.575,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_fouls_committed_over_1.5",
+"p": 0.3648,
+"fair": 2.741,
+"min_odds": 3.177,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_fouls_committed_over_2.5",
+"p": 0.1538,
+"fair": 6.504,
+"min_odds": 9.638,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_fouls_suffered_over_0.5",
+"p": 0.6161,
+"fair": 1.623,
+"min_odds": 1.767,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_fouls_suffered_over_1.5",
+"p": 0.2873,
+"fair": 3.48,
+"min_odds": 4.214,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_fouls_suffered_over_2.5",
+"p": 0.1031,
+"fair": 9.7,
+"min_odds": 18.834,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_goals_over_0.5",
+"p": 0.1737,
+"fair": 5.757,
+"min_odds": 8.084,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_goals_over_1.5",
+"p": 0.0191,
+"fair": 52.426,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_score_or_assist",
+"p": 0.2625,
+"fair": 3.809,
+"min_odds": 4.706,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_shots_over_0.5",
+"p": 0.6291,
+"fair": 1.59,
+"min_odds": 1.727,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_shots_over_1.5",
+"p": 0.3364,
+"fair": 2.973,
+"min_odds": 3.492,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_shots_over_2.5",
+"p": 0.1448,
+"fair": 6.905,
+"min_odds": 10.547,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_shots_over_3.5",
+"p": 0.0499,
+"fair": 20.036,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_shots_over_4.5",
+"p": 0.0142,
+"fair": 70.263,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_sot_over_0.5",
+"p": 0.3769,
+"fair": 2.653,
+"min_odds": 3.059,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_sot_over_1.5",
+"p": 0.1088,
+"fair": 9.19,
+"min_odds": 17.004,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_sot_over_2.5",
+"p": 0.0221,
+"fair": 45.265,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_sot_over_3.5",
+"p": 0.0035,
+"fair": 287.344,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Mohamed Manai_to_be_booked",
+"p": 0.271,
+"fair": 3.69,
+"min_odds": 4.525,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nidal Celik_assists_over_0.5",
+"p": 0.1164,
+"fair": 8.592,
+"min_odds": 15.062,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nidal Celik_fouls_committed_over_0.5",
+"p": 0.6611,
+"fair": 1.513,
+"min_odds": 1.636,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nidal Celik_fouls_committed_over_1.5",
+"p": 0.3367,
+"fair": 2.97,
+"min_odds": 3.488,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nidal Celik_fouls_committed_over_2.5",
+"p": 0.1344,
+"fair": 7.442,
+"min_odds": 11.851,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nidal Celik_fouls_suffered_over_0.5",
+"p": 0.4629,
+"fair": 2.16,
+"min_odds": 2.422,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nidal Celik_fouls_suffered_over_1.5",
+"p": 0.1527,
+"fair": 6.549,
+"min_odds": 9.738,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nidal Celik_fouls_suffered_over_2.5",
+"p": 0.0365,
+"fair": 27.367,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nidal Celik_goals_over_0.5",
+"p": 0.1583,
+"fair": 6.318,
+"min_odds": 9.236,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Nidal Celik_goals_over_1.5",
+"p": 0.0157,
+"fair": 63.755,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Nidal Celik_score_or_assist",
+"p": 0.2405,
+"fair": 4.158,
+"min_odds": 5.25,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nidal Celik_shots_over_0.5",
+"p": 0.5767,
+"fair": 1.734,
+"min_odds": 1.899,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nidal Celik_shots_over_1.5",
+"p": 0.2787,
+"fair": 3.588,
+"min_odds": 4.373,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nidal Celik_shots_over_2.5",
+"p": 0.1052,
+"fair": 9.507,
+"min_odds": 18.121,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nidal Celik_shots_over_3.5",
+"p": 0.0313,
+"fair": 31.948,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nidal Celik_shots_over_4.5",
+"p": 0.0077,
+"fair": 129.854,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nidal Celik_sot_over_0.5",
+"p": 0.3381,
+"fair": 2.958,
+"min_odds": 3.471,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nidal Celik_sot_over_1.5",
+"p": 0.0853,
+"fair": 11.721,
+"min_odds": 28.313,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nidal Celik_sot_over_2.5",
+"p": 0.0149,
+"fair": 66.983,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nidal Celik_sot_over_3.5",
+"p": 0.002,
+"fair": 491.923,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nidal Celik_to_be_booked",
+"p": 0.2398,
+"fair": 4.17,
+"min_odds": 5.269,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_assists_over_0.5",
+"p": 0.0559,
+"fair": 17.901,
+"min_odds": 170.585,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_fouls_committed_over_0.5",
+"p": 0.3836,
+"fair": 2.607,
+"min_odds": 2.997,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_fouls_committed_over_1.5",
+"p": 0.1013,
+"fair": 9.874,
+"min_odds": 19.503,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_fouls_committed_over_2.5",
+"p": 0.0189,
+"fair": 52.905,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_fouls_suffered_over_0.5",
+"p": 0.4383,
+"fair": 2.281,
+"min_odds": 2.575,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_fouls_suffered_over_1.5",
+"p": 0.1355,
+"fair": 7.381,
+"min_odds": 11.699,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_fouls_suffered_over_2.5",
+"p": 0.0301,
+"fair": 33.197,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_goals_over_0.5",
+"p": 0.061,
+"fair": 16.382,
+"min_odds": 90.544,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_goals_over_1.5",
+"p": 0.0022,
+"fair": 460.005,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_score_or_assist",
+"p": 0.1059,
+"fair": 9.443,
+"min_odds": 17.889,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_shots_over_0.5",
+"p": 0.2892,
+"fair": 3.458,
+"min_odds": 4.18,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_shots_over_1.5",
+"p": 0.0602,
+"fair": 16.618,
+"min_odds": 98.285,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_shots_over_2.5",
+"p": 0.0086,
+"fair": 116.724,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_shots_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_shots_over_4.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_sot_over_0.5",
+"p": 0.161,
+"fair": 6.213,
+"min_odds": 9.013,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_sot_over_1.5",
+"p": 0.0165,
+"fair": 60.665,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_sot_over_2.5",
+"p": 0.0012,
+"fair": 869.347,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nihad Mujakic_to_be_booked",
+"p": 0.1572,
+"fair": 6.36,
+"min_odds": 9.325,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Katic_assists_over_0.5",
+"p": 0.0381,
+"fair": 26.281,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Katic_fouls_committed_over_0.5",
+"p": 0.6619,
+"fair": 1.511,
+"min_odds": 1.634,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Katic_fouls_committed_over_1.5",
+"p": 0.3376,
+"fair": 2.962,
+"min_odds": 3.477,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Katic_fouls_committed_over_2.5",
+"p": 0.135,
+"fair": 7.407,
+"min_odds": 11.764,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Katic_fouls_suffered_over_0.5",
+"p": 0.5903,
+"fair": 1.694,
+"min_odds": 1.851,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Katic_fouls_suffered_over_1.5",
+"p": 0.2612,
+"fair": 3.828,
+"min_odds": 4.734,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Katic_fouls_suffered_over_2.5",
+"p": 0.088,
+"fair": 11.362,
+"min_odds": 26.306,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Katic_goals_over_0.5",
+"p": 0.1238,
+"fair": 8.079,
+"min_odds": 13.555,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Nikola Katic_goals_over_1.5",
+"p": 0.0094,
+"fair": 106.664,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Nikola Katic_score_or_assist",
+"p": 0.1513,
+"fair": 6.61,
+"min_odds": 9.874,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Katic_shots_over_0.5",
+"p": 0.6388,
+"fair": 1.565,
+"min_odds": 1.698,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Katic_shots_over_1.5",
+"p": 0.3476,
+"fair": 2.877,
+"min_odds": 3.36,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Katic_shots_over_2.5",
+"p": 0.1532,
+"fair": 6.529,
+"min_odds": 9.694,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Katic_shots_over_3.5",
+"p": 0.0542,
+"fair": 18.45,
+"min_odds": 238.096,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Katic_shots_over_4.5",
+"p": 0.0159,
+"fair": 62.982,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Katic_sot_over_0.5",
+"p": 0.3405,
+"fair": 2.937,
+"min_odds": 3.442,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Katic_sot_over_1.5",
+"p": 0.0867,
+"fair": 11.533,
+"min_odds": 27.245,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Katic_sot_over_2.5",
+"p": 0.0153,
+"fair": 65.275,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Katic_sot_over_3.5",
+"p": 0.0021,
+"fair": 474.855,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Katic_to_be_booked",
+"p": 0.3218,
+"fair": 3.108,
+"min_odds": 3.679,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_assists_over_0.5",
+"p": 0.0012,
+"fair": 826.574,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_fouls_committed_over_0.5",
+"p": 0.0066,
+"fair": 150.723,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_fouls_committed_over_1.5",
+"p": 0.0003,
+"fair": 3149.53,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_fouls_committed_over_2.5",
+"p": 0.0003,
+"fair": 3149.53,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_fouls_suffered_over_0.5",
+"p": 0.0364,
+"fair": 27.494,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_fouls_suffered_over_1.5",
+"p": 0.0007,
+"fair": 1377.777,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_fouls_suffered_over_2.5",
+"p": 0.0003,
+"fair": 3149.53,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_goals_over_0.5",
+"p": 0.0006,
+"fair": 1684.342,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_goals_over_1.5",
+"p": 0.0003,
+"fair": 3239.021,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_saves_over_1.5",
+"p": 0.5547,
+"fair": 1.803,
+"min_odds": 1.981,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_saves_over_2.5",
+"p": 0.327,
+"fair": 3.058,
+"min_odds": 3.611,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_saves_over_3.5",
+"p": 0.1634,
+"fair": 6.119,
+"min_odds": 8.816,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_saves_over_4.5",
+"p": 0.0692,
+"fair": 14.456,
+"min_odds": 52.155,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_score_or_assist",
+"p": 0.0017,
+"fair": 593.416,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_shots_over_0.5",
+"p": 0.6554,
+"fair": 1.526,
+"min_odds": 1.652,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_shots_over_1.5",
+"p": 0.3673,
+"fair": 2.722,
+"min_odds": 3.151,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_shots_over_2.5",
+"p": 0.1683,
+"fair": 5.943,
+"min_odds": 8.456,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_shots_over_3.5",
+"p": 0.0623,
+"fair": 16.055,
+"min_odds": 81.392,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_shots_over_4.5",
+"p": 0.0191,
+"fair": 52.334,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_sot_over_0.5",
+"p": 0.004,
+"fair": 249.729,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_sot_over_1.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_sot_over_2.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Nikola Vasilj_to_be_booked",
+"p": 0.0562,
+"fair": 17.781,
+"min_odds": 160.287,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_assists_over_0.5",
+"p": 0.0189,
+"fair": 52.966,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_fouls_committed_over_0.5",
+"p": 0.5701,
+"fair": 1.754,
+"min_odds": 1.923,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_fouls_committed_over_1.5",
+"p": 0.2418,
+"fair": 4.136,
+"min_odds": 5.214,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_fouls_committed_over_2.5",
+"p": 0.0774,
+"fair": 12.913,
+"min_odds": 36.44,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_fouls_suffered_over_0.5",
+"p": 0.5986,
+"fair": 1.671,
+"min_odds": 1.823,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_fouls_suffered_over_1.5",
+"p": 0.2694,
+"fair": 3.712,
+"min_odds": 4.557,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_fouls_suffered_over_2.5",
+"p": 0.0926,
+"fair": 10.794,
+"min_odds": 23.448,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_goals_over_0.5",
+"p": 0.0367,
+"fair": 27.237,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_goals_over_1.5",
+"p": 0.0008,
+"fair": 1299.214,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_score_or_assist",
+"p": 0.0519,
+"fair": 19.259,
+"min_odds": 519.629,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_shots_over_0.5",
+"p": 0.3222,
+"fair": 3.104,
+"min_odds": 3.674,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_shots_over_1.5",
+"p": 0.0766,
+"fair": 13.052,
+"min_odds": 37.569,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_shots_over_2.5",
+"p": 0.0126,
+"fair": 79.551,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_shots_over_3.5",
+"p": 0.0016,
+"fair": 622.119,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_shots_over_4.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_sot_over_0.5",
+"p": 0.0881,
+"fair": 11.356,
+"min_odds": 26.277,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_sot_over_1.5",
+"p": 0.0045,
+"fair": 221.265,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_sot_over_2.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Pedro Miguel_to_be_booked",
+"p": 0.1387,
+"fair": 7.212,
+"min_odds": 11.279,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_assists_over_0.5",
+"p": 0.0938,
+"fair": 10.656,
+"min_odds": 22.81,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_fouls_committed_over_0.5",
+"p": 0.6477,
+"fair": 1.544,
+"min_odds": 1.673,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_fouls_committed_over_1.5",
+"p": 0.3215,
+"fair": 3.11,
+"min_odds": 3.683,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_fouls_committed_over_2.5",
+"p": 0.1244,
+"fair": 8.039,
+"min_odds": 13.443,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_fouls_suffered_over_0.5",
+"p": 0.6086,
+"fair": 1.643,
+"min_odds": 1.79,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_fouls_suffered_over_1.5",
+"p": 0.2797,
+"fair": 3.576,
+"min_odds": 4.354,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_fouls_suffered_over_2.5",
+"p": 0.0986,
+"fair": 10.146,
+"min_odds": 20.593,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_goals_over_0.5",
+"p": 0.1747,
+"fair": 5.725,
+"min_odds": 8.02,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_goals_over_1.5",
+"p": 0.0193,
+"fair": 51.802,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_score_or_assist",
+"p": 0.2385,
+"fair": 4.192,
+"min_odds": 5.304,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_shots_over_0.5",
+"p": 0.7461,
+"fair": 1.34,
+"min_odds": 1.5,
+"fam": "shots",
+"flag": "value"
+},
+{
+"market": "Samed Bazdar_shots_over_1.5",
+"p": 0.4849,
+"fair": 2.062,
+"min_odds": 2.299,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_shots_over_2.5",
+"p": 0.2701,
+"fair": 3.703,
+"min_odds": 4.544,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_shots_over_3.5",
+"p": 0.1265,
+"fair": 7.906,
+"min_odds": 13.075,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_shots_over_4.5",
+"p": 0.0498,
+"fair": 20.066,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_sot_over_0.5",
+"p": 0.4501,
+"fair": 2.222,
+"min_odds": 2.5,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_sot_over_1.5",
+"p": 0.1616,
+"fair": 6.187,
+"min_odds": 8.959,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_sot_over_2.5",
+"p": 0.0422,
+"fair": 23.687,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_sot_over_3.5",
+"p": 0.0085,
+"fair": 117.008,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Samed Bazdar_to_be_booked",
+"p": 0.168,
+"fair": 5.954,
+"min_odds": 8.478,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_assists_over_0.5",
+"p": 0.1396,
+"fair": 7.162,
+"min_odds": 11.158,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_fouls_committed_over_0.5",
+"p": 0.604,
+"fair": 1.656,
+"min_odds": 1.805,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_fouls_committed_over_1.5",
+"p": 0.2749,
+"fair": 3.638,
+"min_odds": 4.447,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_fouls_committed_over_2.5",
+"p": 0.0958,
+"fair": 10.441,
+"min_odds": 21.844,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_fouls_suffered_over_0.5",
+"p": 0.4414,
+"fair": 2.265,
+"min_odds": 2.555,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_fouls_suffered_over_1.5",
+"p": 0.1376,
+"fair": 7.269,
+"min_odds": 11.418,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_fouls_suffered_over_2.5",
+"p": 0.0309,
+"fair": 32.384,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_goals_over_0.5",
+"p": 0.0262,
+"fair": 38.144,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_goals_over_1.5",
+"p": 0.0004,
+"fair": 2573.805,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_score_or_assist",
+"p": 0.1551,
+"fair": 6.447,
+"min_odds": 9.514,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_shots_over_0.5",
+"p": 0.2465,
+"fair": 4.058,
+"min_odds": 5.09,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_shots_over_1.5",
+"p": 0.0421,
+"fair": 23.742,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_shots_over_2.5",
+"p": 0.0049,
+"fair": 204.356,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_shots_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_shots_over_4.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_sot_over_0.5",
+"p": 0.0672,
+"fair": 14.879,
+"min_odds": 58.104,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_sot_over_1.5",
+"p": 0.0026,
+"fair": 390.522,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_sot_over_2.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Sead Kolasinac_to_be_booked",
+"p": 0.211,
+"fair": 4.738,
+"min_odds": 6.21,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_assists_over_0.5",
+"p": 0.0261,
+"fair": 38.303,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_fouls_committed_over_0.5",
+"p": 0.613,
+"fair": 1.631,
+"min_odds": 1.776,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_fouls_committed_over_1.5",
+"p": 0.2842,
+"fair": 3.519,
+"min_odds": 4.27,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_fouls_committed_over_2.5",
+"p": 0.1012,
+"fair": 9.879,
+"min_odds": 19.523,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_fouls_suffered_over_0.5",
+"p": 0.3393,
+"fair": 2.948,
+"min_odds": 3.457,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_fouls_suffered_over_1.5",
+"p": 0.0775,
+"fair": 12.899,
+"min_odds": 36.326,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_fouls_suffered_over_2.5",
+"p": 0.0124,
+"fair": 80.817,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_goals_over_0.5",
+"p": 0.0363,
+"fair": 27.574,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_goals_over_1.5",
+"p": 0.0008,
+"fair": 1332.127,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_score_or_assist",
+"p": 0.0576,
+"fair": 17.367,
+"min_odds": 131.925,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_shots_over_0.5",
+"p": 0.4943,
+"fair": 2.023,
+"min_odds": 2.251,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_shots_over_1.5",
+"p": 0.1988,
+"fair": 5.029,
+"min_odds": 6.719,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_shots_over_2.5",
+"p": 0.0596,
+"fair": 16.785,
+"min_odds": 104.414,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_shots_over_3.5",
+"p": 0.0139,
+"fair": 72.071,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_shots_over_4.5",
+"p": 0.0027,
+"fair": 372.968,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_sot_over_0.5",
+"p": 0.1459,
+"fair": 6.855,
+"min_odds": 10.429,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_sot_over_1.5",
+"p": 0.0133,
+"fair": 75.109,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_sot_over_2.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Stjepan Radeljic_to_be_booked",
+"p": 0.1638,
+"fair": 6.106,
+"min_odds": 8.79,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_assists_over_0.5",
+"p": 0.1325,
+"fair": 7.544,
+"min_odds": 12.114,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_fouls_committed_over_0.5",
+"p": 0.7705,
+"fair": 1.298,
+"min_odds": 1.5,
+"fam": "fouls",
+"flag": "value"
+},
+{
+"market": "Tahsin Jamshid_fouls_committed_over_1.5",
+"p": 0.4789,
+"fair": 2.088,
+"min_odds": 2.332,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_fouls_committed_over_2.5",
+"p": 0.2441,
+"fair": 4.097,
+"min_odds": 5.153,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_fouls_suffered_over_0.5",
+"p": 0.6961,
+"fair": 1.437,
+"min_odds": 1.548,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_fouls_suffered_over_1.5",
+"p": 0.3786,
+"fair": 2.641,
+"min_odds": 3.043,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_fouls_suffered_over_2.5",
+"p": 0.1637,
+"fair": 6.109,
+"min_odds": 8.795,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_goals_over_0.5",
+"p": 0.1796,
+"fair": 5.568,
+"min_odds": 7.716,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_goals_over_1.5",
+"p": 0.0205,
+"fair": 48.861,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_score_or_assist",
+"p": 0.2709,
+"fair": 3.692,
+"min_odds": 4.528,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_shots_over_0.5",
+"p": 0.7175,
+"fair": 1.394,
+"min_odds": 1.5,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_shots_over_1.5",
+"p": 0.4459,
+"fair": 2.243,
+"min_odds": 2.526,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_shots_over_2.5",
+"p": 0.2342,
+"fair": 4.271,
+"min_odds": 5.43,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_shots_over_3.5",
+"p": 0.102,
+"fair": 9.804,
+"min_odds": 19.232,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_shots_over_4.5",
+"p": 0.0371,
+"fair": 26.926,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_sot_over_0.5",
+"p": 0.4271,
+"fair": 2.342,
+"min_odds": 2.652,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_sot_over_1.5",
+"p": 0.1438,
+"fair": 6.953,
+"min_odds": 10.659,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_sot_over_2.5",
+"p": 0.0348,
+"fair": 28.711,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_sot_over_3.5",
+"p": 0.0065,
+"fair": 153.033,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tahsin Jamshid_to_be_booked",
+"p": 0.2796,
+"fair": 3.577,
+"min_odds": 4.356,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_assists_over_0.5",
+"p": 0.0499,
+"fair": 20.034,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_fouls_committed_over_0.5",
+"p": 0.5322,
+"fair": 1.879,
+"min_odds": 2.074,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_fouls_committed_over_1.5",
+"p": 0.2075,
+"fair": 4.818,
+"min_odds": 6.347,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_fouls_committed_over_2.5",
+"p": 0.0602,
+"fair": 16.6,
+"min_odds": 97.643,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_fouls_suffered_over_0.5",
+"p": 0.4851,
+"fair": 2.062,
+"min_odds": 2.298,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_fouls_suffered_over_1.5",
+"p": 0.1692,
+"fair": 5.91,
+"min_odds": 8.389,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_fouls_suffered_over_2.5",
+"p": 0.0432,
+"fair": 23.168,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_goals_over_0.5",
+"p": 0.0532,
+"fair": 18.791,
+"min_odds": 310.781,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_goals_over_1.5",
+"p": 0.0016,
+"fair": 609.313,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_score_or_assist",
+"p": 0.0937,
+"fair": 10.669,
+"min_odds": 22.87,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_shots_over_0.5",
+"p": 0.5218,
+"fair": 1.916,
+"min_odds": 2.12,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_shots_over_1.5",
+"p": 0.224,
+"fair": 4.464,
+"min_odds": 5.747,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_shots_over_2.5",
+"p": 0.0727,
+"fair": 13.746,
+"min_odds": 43.959,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_shots_over_3.5",
+"p": 0.0184,
+"fair": 54.269,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_shots_over_4.5",
+"p": 0.0039,
+"fair": 258.632,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_sot_over_0.5",
+"p": 0.2297,
+"fair": 4.354,
+"min_odds": 5.566,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_sot_over_1.5",
+"p": 0.036,
+"fair": 27.768,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_sot_over_2.5",
+"p": 0.0038,
+"fair": 260.828,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_sot_over_3.5",
+"p": 0.001,
+"fair": 1034.565,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Tarik Muharemovic_to_be_booked",
+"p": 0.2137,
+"fair": 4.68,
+"min_odds": 6.11,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_assists_over_0.5",
+"p": 0.0698,
+"fair": 14.32,
+"min_odds": 50.424,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_fouls_committed_over_0.5",
+"p": 0.4467,
+"fair": 2.239,
+"min_odds": 2.521,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_fouls_committed_over_1.5",
+"p": 0.1412,
+"fair": 7.081,
+"min_odds": 10.962,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_fouls_committed_over_2.5",
+"p": 0.0322,
+"fair": 31.048,
+"min_odds": 1000000.0,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_fouls_suffered_over_0.5",
+"p": 0.5307,
+"fair": 1.884,
+"min_odds": 2.08,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_fouls_suffered_over_1.5",
+"p": 0.2063,
+"fair": 4.848,
+"min_odds": 6.398,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_fouls_suffered_over_2.5",
+"p": 0.0596,
+"fair": 16.766,
+"min_odds": 103.704,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_goals_over_0.5",
+"p": 0.2204,
+"fair": 4.537,
+"min_odds": 5.869,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_goals_over_1.5",
+"p": 0.0316,
+"fair": 31.69,
+"min_odds": 1000000.0,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_score_or_assist",
+"p": 0.2648,
+"fair": 3.776,
+"min_odds": 4.654,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_shots_over_0.5",
+"p": 0.549,
+"fair": 1.821,
+"min_odds": 2.004,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_shots_over_1.5",
+"p": 0.2504,
+"fair": 3.994,
+"min_odds": 4.991,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_shots_over_2.5",
+"p": 0.0878,
+"fair": 11.396,
+"min_odds": 26.488,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_shots_over_3.5",
+"p": 0.0241,
+"fair": 41.493,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_shots_over_4.5",
+"p": 0.0055,
+"fair": 182.607,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_sot_over_0.5",
+"p": 0.3394,
+"fair": 2.946,
+"min_odds": 3.455,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_sot_over_1.5",
+"p": 0.0861,
+"fair": 11.615,
+"min_odds": 27.701,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_sot_over_2.5",
+"p": 0.0151,
+"fair": 66.013,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_sot_over_3.5",
+"p": 0.0021,
+"fair": 482.206,
+"min_odds": 1000000.0,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "Yusuf Abdurisag_to_be_booked",
+"p": 0.0983,
+"fair": 10.172,
+"min_odds": 20.701,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "btt_cards_no",
+"p": 0.3629,
+"fair": 2.756,
+"min_odds": 3.196,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "btt_cards_yes",
+"p": 0.6727,
+"fair": 1.487,
+"min_odds": 1.606,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "btts_no",
+"p": 0.4826,
+"fair": 2.072,
+"min_odds": 2.311,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "btts_yes",
+"p": 0.5133,
+"fair": 1.948,
+"min_odds": 2.158,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "cards_1h_over_0.5",
+"p": 0.6904,
+"fair": 1.448,
+"min_odds": 1.561,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_1h_over_1.5",
+"p": 0.4415,
+"fair": 2.265,
+"min_odds": 2.554,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_1h_over_2.5",
+"p": 0.2512,
+"fair": 3.981,
+"min_odds": 4.971,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_1h_under_0.5",
+"p": 0.3442,
+"fair": 2.906,
+"min_odds": 3.399,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_1h_under_1.5",
+"p": 0.5969,
+"fair": 1.675,
+"min_odds": 1.828,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_1h_under_2.5",
+"p": 0.7773,
+"fair": 1.287,
+"min_odds": 1.5,
+"fam": "cards",
+"flag": "value"
+},
+{
+"market": "cards_over_1.5",
+"p": 0.8202,
+"fair": 1.219,
+"min_odds": 1.5,
+"fam": "cards",
+"flag": "value"
+},
+{
+"market": "cards_over_2.5",
+"p": 0.6756,
+"fair": 1.48,
+"min_odds": 1.599,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_over_3.5",
+"p": 0.5314,
+"fair": 1.882,
+"min_odds": 2.077,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_over_4.5",
+"p": 0.3935,
+"fair": 2.541,
+"min_odds": 2.911,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_over_5.5",
+"p": 0.275,
+"fair": 3.636,
+"min_odds": 4.444,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_over_6.5",
+"p": 0.1767,
+"fair": 5.659,
+"min_odds": 7.892,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_over_7.5",
+"p": 0.1028,
+"fair": 9.724,
+"min_odds": 18.925,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_under_1.5",
+"p": 0.2042,
+"fair": 4.898,
+"min_odds": 6.487,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_under_2.5",
+"p": 0.3598,
+"fair": 2.779,
+"min_odds": 3.228,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_under_3.5",
+"p": 0.5079,
+"fair": 1.969,
+"min_odds": 2.184,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_under_4.5",
+"p": 0.6434,
+"fair": 1.554,
+"min_odds": 1.685,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "cards_under_5.5",
+"p": 0.7552,
+"fair": 1.324,
+"min_odds": 1.5,
+"fam": "cards",
+"flag": "value"
+},
+{
+"market": "cards_under_6.5",
+"p": 0.845,
+"fair": 1.183,
+"min_odds": 1.5,
+"fam": "cards",
+"flag": "value"
+},
+{
+"market": "cards_under_7.5",
+"p": 0.9108,
+"fair": 1.098,
+"min_odds": 1.5,
+"fam": "cards",
+"flag": "value"
+},
+{
+"market": "corners_3w_exactly_10",
+"p": 0.1906,
+"fair": 5.246,
+"min_odds": 7.11,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_exactly_11",
+"p": 0.1714,
+"fair": 5.833,
+"min_odds": 8.234,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_exactly_12",
+"p": 0.1537,
+"fair": 6.506,
+"min_odds": 9.642,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_exactly_4",
+"p": 0.1932,
+"fair": 5.177,
+"min_odds": 6.984,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_exactly_5",
+"p": 0.2159,
+"fair": 4.633,
+"min_odds": 6.029,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_exactly_6",
+"p": 0.2307,
+"fair": 4.335,
+"min_odds": 5.535,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_exactly_7",
+"p": 0.2248,
+"fair": 4.449,
+"min_odds": 5.721,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_exactly_8",
+"p": 0.221,
+"fair": 4.526,
+"min_odds": 5.849,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_exactly_9",
+"p": 0.207,
+"fair": 4.83,
+"min_odds": 6.368,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_over_10",
+"p": 0.366,
+"fair": 2.732,
+"min_odds": 3.164,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_over_11",
+"p": 0.3167,
+"fair": 3.158,
+"min_odds": 3.75,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_over_12",
+"p": 0.2703,
+"fair": 3.7,
+"min_odds": 4.54,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_over_4",
+"p": 0.7403,
+"fair": 1.351,
+"min_odds": 1.5,
+"fam": "corners",
+"flag": "value"
+},
+{
+"market": "corners_3w_over_5",
+"p": 0.6708,
+"fair": 1.491,
+"min_odds": 1.611,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_over_6",
+"p": 0.6012,
+"fair": 1.663,
+"min_odds": 1.814,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_over_7",
+"p": 0.5381,
+"fair": 1.858,
+"min_odds": 2.049,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_over_8",
+"p": 0.4767,
+"fair": 2.098,
+"min_odds": 2.343,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_over_9",
+"p": 0.4196,
+"fair": 2.383,
+"min_odds": 2.706,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_under_10",
+"p": 0.6339,
+"fair": 1.578,
+"min_odds": 1.713,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_under_11",
+"p": 0.6843,
+"fair": 1.461,
+"min_odds": 1.577,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_under_12",
+"p": 0.7298,
+"fair": 1.37,
+"min_odds": 1.5,
+"fam": "corners",
+"flag": "value"
+},
+{
+"market": "corners_3w_under_4",
+"p": 0.2279,
+"fair": 4.388,
+"min_odds": 5.621,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_under_5",
+"p": 0.3051,
+"fair": 3.278,
+"min_odds": 3.92,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_under_6",
+"p": 0.3804,
+"fair": 2.629,
+"min_odds": 3.026,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_under_7",
+"p": 0.4536,
+"fair": 2.205,
+"min_odds": 2.478,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_under_8",
+"p": 0.5179,
+"fair": 1.931,
+"min_odds": 2.137,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_3w_under_9",
+"p": 0.5787,
+"fair": 1.728,
+"min_odds": 1.892,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_over_10.5",
+"p": 0.366,
+"fair": 2.732,
+"min_odds": 3.164,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_over_11.5",
+"p": 0.3167,
+"fair": 3.158,
+"min_odds": 3.75,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_over_7.5",
+"p": 0.5381,
+"fair": 1.858,
+"min_odds": 2.049,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_over_8.5",
+"p": 0.4767,
+"fair": 2.098,
+"min_odds": 2.343,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_over_9.5",
+"p": 0.4196,
+"fair": 2.383,
+"min_odds": 2.706,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_under_10.5",
+"p": 0.6843,
+"fair": 1.461,
+"min_odds": 1.577,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_under_11.5",
+"p": 0.7298,
+"fair": 1.37,
+"min_odds": 1.5,
+"fam": "corners",
+"flag": "value"
+},
+{
+"market": "corners_under_7.5",
+"p": 0.5179,
+"fair": 1.931,
+"min_odds": 2.137,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_under_8.5",
+"p": 0.5787,
+"fair": 1.728,
+"min_odds": 1.892,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "corners_under_9.5",
+"p": 0.6339,
+"fair": 1.578,
+"min_odds": 1.713,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "dnb_Bosnia-Herzegovina",
+"p": 0.6332,
+"fair": 1.579,
+"min_odds": 1.715,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "dnb_Qatar",
+"p": 0.3167,
+"fair": 3.158,
+"min_odds": 3.75,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "double_chance_Bosnia-Herzegovina_Qatar",
+"p": 0.6955,
+"fair": 1.438,
+"min_odds": 1.549,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "double_chance_Bosnia-Herzegovina_draw",
+"p": 0.7102,
+"fair": 1.408,
+"min_odds": 1.515,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "double_chance_Qatar_draw",
+"p": 0.4648,
+"fair": 2.152,
+"min_odds": 2.411,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "fouls_over_19.5",
+"p": 0.8143,
+"fair": 1.228,
+"min_odds": 1.5,
+"fam": "fouls",
+"flag": "value"
+},
+{
+"market": "fouls_over_21.5",
+"p": 0.7213,
+"fair": 1.386,
+"min_odds": 1.5,
+"fam": "fouls",
+"flag": "value"
+},
+{
+"market": "fouls_over_23.5",
+"p": 0.6124,
+"fair": 1.633,
+"min_odds": 1.778,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "fouls_under_19.5",
+"p": 0.1956,
+"fair": 5.113,
+"min_odds": 6.87,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "fouls_under_21.5",
+"p": 0.2917,
+"fair": 3.428,
+"min_odds": 4.137,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "fouls_under_23.5",
+"p": 0.4029,
+"fair": 2.482,
+"min_odds": 2.834,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "gk_saves_Bosnia-Herzegovina_over_1.5",
+"p": 0.4713,
+"fair": 2.122,
+"min_odds": 2.374,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "gk_saves_Bosnia-Herzegovina_over_2.5",
+"p": 0.3012,
+"fair": 3.32,
+"min_odds": 3.981,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "gk_saves_Bosnia-Herzegovina_over_3.5",
+"p": 0.1872,
+"fair": 5.342,
+"min_odds": 7.289,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "gk_saves_Bosnia-Herzegovina_over_4.5",
+"p": 0.1113,
+"fair": 8.983,
+"min_odds": 16.308,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "gk_saves_Qatar_over_1.5",
+"p": 0.7134,
+"fair": 1.402,
+"min_odds": 1.507,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "gk_saves_Qatar_over_2.5",
+"p": 0.5569,
+"fair": 1.796,
+"min_odds": 1.973,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "gk_saves_Qatar_over_3.5",
+"p": 0.415,
+"fair": 2.41,
+"min_odds": 2.74,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "gk_saves_Qatar_over_4.5",
+"p": 0.2979,
+"fair": 3.357,
+"min_odds": 4.034,
+"fam": "saves",
+"flag": ""
+},
+{
+"market": "goal_both_halves",
+"p": 0.5274,
+"fair": 1.896,
+"min_odds": 2.095,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_1h_over_0.5",
+"p": 0.67,
+"fair": 1.493,
+"min_odds": 1.613,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_1h_over_1.5",
+"p": 0.3461,
+"fair": 2.889,
+"min_odds": 3.377,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_1h_over_2.5",
+"p": 0.141,
+"fair": 7.093,
+"min_odds": 10.99,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_1h_under_0.5",
+"p": 0.3264,
+"fair": 3.063,
+"min_odds": 3.618,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_1h_under_1.5",
+"p": 0.6502,
+"fair": 1.538,
+"min_odds": 1.666,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_1h_under_2.5",
+"p": 0.857,
+"fair": 1.167,
+"min_odds": 1.5,
+"fam": "goals",
+"flag": "value"
+},
+{
+"market": "goals_2h_over_0.5",
+"p": 0.7388,
+"fair": 1.354,
+"min_odds": 1.5,
+"fam": "goals",
+"flag": "value"
+},
+{
+"market": "goals_2h_over_1.5",
+"p": 0.4368,
+"fair": 2.289,
+"min_odds": 2.585,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_2h_over_2.5",
+"p": 0.2077,
+"fair": 4.814,
+"min_odds": 6.34,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_4plus",
+"p": 0.2959,
+"fair": 3.38,
+"min_odds": 4.067,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_over_0.5",
+"p": 0.9028,
+"fair": 1.108,
+"min_odds": 1.5,
+"fam": "goals",
+"flag": "value"
+},
+{
+"market": "goals_over_1.5",
+"p": 0.7118,
+"fair": 1.405,
+"min_odds": 1.511,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_over_2.5",
+"p": 0.4904,
+"fair": 2.039,
+"min_odds": 2.271,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_over_3.5",
+"p": 0.2959,
+"fair": 3.38,
+"min_odds": 4.067,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_over_4.5",
+"p": 0.1578,
+"fair": 6.337,
+"min_odds": 9.276,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_range_0_1",
+"p": 0.2849,
+"fair": 3.51,
+"min_odds": 4.257,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_range_1_3",
+"p": 0.6348,
+"fair": 1.575,
+"min_odds": 1.71,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_range_2_3",
+"p": 0.4682,
+"fair": 2.136,
+"min_odds": 2.391,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_range_2_4",
+"p": 0.5939,
+"fair": 1.684,
+"min_odds": 1.839,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_under_0.5",
+"p": 0.0958,
+"fair": 10.444,
+"min_odds": 21.857,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_under_1.5",
+"p": 0.2849,
+"fair": 3.51,
+"min_odds": 4.257,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_under_2.5",
+"p": 0.5056,
+"fair": 1.978,
+"min_odds": 2.195,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_under_3.5",
+"p": 0.7007,
+"fair": 1.427,
+"min_odds": 1.537,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "goals_under_4.5",
+"p": 0.84,
+"fair": 1.19,
+"min_odds": 1.5,
+"fam": "goals",
+"flag": "value"
+},
+{
+"market": "half_most_goals_1h",
+"p": 0.3038,
+"fair": 3.291,
+"min_odds": 3.94,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "half_most_goals_2h",
+"p": 0.4172,
+"fair": 2.397,
+"min_odds": 2.724,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "half_most_goals_tie",
+"p": 0.265,
+"fair": 3.774,
+"min_odds": 4.652,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "ht_score_0_0",
+"p": 0.3057,
+"fair": 3.271,
+"min_odds": 3.911,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "ht_score_0_1",
+"p": 0.1596,
+"fair": 6.264,
+"min_odds": 9.121,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "ht_score_0_2",
+"p": 0.0461,
+"fair": 21.67,
+"min_odds": 1000000.0,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "ht_score_1_0",
+"p": 0.2316,
+"fair": 4.318,
+"min_odds": 5.507,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "ht_score_1_1",
+"p": 0.1186,
+"fair": 8.431,
+"min_odds": 14.575,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "ht_score_2_0",
+"p": 0.0968,
+"fair": 10.336,
+"min_odds": 21.389,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "ht_score_2_1",
+"p": 0.0472,
+"fair": 21.183,
+"min_odds": 1000000.0,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "htft_AA",
+"p": 0.1518,
+"fair": 6.586,
+"min_odds": 9.82,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "htft_AD",
+"p": 0.0645,
+"fair": 15.515,
+"min_odds": 69.195,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "htft_AH",
+"p": 0.0366,
+"fair": 27.341,
+"min_odds": 1000000.0,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "htft_DA",
+"p": 0.1054,
+"fair": 9.486,
+"min_odds": 18.044,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "htft_DD",
+"p": 0.171,
+"fair": 5.849,
+"min_odds": 8.266,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "htft_DH",
+"p": 0.1874,
+"fair": 5.337,
+"min_odds": 7.28,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "htft_HA",
+"p": 0.023,
+"fair": 43.497,
+"min_odds": 1000000.0,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "htft_HD",
+"p": 0.0631,
+"fair": 15.844,
+"min_odds": 76.251,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "htft_HH",
+"p": 0.3087,
+"fair": 3.24,
+"min_odds": 3.866,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "most_cards_Bosnia-Herzegovina",
+"p": 0.4046,
+"fair": 2.472,
+"min_odds": 2.82,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "most_cards_Qatar",
+"p": 0.4852,
+"fair": 2.061,
+"min_odds": 2.298,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "most_cards_tie",
+"p": 0.3076,
+"fair": 3.251,
+"min_odds": 3.881,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "most_corners_Bosnia-Herzegovina",
+"p": 0.612,
+"fair": 1.634,
+"min_odds": 1.779,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "most_corners_Qatar",
+"p": 0.3714,
+"fair": 2.692,
+"min_odds": 3.111,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "most_corners_tie",
+"p": 0.2248,
+"fair": 4.448,
+"min_odds": 5.72,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "offsides_over_1.5",
+"p": 0.6238,
+"fair": 1.603,
+"min_odds": 1.743,
+"fam": "offsides",
+"flag": ""
+},
+{
+"market": "offsides_over_2.5",
+"p": 0.4221,
+"fair": 2.369,
+"min_odds": 2.688,
+"fam": "offsides",
+"flag": ""
+},
+{
+"market": "offsides_over_3.5",
+"p": 0.2665,
+"fair": 3.752,
+"min_odds": 4.618,
+"fam": "offsides",
+"flag": ""
+},
+{
+"market": "offsides_over_4.5",
+"p": 0.1562,
+"fair": 6.401,
+"min_odds": 9.413,
+"fam": "offsides",
+"flag": ""
+},
+{
+"market": "offsides_under_1.5",
+"p": 0.3913,
+"fair": 2.556,
+"min_odds": 2.93,
+"fam": "offsides",
+"flag": ""
+},
+{
+"market": "offsides_under_2.5",
+"p": 0.5934,
+"fair": 1.685,
+"min_odds": 1.84,
+"fam": "offsides",
+"flag": ""
+},
+{
+"market": "offsides_under_3.5",
+"p": 0.7457,
+"fair": 1.341,
+"min_odds": 1.5,
+"fam": "offsides",
+"flag": "value"
+},
+{
+"market": "offsides_under_4.5",
+"p": 0.852,
+"fair": 1.174,
+"min_odds": 1.5,
+"fam": "offsides",
+"flag": "value"
+},
+{
+"market": "red_card_no",
+"p": 0.676,
+"fair": 1.479,
+"min_odds": 1.597,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "red_card_yes",
+"p": 0.3381,
+"fair": 2.958,
+"min_odds": 3.471,
+"fam": "fouls",
+"flag": ""
+},
+{
+"market": "result_Bosnia-Herzegovina",
+"p": 0.4795,
+"fair": 2.086,
+"min_odds": 2.329,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "result_Qatar",
+"p": 0.2461,
+"fair": 4.064,
+"min_odds": 5.1,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "result_draw",
+"p": 0.2593,
+"fair": 3.856,
+"min_odds": 4.777,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_0_0",
+"p": 0.0891,
+"fair": 11.224,
+"min_odds": 25.577,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_0_1",
+"p": 0.0884,
+"fair": 11.31,
+"min_odds": 26.031,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_0_2",
+"p": 0.0494,
+"fair": 20.254,
+"min_odds": 1000000.0,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_1_0",
+"p": 0.1343,
+"fair": 7.447,
+"min_odds": 11.865,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_1_1",
+"p": 0.1376,
+"fair": 7.265,
+"min_odds": 11.41,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_1_2",
+"p": 0.0757,
+"fair": 13.212,
+"min_odds": 38.931,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_1_3",
+"p": 0.0299,
+"fair": 33.462,
+"min_odds": 1000000.0,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_2_0",
+"p": 0.1082,
+"fair": 9.241,
+"min_odds": 17.178,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_2_1",
+"p": 0.1146,
+"fair": 8.725,
+"min_odds": 15.477,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_2_2",
+"p": 0.064,
+"fair": 15.637,
+"min_odds": 71.679,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_3_0",
+"p": 0.0622,
+"fair": 16.086,
+"min_odds": 82.209,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_3_1",
+"p": 0.0655,
+"fair": 15.265,
+"min_odds": 64.486,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_3_2",
+"p": 0.0379,
+"fair": 26.411,
+"min_odds": 1000000.0,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_4_0",
+"p": 0.0301,
+"fair": 33.18,
+"min_odds": 1000000.0,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "score_4_1",
+"p": 0.0304,
+"fair": 32.902,
+"min_odds": 1000000.0,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "shots_over_20.5",
+"p": 0.6542,
+"fair": 1.529,
+"min_odds": 1.655,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "shots_over_22.5",
+"p": 0.5808,
+"fair": 1.722,
+"min_odds": 1.884,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "shots_over_24.5",
+"p": 0.5087,
+"fair": 1.966,
+"min_odds": 2.18,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "shots_over_26.5",
+"p": 0.4392,
+"fair": 2.277,
+"min_odds": 2.569,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "shots_under_20.5",
+"p": 0.4103,
+"fair": 2.437,
+"min_odds": 2.776,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "shots_under_22.5",
+"p": 0.4871,
+"fair": 2.053,
+"min_odds": 2.288,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "shots_under_24.5",
+"p": 0.5597,
+"fair": 1.787,
+"min_odds": 1.962,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "shots_under_26.5",
+"p": 0.6269,
+"fair": 1.595,
+"min_odds": 1.733,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "sot_over_5.5",
+"p": 0.6696,
+"fair": 1.493,
+"min_odds": 1.614,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "sot_over_6.5",
+"p": 0.576,
+"fair": 1.736,
+"min_odds": 1.901,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "sot_over_7.5",
+"p": 0.4849,
+"fair": 2.062,
+"min_odds": 2.299,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "sot_over_8.5",
+"p": 0.3978,
+"fair": 2.514,
+"min_odds": 2.875,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "sot_under_5.5",
+"p": 0.3937,
+"fair": 2.54,
+"min_odds": 2.909,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "sot_under_6.5",
+"p": 0.4921,
+"fair": 2.032,
+"min_odds": 2.262,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "sot_under_7.5",
+"p": 0.583,
+"fair": 1.715,
+"min_odds": 1.876,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "sot_under_8.5",
+"p": 0.6658,
+"fair": 1.502,
+"min_odds": 1.624,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "team_cards_Bosnia-Herzegovina_over_0.5",
+"p": 0.7579,
+"fair": 1.319,
+"min_odds": 1.5,
+"fam": "cards",
+"flag": "value"
+},
+{
+"market": "team_cards_Bosnia-Herzegovina_over_1.5",
+"p": 0.533,
+"fair": 1.876,
+"min_odds": 2.07,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "team_cards_Bosnia-Herzegovina_over_2.5",
+"p": 0.3361,
+"fair": 2.975,
+"min_odds": 3.495,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "team_cards_Qatar_over_0.5",
+"p": 0.7999,
+"fair": 1.25,
+"min_odds": 1.5,
+"fam": "cards",
+"flag": "value"
+},
+{
+"market": "team_cards_Qatar_over_1.5",
+"p": 0.5883,
+"fair": 1.7,
+"min_odds": 1.858,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "team_cards_Qatar_over_2.5",
+"p": 0.3967,
+"fair": 2.521,
+"min_odds": 2.884,
+"fam": "cards",
+"flag": ""
+},
+{
+"market": "team_corners_Bosnia-Herzegovina_over_2.5",
+"p": 0.708,
+"fair": 1.412,
+"min_odds": 1.52,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "team_corners_Bosnia-Herzegovina_over_3.5",
+"p": 0.6157,
+"fair": 1.624,
+"min_odds": 1.768,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "team_corners_Bosnia-Herzegovina_over_4.5",
+"p": 0.53,
+"fair": 1.887,
+"min_odds": 2.083,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "team_corners_Bosnia-Herzegovina_over_5.5",
+"p": 0.451,
+"fair": 2.217,
+"min_odds": 2.494,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "team_corners_Qatar_over_2.5",
+"p": 0.5433,
+"fair": 1.841,
+"min_odds": 2.027,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "team_corners_Qatar_over_3.5",
+"p": 0.4416,
+"fair": 2.265,
+"min_odds": 2.554,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "team_corners_Qatar_over_4.5",
+"p": 0.3571,
+"fair": 2.8,
+"min_odds": 3.256,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "team_corners_Qatar_over_5.5",
+"p": 0.2825,
+"fair": 3.54,
+"min_odds": 4.302,
+"fam": "corners",
+"flag": ""
+},
+{
+"market": "team_goals_Bosnia-Herzegovina_over_0.5",
+"p": 0.7714,
+"fair": 1.296,
+"min_odds": 1.5,
+"fam": "goals",
+"flag": "value"
+},
+{
+"market": "team_goals_Bosnia-Herzegovina_over_1.5",
+"p": 0.4775,
+"fair": 2.094,
+"min_odds": 2.339,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "team_goals_Bosnia-Herzegovina_over_2.5",
+"p": 0.2446,
+"fair": 4.088,
+"min_odds": 5.138,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "team_goals_Qatar_over_0.5",
+"p": 0.6248,
+"fair": 1.601,
+"min_odds": 1.74,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "team_goals_Qatar_over_1.5",
+"p": 0.2972,
+"fair": 3.365,
+"min_odds": 4.046,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "team_goals_Qatar_over_2.5",
+"p": 0.1121,
+"fair": 8.917,
+"min_odds": 16.093,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "team_goals_range_Bosnia-Herzegovina_0_1",
+"p": 0.5185,
+"fair": 1.929,
+"min_odds": 2.134,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "team_goals_range_Bosnia-Herzegovina_2plus",
+"p": 0.4775,
+"fair": 2.094,
+"min_odds": 2.339,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "team_goals_range_Qatar_0_1",
+"p": 0.6994,
+"fair": 1.43,
+"min_odds": 1.54,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "team_goals_range_Qatar_2plus",
+"p": 0.2972,
+"fair": 3.365,
+"min_odds": 4.046,
+"fam": "goals",
+"flag": ""
+},
+{
+"market": "team_shots_Bosnia-Herzegovina_over_10.5",
+"p": 0.745,
+"fair": 1.342,
+"min_odds": 1.5,
+"fam": "shots",
+"flag": "value"
+},
+{
+"market": "team_shots_Bosnia-Herzegovina_over_12.5",
+"p": 0.6518,
+"fair": 1.534,
+"min_odds": 1.662,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "team_shots_Bosnia-Herzegovina_over_8.5",
+"p": 0.8312,
+"fair": 1.203,
+"min_odds": 1.5,
+"fam": "shots",
+"flag": "value"
+},
+{
+"market": "team_shots_Qatar_over_10.5",
+"p": 0.3817,
+"fair": 2.62,
+"min_odds": 3.015,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "team_shots_Qatar_over_12.5",
+"p": 0.2867,
+"fair": 3.488,
+"min_odds": 4.224,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "team_shots_Qatar_over_8.5",
+"p": 0.4938,
+"fair": 2.025,
+"min_odds": 2.253,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "team_sot_Bosnia-Herzegovina_over_2.5",
+"p": 0.7668,
+"fair": 1.304,
+"min_odds": 1.5,
+"fam": "shots",
+"flag": "value"
+},
+{
+"market": "team_sot_Bosnia-Herzegovina_over_3.5",
+"p": 0.6477,
+"fair": 1.544,
+"min_odds": 1.673,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "team_sot_Bosnia-Herzegovina_over_4.5",
+"p": 0.5345,
+"fair": 1.871,
+"min_odds": 2.064,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "team_sot_Qatar_over_2.5",
+"p": 0.4697,
+"fair": 2.129,
+"min_odds": 2.383,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "team_sot_Qatar_over_3.5",
+"p": 0.3341,
+"fair": 2.993,
+"min_odds": 3.52,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "team_sot_Qatar_over_4.5",
+"p": 0.2285,
+"fair": 4.376,
+"min_odds": 5.602,
+"fam": "shots",
+"flag": ""
+},
+{
+"market": "win_margin_Bosnia-Herzegovina_1",
+"p": 0.2514,
+"fair": 3.978,
+"min_odds": 4.966,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "win_margin_Bosnia-Herzegovina_2",
+"p": 0.1691,
+"fair": 5.915,
+"min_odds": 8.4,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "win_margin_Bosnia-Herzegovina_3plus",
+"p": 0.1281,
+"fair": 7.808,
+"min_odds": 12.81,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "win_margin_Qatar_1",
+"p": 0.1665,
+"fair": 6.005,
+"min_odds": 8.582,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "win_margin_Qatar_2",
+"p": 0.0761,
+"fair": 13.137,
+"min_odds": 38.287,
+"fam": "result",
+"flag": ""
+},
+{
+"market": "win_margin_Qatar_3plus",
+"p": 0.0388,
+"fair": 25.748,
+"min_odds": 1000000.0,
+"fam": "result",
+"flag": ""
+}
+],
+"value": [],
+"score": null
+}
