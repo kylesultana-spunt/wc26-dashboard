@@ -77,23 +77,48 @@ def main():
     refs.sort(key=lambda r: r["name"])
     ref_by_event = dict(zip(rs.r.event_id.astype(str), rs.r.referee))
     import datetime as _dt
+    import time as _time
     _today = _dt.date.today()
+    _fxpath = os.path.join(models.DATA, "fixtures.json")
+    # Persist refs already found in a previous build — get_fixtures() rebuilds from the
+    # scoreboard (no officials), so without this a single flaky ESPN call would WIPE a known
+    # referee. A ref, once found, is never lost.
+    _old_refs = {}
+    if os.path.exists(_fxpath):
+        try:
+            _old_refs = {str(x.get("eid")): x.get("ref")
+                         for x in json.load(open(_fxpath)) if x.get("ref")}
+        except Exception:
+            _old_refs = {}
+
+    def _fetch_ref(eid):
+        for attempt in range(3):                 # retry on NETWORK error only
+            try:
+                jd = json.load(urllib.request.urlopen(urllib.request.Request(
+                    f"https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event={eid}",
+                    headers={"User-Agent": "Mozilla/5.0"}), timeout=15))
+                offs = jd.get("gameInfo", {}).get("officials", []) or []
+                return next((o.get("fullName") for o in offs
+                             if o.get("position", {}).get("name") == "Referee"), None)
+            except Exception:
+                _time.sleep(0.5)                 # transient hiccup -> try again
+        return None
+
+    found = 0
     for f in fixtures:
-        rname = ref_by_event.get(str(f.get("eid")))
+        eid = str(f.get("eid"))
+        rname = ref_by_event.get(eid) or _old_refs.get(eid)   # graded data, or already known
         if not rname and not f["done"]:
             try:
-                fd = _dt.date.fromisoformat(f["date"][:10])
-                if 0 <= (fd - _today).days <= 5:   # appointed refs show ~1-2 days out; check 5
-                    jd = json.load(urllib.request.urlopen(urllib.request.Request(
-                        f"https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event={f['eid']}",
-                        headers={"User-Agent": "Mozilla/5.0"}), timeout=15))
-                    offs = jd.get("gameInfo", {}).get("officials", []) or []
-                    rname = next((o.get("fullName") for o in offs
-                                  if o.get("position", {}).get("name") == "Referee"), None)
+                if 0 <= (_dt.date.fromisoformat(f["date"][:10]) - _today).days <= 4:
+                    rname = _fetch_ref(eid)
             except Exception:
                 pass
-        f["ref"] = rname or ""
-    json.dump(fixtures, open(os.path.join(models.DATA, "fixtures.json"), "w"))  # change here = schedule/ref update -> triggers redeploy
+        f["ref"] = rname or _old_refs.get(eid) or ""   # never wipe a known ref
+        if f["ref"] and not f["done"]:
+            found += 1
+    print(f"referees: {found} upcoming fixtures have an appointed ref")
+    json.dump(fixtures, open(_fxpath, "w"))  # change here = schedule/ref update -> triggers redeploy
 
     # players: fast vectorised per-90 with shrinkage to position mean
     p = pd.read_csv(os.path.join(models.DATA, "player_matches.csv"))
