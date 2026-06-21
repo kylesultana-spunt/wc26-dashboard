@@ -13,7 +13,7 @@ K = 10.0          # prior strength: ~10 matches pulling toward ratio 1.0
 CAP = (0.85, 1.30)
 
 def main():
-    t = pd.read_csv(os.path.join(DATA, "team_matches.csv"))
+    t = models._drop_excluded(pd.read_csv(os.path.join(DATA, "team_matches.csv")))  # ignore outliers
     wc = t[(t.comp == "fifa.world") & (t.date >= "2026-06-01")].dropna(subset=["corners_for"])
     fixtures = wc[wc.home_away == "home"]
     if len(fixtures) == 0:

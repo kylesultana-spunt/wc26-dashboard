@@ -205,9 +205,26 @@ def fit_goal_curve(elo, cutoff=None):
 STATS = ["corners", "yellows", "reds", "fouls", "shots", "sot", "goals",
          "offsides", "tackles", "saves"]
 
+def _excluded_eids():
+    """Event ids to ignore when fitting the model (extreme mismatch outliers)."""
+    import json as _json
+    try:
+        return set(str(x) for x in _json.load(
+            open(os.path.join(DATA, "exclude_matches.json"))).get("event_ids", []))
+    except Exception:
+        return set()
+
+
+def _drop_excluded(df):
+    eids = _excluded_eids()
+    if eids and "event_id" in df.columns:
+        return df[~df["event_id"].astype(str).isin(eids)].copy()
+    return df
+
+
 class TeamStats:
     def __init__(self, team_csv=None, asof=None):
-        t = pd.read_csv(team_csv or os.path.join(DATA, "team_matches.csv"))
+        t = _drop_excluded(pd.read_csv(team_csv or os.path.join(DATA, "team_matches.csv")))
         t["date"] = pd.to_datetime(t["date"])
         if asof:
             t = t[t["date"] < pd.Timestamp(asof)]
@@ -306,7 +323,7 @@ class TeamStats:
 # ---------------- referee ----------------
 class RefStats:
     def __init__(self, asof=None):
-        r = pd.read_csv(os.path.join(DATA, "referee_matches.csv")).dropna(subset=["referee", "yellows"])
+        r = _drop_excluded(pd.read_csv(os.path.join(DATA, "referee_matches.csv")).dropna(subset=["referee", "yellows"]))
         if asof:
             r = r[r["date"] < asof]
         self.r = r
@@ -347,7 +364,7 @@ class PlayerStats:
               "assists", "saves"]
 
     def __init__(self, asof=None):
-        p = pd.read_csv(os.path.join(DATA, "player_matches.csv"))
+        p = _drop_excluded(pd.read_csv(os.path.join(DATA, "player_matches.csv")))
         p["date"] = pd.to_datetime(p["date"])
         if asof:
             p = p[p["date"] < pd.Timestamp(asof)]

@@ -1137,7 +1137,8 @@ document.querySelectorAll("#tipTabs button").forEach(b=>{b.onclick=()=>{slipTab=
    >>> LOG EVERY ALGORITHM CHANGE HERE <<<  date YYYY-MM-DD, short label, what changed. */
 const ALGO_VERSIONS=[
   {date:"2026-06-11",label:"v1.0",note:"Baseline model live for WC26 group stage"},
-  {date:"2026-06-15",label:"v1.1",note:"Per-market calibration — corrects corners/shots/saves under-prediction"}
+  {date:"2026-06-15",label:"v1.1",note:"Per-market calibration — corrects corners/shots/saves under-prediction"},
+  {date:"2026-06-19",label:"v1.3",note:"Rank tips by model SKILL (corners/SoT/shots win +7..+32%, fouls lose -34% → dropped); recentre tempo with outliers excluded; squad+club player data, lineup-aware fouls/shots"}
 ];
 const _STATBTNS=[["all","All"],["goals","Goals"],["corners","Corners"],
   ["cards","Cards"],["shots","Shots"],["SoT","SoT"],["fouls","Fouls"]];

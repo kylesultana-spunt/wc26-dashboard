@@ -16,9 +16,14 @@ import pandas as pd
 import models
 import backtest as bt
 
-# how soft books tend to price each family (edge potential) — mirrors the dashboard
-SOFT = {"fouls": 1.00, "cards": 0.95, "corners": 0.90, "offsides": 0.90,
-        "saves": 0.85, "shots": 0.70, "goals": 0.35, "result": 0.30, "tackles": 0.6}
+# How ACCURATE the model is on each market — validated on the locked-bet record (ROI@fair):
+# corners +32%, SoT +19%, shots +7% WIN; fouls -34%, saves -15%, offsides/cards/goals lose.
+# Rank tips by where the model has real skill, NOT by "soft market" (that was backwards).
+SKILL = {"corners": 1.00, "shots": 0.90, "goals": 0.45, "cards": 0.25,
+         "saves": 0.25, "offsides": 0.25, "fouls": 0.10, "result": 0.20, "tackles": 0.30}
+PLAYER_SKILL = {"shots": 0.90, "sot": 0.90, "goals": 0.45, "assists": 0.45,
+                "score_or_assist": 0.45, "saves": 0.25, "booked": 0.25,
+                "fouls_committed": 0.10, "fouls_suffered": 0.10}
 SKIP = ("result", "dnb", "double_chance", "win_margin", "score_", "htft",
         "ht_score", "half_most", "goal_both")
 
@@ -174,9 +179,10 @@ def select(cands, cal, per_cat=6):
             pc = f(c["raw"], c["mk"])
             if not (0.40 <= pc <= 0.68):
                 continue
-            soft = 0.85 if cat == "player" else SOFT.get(c["fam"], 0.6)
+            skill = (PLAYER_SKILL.get(c.get("stat"), 0.4) if cat == "player"
+                     else SKILL.get(c["fam"], 0.4))
             scored.append({**c, "p": round(pc, 3), "fair": round(1 / pc, 2),
-                           "cat": cat, "score": soft * 0.7 + pc * 0.3})
+                           "cat": cat, "score": skill * 0.7 + pc * 0.3})
         scored.sort(key=lambda x: -x["score"])
         chosen, fam = [], {}
         for cap in (1, 2, 3, 99):
