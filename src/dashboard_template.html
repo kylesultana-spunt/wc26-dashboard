@@ -1269,7 +1269,7 @@ function _drawStat(sel){
 }
 function wireTrends(R){
   if(!R||!R.length)return;
-  _TRENDC=[...R].sort((a,b)=> a.date<b.date?-1:(a.date>b.date?1:((a.home||"")<(b.home||"")?-1:1)));
+  _TRENDC=[...R].sort((a,b)=>{const ka=a.ko||a.date,kb=b.ko||b.date;return ka<kb?-1:ka>kb?1:0;});  // true kickoff order
   document.querySelectorAll(".statBtn").forEach(b=>{b.onclick=()=>_drawStat(b.dataset.stat);});
   _drawStat("all");
   const wrap=document.getElementById("trendWrap"), tip=document.getElementById("trendTip");
